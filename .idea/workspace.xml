@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_data/basics.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/drafts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/templates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing2-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing2-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing6.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_drafts/writing7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/upj_design.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/upj_home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/upj_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/homepage/back-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/homepage/brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/homepage/favorite.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linux-missiong-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linux-missiong-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/linux-missiong-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vim-shortkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/anchor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-toc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/linux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypage/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/home_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/page_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LiRSR1rxs8v8Uut9kw33jQM3xO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\upj53\Documents\__git__\upj53.github.io\_sass" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="" />
+      <created>1676351921033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676351921033</updated>
+      <workItem from="1676351923811" duration="8628000" />
+      <workItem from="1676367301144" duration="6216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

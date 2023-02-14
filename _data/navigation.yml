@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Test
+  link: /test/
+- name: Missions
+  link: /missions/
