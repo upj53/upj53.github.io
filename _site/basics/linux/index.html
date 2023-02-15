@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<!-----Header----->
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/homepage/favorite.ico"/>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <title>UPJ ▶ Linux</title>
+
+  <script type="text/javascript" defer src="/assets/js/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/upj_design.css">
+  
+  <link href="/assets/css/upj_toc.css" rel="stylesheet">
+  <link href="/assets/css/upj_page.css" rel="stylesheet">
+  <link href="/assets/css/prism.css" rel="stylesheet">
+  
+
+  <script type="text/javascript" defer src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" defer src="/assets/js/bootstrap-toc.min.js"></script>
+  <script type="text/javascript" defer src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#toc">
+
+<!-----Navbar----->
+<nav class="navbar navbar-expand-lg navbar-dark upj-nav" style="background: #FF7C36;">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <img src="/assets/homepage/brand.png" height="30" width="auto" class="d-inline-block align-top"
+           alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-nav">
+        <!---------기본메뉴----------->
+        
+        <!--        <a href="/" class="nav-item nav-link ">Home</a>-->
+        <li class="nav-item">
+          <a href="/" class="nav-link ">Home</a>
+        </li>
+        
+        <!--        <a href="/missions/" class="nav-item nav-link ">Missions</a>-->
+        <li class="nav-item">
+          <a href="/missions/" class="nav-link ">Missions</a>
+        </li>
+        
+
+        <!---------개발자 기본----------->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dev-Basics
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item " href="/basics/git/">Git</a></li>
+            
+            <li><a class="dropdown-item active" href="/basics/linux/">Linux</a></li>
+            
+          </ul>
+        </li>
+
+        <!---------작업중 Drafts----------->
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drafts
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item " href="/drafts/writing1/">Test1</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing2-1/">Test2-1</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing2-2/">Test2-2</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing3/">Test3</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing4/">Test4</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing5/">Test5</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing6/">Test6</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing7/">Test7</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing11/">Test11</a></li>
+            
+          </ul>
+        </li>
+        
+      </div>
+    </div>
+    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0" onclick="alert('준비중입니다.'); return false;">
+    </form>
+  </div>
+</nav>
+
+<!-----Content----->
+<div class="container" style="top: 90px; ">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-12 col-md-9" id="content-body">
+      <h1 id="upj_1676435695963">Linux 활용법</h1>
+
+<p>컴퓨터 OS 커널의 일종인 리눅스 커널, 또는 리눅스 커널을 사용하는 운영체제를 가리키는 말이기도 하다. GNU 쪽 사람들은 리눅스는 커널일 뿐이고, 이 커널을 가져다가 GNU 프로그램들을 올려 만든 운영체제는 GNU/Linux라고 이야기하며 이런 명칭에 민감하게 반응하는 경우도 있다. 소스 코드가 공개되어 있는 대표적인 오픈 소스 소프트웨어다. 컴퓨터 역사상 가장 많은 참여자가 관여하고 있는 오픈 소스 프로젝트다. 모바일 운영체제로 유명한 안드로이드 역시 리눅스 커널을 가져다 쓰고 있다.</p>
+
+<p>Linux라는 이름은 Linus’ *nix, 리누스의 유닉스라는 뜻으로 지어졌다. *nix는 Unix 계열 운영체제라는 뜻이다. 나중에 Linux Is Not UniX라는 재귀약자를 새로 만들어냈다.</p>
+
+<p>리눅스 재단에 따르면 퍼블릭 클라우드 컴퓨팅 워크로드의 90%, 스마트폰의 82%, 임베디드 기기의 62%, 슈퍼 컴퓨터 시장의 99%가 리눅스로 작동한다.</p>
+
+<p>2007년부터 2019년 사이의 리눅스 커널 참여자 중 회사순위를 보면 1위 인텔 (10.01%), 2위 레드햇 (8.90%), 3위 IBM (3.79%), 4위 SUSE (3.49%), 5위 Linaro (3.17%), 6위 구글 (2.79%), 7위 삼성전자 (2.58%), 8위 AMD (2.28%), 9위 르네사스 (1.99%), 10위 텍사스 인스트루먼트 (1.78%), 11위 오라클 (1.70%), 12위 브로드컴 (1.23%), 13위 화웨이 (1.2%), 14위 Mellanox (1.19%), 15위 NXP (1.18%), 16위 ARM (0.98%), 17위 리눅스 재단 (0.78%) 등으로 모두 반도체/통신/IT/시스템 업체임을 알 수 있다.</p>
+
+<ul>
+  <li><a href="https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4">위키백과</a></li>
+  <li><a href="https://namu.wiki/w/Linux">나무위키</a></li>
+</ul>
+
+<h2 id="upj_1676435723858">Install</h2>
+
+<ul>
+  <li>Windows Subsystem for Linux
+    <ul>
+      <li><a href="https://learn.microsoft.com/ko-kr/windows/wsl/install">WSL</a></li>
+    </ul>
+  </li>
+  <li>Cloud Service
+    <ul>
+      <li><a href="https://www.oracle.com/cloud/">Oracle</a></li>
+      <li><a href="https://cloud.google.com/?hl=ko">Google</a></li>
+      <li><a href="https://aws.amazon.com/ko/">Amazon</a></li>
+      <li><a href="https://azure.microsoft.com/ko-kr/">Microsoft</a></li>
+      <li><a href="https://www.ncloud.com/">Naver</a></li>
+    </ul>
+  </li>
+  <li>Virtual Machine
+    <ul>
+      <li><a href="https://www.virtualbox.org/">Oracle VirtualBox</a></li>
+      <li><a href="https://www.vmware.com/kr.html">VM Ware</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="upj_1676435751835">기본 명령어</h2>
+
+<h3 id="upj_1676435779258">파일 관련 명령어</h3>
+
+<p>파일 보기: ls</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-l</span> 	long list
+<span class="nb">ls</span> <span class="nt">-a</span>		all
+<span class="nb">ls</span> <span class="nt">-al</span>	all + long
+<span class="nb">ls</span> <span class="k">*</span>.txt	확장자 txt만 보기
+</code></pre></div></div>
+
+<p>파일 내용 보기</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat  </span>hello.txt	
+<span class="nb">cat</span> <span class="nt">-e</span> hello.txt	줄의 맨 뒤에 <span class="nv">$붙</span>이기
+<span class="nb">cat</span> <span class="nt">-n</span> hello.txt	줄 번호 보여주기
+more  hello.txt	페이지 단위로 보기
+less  hello.txt	more보다 향상된 기능
+</code></pre></div></div>
+
+<p>파일 만들기/지우기</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">touch  </span>hello.txt	파일 만들기
+<span class="nb">rm  </span>hello.txt		파일 삭제
+<span class="nb">rm</span> <span class="nt">-r</span> hello		디렉토리 삭제
+<span class="nb">rm</span> <span class="nt">-f</span> hello.txt	강제 삭제
+<span class="nb">rm</span> <span class="nt">-rf</span> hello		디렉토리 + 강제
+</code></pre></div></div>
+
+<p>파일 복사</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp  </span>hello.txt  dir1
+</code></pre></div></div>
+
+<p>파일 이동</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mv  </span>hello.txt  dir2
+<span class="nb">mv  </span>hello1.txt  hello2.txt	파일 이름 변경
+</code></pre></div></div>
+
+<p>파일 숏컷</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ln</span> <span class="nt">-s</span> hello.txt hellosym	소프트링크<span class="o">(</span>심볼릭<span class="o">)</span>
+<span class="nb">ln </span>hello.txt hellolink		하드링크
+<span class="nb">ls</span> <span class="nt">-ali</span>	파일 링크 확인
+</code></pre></div></div>
+
+<p>파일 속성 보기</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>file hello.txt
+</code></pre></div></div>
+
+<h3 id="upj_1676435809402">디렉토리 관련 명령어</h3>
+
+<p>디렉토리 만들기</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>dir1
+</code></pre></div></div>
+
+<p>디렉토리 이동</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~	홈 디렉토리
+<span class="nb">cd</span> ..		부모 디렉토리
+<span class="nb">cd</span> -		이전 디렉토리
+<span class="nb">pwd		</span>현재 디렉토리 확인
+clear 터미널 지우기
+</code></pre></div></div>
+
+<h3 id="upj_1676435840203">시스템 및 기타 유용한 명령어</h3>
+
+<p>시스템 종료</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reboot	재부팅
+poweroff	종료
+shutdown <span class="nt">-P</span> now	바로 종료
+shutdown <span class="nt">-r</span> now	바로 재시작
+shutdown <span class="nt">-h</span> +10	10분 후 종료
+shutdown <span class="nt">-r</span> 21:00	오후9시에 재부팅
+</code></pre></div></div>
+
+<h2 id="upj_1676435871210">사용자와 그룹 및 권한 관리</h2>
+
+<h3 id="upj_1676435891619">권한 확인</h3>
+
+<p>계정 권한 확인/권한 대여</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">whoami	</span>내가 누구인지 내 계정 확인
+<span class="nb">id		</span>내가 갖고 있는 권한 확인
+
+<span class="nb">cat</span> /etc/passwd	사용자 계정 확인
+<span class="nb">cat</span> /etc/shadow	사용자 암호
+<span class="nb">cat</span> /etc/group	사용자 그룹 확인
+passwd user1	암호 재설정
+
+<span class="nb">sudo	</span>슈퍼유저의 권한을 수행<span class="o">(</span><span class="k">do</span><span class="o">)</span>한다
+</code></pre></div></div>
+
+<h3 id="upj_1676435970196">사용자 그룹 추가 삭제</h3>
+
+<p>사용자 추가</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     사용자 추가
+<span class="nb">sudo </span>adduser user2
+<span class="nb">sudo </span>useradd user3
+
+     사용자를 <span class="nb">sudo </span>권한에 추가
+
+useradd <span class="nt">-aG</span> user1 <span class="nb">sudo	</span>우분투
+useradd <span class="nt">-aG</span> user1 wheel	아바존 AMI
+
+     사용자 삭제
+<span class="nb">sudo </span>deluser user2
+<span class="nb">sudo </span>deluser user3 <span class="nt">--remove-home</span>
+</code></pre></div></div>
+
+<p>그룹 추가</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     그룹 생성/삭제
+<span class="nb">sudo </span>addgroup dev
+<span class="nb">sudo </span>delgroup dev
+
+     그룹에 사용자 할당
+<span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> <span class="nb">sudo </span>user1
+</code></pre></div></div>
+
+<h3 id="upj_1676436003012">파일시스템 권한</h3>
+
+<p>권한 정보</p>
+
+<table class="post">
+<thead>
+<tr>
+  <th colspan="3">소유자(Owner)</th>
+  <th colspan="3">그룹(Group)</th>
+  <th colspan="3">그외(Other)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>읽기</td><td>쓰기</td><td>실행</td>
+  <td>읽기</td><td>쓰기</td><td>실행</td>
+  <td>읽기</td><td>쓰기</td><td>실행</td>
+</tr>
+<tr>
+  <td>r</td><td>w</td><td>x</td>
+  <td>r</td><td>w</td><td>x</td>
+  <td>r</td><td>w</td><td>x</td>
+</tr>
+<tr>
+  <td>4</td><td>2</td><td>1</td>
+  <td>4</td><td>2</td><td>1</td>
+  <td>4</td><td>2</td><td>1</td>
+</tr>
+</tbody>
+</table>
+
+<p>권한/소유권 변경</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>권한 변경
+<span class="nb">chmod </span>777 hello.txt
+<span class="nb">chmod </span>700 hello.txt
+<span class="nb">chmod </span>u+x hello.txt
+<span class="nb">chmod </span>g-rx hello.txt
+<span class="nb">chmod </span>o-x hello.txt
+<span class="nb">chmod</span> +rwx hello.txt
+
+소유권 변경
+<span class="nb">chown </span>user2 hello.txt		소유자 변경
+<span class="nb">chown </span>user2:user2 hello.txt	소유자+그룹 변경
+<span class="nb">chown</span> :user2 hello.txt		그룹 변경
+</code></pre></div></div>
+
+<h2 id="upj_1676436035235">Bash 쉘 다루기</h2>
+
+<h3 id="upj_1676436047027">환경변수 PATH</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nv">$PATH</span>
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:추가할디렉토리
+
+     프롬프트 스타일 변경
+<span class="nb">echo</span> <span class="nv">$PS1</span>
+<span class="nv">PS1</span><span class="o">=</span><span class="s1">'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n&gt; '</span>
+</code></pre></div></div>
+
+<h3 id="upj_1676436075371">기본 문법</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     모든 쉘 확인
+<span class="nb">cat</span> /etc/shells
+
+     나의 쉘 확인
+<span class="nb">echo</span> <span class="nv">$0</span>
+<span class="nb">echo</span> <span class="nv">$SHELL</span>
+
+     명령어 히스토리: <span class="nb">history
+history </span>10	최근 10개 히스토리 보기
+<span class="nb">history</span> <span class="nt">-c</span>	히스토리 버퍼 삭제
+<span class="o">!</span>15		15번째 명령어 실행
+<span class="o">!!</span>		바로 이전 명령어 실행
+
+     명령어 실행 위치 파악
+which <span class="nb">ls
+</span>which python
+
+     단축 명령어
+<span class="nb">alias </span>단축 명령어 확인
+<span class="nb">alias</span> ..<span class="o">=</span>”cd ..”
+<span class="nb">alias</span> …<span class="o">=</span>”cd ../..
+
+     쉘 부팅<span class="o">(</span>시작<span class="o">)</span> 시퀀스
+.profile
+.bashrc  .bash_history  .bash_logout
+</code></pre></div></div>
+
+<h3 id="upj_1676436098387">입출력</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>결과물을 다른 장치로 보냄
+<span class="nb">ls</span> <span class="o">&gt;</span> file.txt		출력 결과물을 파일로 출력
+<span class="nb">ls</span> <span class="o">&gt;&gt;</span> file.txt		기존 파일에 누적
+aaa 2&gt; file.txt	실패한 결과물을 출력
+
+파이프: 출력값 프로세스간 전달
+<span class="nb">ls</span> <span class="nt">-l</span> | <span class="nb">grep </span>hello	출력값 내에서 검색
+<span class="nb">ls</span> <span class="nt">-l</span> | <span class="nb">wc</span> <span class="nt">-l</span>		줄 개수 확인
+<span class="nb">ls</span> <span class="nt">-l</span> | <span class="nb">grep </span>hello | <span class="nb">wc</span> <span class="nt">-l</span>	다중 파이프 처리
+<span class="nb">cat </span>hello.txt | more	출력값 페이징 처리
+</code></pre></div></div>
+
+<h3 id="upj_1676436112747">bashrc 샘플</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ~/.bashrc: executed by bash(1) for non-login shells.</span>
+<span class="c"># see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)</span>
+<span class="c"># for examples</span>
+
+<span class="c"># If not running interactively, don't do anything</span>
+<span class="k">case</span> <span class="nv">$-</span> <span class="k">in</span>
+    <span class="k">*</span>i<span class="k">*</span><span class="p">)</span> <span class="p">;;</span>
+      <span class="k">*</span><span class="p">)</span> <span class="k">return</span><span class="p">;;</span>
+<span class="k">esac</span>
+
+<span class="c"># don't put duplicate lines or lines starting with space in the history.</span>
+<span class="c"># See bash(1) for more options</span>
+<span class="nv">HISTCONTROL</span><span class="o">=</span>ignoreboth
+
+<span class="c"># append to the history file, don't overwrite it</span>
+<span class="nb">shopt</span> <span class="nt">-s</span> histappend
+
+<span class="c"># for setting history length see HISTSIZE and HISTFILESIZE in bash(1)</span>
+<span class="nv">HISTSIZE</span><span class="o">=</span>1000
+<span class="nv">HISTFILESIZE</span><span class="o">=</span>2000
+
+<span class="c"># check the window size after each command and, if necessary,</span>
+<span class="c"># update the values of LINES and COLUMNS.</span>
+<span class="nb">shopt</span> <span class="nt">-s</span> checkwinsize
+
+<span class="c"># If set, the pattern "**" used in a pathname expansion context will</span>
+<span class="c"># match all files and zero or more directories and subdirectories.</span>
+<span class="c">#shopt -s globstar</span>
+
+<span class="c"># make less more friendly for non-text input files, see lesspipe(1)</span>
+<span class="o">[</span> <span class="nt">-x</span> /usr/bin/lesspipe <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span><span class="nv">SHELL</span><span class="o">=</span>/bin/sh lesspipe<span class="si">)</span><span class="s2">"</span>
+
+<span class="c"># set variable identifying the chroot you work in (used in the prompt below)</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="k">${</span><span class="nv">debian_chroot</span><span class="k">:-}</span><span class="s2">"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> <span class="nt">-r</span> /etc/debian_chroot <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nv">debian_chroot</span><span class="o">=</span><span class="si">$(</span><span class="nb">cat</span> /etc/debian_chroot<span class="si">)</span>
+<span class="k">fi</span>
+
+<span class="c"># set a fancy prompt (non-color, unless we know we "want" color)</span>
+<span class="k">case</span> <span class="s2">"</span><span class="nv">$TERM</span><span class="s2">"</span> <span class="k">in
+    </span>xterm-color|<span class="k">*</span><span class="nt">-256color</span><span class="p">)</span> <span class="nv">color_prompt</span><span class="o">=</span><span class="nb">yes</span><span class="p">;;</span>
+<span class="k">esac</span>
+
+<span class="c"># uncomment for a colored prompt, if the terminal has the capability; turned</span>
+<span class="c"># off by default to not distract the user: the focus in a terminal window</span>
+<span class="c"># should be on the output of commands, not on the prompt</span>
+<span class="c">#force_color_prompt=yes</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-n</span> <span class="s2">"</span><span class="nv">$force_color_prompt</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    if</span> <span class="o">[</span> <span class="nt">-x</span> /usr/bin/tput <span class="o">]</span> <span class="o">&amp;&amp;</span> tput setaf 1 <span class="o">&gt;</span>&amp;/dev/null<span class="p">;</span> <span class="k">then</span>
+	<span class="c"># We have color support; assume it's compliant with Ecma-48</span>
+	<span class="c"># (ISO/IEC-6429). (Lack of such support is extremely rare, and such</span>
+	<span class="c"># a case would tend to support setf rather than setaf.)</span>
+	<span class="nv">color_prompt</span><span class="o">=</span><span class="nb">yes
+    </span><span class="k">else
+	</span><span class="nv">color_prompt</span><span class="o">=</span>
+    <span class="k">fi
+fi
+
+if</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$color_prompt</span><span class="s2">"</span> <span class="o">=</span> <span class="nb">yes</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nv">PS1</span><span class="o">=</span><span class="s1">'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n&gt; '</span>
+<span class="k">else
+    </span><span class="nv">PS1</span><span class="o">=</span><span class="s1">'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '</span>
+<span class="k">fi
+</span><span class="nb">unset </span>color_prompt force_color_prompt
+
+<span class="c"># If this is an xterm set the title to user@host:dir</span>
+<span class="k">case</span> <span class="s2">"</span><span class="nv">$TERM</span><span class="s2">"</span> <span class="k">in
+</span>xterm<span class="k">*</span><span class="p">|</span>rxvt<span class="k">*</span><span class="p">)</span>
+    <span class="nv">PS1</span><span class="o">=</span><span class="s2">"</span><span class="se">\[\e</span><span class="s2">]0;</span><span class="k">${</span><span class="nv">debian_chroot</span>:+<span class="p">(</span><span class="nv">$debian_chroot</span><span class="p">)</span><span class="k">}</span><span class="se">\u</span><span class="s2">@</span><span class="se">\h</span><span class="s2">: </span><span class="se">\w\a\]</span><span class="nv">$PS1</span><span class="s2">"</span>
+    <span class="p">;;</span>
+<span class="k">*</span><span class="p">)</span>
+    <span class="p">;;</span>
+<span class="k">esac</span>
+
+<span class="c"># enable color support of ls and also add handy aliases</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-x</span> /usr/bin/dircolors <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">test</span> <span class="nt">-r</span> ~/.dircolors <span class="o">&amp;&amp;</span> <span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">dircolors</span> <span class="nt">-b</span> ~/.dircolors<span class="si">)</span><span class="s2">"</span> <span class="o">||</span> <span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">dircolors</span> <span class="nt">-b</span><span class="si">)</span><span class="s2">"</span>
+    <span class="nb">alias ls</span><span class="o">=</span><span class="s1">'ls --color=auto'</span>
+    <span class="c">#alias dir='dir --color=auto'</span>
+    <span class="c">#alias vdir='vdir --color=auto'</span>
+
+    <span class="nb">alias grep</span><span class="o">=</span><span class="s1">'grep --color=auto'</span>
+    <span class="nb">alias </span><span class="nv">fgrep</span><span class="o">=</span><span class="s1">'fgrep --color=auto'</span>
+    <span class="nb">alias </span><span class="nv">egrep</span><span class="o">=</span><span class="s1">'egrep --color=auto'</span>
+<span class="k">fi</span>
+
+<span class="c"># colored GCC warnings and errors</span>
+<span class="c">#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'</span>
+
+<span class="c"># Add an "alert" alias for long running commands.  Use like so:</span>
+<span class="c">#   sleep 10; alert</span>
+<span class="nb">alias </span><span class="nv">alert</span><span class="o">=</span><span class="s1">'notify-send --urgency=low -i "$([ $? = 0 ] &amp;&amp; echo terminal || echo error)" "$(history|tail -n1|sed -e '</span><span class="se">\'</span><span class="s1">'s/^\s*[0-9]\+\s*//;s/[;&amp;|]\s*alert$//'</span><span class="se">\'</span><span class="s1">')"'</span>
+
+<span class="c"># Alias definitions.</span>
+<span class="c"># You may want to put all your additions into a separate file like</span>
+<span class="c"># ~/.bash_aliases, instead of adding them here directly.</span>
+<span class="c"># See /usr/share/doc/bash-doc/examples in the bash-doc package.</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-f</span> ~/.bash_aliases <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+    <span class="nb">.</span> ~/.bash_aliases
+<span class="k">fi
+
+</span><span class="nb">alias </span><span class="nv">l</span><span class="o">=</span><span class="s1">'ls -lt'</span>
+<span class="nb">alias </span><span class="nv">la</span><span class="o">=</span><span class="s1">'ls -alt'</span>
+<span class="nb">alias </span><span class="nv">c</span><span class="o">=</span><span class="s1">'clear'</span>
+<span class="nb">alias</span> ..<span class="o">=</span><span class="s1">'cd ..'</span>
+<span class="nb">alias</span> ...<span class="o">=</span><span class="s1">'cd ../../'</span>
+
+<span class="c"># enable programmable completion features (you don't need to enable</span>
+<span class="c"># this, if it's already enabled in /etc/bash.bashrc and /etc/profile</span>
+<span class="c"># sources /etc/bash.bashrc).</span>
+<span class="k">if</span> <span class="o">!</span> <span class="nb">shopt</span> <span class="nt">-oq</span> posix<span class="p">;</span> <span class="k">then
+  if</span> <span class="o">[</span> <span class="nt">-f</span> /usr/share/bash-completion/bash_completion <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+    <span class="nb">.</span> /usr/share/bash-completion/bash_completion
+  <span class="k">elif</span> <span class="o">[</span> <span class="nt">-f</span> /etc/bash_completion <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+    <span class="nb">.</span> /etc/bash_completion
+  <span class="k">fi
+fi</span>
+
+<span class="c"># tomcat &amp; java</span>
+<span class="nv">CATALINA_HOME</span><span class="o">=</span><span class="s2">"/opt/tomcat/apache-tomcat-8.5.65"</span>
+<span class="nv">JAVA_HOME</span><span class="o">=</span><span class="s2">"/usr/lib/jvm/java-8-openjdk-amd64"</span>
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PATH</span><span class="s2">:</span><span class="nv">$JAVA_HOME</span><span class="s2">/bin:</span><span class="nv">$CATALINA_HOME</span><span class="se">\b</span><span class="s2">in"</span>
+<span class="nb">export </span>CATALINA_HOME
+<span class="nb">export </span>JAVA_HOME
+
+<span class="nb">export </span><span class="nv">NLS_LANG</span><span class="o">=</span>KOREAN_KOREA.AL32UTF8
+</code></pre></div></div>
+
+<h3 id="upj_1676436133675">vimrc 샘플</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme torte
+<span class="nb">set </span>nocp
+<span class="nb">set </span>number
+<span class="nb">set </span><span class="nv">ts</span><span class="o">=</span>2
+<span class="nb">set </span><span class="nv">sts</span><span class="o">=</span>2
+<span class="nb">set </span><span class="nv">laststatus</span><span class="o">=</span>2
+<span class="nb">set </span><span class="nv">shiftwidth</span><span class="o">=</span>2
+<span class="nb">set </span>smarttab
+<span class="nb">set </span>smartindent
+<span class="nb">set </span><span class="nv">softtabstop</span><span class="o">=</span>2
+<span class="nb">set </span><span class="nv">bs</span><span class="o">=</span>eol,start,indent
+<span class="nb">set </span>ruler
+<span class="nb">set </span><span class="nv">guifont</span><span class="o">=</span>Bitstream_Vera_Sans_Mono:h27:cHANGEUL
+<span class="nb">set </span>noundofile
+<span class="nb">set </span>nobackup
+
+<span class="nb">set </span>nocompatible
+<span class="nb">set </span>hlsearch
+<span class="nb">set </span>nu
+<span class="nb">set </span><span class="nv">ts</span><span class="o">=</span>2 <span class="nv">sw</span><span class="o">=</span>2 et
+<span class="nb">set </span><span class="nv">sts</span><span class="o">=</span>2
+<span class="nb">set </span><span class="nv">laststatus</span><span class="o">=</span>2
+<span class="nb">set </span>showmatch
+<span class="nb">set </span>ruler
+<span class="nb">set </span><span class="nv">fileencodings</span><span class="o">=</span>utf8,euc-kr
+<span class="nb">set </span><span class="nv">backspace</span><span class="o">=</span>indent,eol,start
+</code></pre></div></div>
+
+<h2 id="upj_1676436148306">Zsh 쉘 다루기</h2>
+
+<h3 id="upj_1676436158715">Oh My Zsh</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>zsh <span class="nt">-y</span>
+sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<p><a href="https://ohmyz.sh/">oh-my-zsh</a></p>
+
+<h3 id="upj_1676436178227">PowerLevel10k</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">--depth</span><span class="o">=</span>1 https://github.com/romkatv/powerlevel10k.git <span class="k">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="k">}</span>/themes/powerlevel10k
+</code></pre></div></div>
+
+<p>Font Family: MesloLGS NF</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"profiles"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"defaults"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"fontFace"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MesloLGS NF"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a></p>
+
+<h2 id="upj_1676436198467">Vim Editor</h2>
+
+<p><a href="https://kldp.org/files/vi-vim-cheat-sheet-ko.png" target="_blank">
+<img src="/assets/images/vim-shortkey.png" style="width: 75%; height:auto; " />
+</a></p>
+
+<ul>
+  <li><a href="https://www.vim.org/">Vim Editor Official</a></li>
+  <li><a href="http://vimgenius.com/">Vim Genius</a></li>
+  <li><a href="https://openvim.com/">Open Vim</a></li>
+  <li><a href="https://vim-adventures.com/">Vim Adventures</a></li>
+</ul>
+
+<h2 id="upj_1676436215379">패키지 설치 업데이트 업그레이드</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     패키지 관리자
+apt update <span class="nt">-y</span>
+apt upgrade <span class="nt">-y</span>
+apt list –installed
+apt <span class="nb">install </span>패키지명
+apt remove 설정 유지하고 삭제
+apt purge  설정까지 삭제
+
+     저장소<span class="o">(</span>repository<span class="o">)</span> 살펴보기
+/etc/apt/<span class="k">*</span> 각종 설정들 확인
+
+     저장소 추가/삭제
+<span class="nb">sudo </span>add-apt-repository ppa:주소
+<span class="nb">sudo </span>add-apt-repository <span class="nt">--remove</span> ppa:주소
+
+     dpkg 설치 <span class="o">(</span>데비안 패키지 관리자<span class="o">)</span>
+dpkg <span class="nt">-i</span> 패키지명	설치
+dpkg <span class="nt">-r</span> 패키지명	설정 유지하고 삭제
+dpkg <span class="nt">-P</span> 패키지명	설정까지 삭제
+dpkg <span class="nt">-l</span> 		설치된 패키지 목록 보기
+<span class="nb">sudo </span>dpkg <span class="nt">-i</span>  google-chrome-stable_current_amd64.deb
+
+     운영체제 업그레이드
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt upgrade
+<span class="nb">sudo </span><span class="k">do</span><span class="nt">-release-upgrade</span>
+</code></pre></div></div>
+
+<h2 id="upj_1676436232084">데몬 서비스 관리하기</h2>
+
+<dl>
+  <dt>데몬</dt>
+  <dd>사용자가 직접적으로 제어하지 않고, 백그라운드에서 돌면서 여러 작업을 하는 프로그램</dd>
+  <dt>서비스</dt>
+  <dd>서버/클라이언트 모델에서 출발하여, 사용자의 요청에 응답하는 프로그램</dd>
+  <dd>주로 데몬 형태로 구동됨</dd>
+  <dd>(사용예) httpd, ftpd, sshd..</dd>
+</dl>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     서비스 관리하기
+systemctl status
+systemctl status 데몬명.service
+systemctl start 데몬명	<span class="o">(</span>생략가능<span class="o">)</span>
+systemctl stop 데몬명
+systemctl restart 데몬명
+systemctl <span class="nb">enable </span>데몬명 <span class="o">(</span>부팅시 자동시작<span class="o">)</span>
+systemctl disable 데몬명 <span class="o">(</span>부팅시 자동시작 삭제<span class="o">)</span>
+systemctl deamon-reload 데몬 라이브러리 갱신
+systemctl <span class="nb">cat </span>데몬명	<span class="o">(</span>설정 살펴보기<span class="o">)</span>
+systemctl edit <span class="nt">--full</span> 데몬명 <span class="o">(</span>서비스 명령 수정하기<span class="o">)</span>
+
+     서비스 로그 살펴보기
+journalctl		전체로그
+journalctl <span class="nt">-b</span>		부팅후 로그
+journalctl <span class="nt">-f</span> 최근 로그 및 이후 로그 트래킹 대기
+</code></pre></div></div>
+
+    </div>
+    <div class="col-md-3 d-none d-md-block" id="sidebar">
+      <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1; top:20px; margin-top:30px; "></nav>
+    </div>
+  </div>
+</div>
+
+<!-----Footer----->
+<div id="backtotop">
+  <a href="#top" style="position:absolute; top:0; right:20%; ">
+    <img src="/assets/homepage/back-to-top.png" style="width:35px; height:auto;"/>
+  </a>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <a href="/"><img src="/assets/homepage/brand.png" height="30" width="auto" style="vertical-align: top; display: inline-block;"/></a>
+    &nbsp;
+    <p style="display: inline-block;">
+      <a href="/about/">About</a>
+      &nbsp;
+      <a href="https://github.com/upj53" target="_blank">GitHub</a>
+      &nbsp;
+      <br/>
+      © 2023. A Park Won-june project.
+    </p>
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="/assets/js/prism.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script>
+  anchors.options = {
+    placement: 'right',
+  };
+  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
+</script>
+
+
+</body>
+</html>

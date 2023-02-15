@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<!-----Header----->
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/homepage/favorite.ico"/>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <title>UPJ</title>
+
+  <script type="text/javascript" defer src="/assets/js/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/upj_design.css">
+  
+  <link href="/assets/css/upj_home.css" rel="stylesheet">
+  
+
+  <script type="text/javascript" defer src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" defer src="/assets/js/bootstrap-toc.min.js"></script>
+  <script type="text/javascript" defer src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#toc">
+
+<!-----Navbar----->
+<nav class="navbar navbar-expand-lg navbar-dark upj-nav" style="background: #FF7C36;">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <img src="/assets/homepage/brand.png" height="30" width="auto" class="d-inline-block align-top"
+           alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-nav">
+        <!---------기본메뉴----------->
+        
+        <!--        <a href="/" class="nav-item nav-link active">Home</a>-->
+        <li class="nav-item">
+          <a href="/" class="nav-link active">Home</a>
+        </li>
+        
+        <!--        <a href="/missions/" class="nav-item nav-link ">Missions</a>-->
+        <li class="nav-item">
+          <a href="/missions/" class="nav-link ">Missions</a>
+        </li>
+        
+
+        <!---------개발자 기본----------->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dev-Basics
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item " href="/basics/git/">Git</a></li>
+            
+            <li><a class="dropdown-item " href="/basics/linux/">Linux</a></li>
+            
+          </ul>
+        </li>
+
+        <!---------작업중 Drafts----------->
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drafts
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item " href="/drafts/writing1/">Test1</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing2-1/">Test2-1</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing2-2/">Test2-2</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing3/">Test3</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing4/">Test4</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing5/">Test5</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing6/">Test6</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing7/">Test7</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing11/">Test11</a></li>
+            
+          </ul>
+        </li>
+        
+      </div>
+    </div>
+    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0" onclick="alert('준비중입니다.'); return false;">
+    </form>
+  </div>
+</nav>
+
+<!-----Content----->
+<div class="container" style="top: 90px; ">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-12 col-md-9" id="content-body">
+      <p style="height:500px; margin-top: 70px; ">
+<i class="fa-solid fa-house"></i>
+</p>
+
+    </div>
+    <div class="col-md-3 d-none d-md-block" id="sidebar">
+      <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1; top:20px; margin-top:30px; "></nav>
+    </div>
+  </div>
+</div>
+
+<!-----Footer----->
+<div id="backtotop">
+  <a href="#top" style="position:absolute; top:0; right:20%; ">
+    <img src="/assets/homepage/back-to-top.png" style="width:35px; height:auto;"/>
+  </a>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <a href="/"><img src="/assets/homepage/brand.png" height="30" width="auto" style="vertical-align: top; display: inline-block;"/></a>
+    &nbsp;
+    <p style="display: inline-block;">
+      <a href="/about/">About</a>
+      &nbsp;
+      <a href="https://github.com/upj53" target="_blank">GitHub</a>
+      &nbsp;
+      <br/>
+      © 2023. A Park Won-june project.
+    </p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

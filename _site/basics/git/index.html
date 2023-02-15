@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<!-----Header----->
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/homepage/favorite.ico"/>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <title>UPJ ▶ Git</title>
+
+  <script type="text/javascript" defer src="/assets/js/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/upj_design.css">
+  
+  <link href="/assets/css/upj_toc.css" rel="stylesheet">
+  <link href="/assets/css/upj_page.css" rel="stylesheet">
+  <link href="/assets/css/prism.css" rel="stylesheet">
+  
+
+  <script type="text/javascript" defer src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" defer src="/assets/js/bootstrap-toc.min.js"></script>
+  <script type="text/javascript" defer src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#toc">
+
+<!-----Navbar----->
+<nav class="navbar navbar-expand-lg navbar-dark upj-nav" style="background: #FF7C36;">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <img src="/assets/homepage/brand.png" height="30" width="auto" class="d-inline-block align-top"
+           alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-nav">
+        <!---------기본메뉴----------->
+        
+        <!--        <a href="/" class="nav-item nav-link ">Home</a>-->
+        <li class="nav-item">
+          <a href="/" class="nav-link ">Home</a>
+        </li>
+        
+        <!--        <a href="/missions/" class="nav-item nav-link ">Missions</a>-->
+        <li class="nav-item">
+          <a href="/missions/" class="nav-link ">Missions</a>
+        </li>
+        
+
+        <!---------개발자 기본----------->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dev-Basics
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item active" href="/basics/git/">Git</a></li>
+            
+            <li><a class="dropdown-item " href="/basics/linux/">Linux</a></li>
+            
+          </ul>
+        </li>
+
+        <!---------작업중 Drafts----------->
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drafts
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item " href="/drafts/writing1/">Test1</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing2-1/">Test2-1</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing2-2/">Test2-2</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing3/">Test3</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing4/">Test4</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing5/">Test5</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing6/">Test6</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing7/">Test7</a></li>
+            
+            <li><a class="dropdown-item " href="/drafts/writing11/">Test11</a></li>
+            
+          </ul>
+        </li>
+        
+      </div>
+    </div>
+    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0" onclick="alert('준비중입니다.'); return false;">
+    </form>
+  </div>
+</nav>
+
+<!-----Content----->
+<div class="container" style="top: 90px; ">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-12 col-md-9" id="content-body">
+      <h1 id="git">Git</h1>
+
+<p>리누스 토르발스가 개발한 분산형 버전 관리 시스템(VCS)이다.</p>
+
+<blockquote>
+  <p>오픈소스계의 영원한 아이돌 리누스 토르발스는 리눅스 커널을 관리하는 기존 툴이 엉망인 것에 너무 빡친 바람에 Git이라는 소스관리 툴을 만든다. 리누스는 하도 빡친 나머지, 단 2주만에 완성하는 기염을 토했다.
+－오픈소스의 승리 중에서.</p>
+</blockquote>
+
+<h2 id="install">Install</h2>
+
+<ul>
+  <li><a href="https://git-scm.com/">git</a></li>
+  <li><a href="https://desktop.github.com/">GitHub Desktop</a></li>
+  <li><a href="https://www.sourcetreeapp.com/">Sourcetree</a></li>
+  <li><a href="https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)">위키백과</a></li>
+  <li><a href="https://namu.wiki/w/Git">나무위키</a></li>
+</ul>
+
+<h2 id="init-my-repository">Init my repository</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+git config <span class="nt">--global</span> user.name <span class="o">{</span>MY ID<span class="o">}</span>
+git config <span class="nt">--global</span> user.password <span class="o">{</span>MY PASSWORD<span class="o">}</span>
+git remote add origin <span class="o">{</span>MY REMOTE GIT ADDRESS<span class="o">}</span>
+git pull origin master
+</code></pre></div></div>
+
+<h2 id="pull-and-push">Pull and Push</h2>
+
+<h3 id="trace-my-status">Trace my status</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nt">-A</span>
+git status
+</code></pre></div></div>
+
+<h3 id="save-and-upload">Save and Upload</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s1">'{MY MESSAGE}'</span>
+git push origin +master ← <span class="o">{</span>MY MAIN BRANCH NAME<span class="o">}</span>
+git push origin +<span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
+</code></pre></div></div>
+
+<h2 id="branch">Branch</h2>
+
+<h3 id="list-branch">List Branch</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     Local Branch
+git branch  <span class="nt">-a</span>
+
+     Remote Branch
+git branch  <span class="nt">-r</span>
+</code></pre></div></div>
+
+<h3 id="create-branch-and-move-to-the-branch-created">Create Branch and Move to the branch created</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
+git checkout <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
+
+     ▼ all together
+
+git checkout <span class="nt">-b</span> <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="delete-branch">Delete Branch</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     Local Branch
+git branch <span class="nt">-d</span> <span class="o">{</span>MY LOCAL BRANCH NAME<span class="o">}</span>
+git branch <span class="nt">-D</span> <span class="o">{</span>MY LOCAL BRANCH NAME<span class="o">}</span>  ←  Force to delete
+
+     Remote Branch
+git push origin <span class="nt">--delete</span> <span class="o">{</span>MY REMOTE BRANCH NAME<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="rename-branch">Rename Branch</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     Local Branch
+git branch <span class="nt">-m</span> <span class="o">{</span>MY OLD BRANCH NAME<span class="o">}</span> <span class="o">{</span>MY NEW BRANCH NAME<span class="o">}</span>
+
+     Remote Branch
+git push origin <span class="o">{</span>MY NEW BRANCH NAME<span class="o">}</span>
+git push origin <span class="nt">--delete</span> <span class="o">{</span>MY OLD BRANCH NAME<span class="o">}</span>
+
+     ↕ Same
+
+git push origin :<span class="o">{</span>MY OLD BRANCH NAME<span class="o">}</span> <span class="o">{</span>MY NEW BRANCH NAME<span class="o">}</span>
+</code></pre></div></div>
+
+<h2 id="merge">Merge</h2>
+
+<h3 id="merge-branch">Merge Branch</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+git merge <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="merge-specific-file-only">Merge Specific File Only</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-p</span>  <span class="o">{</span>MY BRANCH NAME<span class="o">}</span> <span class="nt">--</span> <span class="o">{</span>MY FILE NAME<span class="o">}</span>
+git checkout <span class="nt">-p</span>   ParkWonjune   index.md
+</code></pre></div></div>
+
+    </div>
+    <div class="col-md-3 d-none d-md-block" id="sidebar">
+      <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1; top:20px; margin-top:30px; "></nav>
+    </div>
+  </div>
+</div>
+
+<!-----Footer----->
+<div id="backtotop">
+  <a href="#top" style="position:absolute; top:0; right:20%; ">
+    <img src="/assets/homepage/back-to-top.png" style="width:35px; height:auto;"/>
+  </a>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <a href="/"><img src="/assets/homepage/brand.png" height="30" width="auto" style="vertical-align: top; display: inline-block;"/></a>
+    &nbsp;
+    <p style="display: inline-block;">
+      <a href="/about/">About</a>
+      &nbsp;
+      <a href="https://github.com/upj53" target="_blank">GitHub</a>
+      &nbsp;
+      <br/>
+      © 2023. A Park Won-june project.
+    </p>
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="/assets/js/prism.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
+<script>
+  anchors.options = {
+    placement: 'right',
+  };
+  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
+</script>
+
+
+</body>
+</html>
