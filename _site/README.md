@@ -1,4 +1,4 @@
-[![Deploy Jekyll site to Pages](https://github.com/upj53/upj53.github.io/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/upj53/upj53.github.io/actions/workflows/pages.yml)
+[![pages-build-deployment](https://github.com/upj53/upj53.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/upj53/upj53.github.io/actions/workflows/pages/pages-build-deployment)
 
 # upj53.github.io
 
