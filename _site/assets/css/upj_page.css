@@ -17,6 +17,7 @@ code {
   padding-left: 10px;
   padding-bottom: 1px;
   margin-bottom: 20px;
+  white-space: pre;
 }
 
 blockquote {

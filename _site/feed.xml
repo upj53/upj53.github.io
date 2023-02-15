@@ -1,7 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-15T16:19:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">United Parks of Jerome</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Park Won-june</name></author><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing7/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing7</id><content type="html" xml:base="http://localhost:4000/drafts/writing7/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing5/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing5</id><content type="html" xml:base="http://localhost:4000/drafts/writing5/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing6/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing6</id><content type="html" xml:base="http://localhost:4000/drafts/writing6/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing3/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing3</id><content type="html" xml:base="http://localhost:4000/drafts/writing3/"><![CDATA[<h2 id="javafx">JavaFX</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-15T18:58:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">United Parks of Jerome</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Park Won-june</name></author><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing3/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:40+09:00</published><updated>2023-02-15T16:56:40+09:00</updated><id>http://localhost:4000/drafts/writing3</id><content type="html" xml:base="http://localhost:4000/drafts/writing3/"><![CDATA[<h2 id="advance-1-using-notifications">Advance 1 Using Notifications</h2>
+
+<h2 id="advance-2-1-creating-custom-views">Advance 2-1 Creating Custom Views</h2>
+
+<h2 id="advance-2-2-drawing-on-canvas-objects">Advance 2-2 Drawing on Canvas Objects</h2>
+
+<h2 id="advance-2-3-clipping-canvas-objects">Advance 2-3 Clipping Canvas Objects</h2>
+
+<h2 id="advance-3-1-android-property-animations">Advance 3-1 Android Property Animations</h2>
+
+<h2 id="advance-3-2-using-motionlayout-to-animate-android-apps">Advance 3-2 Using MotionLayout to Animate Android Apps</h2>
+
+<h2 id="advance-4-1-wandering-in-google-maps-with-kotlin">Advance 4-1 Wandering in Google maps with Kotlin</h2>
+
+<h2 id="advance-4-2-virtual-treasure-hunt-with-geofences">Advance 4-2 Virtual Treasure Hunt with Geofences</h2>
+
+<h2 id="advance-5-1-testing---basics">Advance 5-1 Testing - Basics</h2>
+
+<h2 id="advance-5-2-testing---intro-to-test-doubles--dependency-injection">Advance 5-2 Testing - Intro to Test Doubles &amp; Dependency Injection</h2>
+
+<h2 id="advance-5-3-testing---survey-of-advanced-topics">Advance 5-3 Testing - Survey of Advanced Topics</h2>
+
+<h2 id="advance-6-implementing-login-on-android-with-firebaseui">Advance 6 Implementing Login on Android with FirebaseUI</h2>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Advance 1 Using Notifications]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing2-2/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:40+09:00</published><updated>2023-02-15T16:56:40+09:00</updated><id>http://localhost:4000/drafts/writing2-2</id><content type="html" xml:base="http://localhost:4000/drafts/writing2-2/"><![CDATA[<h2 id="basic-4-1-app-architecture-ui-layer">Basic 4-1 App Architecture (UI Layer)</h2>
+
+<h2 id="basic-4-2-app-architecture-persistence">Basic 4-2 App Architecture (Persistence)</h2>
+
+<h2 id="basic-5-recyclerview">Basic 5 RecyclerView</h2>
+
+<h2 id="basic-6-connect-to-the-internet">Basic 6 Connect to the Internet</h2>
+
+<h2 id="basic-7-behind-the-scenes">Basic 7 Behind the Scenes</h2>
+
+<h2 id="basic-8-designing-for-everyone">Basic 8 Designing for Everyone</h2>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Basic 4-1 App Architecture (UI Layer)]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing11/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:11+09:00</published><updated>2023-02-15T16:56:11+09:00</updated><id>http://localhost:4000/drafts/writing11</id><content type="html" xml:base="http://localhost:4000/drafts/writing11/"><![CDATA[<h2 id="javafx">JavaFX</h2>
 
 <p><a href="https://www.youtube.com/playlist?list=PLRx0vPvlEmdBtvcSqVkjeL1MwSfRLENYc">YouTube</a>,
-<a href="https://ndb796.tistory.com/54">Blog</a></p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[JavaFX]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing4/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing4</id><content type="html" xml:base="http://localhost:4000/drafts/writing4/"><![CDATA[<h1 id="design-test">Design Test</h1>
+<a href="https://ndb796.tistory.com/54">Blog</a></p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[JavaFX]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing7/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:11+09:00</published><updated>2023-02-15T16:56:11+09:00</updated><id>http://localhost:4000/drafts/writing7</id><content type="html" xml:base="http://localhost:4000/drafts/writing7/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing5/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing5</id><content type="html" xml:base="http://localhost:4000/drafts/writing5/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing6/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing6</id><content type="html" xml:base="http://localhost:4000/drafts/writing6/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing4/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing4</id><content type="html" xml:base="http://localhost:4000/drafts/writing4/"><![CDATA[<h1 id="design-test">Design Test</h1>
 
 <p>Sdfa</p>
 
@@ -109,110 +141,7 @@ fasdf</p>
 
 <p>ssdf</p>
 
-<p>sdf</p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Design Test]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing2-2/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing2-2</id><content type="html" xml:base="http://localhost:4000/drafts/writing2-2/"><![CDATA[<h2 id="basic-4-1-app-architecture-ui-layer">Basic 4-1: App Architecture (UI Layer)</h2>
-
-<h2 id="basic-4-2-app-architecture-persistence">Basic 4-2: App Architecture (Persistence)</h2>
-
-<h2 id="basic-5-recyclerview">Basic 5: RecyclerView</h2>
-
-<h2 id="basic-6-connect-to-the-internet">Basic 6: Connect to the Internet</h2>
-
-<h2 id="basic-7-behind-the-scenes">Basic 7: Behind the Scenes</h2>
-
-<h2 id="basic-8-designing-for-everyone">Basic 8: Designing for Everyone</h2>
-
-<h2 id="advance-1-using-notifications">Advance 1: Using Notifications</h2>
-
-<h2 id="advance-2-1-creating-custom-views">Advance 2-1: Creating Custom Views</h2>
-
-<h2 id="advance-2-2-drawing-on-canvas-objects">Advance 2-2: Drawing on Canvas Objects</h2>
-
-<h2 id="advance-2-3-clipping-canvas-objects">Advance 2-3: Clipping Canvas Objects</h2>
-
-<h2 id="advance-3-1-android-property-animations">Advance 3-1: Android Property Animations</h2>
-
-<h2 id="advance-3-2-using-motionlayout-to-animate-android-apps">Advance 3-2: Using MotionLayout to Animate Android Apps</h2>
-
-<h2 id="advance-4-1-wandering-in-google-maps-with-kotlin">Advance 4-1: Wandering in Google maps with Kotlin</h2>
-
-<h2 id="advance-4-2-virtual-treasure-hunt-with-geofences">Advance 4-2: Virtual Treasure Hunt with Geofences</h2>
-
-<h2 id="advance-5-1-testing---basics">Advance 5-1: Testing - Basics</h2>
-
-<h2 id="advance-5-2-testing---intro-to-test-doubles--dependency-injection">Advance 5-2: Testing - Intro to Test Doubles &amp; Dependency Injection</h2>
-
-<h2 id="advance-5-3-testing---survey-of-advanced-topics">Advance 5-3: Testing - Survey of Advanced Topics</h2>
-
-<h2 id="advance-6-implementing-login-on-android-with-firebaseui">Advance 6: Implementing Login on Android with FirebaseUI</h2>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Basic 4-1: App Architecture (UI Layer)]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing11/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing11</id><content type="html" xml:base="http://localhost:4000/drafts/writing11/"><![CDATA[<h2 id="jekyll-install-on-windows-10">Jekyll install on Windows 10</h2>
-
-<p>Install ruby 3.1.3 
-<a href="https://rubyinstaller.org/">Windows</a>, 
-<a href="https://www.ruby-lang.org/en/documentation/installation/#building-from-source">Linux SourceCode</a></p>
-
-<p>Install jekyll <a href="https://jekyllrb.com/docs/installation/windows/">Jekyll</a></p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll bundler
-</code></pre></div></div>
-
-<h2 id="gvim-_vimrc-setting">gVim _vimrc setting</h2>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>" Vim with all enhancements
-source $VIMRUNTIME/vimrc_example.vim
-
-" Use the internal diff if available.
-" Otherwise use the special 'diffexpr' for Windows.
-if &amp;diffopt !~# 'internal'
-  set diffexpr=MyDiff()
-endif
-function MyDiff()
-  let opt = '-a --binary '
-  if &amp;diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-  if &amp;diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-  let arg1 = v:fname_in
-  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-  let arg1 = substitute(arg1, '!', '\!', 'g')
-  let arg2 = v:fname_new
-  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-  let arg2 = substitute(arg2, '!', '\!', 'g')
-  let arg3 = v:fname_out
-  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-  let arg3 = substitute(arg3, '!', '\!', 'g')
-  if $VIMRUNTIME =~ ' '
-    if &amp;sh =~ '\&lt;cmd'
-      if empty(&amp;shellxquote)
-        let l:shxq_sav = ''
-        set shellxquote&amp;
-      endif
-      let cmd = '"' . $VIMRUNTIME . '\diff"'
-    else
-      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-    endif
-  else
-    let cmd = $VIMRUNTIME . '\diff'
-  endif
-  let cmd = substitute(cmd, '!', '\!', 'g')
-  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' &gt; ' . arg3
-  if exists('l:shxq_sav')
-    let &amp;shellxquote=l:shxq_sav
-  endif
-endfunction
-
-colorscheme torte
-set nocp
-set number
-set ts=2
-set sts=2
-set laststatus=2
-set shiftwidth=2
-set smarttab
-set smartindent
-set softtabstop=2
-set bs=eol,start,indent
-set ruler
-set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
-set noundofile
-set nobackup
-</code></pre></div></div>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Jekyll install on Windows 10]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing2-1/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing2-1</id><content type="html" xml:base="http://localhost:4000/drafts/writing2-1/"><![CDATA[<h2 id="basic-1---layouts">Basic 1 - Layouts</h2>
+<p>sdf</p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Design Test]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing2-1/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing2-1</id><content type="html" xml:base="http://localhost:4000/drafts/writing2-1/"><![CDATA[<h2 id="basic-1---layouts">Basic 1 - Layouts</h2>
 
 <p><a href="https://github.com/udacity/andfun-kotlin-about-me">App 1-AboutMe App</a></p>
 

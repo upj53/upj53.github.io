@@ -2,3 +2,5 @@
   link: /basics/git/
 - name: Linux
   link: /basics/linux/
+- name: etc
+  link: /basics/etc/
