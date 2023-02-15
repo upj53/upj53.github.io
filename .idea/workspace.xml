@@ -6,27 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/upj_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/upj_head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/upj_nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/upj_default.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/upj_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/docsearch.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/homepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/syntax.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/upj_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/anchor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/bootstrap-toc.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/docsearch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/fontawesome.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/jquery-3.5.1.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/solid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mypage/my_design.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +65,7 @@
       <workItem from="1676351923811" duration="8628000" />
       <workItem from="1676367301144" duration="6216000" />
       <workItem from="1676376230824" duration="776000" />
-      <workItem from="1676417537845" duration="16631000" />
+      <workItem from="1676417537845" duration="16941000" />
     </task>
     <servers />
   </component>
