@@ -13,18 +13,19 @@
 
   <title>{% if page.title == 'Home' %}Home{% else %}UPJ{%endif%}</title>
 
-  <script defer src="/assets/js/jquery-3.6.3.min.js"></script>
+  <script type="text/javascript" defer src="/assets/js/jquery-3.6.3.min.js"></script>
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/upj_design.css">
   {% if page.title == 'Home' or page.title == '404 Not Found' %}
   <link href="/assets/css/upj_home.css" rel="stylesheet">
   {% else %}
+  <link href="/assets/css/upj_toc.css" rel="stylesheet">
   <link href="/assets/css/upj_page.css" rel="stylesheet">
   {% endif %}
 
-  <script defer src="/assets/js/bootstrap.bundle.min.js"></script>
-  <script defer src="/assets/js/bootstrap-toc.min.js"></script>
-  <script src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" defer src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" defer src="/assets/js/bootstrap-toc.min.js"></script>
+  <script type="text/javascript" defer src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -38,11 +39,11 @@
       <img src="/assets/homepage/brand.png" height="30" width="auto" class="d-inline-block align-top"
            alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav">
         <!---------기본메뉴----------->
         {% for item in site.data.navigation %}
@@ -120,7 +121,7 @@
   </div>
 </footer>
 
-<script defer src="/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
 <script>
   anchors.options = {
     placement: 'right',

@@ -5,49 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/upj_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/upj_head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/upj_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/upj_default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/docsearch.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/homepage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/syntax.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/home-icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/back-to-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/home-title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/anchor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/bootstrap-toc.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/docsearch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/fontawesome.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/jquery-3.5.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/javascript/solid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypage/missions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypage/my_design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/upj53.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/upj53.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/upj_toc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_drafts/writing1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/writing1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_drafts/writing2-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/writing2-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/upj_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-02-14-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/upj_design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/upj_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/upj_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/anchor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics/git.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics/linux.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/page_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/tests/page_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypage/missions.md" beforeDir="false" afterPath="$PROJECT_DIR$/mypage/missions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +73,7 @@
       <workItem from="1676351923811" duration="8628000" />
       <workItem from="1676367301144" duration="6216000" />
       <workItem from="1676376230824" duration="776000" />
-      <workItem from="1676417537845" duration="5299000" />
+      <workItem from="1676417537845" duration="9904000" />
     </task>
     <servers />
   </component>

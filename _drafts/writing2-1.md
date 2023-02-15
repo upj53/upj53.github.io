@@ -4,9 +4,9 @@ layout: upj_design
 permalink: /drafts/writing2-1/
 ---
 
-## Basic 1: Layouts
+## Basic 1 - Layouts
 
-[1.AboutMe App](https://github.com/udacity/andfun-kotlin-about-me)
+[App 1-AboutMe App](https://github.com/udacity/andfun-kotlin-about-me)
 
 ```kotlin
 // Hide the keyboard.
@@ -46,7 +46,7 @@ inding.apply {
 }
 ```
 
-[2.ColorMyViews App](https://github.com/udacity/andfun-kotlin-color-my-views)
+[App 2-ColorMyViews App](https://github.com/udacity/andfun-kotlin-color-my-views)
 
 Ratios
 
@@ -83,9 +83,9 @@ private fun setListeners() {
 }
 ```
 
-## Basic 2: App Navigation
+## Basic 2 - App Navigation
 
-[3.Trivia App](https://github.com/udacity/andfun-kotlin-android-trivia)
+[App 3-Trivia App](https://github.com/udacity/andfun-kotlin-android-trivia)
 
 navigation dependency 
 
@@ -254,9 +254,9 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-## Basic 3: Activity and Fragment Lifecycle
+## Basic 3 - Activity and Fragment Lifecycle
 
-[4.DessertPusher App](https://github.com/udacity/andfun-kotlin-dessert-pusher)
+[App 4-DessertPusher App](https://github.com/udacity/andfun-kotlin-dessert-pusher)
 
 Timber Log Tree
 
