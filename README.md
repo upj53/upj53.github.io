@@ -20,6 +20,8 @@ Set-Variable -name JEKYLL_ENV -value production; bundle exec jekyll serve --watc
 
 [Code highlight](https://prismjs.com/download.html#themes=prism)
 
+[TOC Customize](http://afeld.github.io/bootstrap-toc/)
+
 [Benchmark](https://github1s.com/mattcone/markdown-guide/)
 
 [Markdown with IDs](https://about.gitlab.com/blog/2016/07/19/markdown-kramdown-tips-and-tricks/)

@@ -1,1 +1,920 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-15T20:30:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">United Parks of Jerome</title><author><name>Park Won-june</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-16T08:33:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">United Parks of Jerome</title><author><name>Park Won-june</name></author><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing2-2/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T19:09:03+09:00</published><updated>2023-02-15T19:09:03+09:00</updated><id>http://localhost:4000/drafts/writing2-2</id><content type="html" xml:base="http://localhost:4000/drafts/writing2-2/"><![CDATA[<h2>Basic 4-1 App Architecture (UI Layer)</h2>
+
+<p><a href="https://github.com/udacity/andfun-kotlin-guess-it">App 5-GuessIt App</a></p>
+
+<h2>Basic 4-2 App Architecture (Persistence)</h2>
+
+<h2>Basic 5 RecyclerView</h2>
+
+<h2>Basic 6 Connect to the Internet</h2>
+
+<h2>Basic 7 Behind the Scenes</h2>
+
+<h2>Basic 8 Designing for Everyone</h2>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Basic 4-1 App Architecture (UI Layer)]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing3/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:40+09:00</published><updated>2023-02-15T16:56:40+09:00</updated><id>http://localhost:4000/drafts/writing3</id><content type="html" xml:base="http://localhost:4000/drafts/writing3/"><![CDATA[<h2>Advance 1 Using Notifications</h2>
+
+<h2>Advance 2-1 Creating Custom Views</h2>
+
+<h2>Advance 2-2 Drawing on Canvas Objects</h2>
+
+<h2>Advance 2-3 Clipping Canvas Objects</h2>
+
+<h2>Advance 3-1 Android Property Animations</h2>
+
+<h2>Advance 3-2 Using MotionLayout to Animate Android Apps</h2>
+
+<h2>Advance 4-1 Wandering in Google maps with Kotlin</h2>
+
+<h2>Advance 4-2 Virtual Treasure Hunt with Geofences</h2>
+
+<h2>Advance 5-1 Testing - Basics</h2>
+
+<h2>Advance 5-2 Testing - Intro to Test Doubles &amp; Dependency Injection</h2>
+
+<h2>Advance 5-3 Testing - Survey of Advanced Topics</h2>
+
+<h2>Advance 6 Implementing Login on Android with FirebaseUI</h2>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Advance 1 Using Notifications]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing11/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:11+09:00</published><updated>2023-02-15T16:56:11+09:00</updated><id>http://localhost:4000/drafts/writing11</id><content type="html" xml:base="http://localhost:4000/drafts/writing11/"><![CDATA[<h2>JavaFX</h2>
+
+<p><a href="https://www.youtube.com/playlist?list=PLRx0vPvlEmdBtvcSqVkjeL1MwSfRLENYc">YouTube</a>,
+<a href="https://ndb796.tistory.com/54">Blog</a></p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[JavaFX]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing7/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T16:56:11+09:00</published><updated>2023-02-15T16:56:11+09:00</updated><id>http://localhost:4000/drafts/writing7</id><content type="html" xml:base="http://localhost:4000/drafts/writing7/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing5/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing5</id><content type="html" xml:base="http://localhost:4000/drafts/writing5/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing6/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing6</id><content type="html" xml:base="http://localhost:4000/drafts/writing6/"><![CDATA[]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing4/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing4</id><content type="html" xml:base="http://localhost:4000/drafts/writing4/"><![CDATA[<h1>Design Test</h1>
+
+<p>Sdfa</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asdfasdf</p>
+
+<h2>Usage</h2>
+
+<p>asdfasdf
+asdfasd
+fasdf</p>
+
+<p>asdfasd</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<h2>Customization</h2>
+
+<p>asdfa</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<h3>Headings</h3>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<h3>Displayed text</h3>
+
+<p>dsf</p>
+
+<p>asf</p>
+
+<p>asd</p>
+
+<p>asdf</p>
+
+<p>asd</p>
+
+<h3>Skipping</h3>
+
+<p>asdf</p>
+
+<p>asdf</p>
+
+<p>asd</p>
+
+<p>as</p>
+
+<p>sdfsd</p>
+
+<p>sdf</p>
+
+<h2>Layout</h2>
+
+<p>asdf</p>
+
+<p>asd</p>
+
+<p>asd</p>
+
+<p>asdf</p>
+
+<h2>Examples</h2>
+
+<p>sd</p>
+
+<p>sd</p>
+
+<p>f</p>
+
+<p>sdf</p>
+
+<p>sd</p>
+
+<p>sdf</p>
+
+<h2>See also</h2>
+
+<p>sdf</p>
+
+<p>sd</p>
+
+<p>ff</p>
+
+<p>df</p>
+
+<p>ssdf</p>
+
+<p>sdf</p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Design Test]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing2-1/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing2-1</id><content type="html" xml:base="http://localhost:4000/drafts/writing2-1/"><![CDATA[<h2>Basic 1 - Layouts</h2>
+
+<p><a href="https://github.com/udacity/andfun-kotlin-about-me">App 1-AboutMe App</a></p>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Hide the keyboard.</span>
+<span class="kd">val</span> <span class="py">imm</span> <span class="p">=</span> <span class="nf">getSystemService</span><span class="p">(</span><span class="nc">Context</span><span class="p">.</span><span class="nc">INPUT_METHOD_SERVICE</span><span class="p">)</span> <span class="k">as</span> <span class="nc">InputMethodManager</span>
+<span class="n">imm</span><span class="p">.</span><span class="nf">hideSoftInputFromWindow</span><span class="p">(</span><span class="n">view</span><span class="p">.</span><span class="n">windowToken</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>dataBinding</p>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dataBinding</span> <span class="o">{</span>
+  <span class="n">enabled</span> <span class="o">=</span> <span class="kc">true</span>
+<span class="o">}</span>
+<span class="n">buildFeatures</span> <span class="o">{</span>
+  <span class="n">viewBinding</span> <span class="o">=</span> <span class="kc">true</span>
+  <span class="n">dataBinding</span> <span class="o">=</span> <span class="kc">true</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>wrap root tag with layout tag</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="nt">&lt;layout</span> 
+  <span class="na">xmlns:android=</span><span class="s">"http://schemas.android.com/apk/res/android"</span> 
+  <span class="na">xmlns:app=</span><span class="s">"http://schemas.android.com/apk/res-auto"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;LinearLayout&gt;</span>...<span class="nt">&lt;/LinearLayout&gt;</span>
+<span class="nt">&lt;/layout&gt;</span>
+</code></pre></div></div>
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">private</span> <span class="k">lateinit</span> <span class="kd">var</span> <span class="py">binding</span><span class="p">:</span> <span class="nc">ActivityMainBinding</span>
+<span class="n">binding</span> <span class="p">=</span> <span class="nc">DataBindingUtil</span><span class="p">.</span><span class="nf">setContentView</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="nc">R</span><span class="p">.</span><span class="n">layout</span><span class="p">.</span><span class="n">activity_main</span><span class="p">)</span>
+<span class="n">inding</span><span class="p">.</span><span class="nf">apply</span> <span class="p">{</span>
+  <span class="n">nicknameText</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="n">nicknameEdit</span><span class="p">.</span><span class="n">text</span>
+  <span class="nf">invalidateAll</span><span class="p">()</span>
+  <span class="n">nicknameEdit</span><span class="p">.</span><span class="n">visibility</span> <span class="p">=</span> <span class="nc">View</span><span class="p">.</span><span class="nc">GONE</span>
+  <span class="n">nicknameText</span><span class="p">.</span><span class="n">visibility</span> <span class="p">=</span> <span class="nc">View</span><span class="p">.</span><span class="nc">VISIBLE</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/udacity/andfun-kotlin-color-my-views">App 2-ColorMyViews App</a></p>
+
+<p>Ratios</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;View</span>
+  <span class="na">android:layout_width=</span><span class="s">"10dp"</span>
+  <span class="na">android:layout_height=</span><span class="s">"0dp"</span>
+  <span class="na">app:layout_constraintBottom_toBottomOf=</span><span class="s">"parent"</span>
+  <span class="na">app:layout_constraintDimensionRatio=</span><span class="s">"h,1:10"</span>
+  <span class="na">app:layout_constraintEnd_toEndOf=</span><span class="s">"parent"</span>
+  <span class="na">app:layout_constraintHorizontal_bias=</span><span class="s">"0.316"</span>
+  <span class="na">app:layout_constraintStart_toStartOf=</span><span class="s">"parent"</span>
+  <span class="na">app:layout_constraintTop_toTopOf=</span><span class="s">"parent"</span>
+  <span class="na">app:layout_constraintVertical_bias=</span><span class="s">"0.148"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Spread chain</li>
+  <li>Packed chain</li>
+  <li>Spread inside chain</li>
+  <li>Packed chain with bias</li>
+  <li>Weighted chain</li>
+</ul>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">private</span> <span class="k">fun</span> <span class="nf">setListeners</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">binding</span><span class="p">.</span><span class="nf">apply</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="py">clickableViews</span><span class="p">:</span> <span class="nc">List</span><span class="p">&lt;</span><span class="nc">View</span><span class="p">&gt;</span> <span class="p">=</span> <span class="nf">listOf</span><span class="p">(</span>
+      <span class="n">boxOneText</span><span class="p">,</span> <span class="n">boxTwoText</span><span class="p">,</span> <span class="n">boxThreeText</span>
+    <span class="p">)</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="n">item</span> <span class="k">in</span> <span class="n">clickableViews</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">item</span><span class="p">.</span><span class="nf">setOnClickListener</span> <span class="p">{</span> <span class="nf">makeColored</span><span class="p">(</span><span class="n">it</span><span class="p">)</span> <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2>Basic 2 - App Navigation</h2>
+
+<p><a href="https://github.com/udacity/andfun-kotlin-android-trivia">App 3-Trivia App</a></p>
+
+<p>navigation dependency</p>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">implementation</span> <span class="s2">"androidx.navigation:navigation-fragment-ktx:2.5.3"</span>
+<span class="n">implementation</span> <span class="s2">"androidx.navigation:navigation-ui-ktx:2.5.3"</span>
+</code></pre></div></div>
+
+<p>Principle of Navigation</p>
+
+<ol>
+  <li>There’s always a Starting Place.</li>
+  <li>You can always Go Back.</li>
+  <li>Up goes Back (Mostly)</li>
+</ol>
+
+<p>navigation graph</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;fragment</span>
+  <span class="na">android:id=</span><span class="s">"@+id/gameFragment"</span>
+  <span class="na">android:name=</span><span class="s">"kr.sungil.androidkotlin.GameFragment"</span>
+  <span class="na">android:label=</span><span class="s">"fragment_game"</span>
+  <span class="na">tools:layout=</span><span class="s">"@layout/fragment_game"</span> <span class="nt">&gt;</span>
+  <span class="nt">&lt;action</span>
+    <span class="na">android:id=</span><span class="s">"@+id/action_gameFragment_to_gameWonFragment"</span>
+    <span class="na">app:destination=</span><span class="s">"@id/gameWonFragment"</span>
+    <span class="na">app:popUpTo=</span><span class="s">"@id/gameFragment"</span>
+    <span class="na">app:popUpToInclusive=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;action</span>
+    <span class="na">android:id=</span><span class="s">"@+id/action_gameFragment_to_gameOverFragment"</span>
+    <span class="na">app:destination=</span><span class="s">"@id/gameOverFragment"</span>
+    <span class="na">app:popUpTo=</span><span class="s">"@id/gameFragment"</span>
+    <span class="na">app:popUpToInclusive=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/fragment&gt;</span>
+</code></pre></div></div>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">view</span><span class="p">.</span><span class="nf">findNavController</span><span class="p">().</span><span class="nf">navigate</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">id</span><span class="p">.</span><span class="n">action_gameFragment_to_gameWonFragment</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>fragment view binding</p>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">AboutFragment</span> <span class="p">:</span> <span class="nc">Fragment</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">layout</span><span class="p">.</span><span class="n">fragment_about</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="kd">var</span> <span class="py">binding</span><span class="p">:</span> <span class="nc">FragmentAboutBinding</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span>
+  <span class="k">override</span> <span class="k">fun</span> <span class="nf">onViewCreated</span><span class="p">(</span><span class="n">view</span><span class="p">:</span> <span class="nc">View</span><span class="p">,</span> <span class="n">savedInstanceState</span><span class="p">:</span> <span class="nc">Bundle</span><span class="p">?)</span> <span class="p">{</span>
+    <span class="k">super</span><span class="p">.</span><span class="nf">onViewCreated</span><span class="p">(</span><span class="n">view</span><span class="p">,</span> <span class="n">savedInstanceState</span><span class="p">)</span>
+    <span class="kd">val</span> <span class="py">_binding</span> <span class="p">=</span> <span class="nc">FragmentAboutBinding</span><span class="p">.</span><span class="nf">bind</span><span class="p">(</span><span class="n">view</span><span class="p">)</span>
+    <span class="n">binding</span> <span class="p">=</span> <span class="n">_binding</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>add menu</p>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">private</span> <span class="k">fun</span> <span class="nf">setupMenu</span><span class="p">()</span> <span class="p">{</span>
+  <span class="p">(</span><span class="nf">requireActivity</span><span class="p">()</span> <span class="k">as</span> <span class="nc">MenuHost</span><span class="p">).</span><span class="nf">addMenuProvider</span><span class="p">(</span><span class="kd">object</span> <span class="err">: </span><span class="nc">MenuProvider</span> <span class="p">{</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">onCreateMenu</span><span class="p">(</span><span class="n">menu</span><span class="p">:</span> <span class="nc">Menu</span><span class="p">,</span> <span class="n">menuInflater</span><span class="p">:</span> <span class="nc">MenuInflater</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">menuInflater</span><span class="p">.</span><span class="nf">inflate</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">menu</span><span class="p">.</span><span class="n">overflow_menu</span><span class="p">,</span> <span class="n">menu</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">onMenuItemSelected</span><span class="p">(</span><span class="n">menuItem</span><span class="p">:</span> <span class="nc">MenuItem</span><span class="p">):</span> <span class="nc">Boolean</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nc">NavigationUI</span><span class="p">.</span><span class="nf">onNavDestinationSelected</span><span class="p">(</span><span class="n">menuItem</span><span class="p">,</span> <span class="n">view</span><span class="o">!!</span><span class="p">.</span><span class="nf">findNavController</span><span class="p">())</span>
+    <span class="p">}</span>
+  <span class="p">},</span> <span class="n">viewLifecycleOwner</span><span class="p">,</span> <span class="nc">Lifecycle</span><span class="p">.</span><span class="nc">State</span><span class="p">.</span><span class="nc">RESUMED</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>SafeArgs</p>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Project</span>
+<span class="n">buildscript</span> <span class="o">{</span>
+  <span class="n">dependencies</span> <span class="o">{</span>
+    <span class="n">classpath</span> <span class="s2">"androidx.navigation:navigation-safe-args-gradle-plugin:2.5.3"</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+<span class="n">plugins</span> <span class="o">{</span>
+  <span class="n">id</span> <span class="s1">'com.android.application'</span> <span class="n">version</span> <span class="s1">'7.3.1'</span> <span class="n">apply</span> <span class="kc">false</span>
+  <span class="n">id</span> <span class="s1">'com.android.library'</span> <span class="n">version</span> <span class="s1">'7.3.1'</span> <span class="n">apply</span> <span class="kc">false</span>
+  <span class="n">id</span> <span class="s1">'org.jetbrains.kotlin.android'</span> <span class="n">version</span> <span class="s1">'1.8.0'</span> <span class="n">apply</span> <span class="kc">false</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// App</span>
+<span class="n">plugins</span> <span class="o">{</span>
+  <span class="n">id</span> <span class="s1">'com.android.application'</span>
+  <span class="n">id</span> <span class="s1">'org.jetbrains.kotlin.android'</span>
+  <span class="n">id</span> <span class="s1">'kotlin-kapt'</span>
+  <span class="n">id</span> <span class="s1">'androidx.navigation.safeargs'</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--add arguments--&gt;</span>
+<span class="nt">&lt;fragment</span>
+  <span class="na">android:id=</span><span class="s">"@+id/gameWonFragment"</span>
+  <span class="na">android:name=</span><span class="s">"kr.sungil.androidkotlin.GameWonFragment"</span>
+  <span class="na">android:label=</span><span class="s">"fragment_game_won"</span>
+  <span class="na">tools:layout=</span><span class="s">"@layout/fragment_game_won"</span>
+  <span class="nt">&gt;</span>
+  <span class="nt">&lt;action</span>
+    <span class="na">android:id=</span><span class="s">"@+id/action_gameWonFragment_to_gameFragment"</span>
+    <span class="na">app:destination=</span><span class="s">"@id/gameFragment"</span>
+    <span class="nt">/&gt;</span>
+  <span class="nt">&lt;argument</span>
+    <span class="na">android:name=</span><span class="s">"numQuestions"</span>
+    <span class="na">app:argType=</span><span class="s">"integer"</span>
+    <span class="nt">/&gt;</span>
+  <span class="nt">&lt;argument</span>
+    <span class="na">android:name=</span><span class="s">"numCorrect"</span>
+    <span class="na">app:argType=</span><span class="s">"integer"</span>
+    <span class="nt">/&gt;</span>
+<span class="nt">&lt;/fragment&gt;</span>
+</code></pre></div></div>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// send args</span>
+<span class="n">view</span><span class="p">.</span><span class="nf">findNavController</span><span class="p">().</span><span class="nf">navigate</span><span class="p">(</span><span class="nc">GameFragmentDirections</span><span class="p">.</span><span class="nf">actionGameFragmentToGameWonFragment</span><span class="p">())</span>
+<span class="n">view</span><span class="p">.</span><span class="nf">findNavController</span><span class="p">()</span>
+  <span class="p">.</span><span class="nf">navigate</span><span class="p">(</span><span class="nc">GameFragmentDirections</span><span class="p">.</span><span class="nf">actionGameFragmentToGameWonFragment</span><span class="p">(</span><span class="n">numQuestions</span><span class="p">,</span> <span class="n">questionIndex</span><span class="p">))</span>
+<span class="c1">// get args</span>
+<span class="kd">var</span> <span class="py">args</span> <span class="p">=</span> <span class="nc">GameWonFragmentArgs</span><span class="p">.</span><span class="nf">fromBundle</span><span class="p">(</span><span class="nf">requireArguments</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--getString with parameters--&gt;</span>
+<span class="nt">&lt;string</span> <span class="na">name=</span><span class="s">"share_success_text"</span><span class="nt">&gt;</span>I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!<span class="nt">&lt;/string&gt;</span>
+</code></pre></div></div>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">getString</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">string</span><span class="p">.</span><span class="n">share_success_text</span><span class="p">,</span> <span class="n">args</span><span class="p">.</span><span class="n">numCorrect</span><span class="p">,</span> <span class="n">args</span><span class="p">.</span><span class="n">numQuestions</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>app drawer on up button</p>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">MainActivity</span> <span class="p">:</span> <span class="nc">AppCompatActivity</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="k">lateinit</span> <span class="kd">var</span> <span class="py">drawerLayout</span><span class="p">:</span> <span class="nc">DrawerLayout</span>
+  <span class="k">private</span> <span class="k">lateinit</span> <span class="kd">var</span> <span class="py">appBarConfiguration</span><span class="p">:</span> <span class="nc">AppBarConfiguration</span>
+
+  <span class="k">override</span> <span class="k">fun</span> <span class="nf">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">:</span> <span class="nc">Bundle</span><span class="p">?)</span> <span class="p">{</span>
+    <span class="k">super</span><span class="p">.</span><span class="nf">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">)</span>
+    <span class="kd">val</span> <span class="py">binding</span> <span class="p">=</span> <span class="nc">ActivityMainBinding</span><span class="p">.</span><span class="nf">inflate</span><span class="p">(</span><span class="n">layoutInflater</span><span class="p">)</span>
+    <span class="nf">setContentView</span><span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">root</span><span class="p">)</span>
+
+    <span class="n">drawerLayout</span> <span class="p">=</span> <span class="n">binding</span><span class="p">.</span><span class="n">drawerLayout</span>
+    <span class="kd">val</span> <span class="py">navController</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="nf">findNavController</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">id</span><span class="p">.</span><span class="n">myNavHostFragment</span><span class="p">)</span>
+    <span class="nc">NavigationUI</span><span class="p">.</span><span class="nf">setupActionBarWithNavController</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="n">navController</span><span class="p">,</span> <span class="n">drawerLayout</span><span class="p">)</span>
+    <span class="n">appBarConfiguration</span> <span class="p">=</span> <span class="nc">AppBarConfiguration</span><span class="p">(</span><span class="n">navController</span><span class="p">.</span><span class="n">graph</span><span class="p">,</span> <span class="n">drawerLayout</span><span class="p">)</span>
+    <span class="n">navController</span><span class="p">.</span><span class="nf">addOnDestinationChangedListener</span> <span class="p">{</span> <span class="n">nc</span><span class="p">:</span> <span class="nc">NavController</span><span class="p">,</span> <span class="n">nd</span><span class="p">:</span> <span class="nc">NavDestination</span><span class="p">,</span> <span class="n">bundle</span><span class="p">:</span> <span class="nc">Bundle</span><span class="p">?</span> <span class="p">-&gt;</span>
+      <span class="k">if</span><span class="p">(</span><span class="n">nd</span><span class="p">.</span><span class="n">id</span> <span class="p">==</span> <span class="n">nc</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">startDestinationId</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">drawerLayout</span><span class="p">.</span><span class="nf">setDrawerLockMode</span><span class="p">(</span><span class="nc">DrawerLayout</span><span class="p">.</span><span class="nc">LOCK_MODE_UNLOCKED</span><span class="p">)</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">drawerLayout</span><span class="p">.</span><span class="nf">setDrawerLockMode</span><span class="p">(</span><span class="nc">DrawerLayout</span><span class="p">.</span><span class="nc">LOCK_MODE_LOCKED_CLOSED</span><span class="p">)</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nc">NavigationUI</span><span class="p">.</span><span class="nf">setupWithNavController</span><span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">navView</span><span class="p">,</span> <span class="n">navController</span><span class="p">)</span>
+  <span class="p">}</span>
+
+  <span class="k">override</span> <span class="k">fun</span> <span class="nf">onSupportNavigateUp</span><span class="p">():</span> <span class="nc">Boolean</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="py">navController</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="nf">findNavController</span><span class="p">(</span><span class="nc">R</span><span class="p">.</span><span class="n">id</span><span class="p">.</span><span class="n">myNavHostFragment</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nc">NavigationUI</span><span class="p">.</span><span class="nf">navigateUp</span><span class="p">(</span><span class="n">navController</span><span class="p">,</span> <span class="n">appBarConfiguration</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2>Basic 3 - Activity and Fragment Lifecycle</h2>
+
+<p><a href="https://github.com/udacity/andfun-kotlin-dessert-pusher">App 4-DessertPusher App</a></p>
+
+<p>Timber Log Tree</p>
+
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">implementation</span> <span class="s1">'com.jakewharton.timber:timber:5.0.1'</span>
+</code></pre></div></div>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">PusherApplication</span> <span class="p">:</span> <span class="nc">Application</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">override</span> <span class="k">fun</span> <span class="nf">onCreate</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">super</span><span class="p">.</span><span class="nf">onCreate</span><span class="p">()</span>
+    <span class="nc">Timber</span><span class="p">.</span><span class="nf">plant</span><span class="p">(</span><span class="nc">Timber</span><span class="p">.</span><span class="nc">DebugTree</span><span class="p">())</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Timber</span><span class="p">.</span><span class="nf">i</span><span class="p">(</span><span class="s">"onStart Called"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><a href="https://video.udacity-data.com/topher/2018/November/5be0f083_activity-lifecycle-worksheet/activity-lifecycle-worksheet.pdf">Activity Lifecycle Worksheet</a>,
+<a href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage collection</a>,
+<a href="https://video.udacity-data.com/topher/2018/November/5be286d0_l4-1803sc-a-share-dialog-and-onpause-onresume-border/l4-1803sc-a-share-dialog-and-onpause-onresume-border.png">Activity Lifecycle Summary</a></p>
+
+<p>Lifecycle cheet sheet: 
+<a href="https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-i-single-activities-e49fd3d202ab">Single activities</a>,
+<a href="https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-ii-multiple-activities-a411fd139f24">Multiple activities</a>,
+<a href="https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-iii-fragments-afc87d4f37fd">Fragments</a></p>
+
+<ul>
+  <li>Resumed(onResume, onPause): Activity is visible, and Activity has focus</li>
+  <li>Started(onStart, onStop): Activity is visible</li>
+</ul>
+
+<p><a href="https://developer.android.com/topic/libraries/architecture/lifecycle">Handling Lifecycle</a>,
+<a href="https://medium.com/@aritrodam773/lifecycle-observer-in-android-6e9d16ed49bc">Lifecycle Observer in Android blog</a></p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Basic 1 - Layouts]]></summary></entry><entry><title type="html">Drafts</title><link href="http://localhost:4000/drafts/writing1/" rel="alternate" type="text/html" title="Drafts" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/drafts/writing1</id><content type="html" xml:base="http://localhost:4000/drafts/writing1/"><![CDATA[<h2>Unit 1 - Kotlin basics</h2>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-dice-roller-with-images-app-solution">4-Dice Roller App</a>,</p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-lemonade-app">4-Lemonade App</a>,
+<a href="https://github.com/upj53/upj53_my_android/tree/06.AKb-unit1-4-lemonade">My Lemonade App</a></p>
+
+<h2>Unit 2 - Layouts</h2>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-tip-calculator-app-solution">2-Tip Calculator App</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-affirmations-app-solution">3-Affirmations App</a></p>
+
+<p><a href="https://github1s.com/google-developer-training/android-basics-kotlin-dogglers-app">3-Dogglers App</a></p>
+
+<h2>Unit 3 - Navigation</h2>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-words-app.git">1-Words App</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-dessert-clicker-app.git">1-Dessert Clicker App</a></p>
+
+<p><a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-activity-lifecycle/img/c259ab6beca0ca88_1920.png">Activity Lifecycle Diagram</a>,
+<a href="https://developer.android.com/guide/components/activities/intro-activities">Activity</a>
+<a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-fragments-navigation-component/img/8dc30a4c12ab71b_1920.png">Fragment Lifecycle Diagram</a>,
+<a href="https://developer.android.com/guide/fragments">Fragment</a>,</p>
+
+<p><a href="https://github.com/android/compose-samples/tree/main/Jetchat">2-JetChat App</a></p>
+
+<p><a href="https://github.com/android/compose-samples/tree/main/Jetsurvey">2-Jetsurvey App</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-unscramble-app">3-Unscramble App</a></p>
+
+<p><a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-viewmodel/img/597074ed0d08947b_1920.png">ViewModel Architecture Diagram</a>,
+<a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-viewmodel/img/91227008b74bf4bb_1920.png">ViewModel Lifecycle Diagram</a>,
+<a href="https://m2.material.io/components/dialogs/android">Material Dialog</a>,
+<a href="https://developer.android.com/topic/libraries/architecture/viewmodel?authuser=1">ViewModel</a>,
+<a href="https://developer.android.com/topic/architecture?authuser=1">App Architecture</a>,
+<a href="https://kotlinlang.org/docs/properties.html#getters-and-setters">Kotlin getter setter</a>,
+<a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData</a>,
+<a href="https://developer.android.com/topic/libraries/data-binding">Data binding</a>,
+<a href="https://medium.com/androiddevelopers/data-binding-lessons-learnt-4fd16576b719#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImI0OWM1MDYyZDg5MGY1Y2U0NDllODkwYzg4ZThkZDk4YzRmZWUwYWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NzU5MTE5MjEsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMDI5MjEwODUwNDE1NjUwOTQzMyIsImVtYWlsIjoidW5pdGVkcGFya3NAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJXb24gSnVuZSBQYXJrIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDdlUFhLZ3R2Rk8zV0p3QVRGNTlndG16N051UlJHdHcyV2RxNk0zbnc9czk2LWMiLCJnaXZlbl9uYW1lIjoiV29uIEp1bmUiLCJmYW1pbHlfbmFtZSI6IlBhcmsiLCJpYXQiOjE2NzU5MTIyMjEsImV4cCI6MTY3NTkxNTgyMSwianRpIjoiMjA0Njk1ZjE4MzhlZjk4N2Y2YTAzM2IxNDhhZjZmMGVhODBkYjQwZSJ9.ptqVehQCXpECk8WbKI5KDwKPH7sREMHijfJYwpbtvdDqqHJ_xgo7y1vrDJAM1Fzl9hBMFNnM7Rv9nAcLuEUMbYZzLKVK1UyTKAMx9lztrotCRR6JFo6tXL5kQR3Lf6hToqJnTxBCk_OGYXQMCPi70fZXeMqzEy1xPgUVpnBo9oFEXHch_fvDieR5CnjXyZLAozP_ThI_G3SQ5Q1qZbrUQXE9AgUitQNd8Z7rQR4RqBC-Unqy6wo6LgkWcBXk12Gs4_sqZamO4nF3BM9BtAFT8IvxAWUv7bBwctuExo7JtSieEWOUqLWGph8aXhuoiKZAxR-c9gMwza7Hs_G7otl_dg">Data binding Blog</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-cupcake-app">4-Cupcake App</a></p>
+
+<p><a href="https://developer.android.com/guide/navigation/navigation-getting-started">Navigation Component</a>,
+<a href="https://developer.android.com/topic/libraries/data-binding/expressions">Layouts and binding expressions</a>,
+<a href="https://developer.android.com/guide/components/activities/tasks-and-back-stack">Tasks and the back stack</a>,
+<a href="https://developer.android.com/guide/components/intents-common">Common Intents</a>,
+<a href="https://m2.material.io/design/material-studies/shrine.html">Shrine App_ Material Design</a>,</p>
+
+<p><a href="https://github.com/google-developer-training/basic-android-kotlin-training-sports">5-Sports App</a></p>
+
+<p><a href="https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes">Support different screen sizes</a>,
+<a href="https://developer.android.com/guide/topics/large-screens/learn-about-foldables">Foldable Devices</a>,
+<a href="https://medium.com/androiddevelopers/large-screen-ui-in-the-google-i-o-app-c4d3ddd98bd0">Large-screen UI</a>,
+<a href="https://developer.android.com/develop/ui/views/layout/twopane">Two-pane Layout</a>,
+<a href="https://developer.android.com/guide/topics/large-screens/migrate-to-responsive-layouts">Migrate your UI to responsive layouts</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-lunch-tray-app">5-Lunch Tray App</a></p>
+
+<h2>Unit 4 - Connect to the internet</h2>
+
+<p><a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-introduction-coroutines/img/966e300fad420505_1440.png">Concurrency Diagram</a>,
+<a href="https://developer.android.com/reference/java/lang/Thread">Thread</a>,
+<a href="https://developer.android.com/kotlin/coroutines">Coroutines on Android</a>,
+<a href="https://developer.android.com/kotlin/coroutines/coroutines-adv">Improve Performance</a>,
+<a href="https://kotlinlang.org/docs/coroutines-guide.html">kotlinx.coroutines</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-mars-photos-app">2-Mars Photos App</a></p>
+
+<p><a href="https://developer.android.com/reference/android/arch/lifecycle/MutableLiveData">MutableLiveData</a>,
+<a href="https://developer.android.com/topic/libraries/architecture/coroutines#viewmodelscope">ViewModelScope</a>,
+<a href="https://proandroiddev.com/moshi-with-retrofit-in-kotlin-%EF%B8%8F-a69c2621708b">Moshi with Retrofit in Kotlin</a>,
+<a href="https://developer.android.com/topic/libraries/data-binding/binding-adapters">Binding Adapters</a>,
+<a href="https://medium.com/android-news/binding-adapters-with-kotlin-part-1-78b957ad6b8b">Binding Adapters Blog</a>,
+<a href="https://github.com/Kotlin/coroutines-examples/tree/master/examples">Coroutines Examples</a>,
+<a href="https://github.com/JetBrains/kotlinconf-app">KotlinConf App</a>,
+<a href="https://square.github.io/retrofit/">Retrofit</a>,
+<a href="https://coil-kt.github.io/coil/">Coil</a>,
+<a href="https://github.com/bumptech/glide">Glide</a>,
+<a href="https://developer.android.com/studio/command-line/adb">Android Debug Bridge (adb)</a>,
+<a href="https://developer.android.com/studio/debug">Debug your app</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-amphibians-app">2-Amphibians app</a></p>
+
+<h2>Unit 5 - Data persistence</h2>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-sql-basics-app">1-SQL Basics</a></p>
+
+<p><a href="https://www.w3schools.com/sql/sql_datatypes.asp">SQL Data Types</a>,
+<a href="https://www.codecademy.com/learn/learn-sql/modules/learn-sql-aggregate-functions/cheatsheet">Aggregate Functions</a>,
+<a href="https://www.w3schools.com/sql/sql_join.asp">SQL Joins</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-bus-schedule-app">1-Bus Schedule App</a></p>
+
+<p><a href="https://developer.android.com/reference/androidx/lifecycle/ViewModelProvider.Factory">ViewModelProvider.Factory</a>,
+<a href="https://developer.android.com/reference/android/arch/persistence/room/RoomDatabase">RoomDatabase</a>,
+<a href="https://developer.android.com/reference/androidx/recyclerview/widget/ListAdapter">ListAdapter</a>,
+<a href="https://developer.android.com/reference/androidx/recyclerview/widget/AsyncListDiffer">AsyncListDiffer</a>,
+<a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-persisting-data-room/img/7521165e051cc0d4_1440.png">Room Architecture</a>,
+<a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-persisting-data-room/img/7a8480711f04b3ef_1440.png">DAO Diagram</a>,
+<a href="https://developer.android.com/static/codelabs/basic-android-kotlin-training-persisting-data-room/img/91298a7c05e4f5e0_1440.png">ViewModel Room Dao Diagram</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-inventory-app">2-Inventory App</a></p>
+
+<p><a href="https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1">7 Pro-tips for Room</a>,
+<a href="https://medium.com/androiddevelopers/the-one-and-only-object-5dfd2cf7ab9b">The one and only object. Kotlin Vocabulary</a>,
+<a href="https://www.youtube.com/watch?v=vsDkhRTMdA0">Kotlin: Using Room Kotlin APIs</a>,
+<a href="https://www.youtube.com/watch?v=UMc7Tu0nKYQ">Database Inspector</a>,
+<a href="https://en.wikipedia.org/wiki/Singleton_pattern">Singleton pattern</a>,
+<a href="https://kotlinlang.org/docs/object-declarations.html">Companion objects</a>,
+<a href="https://www.sqlitetutorial.net/">SQLite Tutorial - An Easy Way to Master SQLite Fast</a>,
+<a href="https://developer.android.com/guide/navigation/navigation-pass-data">Pass data between destinations</a>,
+<a href="https://developer.android.com/studio/inspect/database">Debug your database with the Database Inspector</a>,
+<a href="https://developer.android.com/training/data-storage/room">Save data in a local database using Room</a>,</p>
+
+<h2>Unit 6 - WorkManager</h2>
+
+<p><a href="https://github.com/googlecodelabs/android-workmanager">1-WorkManager App</a></p>
+
+<p><a href="https://developer.android.com/topic/libraries/architecture/workmanager/">Schedule tasks with WorkManager</a></p>
+
+<p><a href="https://github.com/google-developer-training/android-basics-kotlin-water-me-app">1-Water Me App</a></p>]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[Unit 1 - Kotlin basics]]></summary></entry><entry><title type="html">Templates</title><link href="http://localhost:4000/2023/templates/" rel="alternate" type="text/html" title="Templates" /><published>2023-02-15T14:50:14+09:00</published><updated>2023-02-15T14:50:14+09:00</updated><id>http://localhost:4000/2023/templates</id><content type="html" xml:base="http://localhost:4000/2023/templates/"><![CDATA[https://upj53.github.io/just-the-docs/docs/navigation-structure/
+<!--
+layout: default
+title:
+nav_order:
+permalink:
+permalink: /docs/ui-components/code/line-numbers/
+parent:
+grand_parent:
+has_children: true
+has_toc: false
+nav_exclude: true
+child_nav_order: reversed
+-->
+---
+layout: default
+title:
+nav_order:
+#permalink: /docs/
+#parent:
+#grand_parent:
+#has_children: true
+#has_toc: false
+#nav_exclude: true
+#child_nav_order: reversed
+---
+layout: default
+title: Configuration
+nav_order: 2
+parent: UI Components
+has_children: true
+parent: Code
+grand_parent: UI Components
+permalink: /docs/ui-components/code/line-numbers/
+permalink: /docs/ui-components
+layout: default
+title: 404
+nav_exclude: true
+layout: default
+title: Reversed Child Pages
+child_nav_order: reversed
+has_children: true
+has_toc: false
+---
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+<div class=pull-left></div>
+<div class=pull-right></div>
+------------------------------------------------------
+https://upj53.github.io/just-the-docs/docs/index-test/
+---
+layout: default
+title: Markdown kitchen sink
+nav_order: 99
+---
+
+<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Preview dark color scheme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script>
+
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](another-page).
+
+There should be whitespace between paragraphs.
+
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+# [](#header-1)Header 1
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## [](#header-2)Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### [](#header-3)Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### [](#header-4)Header 4 `with code not transformed`
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### [](#header-5)Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### [](#header-6)Header 6
+
+[This is a very long link which wraps and therefore doesn't overflow
+even when it comes at the beginning](.) of the line.
+
+- [This is a very long link which wraps and therefore doesn't overflow the line
+  when used first in an item ](.) in a list.
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And an ordered list, continued:
+
+1.  Item one
+1.  Item two
+
+Some text
+
+{:style="counter-reset:none"}
+1.  Item three
+1.  Item four
+
+### And an ordered list starting from 42:
+
+{:style="counter-reset:step-counter 41"}
+1.  Item 42
+1.  Item 43
+1.  Item 44
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Nesting an ol in ul in an ol
+
+- level 1 item (ul)
+  1. level 2 item (ol)
+  1. level 2 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+- level 1 item (ul)
+  1. level 2 item (ol)
+  1. level 2 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+  1. level 4 item (ol)
+  1. level 4 item (ol)
+    - level 3 item (ul)
+    - level 3 item (ul)
+- level 1 item (ul)
+
+### And a task list
+
+- [ ] Hello, this is a TODO item
+- [ ] Hello, this is another TODO item
+- [x] Goodbye, this item is done
+
+### Nesting task lists
+
+- [ ] level 1 item (task)
+   - [ ] level 2 item (task)
+   - [ ] level 2 item (task)
+- [ ] level 1 item (task)
+- [ ] level 1 item (task)
+
+### Nesting a ul in a task list
+
+- [ ] level 1 item (task)
+   - level 2 item (ul)
+   - level 2 item (ul)
+- [ ] level 1 item (task)
+- [ ] level 1 item (task)
+
+### Nesting a task list in a ul
+
+- level 1 item (ul)
+   - [ ] level 2 item (task)
+   - [ ] level 2 item (task)
+- level 1 item (ul)
+- level 1 item (ul)
+
+### Small image
+
+![](../../assets/images/small-image.jpg)
+
+### Large image
+
+![](../../assets/images/large-image.jpg)
+
+"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
+
+### Labels
+
+I'm a label
+{: .label }
+
+blue
+{: .label .label-blue }
+green
+{: .label .label-green }
+purple
+{: .label .label-purple }
+yellow
+{: .label .label-yellow }
+red
+{: .label .label-red }
+
+**bold**
+{: .label }
+*italic*
+{: .label }
+***bold + italic***
+{: .label }
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+#### Multiple description terms and values
+
+Term
+: Brief description of Term
+
+Longer Term
+: Longer description of Term,
+  possibly more than one line
+
+Term
+: First description of Term,
+  possibly more than one line
+
+: Second description of Term,
+  possibly more than one line
+
+Term1
+Term2
+: Single description of Term1 and Term2,
+  possibly more than one line
+
+Term1
+Term2
+: First description of Term1 and Term2,
+  possibly more than one line
+
+: Second description of Term1 and Term2,
+  possibly more than one line
+
+### More code
+
+```python
+def dump_args(func):
+    "This decorator dumps out the arguments passed to a function before calling it"
+    argnames = func.func_code.co_varnames[:func.func_code.co_argcount]
+    fname = func.func_name
+    def echo_func(*args,**kwargs):
+        print fname, ":", ', '.join(
+            '%s=%r' % entry
+            for entry in zip(argnames,args) + kwargs.items())
+        return func(*args, **kwargs)
+    return echo_func
+
+@dump_args
+def f1(a,b,c):
+    print a + b + c
+
+f1(1, 2, 3)
+
+def precondition(precondition, use_conditions=DEFAULT_ON):
+    return conditions(precondition, None, use_conditions)
+
+def postcondition(postcondition, use_conditions=DEFAULT_ON):
+    return conditions(None, postcondition, use_conditions)
+
+class conditions(object):
+    __slots__ = ('__precondition', '__postcondition')
+
+    def __init__(self, pre, post, use_conditions=DEFAULT_ON):
+        if not use_conditions:
+            pre, post = None, None
+
+        self.__precondition  = pre
+        self.__postcondition = post
+```
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+### Mermaid Diagrams
+
+The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+```
+The final element.
+```]]></content><author><name>Park Won-june</name></author><summary type="html"><![CDATA[https://upj53.github.io/just-the-docs/docs/navigation-structure/ --- layout: default title: nav_order: #permalink: /docs/ #parent: #grand_parent: #has_children: true #has_toc: false #nav_exclude: true #child_nav_order: reversed --- layout: default title: Configuration nav_order: 2 parent: UI Components has_children: true parent: Code grand_parent: UI Components permalink: /docs/ui-components/code/line-numbers/ permalink: /docs/ui-components layout: default title: 404 nav_exclude: true layout: default title: Reversed Child Pages child_nav_order: reversed has_children: true has_toc: false --- # Navigation Structure {: .no_toc }]]></summary></entry></feed>
