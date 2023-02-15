@@ -5,48 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/basics.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/drafts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/templates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing11.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing2-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing2-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_drafts/writing7.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/upj_design.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/upj_home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/upj_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/homepage/back-to-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/homepage/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/homepage/favorite.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/linux-missiong-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/linux-missiong-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/linux-missiong-07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vim-shortkey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/anchor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-toc.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basics/git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basics/linux.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypage/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/home_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/page_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/upj_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/upj_head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/upj_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/upj_default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/docsearch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/syntax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/home-icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/back-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/home-title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/anchor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/bootstrap-toc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/docsearch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/jquery-3.5.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/solid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypage/missions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypage/my_design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/upj53.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/upj53.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/upj_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-02-14-welcome-to-jekyll.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/upj_design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/upj_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/upj_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/anchor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics/linux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/page_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/tests/page_template.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +70,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\upj53\Documents\__git__\upj53.github.io\_sass" />
@@ -104,6 +105,8 @@
       <updated>1676351921033</updated>
       <workItem from="1676351923811" duration="8628000" />
       <workItem from="1676367301144" duration="6216000" />
+      <workItem from="1676376230824" duration="776000" />
+      <workItem from="1676417537845" duration="5299000" />
     </task>
     <servers />
   </component>

@@ -4,16 +4,20 @@ layout: upj_design
 permalink: /basics/git/
 ---
 
-# Git
+# Git 활용법
 
-Git 활용법
+리누스 토르발스가 개발한 분산형 버전 관리 시스템(VCS)이다.
+
+> 오픈소스계의 영원한 아이돌 리누스 토르발스는 리눅스 커널을 관리하는 기존 툴이 엉망인 것에 너무 빡친 바람에 Git이라는 소스관리 툴을 만든다. 리누스는 하도 빡친 나머지, 단 2주만에 완성하는 기염을 토했다.
+> －오픈소스의 승리 중에서.
 
 ## Install
 
 - [git](https://git-scm.com/)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Sourcetree](https://www.sourcetreeapp.com/)
-- [Wikipedia](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
+- [위키백과](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
+- [나무위키](https://namu.wiki/w/Git)
 
 ## Init my repository
 

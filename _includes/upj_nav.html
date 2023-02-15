@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg navbar-dark upj-nav" style="background: #FF7C36;">
+	<div class="container">
+		<a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+			<img src="/assets/images/home-title.png" height="30" width="auto" class="d-inline-block align-top"
+			     alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+		        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+			<div class="navbar-nav">
+				<!---------기본메뉴----------->
+				{% for item in site.data.navigation %}
+				<!--        <a href="{{ item.link }}" class="nav-item nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>-->
+				<li class="nav-item">
+					<a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
+				</li>
+				{% endfor %}
+
+				<!---------개발자 기본----------->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle {% if page.url contains '/basics/' %}active{% endif %}" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						Dev-Basics
+					</a>
+					<ul class="dropdown-menu">
+						{% for item in site.data.basics %}
+						<li><a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a></li>
+						{% endfor %}
+					</ul>
+				</li>
+
+				<!---------작업중 Drafts----------->
+				{% if jekyll.environment == "development" %}
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle {% if page.url contains '/drafts/' %}active{% endif %}" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						Drafts
+					</a>
+					<ul class="dropdown-menu">
+						{% for item in site.data.drafts %}
+						<li><a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a></li>
+						{% endfor %}
+					</ul>
+				</li>
+				{% endif %}
+			</div>
+		</div>
+		<form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+			<input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0">
+		</form>
+	</div>
+</nav>
