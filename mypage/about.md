@@ -19,7 +19,8 @@ permalink: /about/
 
 <script type="text/javascript">
 function generateID() {
-  genId.value = " id=\"upj_" + Date.now() + "\"";
+  // genId.value = " id=\"upj_" + Date.now() + "\"";
+  genId.value = "{: #upj_" + Date.now() + "}";
   genId.focus();
   genId.select();
 }

@@ -113,7 +113,7 @@
 <div class="container" style="top: 90px; ">
   <div class="row row-offcanvas row-offcanvas-right">
     <div class="col-xs-12 col-sm-12 col-md-9" id="content-body">
-      <h1 id="git">Git</h1>
+      <h1 id="upj_1676460352694">Git</h1>
 
 <p>리누스 토르발스가 개발한 분산형 버전 관리 시스템(VCS)이다.</p>
 
@@ -122,7 +122,7 @@
 －오픈소스의 승리 중에서.</p>
 </blockquote>
 
-<h2 id="install">Install</h2>
+<h2 id="upj_1676460515047">Install</h2>
 
 <ul>
   <li><a href="https://git-scm.com/">git</a></li>
@@ -132,7 +132,7 @@
   <li><a href="https://namu.wiki/w/Git">나무위키</a></li>
 </ul>
 
-<h2 id="init-my-repository">Init my repository</h2>
+<h2 id="upj_1676460528550">Init my repository</h2>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
 git config <span class="nt">--global</span> user.name <span class="o">{</span>MY ID<span class="o">}</span>
@@ -141,15 +141,15 @@ git remote add origin <span class="o">{</span>MY REMOTE GIT ADDRESS<span class="
 git pull origin master
 </code></pre></div></div>
 
-<h2 id="pull-and-push">Pull and Push</h2>
+<h2 id="upj_1676460536207">Pull and Push</h2>
 
-<h3 id="trace-my-status">Trace my status</h3>
+<h3 id="upj_1676460541534">Trace my status</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nt">-A</span>
 git status
 </code></pre></div></div>
 
-<h3 id="save-and-upload">Save and Upload</h3>
+<h3 id="upj_1676460546359">Save and Upload</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
 git commit <span class="nt">-m</span> <span class="s1">'{MY MESSAGE}'</span>
@@ -157,9 +157,9 @@ git push origin +master ← <span class="o">{</span>MY MAIN BRANCH NAME<span cla
 git push origin +<span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
 </code></pre></div></div>
 
-<h2 id="branch">Branch</h2>
+<h2 id="upj_1676460553895">Branch</h2>
 
-<h3 id="list-branch">List Branch</h3>
+<h3 id="upj_1676460563551">List Branch</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     Local Branch
 git branch  <span class="nt">-a</span>
@@ -168,7 +168,7 @@ git branch  <span class="nt">-a</span>
 git branch  <span class="nt">-r</span>
 </code></pre></div></div>
 
-<h3 id="create-branch-and-move-to-the-branch-created">Create Branch and Move to the branch created</h3>
+<h3 id="upj_1676460569366">Create Branch and Move to the branch created</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
 git checkout <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
@@ -178,7 +178,7 @@ git checkout <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
 git checkout <span class="nt">-b</span> <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
 </code></pre></div></div>
 
-<h3 id="delete-branch">Delete Branch</h3>
+<h3 id="upj_1676460576919">Delete Branch</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     Local Branch
 git branch <span class="nt">-d</span> <span class="o">{</span>MY LOCAL BRANCH NAME<span class="o">}</span>
@@ -188,7 +188,7 @@ git branch <span class="nt">-D</span> <span class="o">{</span>MY LOCAL BRANCH NA
 git push origin <span class="nt">--delete</span> <span class="o">{</span>MY REMOTE BRANCH NAME<span class="o">}</span>
 </code></pre></div></div>
 
-<h3 id="rename-branch">Rename Branch</h3>
+<h3 id="upj_1676460583039">Rename Branch</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     Local Branch
 git branch <span class="nt">-m</span> <span class="o">{</span>MY OLD BRANCH NAME<span class="o">}</span> <span class="o">{</span>MY NEW BRANCH NAME<span class="o">}</span>
@@ -202,15 +202,15 @@ git push origin <span class="nt">--delete</span> <span class="o">{</span>MY OLD 
 git push origin :<span class="o">{</span>MY OLD BRANCH NAME<span class="o">}</span> <span class="o">{</span>MY NEW BRANCH NAME<span class="o">}</span>
 </code></pre></div></div>
 
-<h2 id="merge">Merge</h2>
+<h2 id="upj_1676460588295">Merge</h2>
 
-<h3 id="merge-branch">Merge Branch</h3>
+<h3 id="upj_1676460597143">Merge Branch</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
 git merge <span class="o">{</span>MY BRANCH NAME<span class="o">}</span>
 </code></pre></div></div>
 
-<h3 id="merge-specific-file-only">Merge Specific File Only</h3>
+<h3 id="upj_1676460604606">Merge Specific File Only</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-p</span>  <span class="o">{</span>MY BRANCH NAME<span class="o">}</span> <span class="nt">--</span> <span class="o">{</span>MY FILE NAME<span class="o">}</span>
 git checkout <span class="nt">-p</span>   ParkWonjune   index.md

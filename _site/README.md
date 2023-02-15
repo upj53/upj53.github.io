@@ -19,3 +19,7 @@ Set-Variable -name JEKYLL_ENV -value production; bundle exec jekyll serve --watc
 [algoria 검색 설정](https://lazisimlee.tistory.com/2)
 
 [Code highlight](https://prismjs.com/download.html#themes=prism)
+
+[Benchmark](https://github1s.com/mattcone/markdown-guide/)
+
+[Markdown with IDs](https://about.gitlab.com/blog/2016/07/19/markdown-kramdown-tips-and-tricks/)
