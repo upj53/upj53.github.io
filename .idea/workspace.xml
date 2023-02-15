@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/upj_toc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/writing1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/writing1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/writing2-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/writing2-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/upj_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/upj_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/anchor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/upj_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/upj_home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/basics/linux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypage/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/mypage/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mypage/missions.md" beforeDir="false" afterPath="$PROJECT_DIR$/mypage/missions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <workItem from="1676351923811" duration="8628000" />
       <workItem from="1676367301144" duration="6216000" />
       <workItem from="1676376230824" duration="776000" />
-      <workItem from="1676417537845" duration="9904000" />
+      <workItem from="1676417537845" duration="15019000" />
     </task>
     <servers />
   </component>

@@ -4,25 +4,25 @@ layout: upj_design
 permalink: /missions/
 ---
 
-<h1>미션</h1>
+# Missions
 
 미션을 완료할 수 있습니다.
 
-<h2>Git 활용 프로젝트</h2>
+## Git
 
-<h3>Git 미션 1 - IDE 와 Git</h3>
+### Git Mission 1 - IDE and Git
 
 미션
 : 다음 IDE 중 하나를 사용하여 (이클립스 / 인텔리제이 / 안드로이드 스튜디오) 나의 Github 계정을 연결한 후 repository 를 생성하고 commit 과 push 하세요.
 
-<h3>Git 미션 2 - branch 와 merge</h3>
+### Git Mission 2 - branch and merge
 
 미션
 : 사칙연산 모듈을 Java 를 사용해서 만들려고 합니다.
 : 각 연산을 함수로 만들어 작성하고, 연산 기능을 만들 때마다 branch 를 만들어 git 에 업로드 하고,
 : 완성 후 기본 브랜치에 병합(merge)하세요.
 
-<h3>Git 미션 3 - 협업</h3>
+### Git Mission 3 - Collaborators
 
 미션
 : 도형의 넓이를 계산하는 모듈을 Java 를 사용해서 만들려고 합니다.
@@ -60,19 +60,19 @@ public class Circle implements Shape {
 }
 ```
 
-<h2>Linux 활용 프로젝트</h2>
+## Linux
 
-<h3>Linux 미션 1 - 환경변수에 추가</h3>
+### Linux Mission 1 - Add To Path
 
 미션
 : 다음 경로에 디렉터리를 생성(/opt/jdk11/)하고 해당 경로를 PATH 환경변수에 추가하세요.
 
-<h3> Linux 미션 2 - alias 생성</h3>
+### Linux Mission 2 - alias
 
 미션
 : alias 사용해서 c 라는 명령어를 치면 clear 를 실행해서 화면을 깨끗하게 하도록 하세요.
 
-<h3>Linux 미션 3 - vim 다루기</h3>
+### Linux Mission 3 - Vim
 
 미션
 : vim 편집기를 실행하여 다음 세개의 파일(a.txt, b.txt, c.txt)을 만들고 아래과 같이 화면분할을 하세요.
@@ -81,14 +81,13 @@ public class Circle implements Shape {
 <img src="/assets/images/linux-missiong-03.png" style="width: 75%; height:auto; "/>
 </a>
 
-<h3>Linux 미션 4 - 소트프 링크(심볼릭)</h3>
+### Linux Mission 4 - Symbolic Link
 
 미션
 : /opt/jdk11/ 폴더에 hello.txt 파일을 만들고 ~/Documents 폴더에 해당 파일의 소프트 링크를 만드세요.
 
-<h3>Linux 미션 5 - 쉘 설정</h3>
+### Linux Mission 5 - Shell
 
- 
 미션
 : Oh My Zsh, PowerLevel10K 를 설치해서 다음과 같이 내가 원하는 모습으로 쉘을 바꿔보세요.
 
@@ -96,7 +95,7 @@ public class Circle implements Shape {
 <img src="/assets/images/linux-missiong-05.png" style="width: 75%; height:auto; "/>
 </a>
 
-<h3>Linux 미션 6 - 사용자 권한</h3>
+### Linux Mission 6 - Permissions
 
 미션
 : sungil 이라는 사용자를 생성하고 암호를 12345로 설정한 뒤, 관리자권한을 주세요.
@@ -105,7 +104,7 @@ public class Circle implements Shape {
 : 그룹 사용자: 읽기/실행 가능
 : 기타 사용자: 읽기/실행 가능
 
-<h3>Linux 미션 7 - 웹 서버 설치</h3>
+### Linux Mission 7 - Setup Web Server
 
 미션
 : nodejs 를 설치하고 서비스를 구동한 뒤 다음과 같이 http://localhost:8080 페이지를 웹 브라우저에 띄우세요.

@@ -4,7 +4,7 @@ layout: upj_design
 permalink: /basics/git/
 ---
 
-# Git 활용법
+# Git
 
 리누스 토르발스가 개발한 분산형 버전 관리 시스템(VCS)이다.
 

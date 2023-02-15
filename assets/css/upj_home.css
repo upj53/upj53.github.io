@@ -2,3 +2,7 @@
 #content-body {
 
 }
+
+nav[data-toggle=toc] {
+  display: none;
+}
