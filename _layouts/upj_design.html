@@ -60,7 +60,13 @@
           </a>
           <ul class="dropdown-menu">
             {% for item in site.data.basics %}
+            {% if item.name == 'line' %}
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            {% else %}
             <li><a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endif %}
             {% endfor %}
           </ul>
         </li>
@@ -141,9 +147,25 @@
       </div>
       <div class="modal-body">
         <script type="text/javascript">
-          function generateID() {
+          function generateID(type) {
             // genId.value = " id=\"upj_" + Date.now() + "\"";
-            genId.value = "{: #upj_" + Date.now() + "}";
+            const genId = document.getElementById('genId');
+            const genIdHelp = document.getElementById('genIdHelp');
+            let strId = "upj_" + Date.now() + "";
+            let strInputValue;
+            switch (type) {
+              case 1:
+                strInputValue = "{: #" + strId + "}";
+                break;
+              case 2:
+                strId = "";
+                break;
+              default:
+                strId = "";
+                break;
+            }
+            genId.value = strInputValue;
+            genIdHelp.innerText = strId;
             genId.focus();
             genId.select();
           }
@@ -153,9 +175,9 @@
           <input type="text" class="form-control" id="genId">
           <div id="genIdHelp" class="form-text">Generate Unique ID</div>
         </div>
-        <button type="submit" class="btn btn-primary"
+        <button type="button" class="btn btn-primary"
                 style="background: #FF7C36; color:#fff; border: 1px solid #FF7C36;"
-                onclick="generateID()">아이디 생성
+                onclick="generateID(1)">Kramdown ID
         </button>
       </div>
       <div class="modal-footer">
