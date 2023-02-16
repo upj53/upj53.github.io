@@ -5,6 +5,7 @@ permalink: /drafts/writing1/
 ---
 
 ## Unit 1 - Kotlin basics
+{: #upj_1676529153302}
 
 [4-Dice Roller App](https://github.com/google-developer-training/android-basics-kotlin-dice-roller-with-images-app-solution),
 
@@ -12,6 +13,7 @@ permalink: /drafts/writing1/
 [My Lemonade App](https://github.com/upj53/upj53_my_android/tree/06.AKb-unit1-4-lemonade)
 
 ## Unit 2 - Layouts
+{: #upj_1676529157822}
 
 [2-Tip Calculator App](https://github.com/google-developer-training/android-basics-kotlin-tip-calculator-app-solution)
 
@@ -20,6 +22,7 @@ permalink: /drafts/writing1/
 [3-Dogglers App](https://github1s.com/google-developer-training/android-basics-kotlin-dogglers-app)
 
 ## Unit 3 - Navigation
+{: #upj_1676529163702}
 
 [1-Words App](https://github.com/google-developer-training/android-basics-kotlin-words-app.git)
 
@@ -65,6 +68,7 @@ permalink: /drafts/writing1/
 [5-Lunch Tray App](https://github.com/google-developer-training/android-basics-kotlin-lunch-tray-app)
 
 ## Unit 4 - Connect to the internet
+{: #upj_1676529169382}
 
 [Concurrency Diagram](https://developer.android.com/static/codelabs/basic-android-kotlin-training-introduction-coroutines/img/966e300fad420505_1440.png),
 [Thread](https://developer.android.com/reference/java/lang/Thread),
@@ -90,6 +94,7 @@ permalink: /drafts/writing1/
 [2-Amphibians app](https://github.com/google-developer-training/android-basics-kotlin-amphibians-app)
 
 ## Unit 5 - Data persistence
+{: #upj_1676529175773}
 
 [1-SQL Basics](https://github.com/google-developer-training/android-basics-kotlin-sql-basics-app)
 
@@ -121,6 +126,7 @@ permalink: /drafts/writing1/
 [Save data in a local database using Room](https://developer.android.com/training/data-storage/room),
 
 ## Unit 6 - WorkManager
+{: #upj_1676529183638}
 
 [1-WorkManager App](https://github.com/googlecodelabs/android-workmanager)
 

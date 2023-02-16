@@ -5,6 +5,7 @@ permalink: /drafts/writing2-2/
 ---
 
 ## Basic 4-1 App Architecture (UI Layer)
+{: #upj_1676529112182}
 
 [App 5-GuessIt App](https://github.com/udacity/andfun-kotlin-guess-it)
 ([Codes](https://github1s.com/udacity/andfun-kotlin-guess-it))
@@ -17,11 +18,17 @@ permalink: /drafts/writing2-2/
 [ViewModel Simple Example App](https://medium.com/androiddevelopers/viewmodels-a-simple-example-ed5ac416317e),
 
 ## Basic 4-2 App Architecture (Persistence)
+{: #upj_1676529117694}
 
 ## Basic 5 RecyclerView
+{: #upj_1676529122062}
 
 ## Basic 6 Connect to the Internet
+{: #upj_1676529125902}
 
 ## Basic 7 Behind the Scenes
+{: #upj_1676529133902}
 
 ## Basic 8 Designing for Everyone
+{: #upj_1676529137671}
+

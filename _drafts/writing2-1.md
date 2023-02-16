@@ -5,6 +5,7 @@ permalink: /drafts/writing2-1/
 ---
 
 ## Basic 1 - Layouts
+{: #upj_1676528515775}
 
 [App 1-AboutMe App](https://github.com/udacity/andfun-kotlin-about-me)
 
@@ -14,12 +15,10 @@ val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 imm.hideSoftInputFromWindow(view.windowToken, 0)
 ```
 
-dataBinding
+### dataBinding
+{: #upj_1676528537087}
 
 ```groovy
-dataBinding {
-  enabled = true
-}
 buildFeatures {
   viewBinding = true
   dataBinding = true
@@ -35,6 +34,7 @@ wrap root tag with layout tag
   <LinearLayout>...</LinearLayout>
 </layout>
 ```
+
 ```kotlin
 private lateinit var binding: ActivityMainBinding
 binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
@@ -43,6 +43,70 @@ inding.apply {
   invalidateAll()
   nicknameEdit.visibility = View.GONE
   nicknameText.visibility = View.VISIBLE
+}
+```
+
+```kotlin
+class TitleFragment : Fragment() {
+  private var binding: FragmentTitleBinding? = null
+
+  override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    super.onViewCreated(view, savedInstanceState)
+    val _binding = FragmentTitleBinding.bind(view)
+    binding = _binding
+
+    binding!!.playGameButton.setOnClickListener {
+      findNavController().navigate(TitleFragmentDirections.actionTitleToGame())
+    }
+  }
+}
+```
+
+### viewBinding
+{: #upj_1676528761343}
+
+```groovy
+buildFeatures {
+  viewBinding = true
+  dataBinding = true
+}
+```
+
+```kotlin
+class MainActivity : AppCompatActivity() {
+	private lateinit var binding: ActivityMainBinding
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		binding = ActivityMainBinding.inflate(layoutInflater)
+		setContentView(binding.root)
+
+		val homeFragment = HomeFragment()
+		val chatListFragment = ChatListFragment()
+		val myPageFragment = MyPageFragment()
+
+		replaceFragment(homeFragment)
+
+		binding.btnvMenu.setOnItemSelectedListener {
+			when (it.itemId) {
+				R.id.home -> {
+					replaceFragment(homeFragment)
+				}
+				R.id.chat_list -> {
+					replaceFragment(chatListFragment)
+				}
+				R.id.my_page -> {
+					replaceFragment(myPageFragment)
+				}
+			}
+			true
+		}
+	}
+
+	private fun replaceFragment(fragment: Fragment) {
+		supportFragmentManager.beginTransaction()
+			.replace(R.id.fl_container, fragment)
+			.commit()
+	}
 }
 ```
 
@@ -84,15 +148,9 @@ private fun setListeners() {
 ```
 
 ## Basic 2 - App Navigation
+{: #upj_1676528931517}
 
 [App 3-Trivia App](https://github.com/udacity/andfun-kotlin-android-trivia)
-
-navigation dependency 
-
-```groovy
-implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
-implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
-```
 
 Principle of Navigation
 
@@ -100,7 +158,15 @@ Principle of Navigation
 2. You can always Go Back.
 3. Up goes Back (Mostly)
 
-navigation graph
+### navigation graph
+{: #upj_1676528665751}
+
+navigation dependency 
+
+```groovy
+implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
+```
 
 ```xml
 <fragment
@@ -138,7 +204,8 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
 }
 ```
 
-add menu
+### add menu
+{: #upj_1676528997565}
 
 ```kotlin
 private fun setupMenu() {
@@ -154,7 +221,8 @@ private fun setupMenu() {
 }
 ```
 
-SafeArgs
+### SafeArgs
+{: #upj_1676528959278}
 
 ```groovy
 // Project
@@ -221,7 +289,8 @@ var args = GameWonFragmentArgs.fromBundle(requireArguments())
 getString(R.string.share_success_text, args.numCorrect, args.numQuestions)
 ```
 
-app drawer on up button
+### app drawer on up button
+{: #upj_1676529022950}
 
 ```kotlin
 class MainActivity : AppCompatActivity() {
@@ -255,10 +324,12 @@ class MainActivity : AppCompatActivity() {
 ```
 
 ## Basic 3 - Activity and Fragment Lifecycle
+{: #upj_1676529035134}
 
 [App 4-DessertPusher App](https://github.com/udacity/andfun-kotlin-dessert-pusher)
 
-Timber Log Tree
+### Timber Log Tree
+{: #upj_1676529045694}
 
 ```groovy
 implementation 'com.jakewharton.timber:timber:5.0.1'
@@ -276,6 +347,9 @@ class PusherApplication : Application() {
 ```kotlin
 Timber.i("onStart Called")
 ```
+
+### Lifecycle Documents
+{: #upj_1676529086822}
 
 [Activity Lifecycle Worksheet](https://video.udacity-data.com/topher/2018/November/5be0f083_activity-lifecycle-worksheet/activity-lifecycle-worksheet.pdf),
 [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)),
