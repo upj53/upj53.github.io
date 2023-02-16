@@ -365,3 +365,4 @@ Lifecycle cheet sheet:
 
 [Handling Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle),
 [Lifecycle Observer in Android blog](https://medium.com/@aritrodam773/lifecycle-observer-in-android-6e9d16ed49bc)
+

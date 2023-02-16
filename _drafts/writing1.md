@@ -4,6 +4,7 @@ layout: upj_design
 permalink: /drafts/writing1/
 ---
 
+
 ## Unit 1 - Kotlin basics
 {: #upj_1676529153302}
 
@@ -133,3 +134,4 @@ permalink: /drafts/writing1/
 [Schedule tasks with WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager/)
 
 [1-Water Me App](https://github.com/google-developer-training/android-basics-kotlin-water-me-app)
+
