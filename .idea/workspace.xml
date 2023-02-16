@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2a3d224-1194-42d0-9deb-14cd9ec7f43a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/upj_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/upj_design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/basics/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/basics/git/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/basics/linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/basics/linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/missions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/missions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/test-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test-page/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +73,7 @@
       <workItem from="1676376230824" duration="776000" />
       <workItem from="1676417537845" duration="19646000" />
       <workItem from="1676445502705" duration="7866000" />
-      <workItem from="1676503103258" duration="1490000" />
+      <workItem from="1676503103258" duration="2427000" />
     </task>
     <servers />
   </component>
