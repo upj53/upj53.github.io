@@ -14,5 +14,6 @@ bundle exec jekyll serve --watch --drafts
 Set-Variable -name JEKYLL_ENV -value production; bundle exec jekyll serve --watch --drafts
 ```
 
+References
 
-[Benchmark](https://github1s.com/mattcone/markdown-guide/)
+- [Markdown-Guide](https://github1s.com/mattcone/markdown-guide/)

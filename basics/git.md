@@ -125,3 +125,15 @@ git merge {MY BRANCH NAME}
 git checkout -p  {MY BRANCH NAME} -- {MY FILE NAME}
 git checkout -p   ParkWonjune   index.md
 ```
+
+## Tips
+{: #upj_1676508313337}
+
+### .gitignore 가 제대로 작동 안할 때
+{: #upj_1676508319848}
+
+```shell
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+```

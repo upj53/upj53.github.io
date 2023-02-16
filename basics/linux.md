@@ -1,6 +1,6 @@
 ---
 title: Linux
-layout: upj_default
+layout: upj_design
 permalink: /basics/linux/
 ---
 
