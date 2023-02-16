@@ -1,134 +1,8 @@
-<!doctype html>
-<html lang="en">
+<h1 id="upj_1676507688026">Linux</h1>
 
-<!-----Header----->
-<head>
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/homepage/favorite.ico"/>
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
+<p>Linux 활용법</p>
 
-  <title>UPJ ▶ Linux</title>
-
-  <script type="text/javascript" src="/assets/js/jquery-3.6.3.min.js"></script>
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/css/upj_design.css">
-  
-  <link href="/assets/css/upj_toc.css" rel="stylesheet">
-  <link href="/assets/css/upj_page.css" rel="stylesheet">
-  <link href="/assets/css/prism.css" rel="stylesheet">
-  
-
-  <script type="text/javascript" src="/assets/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="/assets/js/bootstrap-toc.min.js"></script>
-  <script type="text/javascript" src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body data-bs-spy="scroll" data-bs-target="#toc">
-
-<!-----Navbar----->
-<nav class="navbar navbar-expand-lg navbar-dark upj-nav" style="background: #FF7C36;">
-  <div class="container">
-    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
-      <img src="/assets/homepage/brand.png" height="30" width="auto" class="d-inline-block align-top"
-           alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="navbar-nav">
-        <!---------기본메뉴----------->
-        
-        <!--        <a href="/" class="nav-item nav-link ">Home</a>-->
-        <li class="nav-item">
-          <a href="/" class="nav-link ">Home</a>
-        </li>
-        
-        <!--        <a href="/missions/" class="nav-item nav-link ">Missions</a>-->
-        <li class="nav-item">
-          <a href="/missions/" class="nav-link ">Missions</a>
-        </li>
-        
-
-        <!---------개발자 기본----------->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dev-Basics
-          </a>
-          <ul class="dropdown-menu">
-            
-            <li><a class="dropdown-item " href="/basics/git/">Git</a></li>
-            
-            <li><a class="dropdown-item active" href="/basics/linux/">Linux</a></li>
-            
-            <li><a class="dropdown-item " href="/basics/etc/">etc</a></li>
-            
-          </ul>
-        </li>
-
-        <!---------작업중 Drafts----------->
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Drafts
-          </a>
-          <ul class="dropdown-menu">
-            
-            <li><a class="dropdown-item " href="/drafts/writing1/">Test1</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing2-1/">Test2-1</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing2-2/">Test2-2</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing3/">Test3</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing4/">Test4</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing5/">Test5</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing6/">Test6</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing7/">Test7</a></li>
-            
-            <li><a class="dropdown-item " href="/drafts/writing11/">Test11</a></li>
-            
-          </ul>
-        </li>
-        
-      </div>
-    </div>
-    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
-      <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0" onclick="alert('준비중입니다.'); return false;">
-    </form>
-  </div>
-</nav>
-
-<!-----Content----->
-<div class="container" style="top: 90px; ">
-  <div class="row row-offcanvas row-offcanvas-right">
-    <div class="col-xs-12 col-sm-12 col-md-9" id="content-body">
-      <h1 id="upj_1676435695963">Linux 활용법</h1>
-
-<p>컴퓨터 OS 커널의 일종인 리눅스 커널, 또는 리눅스 커널을 사용하는 운영체제를 가리키는 말이기도 하다. GNU 쪽 사람들은 리눅스는 커널일 뿐이고, 이 커널을 가져다가 GNU 프로그램들을 올려 만든 운영체제는 GNU/Linux라고 이야기하며 이런 명칭에 민감하게 반응하는 경우도 있다. 소스 코드가 공개되어 있는 대표적인 오픈 소스 소프트웨어다. 컴퓨터 역사상 가장 많은 참여자가 관여하고 있는 오픈 소스 프로젝트다. 모바일 운영체제로 유명한 안드로이드 역시 리눅스 커널을 가져다 쓰고 있다.</p>
-
-<p>Linux라는 이름은 Linus’ *nix, 리누스의 유닉스라는 뜻으로 지어졌다. *nix는 Unix 계열 운영체제라는 뜻이다. 나중에 Linux Is Not UniX라는 재귀약자를 새로 만들어냈다.</p>
-
-<p>리눅스 재단에 따르면 퍼블릭 클라우드 컴퓨팅 워크로드의 90%, 스마트폰의 82%, 임베디드 기기의 62%, 슈퍼 컴퓨터 시장의 99%가 리눅스로 작동한다.</p>
-
-<p>2007년부터 2019년 사이의 리눅스 커널 참여자 중 회사순위를 보면 1위 인텔 (10.01%), 2위 레드햇 (8.90%), 3위 IBM (3.79%), 4위 SUSE (3.49%), 5위 Linaro (3.17%), 6위 구글 (2.79%), 7위 삼성전자 (2.58%), 8위 AMD (2.28%), 9위 르네사스 (1.99%), 10위 텍사스 인스트루먼트 (1.78%), 11위 오라클 (1.70%), 12위 브로드컴 (1.23%), 13위 화웨이 (1.2%), 14위 Mellanox (1.19%), 15위 NXP (1.18%), 16위 ARM (0.98%), 17위 리눅스 재단 (0.78%) 등으로 모두 반도체/통신/IT/시스템 업체임을 알 수 있다.</p>
-
-<ul>
-  <li><a href="https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4">위키백과</a></li>
-  <li><a href="https://namu.wiki/w/Linux">나무위키</a></li>
-</ul>
-
-<h2 id="upj_1676435723858">Install</h2>
+<h2 id="upj_1676507693577">Install</h2>
 
 <ul>
   <li>Windows Subsystem for Linux
@@ -153,9 +27,9 @@
   </li>
 </ul>
 
-<h2 id="upj_1676435751835">기본 명령어</h2>
+<h2 id="upj_1676507701281">기본 명령어</h2>
 
-<h3 id="upj_1676435779258">파일 관련 명령어</h3>
+<h3 id="upj_1676507714361">파일 관련 명령어</h3>
 
 <p>파일 보기: ls</p>
 
@@ -206,7 +80,7 @@ less  hello.txt	more보다 향상된 기능
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>file hello.txt
 </code></pre></div></div>
 
-<h3 id="upj_1676435809402">디렉토리 관련 명령어</h3>
+<h3 id="upj_1676507724193">디렉토리 관련 명령어</h3>
 
 <p>디렉토리 만들기</p>
 
@@ -222,7 +96,7 @@ less  hello.txt	more보다 향상된 기능
 clear 터미널 지우기
 </code></pre></div></div>
 
-<h3 id="upj_1676435840203">시스템 및 기타 유용한 명령어</h3>
+<h3 id="upj_1676507729273">시스템 및 기타 유용한 명령어</h3>
 
 <p>시스템 종료</p>
 
@@ -234,9 +108,9 @@ shutdown <span class="nt">-h</span> +10	10분 후 종료
 shutdown <span class="nt">-r</span> 21:00	오후9시에 재부팅
 </code></pre></div></div>
 
-<h2 id="upj_1676435871210">사용자와 그룹 및 권한 관리</h2>
+<h2 id="upj_1676507738746">사용자와 그룹 및 권한 관리</h2>
 
-<h3 id="upj_1676435891619">권한 확인</h3>
+<h3 id="upj_1676507743433">권한 확인</h3>
 
 <p>계정 권한 확인/권한 대여</p>
 
@@ -251,7 +125,7 @@ passwd user1	암호 재설정
 <span class="nb">sudo	</span>슈퍼유저의 권한을 수행<span class="o">(</span><span class="k">do</span><span class="o">)</span>한다
 </code></pre></div></div>
 
-<h3 id="upj_1676435970196">사용자 그룹 추가 삭제</h3>
+<h3 id="upj_1676507749993">사용자 그룹 추가 삭제</h3>
 
 <p>사용자 추가</p>
 
@@ -279,7 +153,7 @@ useradd <span class="nt">-aG</span> user1 wheel	아바존 AMI
 <span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> <span class="nb">sudo </span>user1
 </code></pre></div></div>
 
-<h3 id="upj_1676436003012">파일시스템 권한</h3>
+<h3 id="upj_1676507757409">파일시스템 권한</h3>
 
 <p>권한 정보</p>
 
@@ -326,9 +200,9 @@ useradd <span class="nt">-aG</span> user1 wheel	아바존 AMI
 <span class="nb">chown</span> :user2 hello.txt		그룹 변경
 </code></pre></div></div>
 
-<h2 id="upj_1676436035235">Bash 쉘 다루기</h2>
+<h2 id="upj_1676507764514">Bash 쉘 다루기</h2>
 
-<h3 id="upj_1676436047027">환경변수 PATH</h3>
+<h3 id="upj_1676507769743">환경변수 PATH</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nv">$PATH</span>
 <span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:추가할디렉토리
@@ -338,7 +212,7 @@ useradd <span class="nt">-aG</span> user1 wheel	아바존 AMI
 <span class="nv">PS1</span><span class="o">=</span><span class="s1">'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n&gt; '</span>
 </code></pre></div></div>
 
-<h3 id="upj_1676436075371">기본 문법</h3>
+<h3 id="upj_1676507775481">기본 문법</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     모든 쉘 확인
 <span class="nb">cat</span> /etc/shells
@@ -367,7 +241,7 @@ which <span class="nb">ls
 .bashrc  .bash_history  .bash_logout
 </code></pre></div></div>
 
-<h3 id="upj_1676436098387">입출력</h3>
+<h3 id="upj_1676507781609">입출력</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>결과물을 다른 장치로 보냄
 <span class="nb">ls</span> <span class="o">&gt;</span> file.txt		출력 결과물을 파일로 출력
@@ -381,7 +255,7 @@ aaa 2&gt; file.txt	실패한 결과물을 출력
 <span class="nb">cat </span>hello.txt | more	출력값 페이징 처리
 </code></pre></div></div>
 
-<h3 id="upj_1676436112747">bashrc 샘플</h3>
+<h3 id="upj_1676507786473">bashrc 샘플</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ~/.bashrc: executed by bash(1) for non-login shells.</span>
 <span class="c"># see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)</span>
@@ -512,7 +386,7 @@ fi</span>
 <span class="nb">export </span><span class="nv">NLS_LANG</span><span class="o">=</span>KOREAN_KOREA.AL32UTF8
 </code></pre></div></div>
 
-<h3 id="upj_1676436133675">vimrc 샘플</h3>
+<h3 id="upj_1676507797625">vimrc 샘플</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>colorscheme torte
 <span class="nb">set </span>nocp
@@ -542,9 +416,9 @@ fi</span>
 <span class="nb">set </span><span class="nv">backspace</span><span class="o">=</span>indent,eol,start
 </code></pre></div></div>
 
-<h2 id="upj_1676436148306">Zsh 쉘 다루기</h2>
+<h2 id="upj_1676507803753">Zsh 쉘 다루기</h2>
 
-<h3 id="upj_1676436158715">Oh My Zsh</h3>
+<h3 id="upj_1676507807745">Oh My Zsh</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>zsh <span class="nt">-y</span>
 sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="si">)</span><span class="s2">"</span>
@@ -552,7 +426,7 @@ sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span
 
 <p><a href="https://ohmyz.sh/">oh-my-zsh</a></p>
 
-<h3 id="upj_1676436178227">PowerLevel10k</h3>
+<h3 id="upj_1676507813314">PowerLevel10k</h3>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">--depth</span><span class="o">=</span>1 https://github.com/romkatv/powerlevel10k.git <span class="k">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="k">}</span>/themes/powerlevel10k
 </code></pre></div></div>
@@ -570,7 +444,7 @@ sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span
 
 <p><a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a></p>
 
-<h2 id="upj_1676436198467">Vim Editor</h2>
+<h2 id="upj_1676507819857">Vim Editor</h2>
 
 <p><a href="https://kldp.org/files/vi-vim-cheat-sheet-ko.png" target="_blank">
 <img src="/assets/images/vim-shortkey.png" style="width: 75%; height:auto; " />
@@ -583,7 +457,7 @@ sh <span class="nt">-c</span> <span class="s2">"</span><span class="si">$(</span
   <li><a href="https://vim-adventures.com/">Vim Adventures</a></li>
 </ul>
 
-<h2 id="upj_1676436215379">패키지 설치 업데이트 업그레이드</h2>
+<h2 id="upj_1676507824297">패키지 설치 업데이트 업그레이드</h2>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     패키지 관리자
 apt update <span class="nt">-y</span>
@@ -613,7 +487,7 @@ dpkg <span class="nt">-l</span> 		설치된 패키지 목록 보기
 <span class="nb">sudo </span><span class="k">do</span><span class="nt">-release-upgrade</span>
 </code></pre></div></div>
 
-<h2 id="upj_1676436232084">데몬 서비스 관리하기</h2>
+<h2 id="upj_1676507830185">데몬 서비스 관리하기</h2>
 
 <dl>
   <dt>데몬</dt>
@@ -641,79 +515,3 @@ journalctl		전체로그
 journalctl <span class="nt">-b</span>		부팅후 로그
 journalctl <span class="nt">-f</span> 최근 로그 및 이후 로그 트래킹 대기
 </code></pre></div></div>
-
-    </div>
-    <div class="col-md-3 d-none d-md-block" id="sidebar">
-      <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1; top:20px; margin-top:30px; "></nav>
-    </div>
-  </div>
-</div>
-
-<!-----Footer----->
-<div id="backtotop">
-  <a href="#top" style="position:absolute; top:0; right:20%; ">
-    <img src="/assets/homepage/back-to-top.png" style="width:35px; height:auto;"/>
-  </a>
-</div>
-
-<footer class="site-footer">
-  <div class="container">
-    <a href="/"><img src="/assets/homepage/brand.png" height="30" width="auto" style="vertical-align: top; display: inline-block;"/></a>
-    &nbsp;
-    <p style="display: inline-block;">
-      <a href="javascript:return false;" data-bs-toggle="modal" data-bs-target="#exampleModal">About</a>
-      &nbsp;
-      <a href="https://github.com/upj53" target="_blank">GitHub</a>
-      &nbsp;
-      <br/>
-      © 2023. A Park Won-june project.
-    </p>
-  </div>
-</footer>
-
-
-<script type="text/javascript" defer src="/assets/js/prism.js"></script>
-<script type="text/javascript" src="/assets/js/anchor.min.js"></script>
-<script type="text/javascript">
-  anchors.options = {
-    placement: 'right',
-  };
-  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
-</script>
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Generate Unique ID</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <script type="text/javascript">
-          function generateID() {
-            // genId.value = " id=\"upj_" + Date.now() + "\"";
-            genId.value = "{: #upj_" + Date.now() + "}";
-            genId.focus();
-            genId.select();
-          }
-        </script>
-        <div class="mb-3">
-          <label class="form-label">ID Generator</label>
-          <input type="text" class="form-control" id="genId">
-          <div id="genIdHelp" class="form-text">Generate Unique ID</div>
-        </div>
-        <button type="submit" class="btn btn-primary"
-                style="background: #FF7C36; color:#fff; border: 1px solid #FF7C36;"
-                onclick="generateID()">아이디 생성
-        </button>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
-</html>

@@ -1,23 +1,16 @@
 ---
 title: Linux
-layout: upj_design
+layout: upj_default
 permalink: /basics/linux/
 ---
 
-<h1 id="upj_1676435695963">Linux 활용법</h1>
+# Linux
+{: #upj_1676507688026}
 
-컴퓨터 OS 커널의 일종인 리눅스 커널, 또는 리눅스 커널을 사용하는 운영체제를 가리키는 말이기도 하다. GNU 쪽 사람들은 리눅스는 커널일 뿐이고, 이 커널을 가져다가 GNU 프로그램들을 올려 만든 운영체제는 GNU/Linux라고 이야기하며 이런 명칭에 민감하게 반응하는 경우도 있다. 소스 코드가 공개되어 있는 대표적인 오픈 소스 소프트웨어다. 컴퓨터 역사상 가장 많은 참여자가 관여하고 있는 오픈 소스 프로젝트다. 모바일 운영체제로 유명한 안드로이드 역시 리눅스 커널을 가져다 쓰고 있다.
+Linux 활용법
 
-Linux라는 이름은 Linus' *nix, 리누스의 유닉스라는 뜻으로 지어졌다. *nix는 Unix 계열 운영체제라는 뜻이다. 나중에 Linux Is Not UniX라는 재귀약자를 새로 만들어냈다.
-
-리눅스 재단에 따르면 퍼블릭 클라우드 컴퓨팅 워크로드의 90%, 스마트폰의 82%, 임베디드 기기의 62%, 슈퍼 컴퓨터 시장의 99%가 리눅스로 작동한다.
-
-2007년부터 2019년 사이의 리눅스 커널 참여자 중 회사순위를 보면 1위 인텔 (10.01%), 2위 레드햇 (8.90%), 3위 IBM (3.79%), 4위 SUSE (3.49%), 5위 Linaro (3.17%), 6위 구글 (2.79%), 7위 삼성전자 (2.58%), 8위 AMD (2.28%), 9위 르네사스 (1.99%), 10위 텍사스 인스트루먼트 (1.78%), 11위 오라클 (1.70%), 12위 브로드컴 (1.23%), 13위 화웨이 (1.2%), 14위 Mellanox (1.19%), 15위 NXP (1.18%), 16위 ARM (0.98%), 17위 리눅스 재단 (0.78%) 등으로 모두 반도체/통신/IT/시스템 업체임을 알 수 있다.
-
-- [위키백과](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4)
-- [나무위키](https://namu.wiki/w/Linux)
-
-<h2 id="upj_1676435723858">Install</h2>
+## Install
+{: #upj_1676507693577}
 
 - Windows Subsystem for Linux
   - [WSL](https://learn.microsoft.com/ko-kr/windows/wsl/install)
@@ -31,9 +24,11 @@ Linux라는 이름은 Linus' *nix, 리누스의 유닉스라는 뜻으로 지어
   - [Oracle VirtualBox](https://www.virtualbox.org/)
   - [VM Ware](https://www.vmware.com/kr.html)
 
-<h2 id="upj_1676435751835">기본 명령어</h2>
+## 기본 명령어
+{: #upj_1676507701281}
 
-<h3 id="upj_1676435779258">파일 관련 명령어</h3>
+### 파일 관련 명령어
+{: #upj_1676507714361}
 
 파일 보기: ls
 
@@ -91,7 +86,8 @@ ls -ali	파일 링크 확인
 file hello.txt
 ```
 
-<h3 id="upj_1676435809402">디렉토리 관련 명령어</h3>
+### 디렉토리 관련 명령어
+{: #upj_1676507724193}
 
 디렉토리 만들기
 
@@ -109,7 +105,8 @@ pwd		현재 디렉토리 확인
 clear 터미널 지우기
 ```
 
-<h3 id="upj_1676435840203">시스템 및 기타 유용한 명령어</h3>
+### 시스템 및 기타 유용한 명령어
+{: #upj_1676507729273}
 
 시스템 종료
 
@@ -122,9 +119,11 @@ shutdown -h +10	10분 후 종료
 shutdown -r 21:00	오후9시에 재부팅
 ```
 
-<h2 id="upj_1676435871210">사용자와 그룹 및 권한 관리</h2>
+## 사용자와 그룹 및 권한 관리
+{: #upj_1676507738746}
 
-<h3 id="upj_1676435891619">권한 확인</h3>
+### 권한 확인
+{: #upj_1676507743433}
 
 계정 권한 확인/권한 대여
 
@@ -140,7 +139,8 @@ passwd user1	암호 재설정
 sudo	슈퍼유저의 권한을 수행(do)한다
 ```
 
-<h3 id="upj_1676435970196">사용자 그룹 추가 삭제</h3>
+### 사용자 그룹 추가 삭제
+{: #upj_1676507749993}
 
 사용자 추가
 
@@ -170,7 +170,8 @@ sudo delgroup dev
 sudo usermod -a -G sudo user1
 ```
 
-<h3 id="upj_1676436003012">파일시스템 권한</h3>
+### 파일시스템 권한
+{: #upj_1676507757409}
 
 권한 정보
 
@@ -218,9 +219,11 @@ chown user2:user2 hello.txt	소유자+그룹 변경
 chown :user2 hello.txt		그룹 변경
 ```
 
-<h2 id="upj_1676436035235">Bash 쉘 다루기</h2>
+## Bash 쉘 다루기
+{: #upj_1676507764514}
 
-<h3 id="upj_1676436047027">환경변수 PATH</h3>
+### 환경변수 PATH
+{: #upj_1676507769743}
 
 ```shell
 echo $PATH
@@ -231,7 +234,8 @@ echo $PS1
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n> '
 ```
 
-<h3 id="upj_1676436075371">기본 문법</h3>
+### 기본 문법
+{: #upj_1676507775481}
 
 ```shell
      모든 쉘 확인
@@ -261,7 +265,8 @@ alias …=”cd ../..
 .bashrc  .bash_history  .bash_logout
 ```
 
-<h3 id="upj_1676436098387">입출력</h3>
+### 입출력
+{: #upj_1676507781609}
 
 ```shell
 결과물을 다른 장치로 보냄
@@ -276,7 +281,8 @@ ls -l | grep hello | wc -l	다중 파이프 처리
 cat hello.txt | more	출력값 페이징 처리
 ```
 
-<h3 id="upj_1676436112747">bashrc 샘플</h3>
+### bashrc 샘플
+{: #upj_1676507786473}
 
 ```shell
 # ~/.bashrc: executed by bash(1) for non-login shells.
@@ -408,7 +414,8 @@ export JAVA_HOME
 export NLS_LANG=KOREAN_KOREA.AL32UTF8
 ```
 
-<h3 id="upj_1676436133675">vimrc 샘플</h3>
+### vimrc 샘플
+{: #upj_1676507797625}
 
 ```shell
 colorscheme torte
@@ -439,9 +446,11 @@ set fileencodings=utf8,euc-kr
 set backspace=indent,eol,start
 ```
 
-<h2 id="upj_1676436148306">Zsh 쉘 다루기</h2>
+## Zsh 쉘 다루기
+{: #upj_1676507803753}
 
-<h3 id="upj_1676436158715">Oh My Zsh</h3>
+### Oh My Zsh
+{: #upj_1676507807745}
 
 ```shell
 sudo apt install zsh -y
@@ -450,7 +459,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 [oh-my-zsh](https://ohmyz.sh/)
 
-<h3 id="upj_1676436178227">PowerLevel10k</h3>
+### PowerLevel10k
+{: #upj_1676507813314}
 
 ```shell
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -470,7 +480,8 @@ Font Family: MesloLGS NF
 
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-<h2 id="upj_1676436198467">Vim Editor</h2>
+## Vim Editor
+{: #upj_1676507819857}
 
 <a href="https://kldp.org/files/vi-vim-cheat-sheet-ko.png" target="_blank">
 <img src="/assets/images/vim-shortkey.png" style="width: 75%; height:auto; "/>
@@ -481,7 +492,8 @@ Font Family: MesloLGS NF
 - [Open Vim](https://openvim.com/)
 - [Vim Adventures](https://vim-adventures.com/)
 
-<h2 id="upj_1676436215379">패키지 설치 업데이트 업그레이드</h2>
+## 패키지 설치 업데이트 업그레이드
+{: #upj_1676507824297}
 
 ```shell
      패키지 관리자
@@ -512,7 +524,8 @@ sudo apt upgrade
 sudo do-release-upgrade
 ```
 
-<h2 id="upj_1676436232084">데몬 서비스 관리하기</h2>
+## 데몬 서비스 관리하기
+{: #upj_1676507830185}
 
 데몬
 : 사용자가 직접적으로 제어하지 않고, 백그라운드에서 돌면서 여러 작업을 하는 프로그램

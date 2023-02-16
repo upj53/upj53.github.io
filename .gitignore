@@ -1,10 +1,10 @@
 *.gem
 .bundle
 .ruby-version
-.jekyll-cache
+.jekyll-cache/*
 .sass-cache
-_site/
-.idea/
+_site/*
+.idea/*
 Gemfile.lock
 node_modules
 .DS_Store
