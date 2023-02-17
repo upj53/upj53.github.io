@@ -4,6 +4,11 @@ layout: upj_design
 permalink: /drafts/writing3/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
 ## Advance 1 Using Notifications
 {: #upj_1676529254133}
 

@@ -4,6 +4,11 @@ layout: upj_design
 permalink: /basics/etc/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
 ## Jekyll install on Windows 10
 {: #upj_1676506051294}
 

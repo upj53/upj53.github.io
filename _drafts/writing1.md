@@ -4,6 +4,10 @@ layout: upj_design
 permalink: /drafts/writing1/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
 
 ## Unit 1 - Kotlin basics
 {: #upj_1676529153302}

@@ -4,6 +4,11 @@ layout: upj_design
 permalink: /basics/linux/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
 # Linux
 {: #upj_1676507688026}
 
@@ -417,6 +422,8 @@ export NLS_LANG=KOREAN_KOREA.AL32UTF8
 ### vimrc 샘플
 {: #upj_1676507797625}
 
+[Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline)
+
 ```shell
 colorscheme torte
 set nocp
@@ -433,6 +440,7 @@ set ruler
 set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 set noundofile
 set nobackup
+
 
 set nocompatible
 set hlsearch

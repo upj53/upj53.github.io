@@ -4,6 +4,11 @@ layout: upj_design
 permalink: /drafts/writing11/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
 ## JavaFX
 
 [YouTube](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBtvcSqVkjeL1MwSfRLENYc),
