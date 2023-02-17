@@ -31,9 +31,9 @@ author:
 og_locale: "ko_kr"
 
 # Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-feed
@@ -49,6 +49,7 @@ kramdown:
   input: GFM
   auto_ids: false
   toc_levels: 2..3
+  parse_block_html: true
 
 exclude:
   - .sass-cache/
