@@ -4,6 +4,11 @@ layout: upj_design
 permalink: /drafts/writing2-2/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
 ## Basic 4-1 App Architecture (UI Layer)
 {: #upj_1676529112182}
 

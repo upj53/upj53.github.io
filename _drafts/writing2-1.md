@@ -4,6 +4,11 @@ layout: upj_design
 permalink: /drafts/writing2-1/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
 ## Basic 1 - Layouts
 {: #upj_1676528515775}
 
@@ -27,11 +32,28 @@ buildFeatures {
 wrap root tag with layout tag
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
-<layout 
-  xmlns:android="http://schemas.android.com/apk/res/android" 
-  xmlns:app="http://schemas.android.com/apk/res-auto">
-  <LinearLayout>...</LinearLayout>
+<layout
+  tools:context="kr.sungil.androidkotlin.game.GameFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+
+  <data>
+    ↓ 이부분 넣고 Build > Clean Project 해주어여 함
+    <variable
+      name="gameViewModel"
+      type="kr.sungil.androidkotlin.game.GameViewModel"
+      />
+  </data>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    ...
+  </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
 ```
 
@@ -43,6 +65,16 @@ inding.apply {
   invalidateAll()
   nicknameEdit.visibility = View.GONE
   nicknameText.visibility = View.VISIBLE
+}
+```
+
+### viewBinding
+{: #upj_1676528761343}
+
+```groovy
+buildFeatures {
+  viewBinding = true
+  dataBinding = true
 }
 ```
 
@@ -59,16 +91,6 @@ class TitleFragment : Fragment() {
       findNavController().navigate(TitleFragmentDirections.actionTitleToGame())
     }
   }
-}
-```
-
-### viewBinding
-{: #upj_1676528761343}
-
-```groovy
-buildFeatures {
-  viewBinding = true
-  dataBinding = true
 }
 ```
 
@@ -260,10 +282,13 @@ plugins {
     android:id="@+id/action_gameWonFragment_to_gameFragment"
     app:destination="@id/gameFragment"
     />
+  
   <argument
     android:name="numQuestions"
     app:argType="integer"
+    android:defaultValue="0"
     />
+  ↑ 이렇게 하면 에러날 수 있음
   <argument
     android:name="numCorrect"
     app:argType="integer"
