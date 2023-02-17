@@ -98,6 +98,9 @@ binding.setLifecycleOwner(this)
 ## Basic 4-2 App Architecture (Persistence)
 {: #upj_1676529117694}
 
+[SQL Syntax on SQLite](https://www.sqlite.org/lang.html)
+
+
 ## Basic 5 RecyclerView
 {: #upj_1676529122062}
 

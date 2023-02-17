@@ -500,6 +500,30 @@ Font Family: MesloLGS NF
 - [Open Vim](https://openvim.com/)
 - [Vim Adventures](https://vim-adventures.com/)
 
+### vim 유용한 단축키
+{: #upj_1676634356913}
+
+```text
+:vsp 세로로 창 쪼개서 열기
+:sp 가로로 창 쪼개서 열기
+
+창 너비 width 조절
+Ctl+w → 30>
+Ctl+w → 10<
+
+창 높이 height 조절
+Ctl+w → 30+
+Ctl+w → 10-
+
+창 너비 width 최대로
+Ctl+w → |
+창 높이 height 최대로
+Ctl+w → _
+창 높이 똑같이
+Ctl+w → =height 최대로
+
+```
+
 ## 패키지 설치 업데이트 업그레이드
 {: #upj_1676507824297}
 
