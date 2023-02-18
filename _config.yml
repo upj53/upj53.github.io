@@ -27,6 +27,9 @@ github_username: upj53
 author:
   name: "Park Won-june"
 
+collections:
+  preparing:
+
 # social settings
 og_locale: "ko_kr"
 

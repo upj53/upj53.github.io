@@ -83,6 +83,21 @@
           </ul>
         </li>
         {% endif %}
+
+        <!---------준비중 preparing----------->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            preparing
+          </a>
+          <ul class="dropdown-menu">
+            {% for item in site.preparing %}
+              {% unless item.title contains "Test" %}
+                <li><a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.title }}</a></li>
+              {% endunless }
+            {% endfor %}
+          </ul>
+        </li>
+
       </div>
     </div>
     <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
