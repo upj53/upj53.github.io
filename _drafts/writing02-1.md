@@ -58,13 +58,13 @@ wrap root tag with layout tag
 ```
 
 ```kotlin
-private lateinit var binding: ActivityMainBinding
-binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-inding.apply {
-  nicknameText.text = nicknameEdit.text
-  invalidateAll()
-  nicknameEdit.visibility = View.GONE
-  nicknameText.visibility = View.VISIBLE
+class SleepTrackerFragment : Fragment() {
+  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    val binding: FragmentSleepTrackerBinding = DataBindingUtil.inflate(
+      inflater, R.layout.fragment_sleep_tracker, container, false
+    )
+    return binding.root
+  }
 }
 ```
 
