@@ -438,9 +438,11 @@ set softtabstop=2
 set bs=eol,start,indent
 set ruler
 set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
-set noundofile
-set nobackup
 
+set noundofile
+set nobackup       "no backup files
+set nowritebackup  "only in case you don't want a backup file while editing
+set noswapfile     "no swap files
 
 set nocompatible
 set hlsearch
