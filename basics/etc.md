@@ -98,3 +98,9 @@ set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 set noundofile
 set nobackup
 ```
+
+## Remember checkbox
+{: #upj_1676705392731}
+
+[Sample 1](https://www.sitepoint.com/quick-tip-persist-checkbox-checked-state-after-page-reload/),
+[Sample 2](http://www.marcorpsa.com/ee/t2641.html)
