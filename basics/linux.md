@@ -419,43 +419,6 @@ export JAVA_HOME
 export NLS_LANG=KOREAN_KOREA.AL32UTF8
 ```
 
-### vimrc 샘플
-{: #upj_1676507797625}
-
-[Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline)
-
-```shell
-colorscheme torte
-set nocp
-set number
-set ts=2
-set sts=2
-set laststatus=2
-set shiftwidth=2
-set smarttab
-set smartindent
-set softtabstop=2
-set bs=eol,start,indent
-set ruler
-set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
-
-set noundofile
-set nobackup       "no backup files
-set nowritebackup  "only in case you don't want a backup file while editing
-set noswapfile     "no swap files
-
-set nocompatible
-set hlsearch
-set nu
-set ts=2 sw=2 et
-set sts=2
-set laststatus=2
-set showmatch
-set ruler
-set fileencodings=utf8,euc-kr
-set backspace=indent,eol,start
-```
-
 ## Zsh 쉘 다루기
 {: #upj_1676507803753}
 
@@ -587,3 +550,41 @@ journalctl		전체로그
 journalctl -b		부팅후 로그
 journalctl -f 최근 로그 및 이후 로그 트래킹 대기
 ```
+
+### vimrc 샘플
+{: #upj_1676507797625}
+
+[Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline)
+
+```shell
+colorscheme torte
+set nocp
+set number
+set ts=2
+set sts=2
+set laststatus=2
+set shiftwidth=2
+set smarttab
+set smartindent
+set softtabstop=2
+set bs=eol,start,indent
+set ruler
+set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
+
+set noundofile
+set nobackup       "no backup files
+set nowritebackup  "only in case you don't want a backup file while editing
+set noswapfile     "no swap files
+
+set nocompatible
+set hlsearch
+set nu
+set ts=2 sw=2 et
+set sts=2
+set laststatus=2
+set showmatch
+set ruler
+set fileencodings=utf8,euc-kr
+set backspace=indent,eol,start
+```
+
