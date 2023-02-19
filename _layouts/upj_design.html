@@ -52,7 +52,7 @@
         </li>
         {% endfor %}
 
-        <!---------개발자 기본----------->
+        <!---------개발자 기본
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/basics/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dev-Basics
@@ -69,8 +69,9 @@
             {% endfor %}
           </ul>
         </li>
+        ----------->
 
-        <!---------작업중 Drafts----------->
+        <!---------작업중 Drafts
         {% if jekyll.environment == "development" %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/drafts/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,6 +84,7 @@
           </ul>
         </li>
         {% endif %}
+        ----------->
 
         <!---------준비중 preparing----------->
         <li class="nav-item dropdown">
@@ -92,8 +94,8 @@
           <ul class="dropdown-menu">
             {% for item in site.preparing %}
               {% unless item.title contains "Test" %}
-                <li><a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.title }}</a></li>
-              {% endunless }
+                <li><a class="dropdown-item {% if page.url == item.addr %}active{% endif %}" href="{{ item.addr }}">{{ item.title }}</a></li>
+              {% endunless %}
             {% endfor %}
           </ul>
         </li>

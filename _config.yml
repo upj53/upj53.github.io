@@ -29,6 +29,7 @@ author:
 
 collections:
   preparing:
+    output: true
 
 # social settings
 og_locale: "ko_kr"
