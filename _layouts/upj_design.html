@@ -71,7 +71,21 @@
         </li>
         ----------->
 
-        <!---------작업중 Drafts
+        <!---------준비중 preparing----------->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            preparing
+          </a>
+          <ul class="dropdown-menu">
+            {% for item in site.preparing %}
+            {% unless item.title contains "Test" %}
+            <li><a class="dropdown-item {% if page.url == item.addr %}active{% endif %}" href="{{ item.addr }}">{{ item.title }}</a></li>
+            {% endunless %}
+            {% endfor %}
+          </ul>
+        </li>
+
+        <!---------작업중 Drafts----------->
         {% if jekyll.environment == "development" %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/drafts/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -84,21 +98,6 @@
           </ul>
         </li>
         {% endif %}
-        ----------->
-
-        <!---------준비중 preparing----------->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            preparing
-          </a>
-          <ul class="dropdown-menu">
-            {% for item in site.preparing %}
-              {% unless item.title contains "Test" %}
-                <li><a class="dropdown-item {% if page.url == item.addr %}active{% endif %}" href="{{ item.addr }}">{{ item.title }}</a></li>
-              {% endunless %}
-            {% endfor %}
-          </ul>
-        </li>
 
       </div>
     </div>
