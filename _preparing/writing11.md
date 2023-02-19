@@ -1,6 +1,7 @@
 ---
 title: JavaFX
 layout: upj_design
+addr: /pre/javafx/
 permalink: /pre/javafx/
 ---
 

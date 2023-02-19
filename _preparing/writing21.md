@@ -1,6 +1,7 @@
 ---
 title: English
 layout: upj_design
+addr: /pre/english/
 permalink: /pre/english/
 ---
 

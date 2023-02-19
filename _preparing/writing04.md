@@ -1,6 +1,7 @@
 ---
 title: Test
 layout: upj_design
+addr: /pre/test/
 permalink: /pre/test/
 ---
 

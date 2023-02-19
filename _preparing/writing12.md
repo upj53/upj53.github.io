@@ -1,6 +1,7 @@
 ---
 title: JSP
 layout: upj_design
+addr: /pre/jsp/
 permalink: /pre/jsp/
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Android 2-1
 layout: upj_design
+addr: /pre/android-2-1/
 permalink: /pre/android-2-1/
 ---
 

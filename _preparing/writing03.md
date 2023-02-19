@@ -1,6 +1,7 @@
 ---
 title: Android 3
 layout: upj_design
+addr: /pre/android-3/
 permalink: /pre/android-3/
 ---
 
