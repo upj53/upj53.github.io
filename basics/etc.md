@@ -37,6 +37,24 @@ Set-Variable -name JEKYLL_ENV -value production; bundle exec jekyll serve --watc
 [TOC Customize](http://afeld.github.io/bootstrap-toc/),
 [Markdown with IDs](https://about.gitlab.com/blog/2016/07/19/markdown-kramdown-tips-and-tricks/),
 
+## git-bash setting
+{: #upj_1676766647770}
+
+```text
+# git-bash 세팅
+C:\Program Files\Git\etc\profile.d
+cd /etc/profile.d
+폴더로 이동
+vim aliases.sh
+
+# aliases 설정변경
+alias l='ls -lt'
+alias la='ls -alt'
+alias c='clear'
+alias ..='cd ..'
+alias ...='cd ../../'
+```
+
 ## gVim _vimrc setting
 {: #upj_1676506057965}
 
