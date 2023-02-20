@@ -492,38 +492,42 @@ Ctl+w → =height 최대로
 ### vimrc 샘플
 {: #upj_1676507797625}
 
-[Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline)
+[Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline),
+[jellybeans scheme](https://github.com/nanotech/jellybeans.vim),
 
 ```shell
+source ~/.vim_config
+
+colorscheme jellybeans
 colorscheme torte
+
 set nocp
 set number
-set ts=2
+set ts=2 sw=2 et
 set sts=2
 set laststatus=2
-set shiftwidth=2
 set smarttab
 set smartindent
 set softtabstop=2
-set bs=eol,start,indent
+set backspace=indent,eol,start
 set ruler
-set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
-
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+let &t_SI = "\<ESC>[6 q"
+let &t_EI = "\<ESC>[2 q"
 set noundofile
 set nobackup
 set nowritebackup
 set noswapfile
-
-set nocompatible
-set hlsearch
-set nu
-set ts=2 sw=2 et
-set sts=2
-set laststatus=2
 set showmatch
-set ruler
+set hlsearch
+set noundofile
+set nobackup
+set nowritebackup
+set noswapfile
 set fileencodings=utf8,euc-kr
-set backspace=indent,eol,start
+
+set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 ```
 
 ## 패키지 설치 업데이트 업그레이드

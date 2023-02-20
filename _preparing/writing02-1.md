@@ -133,6 +133,97 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
+### build.gradle 샘플
+{: #upj_1676770940917}
+
+```groovy
+// Project
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+  dependencies {
+    classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.5.3"
+  }
+}
+plugins {
+	id 'com.android.application' version '7.3.1' apply false
+	id 'com.android.library' version '7.3.1' apply false
+	id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+}
+
+// Module :app
+plugins {
+  id 'com.android.application'
+  id 'org.jetbrains.kotlin.android'
+  id 'kotlin-kapt'
+  id 'androidx.navigation.safeargs'
+}
+
+android {
+  namespace 'kr.sungil.androidkotlin'
+  compileSdk 33
+
+  defaultConfig {
+    applicationId "kr.sungil.androidkotlin"
+    minSdk 28
+    targetSdk 33
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_11
+    targetCompatibility JavaVersion.VERSION_11
+  }
+  kotlinOptions {
+    jvmTarget = '11'
+  }
+  buildFeatures {
+    dataBinding = true
+  }
+}
+
+dependencies {
+
+  implementation 'androidx.core:core-ktx:1.9.0'
+  implementation 'androidx.appcompat:appcompat:1.6.1'
+  implementation 'com.google.android.material:material:1.8.0'
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+  // navigation graph
+  implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+  implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
+
+  // Room and Lifecycle
+  implementation "androidx.room:room-runtime:2.5.0"
+  kapt "androidx.room:room-compiler:2.5.0"
+  implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+  // Coroutines
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+
+  // ViewModel and LiveData
+  implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+
+  // Kotlin Extensions and Coroutines support for Room
+  implementation "androidx.room:room-ktx:2.5.0"
+
+  // Testing
+  testImplementation 'junit:junit:4.13.2'
+  androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+}
+```
+
 [App 2-ColorMyViews App](https://github.com/udacity/andfun-kotlin-color-my-views)
 
 Ratios
