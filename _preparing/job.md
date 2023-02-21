@@ -41,7 +41,7 @@ permalink: /pre/job/
 
 <table class="col-lg-4 col-12" style="display:inline-block; vertical-align:top;" markdown="1">
 <tr><td style="white-space:pre; vertical-align:top;">    <strong>전공(50학점)</strong>
-- [ ]  전공교과교육(3) 잔여:2
+- [ ]  전공교과교육(3) 잔여:1
     - [x]  ~~컴퓨터교육론~~
     - [x]  교재연구 및 지도법
     - [ ]  논리 및 논술
@@ -60,19 +60,19 @@ permalink: /pre/job/
     - [x]  ~~소프트웨어공학~~
 - [ ]  전공교과내용(15) 잔여:4
     - [ ]  컴퓨터교육세미나
-    - [ ]  프로그래밍언어론
+    - [?]  프로그래밍언어론
     - [ ]  컴파일러구조
     - [x]  ~~인터넷활용교육~~
-    - [ ]  인터넷프로그래밍
+    - [?]  인터넷프로그래밍
     - [ ]  컴퓨터교육특강
     - [ ]  컴퓨터보조교육
     - [?]  멀티미디어와교육
-    - [ ]  인간과컴퓨터상호작용
+    - [?]  인간과컴퓨터상호작용
 </td></tr>
 </table>
 <table class="col-lg-4 col-12" style="display:inline-block; vertical-align:top;">
 <tr><td style="white-space:pre;">    <strong>교직(22학점) & 이수</strong>
-- [ ]  교직이론(6) 잔여:5
+- [ ]  교직이론(6) 잔여:3
     - [ ]  교육학개론
     - [ ]  교육철학 및 교육사
     - [ ]  교육과정
@@ -83,7 +83,7 @@ permalink: /pre/job/
     - [ ]  교육행정 및 교육경영
     - [x]  생활지도 및 상담
     - [ ]  창의성과 교육
-- [x]  교직소양(3) 잔여:1
+- [x]  교직소양(3) 잔여:0
     - [x]  ~~교직실무~~
     - [x]  ~~특수교육학개론~~
     - [x]  학교폭력예방 및 학생의 이해
