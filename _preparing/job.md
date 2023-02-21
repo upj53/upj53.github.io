@@ -71,7 +71,7 @@ permalink: /pre/job/
 </td></tr>
 </table>
 <table class="col-lg-4 col-12" style="display:inline-block; vertical-align:top;">
-<tr><td style="white-space:pre;">    <strong>교직(22학점) & 이수</strong>
+<tr><td style="white-space:pre;">    <strong>교직(22학점)</strong>
 - [ ]  교직이론(6) 잔여:3
     - [ ]  교육학개론
     - [ ]  교육철학 및 교육사
@@ -92,10 +92,6 @@ permalink: /pre/job/
     - [ ]  교육봉사활동1
     - [ ]  교육봉사활동2
     - [ ]  현장참관실습
-- [ ]  이수
-    - [x]  교직 적성 및 인적성검사(2회)
-    - [x]  ~~응급처치 및 심폐소생술(2회)~~
-    - [x]  성인지교육(2회)
 </td></tr>
 </table>
 <table class="col-lg-3 col-12" style="display:inline-block; vertical-align:top;">
