@@ -9,7 +9,3 @@ permalink: /drafts/writing11/
 - TOC
 {:toc}
 
-## JavaFX
-
-[YouTube](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBtvcSqVkjeL1MwSfRLENYc),
-[Blog](https://ndb796.tistory.com/54)

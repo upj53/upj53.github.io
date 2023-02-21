@@ -1,17 +1,16 @@
 ---
-title: English
+title: JSP
 layout: upj_design
-addr: /pre/english/
-permalink: /pre/english/
+addr: /pre/jsp/
+permalink: /pre/jsp/
 ---
 
 ```text
-능률 VOCA 어원편 Lite
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=303016053
+정보처리산업기사 JSP
+https://yunamom.tistory.com/173
+https://mollangpiu.tistory.com/14
+https://gypark-dev.tistory.com/28?category=992746
+https://dev-luna-archive.tistory.com/9
+https://www.youtube.com/watch?v=yAuGo_KEmd4
 
-워드 마스터 Word Master 수능 2000
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=303735824
-
-해커스 토익 기출 보카 TOEIC VOCA 단어장
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=176021392
 ```
