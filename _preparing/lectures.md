@@ -5,6 +5,12 @@ addr: /pre/lecture/
 permalink: /pre/lecture/
 ---
 
+#### Table Of Contents
+
+- TOC
+{:toc}
+
+
 ## 교육방법 및 교육공학
 {: #upj_1677750029038}
 
