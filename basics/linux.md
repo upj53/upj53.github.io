@@ -494,6 +494,8 @@ Ctl+w → =height 최대로
 
 [Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline),
 [jellybeans scheme](https://github.com/nanotech/jellybeans.vim),
+[NERDTree](https://github.com/preservim/nerdtree),
+[작업 효율을 높여주는 Plugins](https://www.youtube.com/watch?v=ONcFKXoJ7uQ)
 
 ```shell
 source ~/.vim_config

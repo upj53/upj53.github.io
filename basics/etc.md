@@ -60,3 +60,13 @@ alias ...='cd ../../'
 
 [Sample 1](https://www.sitepoint.com/quick-tip-persist-checkbox-checked-state-after-page-reload/),
 [Sample 2](http://www.marcorpsa.com/ee/t2641.html)
+
+## Marp: MD Presentation
+
+[Image Syntax](https://marpit.marp.app/image-syntax),
+[Theme CSS, Header Footer](https://marpit.marp.app/theme-css?id=header-and-footer)
+
+[Mart Theme](https://github.com/topics/marp-themes),
+[Emoji](https://gist.github.com/rxaviers/7360908),
+[Emoji Set](https://www.webfx.com/tools/emoji-cheat-sheet/),
+
