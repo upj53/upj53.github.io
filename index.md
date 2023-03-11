@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: upj_design
+layout: upj_mainpage
 ---
 
 <p style="height:500px; margin-top: 70px; ">
