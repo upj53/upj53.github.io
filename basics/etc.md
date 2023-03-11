@@ -18,6 +18,8 @@ Install ruby 3.1.3
 
 Install jekyll [Jekyll](https://jekyllrb.com/docs/installation/windows/)
 
+[My Oracle Cloud](http://152.67.214.186)
+
 ```shell
 bundle install
 bundle exec jekyll serve
