@@ -225,6 +225,17 @@ wnrekd11@konkuk.ac.kr
 ```text
 2째주 2023-03-14
 
+https://www.raspberrypi.com/software/
+
+vim /etc/dhcpcd.conf
+
+static ip_address=117.16.143.102
+static routers=117.16.143.126
+
+dns servers 168.126.63.1
+dns search 202.30.38.101
+
+sudo /etc/init.d/networking restart
 ```
 
 ## 교육방법 및 교육공학
