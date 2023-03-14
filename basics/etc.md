@@ -64,6 +64,7 @@ alias ...='cd ../../'
 [Sample 2](http://www.marcorpsa.com/ee/t2641.html)
 
 ## Marp: MD Presentation
+{: #upj_1678776965570}
 
 [Image Syntax](https://marpit.marp.app/image-syntax),
 [Theme CSS, Header Footer](https://marpit.marp.app/theme-css?id=header-and-footer)
@@ -71,4 +72,26 @@ alias ...='cd ../../'
 [Mart Theme](https://github.com/topics/marp-themes),
 [Emoji](https://gist.github.com/rxaviers/7360908),
 [Emoji Set](https://www.webfx.com/tools/emoji-cheat-sheet/),
+
+
+## Homepage Font Customize
+{: #upj_1678776954998}
+
+[Font Face](https://webclub.tistory.com/261)
+
+```css
+@font-face{
+  font-family:upj_bit;
+  src:url(BitstreamVeraSansMono.ttf);
+}
+
+@font-face{
+  font-family:upj_nanum;
+  src:url(NanumBarunGothic.ttf);
+}
+
+body {
+  font-family:upj_nanum;
+}
+```
 
