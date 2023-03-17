@@ -497,10 +497,22 @@ Ctl+w → =height 최대로
 [NERDTree](https://github.com/preservim/nerdtree),
 [작업 효율을 높여주는 Plugins](https://www.youtube.com/watch?v=ONcFKXoJ7uQ)
 
+NerdTree 설치하기
+
+```shell
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+```
+
 ```shell
 source ~/.vim_config
 
-colorscheme jellybeans
+"nnoremap <leader>n :NERDTreeFocus<CR>
+"nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+"nnoremap <C-f> :NERDTreeFind<CR>
+
+"colorscheme jellybeans
 colorscheme torte
 
 set nocp

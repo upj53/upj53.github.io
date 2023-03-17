@@ -411,10 +411,10 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 [이투스 한검-상](https://www.etoos.com/bigstar/teacher_premium/bigstar/lecturedetail.asp?lecture_id=L67562),
 [이투스 한검-하](https://www.etoos.com/bigstar/teacher_premium/bigstar/lecturedetail.asp?lecture_id=L67563),
 
-시험일정
+[시험일정](https://www.historyexam.go.kr/pageLink.do?link=examSchedule&netfunnel_key=ED6A8473ED7C7304140CC38964F683E22B10D27891C1AB7306C7C22ED4D6648C99C29535325EECAE39D9D3F7800A58DEBDBDDD29D672CE25025F0CF142D1C68FA0C31FD3E848F23FBADD054E982EC5A84B16061CE3A7838A42C123D251D01EACA6473F2826BD6E38AB7A4693F370CC97302C312C312C302C30)
 
 - 2023년 4월 15일 (토)
-- 2023년 6월 17일 (토)
+- 2023년 6월 17일 (토) ▶ 접수: 5/22~5/29
 - 2023년 8월 13일 (일)
 - 2023년 10월 21일 (토)
 - 2023년 12월 2일 (토)
