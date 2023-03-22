@@ -1,0 +1,13 @@
+---
+title: Home
+layout: upj_mainpage
+---
+
+<ul>
+{% for p in site.frontpages %}
+  <li>
+    <h3>{{ p.name }}</h3>
+    <p>{{ p.content }}</p>
+  </li>
+{% endfor %}
+</ul>

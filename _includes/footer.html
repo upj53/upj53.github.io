@@ -1,11 +1,17 @@
 <!-----Footer----->
+{% if page.title != 'Home' and page.title != 'About' and page.title != '404 Not Found' %}
 <div id="backtotop">
   <a href="#top" style="position:fixed; bottom:5px; right:1px; ">
     <img src="/assets/homepage/back-to-top.png" style="width:35px; height:auto;"/>
   </a>
 </div>
+{% endif %}
 
-<footer class="site-footer">
+<footer class="site-footer"
+{% if page.title != 'Home' and page.title != 'About' and page.title != '404 Not Found' %}
+        style="margin-top: 100px;"
+{% endif %}
+  >
   <div class="container">
     <a href="/"><img src="/assets/homepage/brand.png" height="30" width="auto" style="vertical-align: top; display: inline-block;"/></a>
     &nbsp;

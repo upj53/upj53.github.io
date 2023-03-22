@@ -1,8 +1,4 @@
-
-#content-body {
-
-}
-
-nav[data-toggle=toc] {
-  display: none;
+#mainpage {
+  height: 900px;
+  background-color:white;
 }
