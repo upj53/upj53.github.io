@@ -1,5 +1,5 @@
 ---
-title: Etc
+title: 미분류
 layout: upj_design
 permalink: /basics/etc/
 ---
