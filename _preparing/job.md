@@ -1,5 +1,5 @@
 ---
-title: My Job
+title: 사회적 자아
 layout: upj_design
 addr: /pre/job/
 permalink: /pre/job/
