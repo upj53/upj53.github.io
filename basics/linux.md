@@ -495,7 +495,9 @@ Ctl+w → =height 최대로
 [Vim Cursor and Tip](https://frhyme.github.io/vim/vim08_cursorline),
 [jellybeans scheme](https://github.com/nanotech/jellybeans.vim),
 [NERDTree](https://github.com/preservim/nerdtree),
-[작업 효율을 높여주는 Plugins](https://www.youtube.com/watch?v=ONcFKXoJ7uQ)
+[작업 효율을 높여주는 Plugins](https://www.youtube.com/watch?v=ONcFKXoJ7uQ),
+[Python vim setting](https://linuxhint.com/vim-python-development/),
+[Python 인덴트 구분자](https://kwonnam.pe.kr/wiki/vim/indent)
 
 NerdTree 설치하기
 
@@ -504,13 +506,19 @@ git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/ner
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 ```
 
+Python vim
+
+```shell
+wget https://raw.githubusercontent.com/hdima/python-syntax/master/syntax/python.vim
+```
+
 ```shell
 source ~/.vim_config
 
 "nnoremap <leader>n :NERDTreeFocus<CR>
 "nnoremap <C-n> :NERDTree<CR>
 "nnoremap <C-f> :NERDTreeFind<CR>
-nnoremap <C-e> :NERDTreeToggle<CR>
+nnoremap <C-o> :NERDTreeToggle<CR>
 nnoremap <C-t> :terminal<CR>
 
 "colorscheme jellybeans
@@ -541,6 +549,10 @@ set nobackup
 set nowritebackup
 set noswapfile
 set fileencodings=utf8,euc-kr
+set splitbelow
+set splitright
+syntax enable
+let python_highlight_all = 1
 
 set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 ```
