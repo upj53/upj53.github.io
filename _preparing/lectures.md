@@ -1569,26 +1569,46 @@ It can be read, and enhanced by a developer other than its original author. It h
 ```text
 ```
 
-### 2022-2학기 기출문제
+### 2022-1학기 기출문제
 {: #upj_1680861683472}
 
 1.다음의 본문을 한글로 해석하세요. (40점)
 
 Try  these  tricks  to  help  limit  the  number  of  times  you  touch  your  face  each  day  to  help prevent the spread of the coronavirus. Now that we know that it’s bad to touch our faces, how  do  we  break  a habit  that  most  of  us  didn’t  know  we  had?  Throughout  the  day,  we touch  a lot  of  surfaces  – doorknobs,  elevator  buttons,  subway  poles  – where  viruses, including the new coronavirus, can linger for days. From there, microbes can piggyback on out  fingertips  to  our  noses,  mouths  or  eyes,  all  of  which  are  entry  portals  for  the coronavirus, as  well as other viruses and germs. It took the coronavirus outbreak to make many  of  us  aware  of  just  how  often  we  reach  for  our  faces.  Here  are  tricks  to  help  you stop.  Keep  a box  of  tissues  handy.  When  you  feel  the  urge  to  scratch  an  itch,  rub  your nose or adjust your glasses, grab a tissue and use that instead of your fingers.
 
+<details><summary></summary>
+코로나바이러스 확산을 예방하기 위해 매일 얼굴을 만지는 횟수를 제한하는 데 도움이 되는 다음 요령을 실천해 보세요. 이제 얼굴을 만지는 것이 좋지 않다는 것을 알았으니, 우리 대부분이 자신도 몰랐던 습관을 어떻게 고칠 수 있을까요? 우리는 하루 종일 손잡이, 엘리베이터 버튼, 지하철 기둥 등 신종 코로나바이러스를 포함한 바이러스가 며칠 동안 남아있을 수 있는 많은 표면을 만집니다. 미생물은 손끝을 통해 코, 입, 눈 등 코로나바이러스는 물론 다른 바이러스와 세균의 유입 통로가 되는 모든 곳에 침투할 수 있습니다. 코로나바이러스가 확산되면서 많은 사람들이 우리가 얼마나 자주 얼굴을 만지는지 깨닫게 되었습니다. 다음은 이러한 행동을 멈추는 데 도움이 되는 요령입니다. 티슈 한 상자를 가까이에 두세요. 가려운 곳을 긁거나 코를 문지르거나 안경을 조정하고 싶은 충동을 느낄 때 손가락 대신 티슈를 꺼내 사용하세요.
+</details>
+
 2.다음의 본문을 한글로 해석하세요. (40점)
 
 Loves keeps the soul on the track of its fate and keeps consciousness at the  edge  of  the  abyss  of  the  infinity  that  is  the  range  of  the  soul.  This doesn’t  mean  that  relationships  between  people  are  not  important  to  the soul’s loves. Quite the opposite: recognizing the importance of love to the soul, our ordinary human loves are ennobled beyond measure. This family, this friend, this lover, this mate is the manifestation of the motivating force of life itself and is the fountain of love that keeps the soul alive and full.  There is no way toward divine love except through the discovery of human intimacy and community. One feeds the other.
 
+<details><summary></summary>
+사랑은 영혼의 운명을 추적하고 영혼의 범위 인 무한의 심연의 가장자리에 의식을 유지합니다. 그렇다고 사람들 사이의 관계가 영혼의 사랑에 중요하지 않다는 의미는 아닙니다. 정반대로, 영혼에 대한 사랑의 중요성을 인식하면 우리의 평범한 인간 사랑은 측정 할 수 없을 정도로 고귀해집니다. 이 가족, 이 친구, 이 연인, 이 배우자는 삶의 동기를 부여하는 힘 그 자체의 표현이며 영혼을 살아있게 하고 충만하게 하는 사랑의 샘입니다. 인간의 친밀감과 공동체를 발견하는 것 외에는 신성한 사랑에 이르는 길은 없습니다. 하나는 다른 하나를 먹여 살립니다.
+</details>
+
 3.다음 밑줄 친 부분과 가장 가까운 뜻의 항을 골라 그 기호를 답란에 써 놓으시오 (20점)
 
-1) The common cold is the most frequent and perhaps the most battling illness of man.
+1) The common cold is the most frequent and perhaps the most **battling** illness of man.
 
 (a) tenacious      (b) irritating        (c) recurring          (d) perplexing
 
-2) The long summers and plentiful rainfall in Georgia are favorable for a wide variety of crops.
+<details><summary></summary>
+1) 감기는 인간이 가장 자주 걸리고 가장 많이 싸우는 질병입니다.
+
+끈질기고, 짜증나고, 반복적이고, 당황스러운
+</details>
+
+2) The long summers and plentiful rainfall in Georgia are **favorable** for a wide variety of crops.
 
 (a) necessary      (b) predictable        (c) advantageous     (d)responsible
+
+<details><summary></summary>
+2) 조지아의 긴 여름과 풍부한 강우량은 다양한 작물을 재배하기에 유리합니다.
+
+필요하고, 예측 가능하며, 유리하고, 책임감 있는
+</details>
 
 ```text
 ```
@@ -1600,13 +1620,25 @@ Loves keeps the soul on the track of its fate and keeps consciousness at the  ed
 
 Eventually the team rebels. They inform management that they cannot continue to develop in this odious code base. They demand a redesign. Management does  not  want  to  expend  the  resources  on  a whole  new  redesign  of  the project, but they cannot deny that productivity is terrible. Eventually they bend to the demands of the developers and authorize the grand redesign in the sky.  A new tiger team is selected. Everyone wants to be on this team because it’s a greenfield  project.  They  get  to  start  over  and  create  something  truly beautiful.  But  only  the  best  and  brightest  are  chosen  for  the  tiger  team.  Everyone else must continue to maintain the current system.
 
+<details><summary></summary>
+결국 팀은 반란을 일으킵니다. 그들은 경영진에게 이 끔찍한 코드 기반에서 개발을 계속할 수 없다고 통보합니다. 그들은 재설계를 요구합니다. 경영진은 프로젝트의 완전히 새로운 재설계에 리소스를 소비하고 싶지 않지만 생산성이 끔찍하다는 사실을 부인할 수는 없습니다. 결국 그들은 개발자들의 요구에 굴복하여 대대적인 재설계를 승인합니다. 새로운 타이거 팀이 선정됩니다. 그린필드 프로젝트이기 때문에 모두가 이 팀에 들어가기를 원합니다. 처음부터 다시 시작하여 진정으로 아름다운 것을 만들 수 있기 때문입니다. 하지만 타이거 팀에는 최고로 뛰어난 인재만 선발됩니다. 그 외에는 모두 현재 시스템을 계속 유지해야 합니다.
+</details>
+
 2.다음 지문을 해석하세요. (40)
 
 The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system.5 Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
 
+<details><summary></summary>
+ML 모델을 포함하는 AI 시스템을 관리하는 데 필요한 작업이 항상 소프트웨어 개발 작업과 일치하는 것은 아닙니다. 지속적인 진화와 반복 개발이 소프트웨어 엔지니어링에 새로운 것은 아니지만, 데이터와 ML 모델 예측의 변동성으로 인해 발생하는 불확실성은 분명 흔하지 않습니다. 일찌감치 얻은 교훈은 여러 가지 잘못된 가정이 AI 지원 시스템의 심각한 실패로 이어질 수 있다는 것입니다.5 이러한 실패는 데이터 과학자, 소프트웨어 엔지니어, 운영 담당자 간의 개발 및 유지 관리 프로세스가 분리되어 있기 때문에 발생하는 경우가 많습니다.
+</details>
+
 3.다음 본문을 읽고, 이 다음에 나올 내용을 한글로 유추하세요. (30점)
 
 It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple  rule  that  we  can  apply  to  our  profession.  “Leave  the  campground cleaner than you found it.”
+
+<details><summary></summary>
+코드를 잘 작성하는 것만으로는 충분하지 않습니다. 시간이 지나도 코드를 깨끗하게 유지해야 합니다. 우리는 모두 시간이 지남에 따라 코드가 썩고 성능이 저하되는 것을 보았습니다. 따라서 우리는 이러한 열화를 방지하기 위해 적극적인 역할을 수행해야 합니다. 미국 보이스카우트에는 우리 직업에 적용할 수 있는 간단한 규칙이 있습니다. 캠프를 찾았을 때보다 더 깨끗한 상태로 떠나세요.
+</details>
 
 ```text
 ```
