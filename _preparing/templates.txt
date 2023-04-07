@@ -51,6 +51,11 @@ has_toc: false
 1. TOC
 {:toc}
 
+가장 깔끔함
+<details><summary></summary>
+
+</details>
+
 <details close>
 <summary>한글안됨</summary>
 
