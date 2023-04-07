@@ -1490,7 +1490,7 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 
 Learning (ML: Machine Learning) algorithms and increasing availability of computational power have resulted in huge investments in systems that aspire to exploit artificial intelligence (AI), in particular ML. AI-enabled systems, software-reliant systems that include data and components that implement algorithms mimicking learning and problem solving, have inherently different characteristics than software systems alone. However, the development and sustainment of such systems also have many parallels with building, deploying, and sustaining software systems.
 
-<details markdown=block>
+<details markdown="block">
 <summary>해석</summary>
 학습(ML: 머신 러닝) 알고리즘과 컴퓨팅 파워의 가용성 증가로 인해 인공지능(AI), 특히 ML을 활용하고자 하는 시스템에 막대한 투자가 이루어지고 있습니다. 학습과 문제 해결을 모방한 알고리즘을 구현하는 데이터와 구성 요소를 포함하는 소프트웨어 의존형 시스템인 AI 지원 시스템은 소프트웨어 시스템만으로는 본질적으로 다른 특성을 가지고 있습니다. 그러나 이러한 시스템의 개발 및 유지 관리에는 소프트웨어 시스템의 구축, 배포 및 유지 관리와 많은 유사점이 있습니다.
 </details>
@@ -1499,7 +1499,7 @@ Learning (ML: Machine Learning) algorithms and increasing availability of comput
 
 The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system. Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
 
-<details markdown=block>
+<details markdown="block">
 <summary>해석</summary>
 
 </details>
