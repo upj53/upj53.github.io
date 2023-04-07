@@ -1626,10 +1626,10 @@ Eventually the team rebels. They inform management that they cannot continue to 
 
 2.다음 지문을 해석하세요. (40)
 
-The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system.5 Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
+The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system. Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
 
 <details><summary></summary>
-ML 모델을 포함하는 AI 시스템을 관리하는 데 필요한 작업이 항상 소프트웨어 개발 작업과 일치하는 것은 아닙니다. 지속적인 진화와 반복 개발이 소프트웨어 엔지니어링에 새로운 것은 아니지만, 데이터와 ML 모델 예측의 변동성으로 인해 발생하는 불확실성은 분명 흔하지 않습니다. 일찌감치 얻은 교훈은 여러 가지 잘못된 가정이 AI 지원 시스템의 심각한 실패로 이어질 수 있다는 것입니다.5 이러한 실패는 데이터 과학자, 소프트웨어 엔지니어, 운영 담당자 간의 개발 및 유지 관리 프로세스가 분리되어 있기 때문에 발생하는 경우가 많습니다.
+ML 모델을 포함하는 AI 시스템을 관리하는 데 필요한 작업이 항상 소프트웨어 개발 작업과 일치하는 것은 아닙니다. 지속적인 진화와 반복 개발이 소프트웨어 엔지니어링에 새로운 것은 아니지만, 데이터와 ML 모델 예측의 변동성으로 인해 발생하는 불확실성은 분명 흔하지 않습니다. 일찌감치 얻은 교훈은 여러 가지 잘못된 가정이 AI 지원 시스템의 심각한 실패로 이어질 수 있다는 것입니다. 이러한 실패는 데이터 과학자, 소프트웨어 엔지니어, 운영 담당자 간의 개발 및 유지 관리 프로세스가 분리되어 있기 때문에 발생하는 경우가 많습니다.
 </details>
 
 3.다음 본문을 읽고, 이 다음에 나올 내용을 한글로 유추하세요. (30점)
