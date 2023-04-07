@@ -1510,17 +1510,63 @@ As this column is published in 2021, we will collectively be crossing the line m
 ### 2021-2학기 기출문제
 {: #upj_1680861641902}
 
+1.다음 본문을 읽고, 이 본문 이전에 나왔을 내용을 한글로 유추하세요. (30점)
+
+Eventually the team rebels. They inform management that they cannot continue to develop in this odious code base. They demand a redesign. Management does not want to expend the  resources  on  a whole  new  redesign  of  the  project,  but  they  cannot  deny  that productivity  is  terrible.  Eventually  they  bend  to  the  demands  of  the  developers  and authorize the grand redesign in the sky.  A new tiger team is selected. Everyone wants to be on this team because it’s a greenfield project. They get to start over and create something truly beautiful. But only the best and brightest are chosen for the tiger team. Everyone else must continue to maintain the current system.
+
+2.다음의 본문을 한글로 해석하세요. (20점)
+
+I could list all of the qualities that I notice in clean code, but there is one overarching quality that leads to all of them. Clean code always looks like it was written by someone who cares. There is nothing obvious that you can do to make it better. All of those things were thought about by the code’s author, and if you try to imagine improvements, you’re led back to where you are, sitting in appreciation of the code someone left for you - code left by someone who cares deeply about the craft.
+
+3.다음 본문을 읽고, 이 다음에 나올 내용을 한글로 유추하세요. (30점)
+
+It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple rule that we can apply to our profession. “Leave the campground cleaner than you found it.”
+
+4.다음 본문에서 “It"은 무엇인가요? (20점)
+
+It can be read, and enhanced by a developer other than its original author. It has unit and acceptance tests. It has meaningful names. It provides one way rather than many ways for doing one thing. It has minimal dependencies, which are explicitly defined, and provides a clear and minimal API.
+
 ```text
 ```
 
 ### 2022-2학기 기출문제
 {: #upj_1680861683472}
 
+1.다음의 본문을 한글로 해석하세요. (40점)
+
+Try  these  tricks  to  help  limit  the  number  of  times  you  touch  your  face  each  day  to  help prevent the spread of the coronavirus. Now that we know that it’s bad to touch our faces, how  do  we  break  a habit  that  most  of  us  didn’t  know  we  had?  Throughout  the  day,  we touch  a lot  of  surfaces  – doorknobs,  elevator  buttons,  subway  poles  – where  viruses, including the new coronavirus, can linger for days. From there, microbes can piggyback on out  fingertips  to  our  noses,  mouths  or  eyes,  all  of  which  are  entry  portals  for  the coronavirus, as  well as other viruses and germs. It took the coronavirus outbreak to make many  of  us  aware  of  just  how  often  we  reach  for  our  faces.  Here  are  tricks  to  help  you stop.  Keep  a box  of  tissues  handy.  When  you  feel  the  urge  to  scratch  an  itch,  rub  your nose or adjust your glasses, grab a tissue and use that instead of your fingers.
+
+2.다음의 본문을 한글로 해석하세요. (40점)
+
+Loves keeps the soul on the track of its fate and keeps consciousness at the  edge  of  the  abyss  of  the  infinity  that  is  the  range  of  the  soul.  This doesn’t  mean  that  relationships  between  people  are  not  important  to  the soul’s loves. Quite the opposite: recognizing the importance of love to the soul, our ordinary human loves are ennobled beyond measure. This family, this friend, this lover, this mate is the manifestation of the motivating force of life itself and is the fountain of love that keeps the soul alive and full.  There is no way toward divine love except through the discovery of human intimacy and community. One feeds the other.
+
+3.다음 밑줄 친 부분과 가장 가까운 뜻의 항을 골라 그 기호를 답란에 써 놓으시오 (20점)
+
+1) The common cold is the most frequent and perhaps the most battling illness of man.
+
+(a) tenacious      (b) irritating        (c) recurring          (d) perplexing
+
+2) The long summers and plentiful rainfall in Georgia are favorable for a wide variety of crops.
+
+(a) necessary      (b) predictable        (c) advantageous     (d)responsible
+
 ```text
 ```
 
 ### 2022-2학기 기출문제
 {: #upj_1680861691511}
+
+1.다음 본문을 읽고, 이 본문 이전에 나왔을 내용을 한글로 유추하세요. (30점)
+
+Eventually the team rebels. They inform management that they cannot continue to develop in this odious code base. They demand a redesign. Management does  not  want  to  expend  the  resources  on  a whole  new  redesign  of  the project, but they cannot deny that productivity is terrible. Eventually they bend to the demands of the developers and authorize the grand redesign in the sky.  A new tiger team is selected. Everyone wants to be on this team because it’s a greenfield  project.  They  get  to  start  over  and  create  something  truly beautiful.  But  only  the  best  and  brightest  are  chosen  for  the  tiger  team.  Everyone else must continue to maintain the current system.
+
+2.다음 지문을 해석하세요. (40)
+
+The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system.5 Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
+
+3.다음 본문을 읽고, 이 다음에 나올 내용을 한글로 유추하세요. (30점)
+
+It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple  rule  that  we  can  apply  to  our  profession.  “Leave  the  campground cleaner than you found it.”
 
 ```text
 ```
