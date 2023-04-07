@@ -1488,21 +1488,41 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 
 1.AI-Enabled System에 대한 다음의 지문을 읽고, 문맥상 본문 후(後)에 나올 내용을 유추해서 한글 200자 이내로 정리하세요. 질문에 답하세요. (30)
 
-Learning (ML: Machine Learning) algorithms and increasing availability of computational power have resulted in huge investments in systems that aspire to exploit artificial intelligence (AI), in particular ML. AI-enabled systems, software-reliant systems that include data and components that implement algorithms mimicking learning and problem solving, have inherently different characteristics than software systems alone.1However, the development and sustainment of such systems also have many parallels with building, deploying, and sustaining software systems.
+Learning (ML: Machine Learning) algorithms and increasing availability of computational power have resulted in huge investments in systems that aspire to exploit artificial intelligence (AI), in particular ML. AI-enabled systems, software-reliant systems that include data and components that implement algorithms mimicking learning and problem solving, have inherently different characteristics than software systems alone. However, the development and sustainment of such systems also have many parallels with building, deploying, and sustaining software systems.
+
+<details markdown=block>
+<summary>해석</summary>
+학습(ML: 머신 러닝) 알고리즘과 컴퓨팅 파워의 가용성 증가로 인해 인공지능(AI), 특히 ML을 활용하고자 하는 시스템에 막대한 투자가 이루어지고 있습니다. 학습과 문제 해결을 모방한 알고리즘을 구현하는 데이터와 구성 요소를 포함하는 소프트웨어 의존형 시스템인 AI 지원 시스템은 소프트웨어 시스템만으로는 본질적으로 다른 특성을 가지고 있습니다. 그러나 이러한 시스템의 개발 및 유지 관리에는 소프트웨어 시스템의 구축, 배포 및 유지 관리와 많은 유사점이 있습니다.
+</details>
 
 2.다음 지문을 해석하세요. (20)
 
 The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system. Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
 
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
+
 3.다음 지문에서 빈칸 (a)에 공통으로 들어갈 단어는 무엇인가요? (20)
 
 ( a ) refers to the variety of representations that exist within a group, based on a large range of facets and characteristics. ( a ) is thus multidimensional, and its relevant parameters depend on the particular and situated practice under scrutiny. In software development, ( a ) is relevant to the groups of people involved in the field’'s practices and to the technical designs emerging from those practices. Hence, facilitating  ( a ) involves studies of software  development approaches and investigations of the technologies that result.
+
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
 
 4.Requirements Engineering에 대한 다음의 지문을 읽고, 문맥상 본문 후(後)에 나올 내용을 유추해서 한글 200자 이내로 정리하세요. 질문에 답하세요. (30)
 
 THE COVID-19 SHUTDOWN was supposed to last for only a few weeks, or so we believed in March 2020. Along with many of us working in software and systems engineering, I absorbed that early news and assumed that any interruption to my normal professional routine would be short lived. Requirements engineering (RE) work would continue as planned, with methods and practices resilient enough to handle the pivot in our path.
 
 As this column is published in 2021, we will collectively be crossing the line marking one year since COVID-19 swept the globe and transformed many workplaces and professions. In many cases, the essential work of software engineering can be done wherever electricity and Wi-Fi can be found. My employer, along with many others, sent us home early in March last year with the admonition to stay safe and with the equipment needed to stay productive. At the time of this writing, I have no date to anticipate when I'll see my friends, our conference rooms, and my cubicle again, and I doubt it'll be before this column's publication date.
+
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
 
 ```text
 ```
@@ -1514,17 +1534,37 @@ As this column is published in 2021, we will collectively be crossing the line m
 
 Eventually the team rebels. They inform management that they cannot continue to develop in this odious code base. They demand a redesign. Management does not want to expend the  resources  on  a whole  new  redesign  of  the  project,  but  they  cannot  deny  that productivity  is  terrible.  Eventually  they  bend  to  the  demands  of  the  developers  and authorize the grand redesign in the sky.  A new tiger team is selected. Everyone wants to be on this team because it’s a greenfield project. They get to start over and create something truly beautiful. But only the best and brightest are chosen for the tiger team. Everyone else must continue to maintain the current system.
 
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
+
 2.다음의 본문을 한글로 해석하세요. (20점)
 
 I could list all of the qualities that I notice in clean code, but there is one overarching quality that leads to all of them. Clean code always looks like it was written by someone who cares. There is nothing obvious that you can do to make it better. All of those things were thought about by the code’s author, and if you try to imagine improvements, you’re led back to where you are, sitting in appreciation of the code someone left for you - code left by someone who cares deeply about the craft.
+
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
 
 3.다음 본문을 읽고, 이 다음에 나올 내용을 한글로 유추하세요. (30점)
 
 It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple rule that we can apply to our profession. “Leave the campground cleaner than you found it.”
 
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
+
 4.다음 본문에서 “It"은 무엇인가요? (20점)
 
 It can be read, and enhanced by a developer other than its original author. It has unit and acceptance tests. It has meaningful names. It provides one way rather than many ways for doing one thing. It has minimal dependencies, which are explicitly defined, and provides a clear and minimal API.
+
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
 
 ```text
 ```
@@ -1535,6 +1575,11 @@ It can be read, and enhanced by a developer other than its original author. It h
 1.다음의 본문을 한글로 해석하세요. (40점)
 
 Try  these  tricks  to  help  limit  the  number  of  times  you  touch  your  face  each  day  to  help prevent the spread of the coronavirus. Now that we know that it’s bad to touch our faces, how  do  we  break  a habit  that  most  of  us  didn’t  know  we  had?  Throughout  the  day,  we touch  a lot  of  surfaces  – doorknobs,  elevator  buttons,  subway  poles  – where  viruses, including the new coronavirus, can linger for days. From there, microbes can piggyback on out  fingertips  to  our  noses,  mouths  or  eyes,  all  of  which  are  entry  portals  for  the coronavirus, as  well as other viruses and germs. It took the coronavirus outbreak to make many  of  us  aware  of  just  how  often  we  reach  for  our  faces.  Here  are  tricks  to  help  you stop.  Keep  a box  of  tissues  handy.  When  you  feel  the  urge  to  scratch  an  itch,  rub  your nose or adjust your glasses, grab a tissue and use that instead of your fingers.
+
+<details markdown=block>
+<summary>해석</summary>
+
+</details>
 
 2.다음의 본문을 한글로 해석하세요. (40점)
 
