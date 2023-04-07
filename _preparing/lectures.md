@@ -1555,7 +1555,7 @@ I could list all of the qualities that I notice in clean code, but there is one 
 It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple rule that we can apply to our profession. “Leave the campground cleaner than you found it.”
 
 <details><summary></summary>
-코드를 잘 작성하는 것만으로는 충분하지 않습니다. 시간이 지나도 코드를 깨끗하게 유지해야 합니다. 우리는 모두 시간이 지남에 따라 코드가 썩고 성능이 저하되는 것을 보았습니다. 따라서 우리는 이러한 열화를 방지하기 위해 적극적인 역할을 수행해야 합니다. 미국 보이스카우트에는 우리 직업에 적용할 수 있는 간단한 규칙이 있습니다. "캠프장을 찾은 곳보다 더 깨끗하게 떠나라."
+코드를 잘 작성하는 것만으로는 충분하지 않습니다. 시간이 지나도 코드를 깨끗하게 유지해야 합니다. 우리는 모두 시간이 지남에 따라 코드가 썩고 성능이 저하되는 것을 보았습니다. 따라서 우리는 이러한 열화를 방지하기 위해 적극적인 역할을 수행해야 합니다. 미국 보이스카우트에는 우리 직업에 적용할 수 있는 간단한 규칙이 있습니다. 캠프를 찾았을 때보다 더 깨끗한 상태로 떠나세요.
 </details>
 
 4.다음 본문에서 “It"은 무엇인가요? (20점)
