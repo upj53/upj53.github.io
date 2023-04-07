@@ -1486,17 +1486,23 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 ### 2021-1학기 기출문제
 {: #upj_1680861257471}
 
-1. AI-Enabled System에 대한 다음의 지문을 읽고, 문맥상 본문 후(後)에 나올 내용을 유추해서 한글 200자 이내로 정리하세요. 질문에 답하세요. (30)
+1.AI-Enabled System에 대한 다음의 지문을 읽고, 문맥상 본문 후(後)에 나올 내용을 유추해서 한글 200자 이내로 정리하세요. 질문에 답하세요. (30)
 
 Learning (ML: Machine Learning) algorithms and increasing availability of computational power have resulted in huge investments in systems that aspire to exploit artificial intelligence (AI), in particular ML. AI-enabled systems, software-reliant systems that include data and components that implement algorithms mimicking learning and problem solving, have inherently different characteristics than software systems alone.1However, the development and sustainment of such systems also have many parallels with building, deploying, and sustaining software systems.
 
-2. 다음 지문을 해석하세요. (20)
+2.다음 지문을 해석하세요. (20)
 
 The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system. Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
 
-3. 다음 지문에서 빈칸 (a)에 공통으로 들어갈 단어는 무엇인가요? (20)
+3.다음 지문에서 빈칸 (a)에 공통으로 들어갈 단어는 무엇인가요? (20)
 
 ( a ) refers to the variety of representations that exist within a group, based on a large range of facets and characteristics. ( a ) is thus multidimensional, and its relevant parameters depend on the particular and situated practice under scrutiny. In software development, ( a ) is relevant to the groups of people involved in the field’'s practices and to the technical designs emerging from those practices. Hence, facilitating  ( a ) involves studies of software  development approaches and investigations of the technologies that result.
+
+4.Requirements Engineering에 대한 다음의 지문을 읽고, 문맥상 본문 후(後)에 나올 내용을 유추해서 한글 200자 이내로 정리하세요. 질문에 답하세요. (30)
+
+THE COVID-19 SHUTDOWN was supposed to last for only a few weeks, or so we believed in March 2020. Along with many of us working in software and systems engineering, I absorbed that early news and assumed that any interruption to my normal professional routine would be short lived. Requirements engineering (RE) work would continue as planned, with methods and practices resilient enough to handle the pivot in our path.
+
+As this column is published in 2021, we will collectively be crossing the line marking one year since COVID-19 swept the globe and transformed many workplaces and professions. In many cases, the essential work of software engineering can be done wherever electricity and Wi-Fi can be found. My employer, along with many others, sent us home early in March last year with the admonition to stay safe and with the equipment needed to stay productive. At the time of this writing, I have no date to anticipate when I'll see my friends, our conference rooms, and my cubicle again, and I doubt it'll be before this column's publication date.
 
 ```text
 ```
