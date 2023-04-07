@@ -51,6 +51,11 @@ has_toc: false
 1. TOC
 {:toc}
 
+<details close>
+<summary>한글안됨</summary>
+
+</details>
+
 <details open markdown="block">
   <summary>
     Table of contents
