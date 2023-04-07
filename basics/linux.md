@@ -549,6 +549,8 @@ set nobackup
 set nowritebackup
 set noswapfile
 set fileencodings=utf8,euc-kr
+set autowrite
+set autowriteall
 set splitbelow
 set splitright
 syntax enable

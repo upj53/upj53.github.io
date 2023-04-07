@@ -1476,3 +1476,46 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 ```text
 ```
 
+## 영어 종합시험
+{: #upj_1680861225090}
+
+- 일시: 4월 14일(목), 19:00~19:50
+- 장소: 공학관 A동 209호
+- 18:50까지 입실
+
+### 2021-1학기 기출문제
+{: #upj_1680861257471}
+
+1. AI-Enabled System에 대한 다음의 지문을 읽고, 문맥상 본문 후(後)에 나올 내용을 유추해서 한글 200자 이내로 정리하세요. 질문에 답하세요. (30)
+
+Learning (ML: Machine Learning) algorithms and increasing availability of computational power have resulted in huge investments in systems that aspire to exploit artificial intelligence (AI), in particular ML. AI-enabled systems, software-reliant systems that include data and components that implement algorithms mimicking learning and problem solving, have inherently different characteristics than software systems alone.1However, the development and sustainment of such systems also have many parallels with building, deploying, and sustaining software systems.
+
+2. 다음 지문을 해석하세요. (20)
+
+The tasks required to manage AI systems that include ML models are not always aligned with software development tasks. Although continuous evolution and iterative development are not new to software engineering, the uncertainty introduced by the volatility of the data and ML model predictions is certainly not common. An early lesson learned is that a number of mismatched assumptions can lead to significant failure of the AI-enabled system. Such failure is often a consequence of disjointed development and sustainment processes among the data scientists, software engineers, and operations staff.
+
+3. 다음 지문에서 빈칸 (a)에 공통으로 들어갈 단어는 무엇인가요? (20)
+
+( a ) refers to the variety of representations that exist within a group, based on a large range of facets and characteristics. ( a ) is thus multidimensional, and its relevant parameters depend on the particular and situated practice under scrutiny. In software development, ( a ) is relevant to the groups of people involved in the field’'s practices and to the technical designs emerging from those practices. Hence, facilitating  ( a ) involves studies of software  development approaches and investigations of the technologies that result.
+
+```text
+```
+
+### 2021-2학기 기출문제
+{: #upj_1680861641902}
+
+```text
+```
+
+### 2022-2학기 기출문제
+{: #upj_1680861683472}
+
+```text
+```
+
+### 2022-2학기 기출문제
+{: #upj_1680861691511}
+
+```text
+```
+
