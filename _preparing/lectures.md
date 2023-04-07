@@ -1539,20 +1539,32 @@ As this column is published in 2021, we will collectively be crossing the line m
 Eventually the team rebels. They inform management that they cannot continue to develop in this odious code base. They demand a redesign. Management does not want to expend the  resources  on  a whole  new  redesign  of  the  project,  but  they  cannot  deny  that productivity  is  terrible.  Eventually  they  bend  to  the  demands  of  the  developers  and authorize the grand redesign in the sky.  A new tiger team is selected. Everyone wants to be on this team because it’s a greenfield project. They get to start over and create something truly beautiful. But only the best and brightest are chosen for the tiger team. Everyone else must continue to maintain the current system.
 
 <details><summary></summary>
-
+결국 팀은 반란을 일으킵니다. 그들은 경영진에게 이 끔찍한 코드 기반에서 개발을 계속할 수 없다고 통보합니다. 그들은 재설계를 요구합니다. 경영진은 프로젝트의 완전히 새로운 재설계에 리소스를 소비하고 싶지 않지만 생산성이 끔찍하다는 사실을 부인할 수는 없습니다. 결국 그들은 개발자들의 요구에 굴복하여 대대적인 재설계를 승인합니다. 새로운 타이거 팀이 선정됩니다. 그린필드 프로젝트이기 때문에 모두가 이 팀에 들어가기를 원합니다. 처음부터 다시 시작하여 진정으로 아름다운 것을 만들 수 있기 때문입니다. 하지만 타이거 팀에는 최고로 뛰어난 인재만 선발됩니다. 그 외에는 모두 현재 시스템을 계속 유지해야 합니다.
 </details>
 
 2.다음의 본문을 한글로 해석하세요. (20점)
 
 I could list all of the qualities that I notice in clean code, but there is one overarching quality that leads to all of them. Clean code always looks like it was written by someone who cares. There is nothing obvious that you can do to make it better. All of those things were thought about by the code’s author, and if you try to imagine improvements, you’re led back to where you are, sitting in appreciation of the code someone left for you - code left by someone who cares deeply about the craft.
 
+<details><summary></summary>
+깔끔한 코드에서 발견되는 모든 특성을 나열할 수 있지만, 이 모든 특성을 이끌어내는 중요한 특성이 하나 있습니다. 깔끔한 코드는 항상 신경을 쓰는 사람이 작성한 것처럼 보입니다. 더 나은 코드를 만들기 위해 할 수 있는 명백한 방법은 없습니다. 이 모든 것은 코드 작성자가 생각한 것이며, 개선점을 상상하려고 하면 누군가가 남긴 코드, 즉 코드에 대해 깊은 관심을 가진 사람이 남긴 코드를 감상하며 현재 위치로 되돌아가게 됩니다.
+</details>
+
 3.다음 본문을 읽고, 이 다음에 나올 내용을 한글로 유추하세요. (30점)
 
 It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple rule that we can apply to our profession. “Leave the campground cleaner than you found it.”
 
+<details><summary></summary>
+코드를 잘 작성하는 것만으로는 충분하지 않습니다. 시간이 지나도 코드를 깨끗하게 유지해야 합니다. 우리는 모두 시간이 지남에 따라 코드가 썩고 성능이 저하되는 것을 보았습니다. 따라서 우리는 이러한 열화를 방지하기 위해 적극적인 역할을 수행해야 합니다. 미국 보이스카우트에는 우리 직업에 적용할 수 있는 간단한 규칙이 있습니다. "캠프장을 찾은 곳보다 더 깨끗하게 떠나라."
+</details>
+
 4.다음 본문에서 “It"은 무엇인가요? (20점)
 
 It can be read, and enhanced by a developer other than its original author. It has unit and acceptance tests. It has meaningful names. It provides one way rather than many ways for doing one thing. It has minimal dependencies, which are explicitly defined, and provides a clear and minimal API.
+
+<details><summary></summary>
+원저자가 아닌 다른 개발자가 읽고 개선할 수 있습니다. 단위 테스트와 수락 테스트가 있습니다. 의미 있는 이름이 있습니다. 한 가지 작업을 수행하는 데 여러 가지 방법이 아닌 한 가지 방법을 제공합니다. 명시적으로 정의된 최소한의 종속성을 가지며 명확하고 최소한의 API를 제공합니다.
+</details>
 
 ```text
 ```
