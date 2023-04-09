@@ -1553,6 +1553,19 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 ```text
 ```
 
+## AI
+{: #upj_1680998569984}
+
+```text
+인공지능의 이해
+기계학습의 이해
+딥러닝의 이해
+```
+
+[Practical Deep Learning For Coders](https://course.fast.ai/)
+
+[Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+
 ## 영어 종합시험
 {: #upj_1680861225090}
 
