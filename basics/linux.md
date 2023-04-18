@@ -485,8 +485,7 @@ Ctl+w → |
 창 높이 height 최대로
 Ctl+w → _
 창 높이 똑같이
-Ctl+w → =height 최대로
-
+Ctl+w → =
 ```
 
 ### vimrc 샘플
