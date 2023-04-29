@@ -598,11 +598,19 @@ ElevatedButton(
   onPressed: ...,
 ),
 ```
-### a
+
+### 3.Debugging & DevTools
 {: #upj_1680265008560}
 
+[Flutter Debugging](https://docs.flutter.dev/testing/debugging)
 
+[DevTools](https://docs.flutter.dev/tools/devtools/overview)
 
+### 4.
+
+[intl](https://pub.dev/packages/intl)
+
+[DatFormat](https://pub.dev/documentation/intl/latest/intl/DateFormat-class.html)
 
 ```text
 {: #upj_1680265208018}
