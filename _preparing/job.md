@@ -60,14 +60,14 @@ permalink: /pre/job/
     - [x]  ~~소프트웨어공학~~
 - [ ]  전공교과내용(15) 잔여:4
     - [ ]  컴퓨터교육세미나
-    - [?]  프로그래밍언어론
+    - [ ]  프로그래밍언어론
     - [ ]  컴파일러구조
     - [x]  ~~인터넷활용교육~~
-    - [?]  인터넷프로그래밍
+    - [ ]  인터넷프로그래밍
     - [ ]  컴퓨터교육특강
     - [ ]  컴퓨터보조교육
-    - [?]  멀티미디어와교육
-    - [?]  인간과컴퓨터상호작용
+    - [ ]  멀티미디어와교육
+    - [ ]  인간과컴퓨터상호작용
 </td></tr>
 </table>
 <table class="col-lg-4 col-12" style="display:inline-block; vertical-align:top;">
@@ -97,14 +97,14 @@ permalink: /pre/job/
 <table class="col-lg-3 col-12" style="display:inline-block; vertical-align:top;">
 <tr><td style="white-space:pre;">    <strong>졸업 조건</strong>
 [ ]  졸업시험
-- [ ]  외국어(1과목)
+- [x]  ~~외국어(1과목)~~
 - [ ]  교직(1과목)
 - [ ]  전공(2과목)
 
 [ ]  이수
 - [x]  교직 적성 및 인적성검사(2회)
 - [x]  ~~응급처치 및 심폐소생술(2회)~~
-- [x]  성인지교육(2회)
+- [x]  ~~성인지교육(2회)~~
 </td></tr>
 </table>
 
