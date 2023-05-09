@@ -124,6 +124,11 @@ shutdown -h +10	10분 후 종료
 shutdown -r 21:00	오후9시에 재부팅
 ```
 
+```text
+ssh 파일 업로드 하기
+scp ./Raspberry_Pi.png upj53@192.168.0.2:/home/upj53/webapp/static
+```
+
 ## 사용자와 그룹 및 권한 관리
 {: #upj_1676507738746}
 
