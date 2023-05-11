@@ -1237,6 +1237,47 @@ S-M-C-R모형: 송신자-전달내용-통신수단-수신자
 
 <a href="/assets/images/2023-04-20-ADDIE.jpg" target="_blank"><img src="/assets/images/2023-04-20-ADDIE.jpg" style="width:75%; height:auto;"></a>
 
+### 10째주 2023-05-11(목)
+{: #upj_1683798047760}
+
+```text
+> 소크라테스의 산파술
+  질문(열린 질문)과 응답 → 감각적 수업기술
+  답 하나 할 때마다 애 하나 낳을 정도로 고민한다(?!)
+  정해져 있는 답을 요구하면 안된다.
+> 탐구학습
+  학생들에게 다양한 가설을 세우게 교육한다.
+> 인지적 도제학습
+  도제학습: 1대1로 가르쳐서 스승이 제자를 키운다.
+  의사가 제자를 키우는 방식
+> 게임 기반 학습(에듀테인먼트)
+  Education + Entertainment
+  거상,의학적 세균 게임
+> 문제중심학습(PBL, Problem Based Learning)
+  전개과정: 도입 - 문제제시 - 문제해결 - 해결책발표
+  PBL 실습
+
+-[강동구](https://new.land.naver.com/complexes?ms=37.530126,127.123771,14&a=APT:PRE&e=RETAIL)
+-[동대문구](https://new.land.naver.com/complexes?ms=37.574493,127.039765,14&a=APT:PRE&e=RETAIL)
+-[경기도 하남시](https://new.land.naver.com/complexes?ms=37.539301,127.214874,14&a=APT:PRE&e=RETAIL)
+
+남자 연봉 6500만원: 월 실수령액 450만원
+여자 연봉 5000만원: 월 실수령액 350만원
+https://job.cosmosfarm.com/ko/calculator/salary
+
+자금: 1억 + 2억5천(3억5천)
+-결혼자금+생활용품:5천
+  식장:
+  식대:1000만원
+  웨딩:1000만원
+  신혼:1000만원
+-부동산:매매(3억)
+  대출:0~2억
+  지역:
+    경기도하남시
+    서울시동대문
+```
+
 ## 한국사검정능력시험 60~69점
 {: #upj_1678429020407}
 
