@@ -818,6 +818,51 @@ wnrekd11@konkuk.ac.kr
 
 ```
 
+### 12째주 2023-05-22(월)
+{: #upj_1685070305925}
+
+```text
+Defending behavior of peer victimization in school and cyber context during childhood and adolescence: A meta-analytic review of individual and peer-relational characteristics
+아동기와 청소년기의 학교 및 사이버 맥락에서 또래 피해에 대한 방어 행동: 개인 및 또래 관계 특성에 대한 메타 분석적 검토
+
+Empathy and defending behaviours in school bullying: The mediating role of motivation to defend victims
+학교 괴롭힘에 대한 공감과 방어 행동: 피해자를 방어하려는 동기의 중재 역할
+
+Defending Victims of Bullying in Early Adolescence: A Multilevel Analysis
+청소년기 괴롭힘의 피해자 보호: 다단계 분석
+
+Sympathy and active defending behaviors among Chinese adolescent bystanders: A moderated mediation model of attitude toward bullying and school connectedness
+동정심과 적극적인 방어 행동 중국 청소년 방관자: 왕따 및 괴롭힘에 대한 태도의 중재 괴롭힘에 대한 태도의 중재 모델 및 학교 연결성
+
+Differences in adolescents’ motivations for indirect, direct, and hybrid peer defending
+청소년의 또래 방어 동기의 차이점 간접적, 직접적, 혼합적 또래 방어의 동기 차이
+
+Socio-Cognitive Processes and Peer-Network Influences in Defending and Bystanding
+사회 인지적 과정과 동료 네트워크의 영향력 방어와 방관
+
+Bullying, defending, and outsider behaviors: The moderating role of socialstatus and gender in their relationship with empathy
+괴롭힘, 방어 및 외부인 행동: 공감과의 관계에서 사회적 지위와 성별의 중재 역할
+
+Development and Validation of the Adolescent Defending Behaviors Questionnaire Among Chinese Early Adolescents
+청소년 방어 행동의 개발 및 검증 청소년의 방어 행동 중국 초기 청소년
+
+Witnessing school bullying: to react or not to react? An insight into perceived social norms regulating self-predicted defending and passive behaviours
+학교 괴롭힘 목격: 대응할 것인가, 말 것인가?  반응할까요? 인지된 사회적 규범에 대한 인사이트 스스로 예측한 방어적이고 수동적인 행동
+
+Fostering victim-defending behaviors among school bullying witnesses: A longitudinal and experimental test of two new strategies for changing behavior
+학교 괴롭힘 목격자 사이에서 피해자 보호 행동 장려: 행동 변화를 위한 두 가지 새로운 전략에 대한 종단적 및 실험적 테스트
+
+Longitudinal Associations Between Adolescents's Bullying-Related Indirect Defending, Outsider Behavior, and Peer-Group Status
+청소년의 괴롭힘 관련 간접 방어, 외부자 행동 및 또래 집단 상태 간의 종단적 연관성
+
+Belief in a just world and bullying defending behavior among adolescents: Roles of self‑efcacy and responsibility
+정의로운 세상에 대한 믿음과 청소년의 괴롭힘 방어 행동: 자기 효능감과 책임감의 역할
+
+Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis
+청소년의 공감 능력은 학교 괴롭힘에서 방관자 방어에 영향을 미칩니다: 3단계 메타 분석
+```
+
+
 ## 전산교재 연구 및 지도법
 {: #upj_1677750066735}
 
