@@ -860,6 +860,9 @@ Belief in a just world and bullying defending behavior among adolescents: Roles 
 
 Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis
 청소년의 공감 능력은 학교 괴롭힘에서 방관자 방어에 영향을 미칩니다: 3단계 메타 분석
+
+ADAPTING STRATEGIES FOR PARENTAL MONITORING : EFFECTS OF VIEWING SUPERHERO PROGRAMS ON AGGRESSIVENESS AMONG PRESCHOOL CHILDREN
+부모 모니터링을 위한 적응 전략: 미취학 아동의 슈퍼히어로 프로그램 시청이 공격성에 미치는 영향
 ```
 
 
