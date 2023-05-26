@@ -822,6 +822,62 @@ wnrekd11@konkuk.ac.kr
 {: #upj_1685070305925}
 
 ```text
+> Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis
+청소년의 공감 능력은 학교 괴롭힘에서 방관자 방어에 영향을 미칩니다: 3단계 메타 분석
+
+왼쪽의 논문은 Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis라는 제목으로, 학교 폭력에서 공감능력이 방관자의 방어 행동에 어떤 영향을 미치는지를 메타분석한 연구입니다1. 이 논문은 다음과 같이 요약할 수 있습니다.
+
+공감능력은 학교 폭력에서 피해자를 지지하는 방관자의 방어 행동과 유의한 양의 상관관계가 있었다.
+공감능력의 유형(정서적 공감과 인지적 공감)과 방어 행동의 평가자(자기평가와 타인평가)는 공감능력과 방어 행동 사이의 관계에 영향을 미쳤다.
+정서적 공감과 방어 행동 사이의 상관관계는 인지적 공감보다 강했고, 자기평가한 방어 행동과 공감능력 사이의 상관관계는 타인평가보다 강했다.
+학생들의 발달 단계는 공감능력과 방어 행동 사이의 관계에 영향을 미치지 않았다.
+
+이 논문은 청소년의 공감과 학교 폭력에서 피해자를 지키는 방관자 행동 사이의 관계를 메타분석한 것입니다. 저자들은 공감과 방관자 행동 사이에는 유의한 양의 상관관계가 있으며, 이 관계는 공감의 유형과 방관자 행동의 평가자에 따라 조절된다고 발견했습니다. 구체적으로, 정서적 공감과 방관자 행동 사이의 상관관계는 인지적 공감보다 강하고, 자기 평가로 측정된 방관자 행동은 동료 평가보다 공감과 더 큰 상관관계를 보였습니다. 하지만, 청소년의 발달 단계는 공감과 방관자 행동 사이의 관계에 유의한 조절 효과를 보이지 않았습니다. 이 논문은 학교 폭력 예방을 위해 청소년의 공감을 강화하는 것이 중요하다고 결론짓습니다.
+
+안녕하세요, 이것은 Bing입니다. 왼쪽 논문의 제목은 Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis입니다. 이 논문은 청소년의 공감과 학교 폭력에서 피해자를 지키는 행동의 관계를 메타분석한 연구입니다. 이 논문을 한글로 요약하면 다음과 같습니다.
+
+이 논문은 27개의 연구(35개의 독립적인 샘플, N = 25,012명의 청소년)를 포함하는 3수준 메타분석을 수행했다. 결과적으로 공감과 피해자를 지키는 행동은 양의 상관관계가 있었다. 또한 공감과 피해자를 지키는 행동의 관계는 공감의 유형과 평가자에 따라 달라졌다. 구체적으로, 정서적 공감과 피해자를 지키는 행동의 상관계수(r = 0.27, 95% CI [0.22, 0.32])는 인지적 공감과 피해자를 지키는 행동의 상관계수(r = 0.22, 95% CI [0.17, 0.28])보다 유의하게 강했다. 마지막으로, 평가자에 따라 공감과 피해자를 지키는 행동의 관계가 달라졌다. 즉, 자기 평가로 측정된 피해자를 지키는 행동의 상관계수는 동료 평가로 측정된 것보다 유의하게 강했다. 이러한 결과는 공감이 피해자를 지키는 행동과 밀접하게 관련되어 있음을 보여준다. 따라서 학교 폭력을 예방하기 위해서는 청소년들의 공감능력을 강화하는 것이 중요하다고 할 수 있다.
+
+메타분석이란 여러 연구들의 결과를 통계적으로 통합하여 전체적인 효과나 경향을 파악하는 방법입니다. 이 논문이 사용한 메타분석 방법은 다음과 같습니다.
+
+- 자료형태에 따른 요약 통계량 유형을 검토하고 어떤 요약 통계량으로 산출할지를 사전에 결정한다. 예를 들어, 치료 효과의 평균을 산출하기 위해 연구들의 상관계수나 평균차이 등을 사용한다¹.
+- 통계 모형을 결정한다. 고정효과 모형이나 임의효과 모형 중 하나를 선택한다. 고정효과 모형은 모든 연구들이 동일한 진짜 효과를 가지고 있다고 가정하는 반면, 임의효과 모형은 각 연구들이 다른 진짜 효과를 가지고 있다고 가정한다¹.
+- 이질성을 검토한다. 이질성이란 연구들 간에 효과의 차이가 얼마나 큰지를 나타내는 지표로, Q-검정이나 I^2^ 값 등으로 측정할 수 있다. 이질성이 크면 연구들을 단순히 통합하는 것이 부적절하다¹.
+- 이질성 문제가 크지 않을 때 메타분석은 수행할 수 있다. Fisher의 Z 변환을 통해 상관계수를 정규분포로 변환하고, 세 단계 임의효과 모형을 사용하여 총 효과와 신뢰구간을 추정한다. 세 단계 임의효과 모형은 효과 크기의 총 분산을 샘플링 분산(1단계), 같은 연구 내에서의 분산(2단계), 연구 간의 분산(3단계)으로 나눈다².
+- 이질성이 확인될 경우, 원인을 파악해야 한다. 메타회귀분석이나 하위집단 분석 등으로 다양한 변인들이 효과 크기에 미치는 영향을 조사하고, 유의한 변인들을 중재변인으로 간주한다¹.
+
+> Belief in a just world and bullying defending behavior among adolescents: Roles of self‑efcacy and responsibility
+정의로운 세상에 대한 믿음과 청소년의 괴롭힘 방어 행동: 자기 효능감과 책임감의 역할
+
+  논문 제목: Belief in a just world and bullying defending behavior among adolescents: Roles of self-efficacy and responsibility
+
+  저자: Yanling Chen et al.
+
+  출판연도: 2022
+
+  주제: 공정 세상 믿음과 학교 폭력 방어 행동의 관계와 자기 효능감과 책임감의 역할
+
+  서론: 학교 폭력은 청소년의 건강과 발달에 심각한 영향을 미치는 사회 문제이다. 본 연구는 공정 세상 믿음이 학교 폭력 방어 행동에 어떤 영향을 미치는지, 그리고 자기 효능감과 책임감이 중재 역할을 하는지를 중국 문화 맥락에서 탐구하고자 한다.
+
+  이론적 배경: 공정 세상 믿음은 우리가 공정하고 정의로운 세상에서 살고 있다고 믿는 심리적 경향이다. 하지만 세상은 항상 공정하지 않으며, 학교 폭력은 이러한 불공정함의 한 예이다. 공정 세상 믿음은 우리가 불공정함에 대처하는 방식에 영향을 준다. 일부 연구들은 공정 세상 믿음이 타인에게 도움을 주는 행동과 학교 폭력에 대한 태도에 긍정적인 영향을 준다고 제시하였다. 본 연구에서는 공정 세상 믿음이 학교 폭력 방어 행동에도 긍정적인 영향을 줄 것이라고 가정하였다.
+
+  연구방법 및 절차: 본 연구는 중국 절강성의 3개 중학교에서 837명의 학생들을 편의 샘플링하여 설문 조사를 실시하였다. 설문지에는 공정 세상 믿음 척도, 자기 효능감 척도, 책임감 척도, 학교 폭력 방어 행동 척도 등이 포함되었다. SPSS 24.0 프로그램을 이용하여 기술통계분석, 상관분석, 계층적 회귀분석 등을 수행하였다.
+
+  결론: 본 연구의 결과는 다음과 같다. (1) 공정 세상 믿음, 자기 효능감, 책임감, 학교 폭력 방어 행동은 모두 유의한 양의 상관관계를 보였다. (2) 공정 세상 믿음은 자기 효능감과 책임감을 통해 간접적으로 학교 폭력 방어 행동을 예측하였으며, 자기 효능감과 책임감의 연속적 중재 역할도 확인되었다. (3) 성별은 자기 효능감과 책임감 사이의 관계에 조절 역할을 하였으며, 남학생들이 여학생들보다 자기 효능감이 책임감에 강한 예측 효과를 보였고, 학교 폭력 방어 행동도 더 많이 보였다. 본 연구는 학교 폭력 방어 행동을 유도하기 위해 공정 세상 믿음, 자기 효능감, 책임감을 강화하는 방안을 제시하였다.
+
+> Witnessing school bullying: to react or not to react? An insight into perceived social norms regulating self-predicted defending and passive behaviours
+학교 괴롭힘 목격: 대응할 것인가, 말 것인가?  반응할까요? 인지된 사회적 규범에 대한 인사이트 스스로 예측한 방어적이고 수동적인 행동
+
+이 논문은 학교 폭력을 목격한 학생들의 반응에 영향을 미치는 인식된 사회적 규범에 대해 연구한 것입니다. 저자들은 목격자들이 세 가지 방어적 행동(신고, 돌봄, 반대)과 한 가지 수동적 반응(수동적 구경)을 사회적 규범으로 인식하는지, 그리고 이러한 인식이 자신의 행동에 어떤 영향을 미치는지 조사했습니다. 5445명의 중학생과 고등학생을 대상으로 설문조사를 실시한 결과, 신고, 돌봄, 반대 행동은 인식된 사회적 규범에 부합하는 것으로 나타났으며, 특히 신고와 반대는 명령적 규범으로, 돌봄은 일반적 규범으로 간주되었습니다. 반면, 수동적 구경은 인식된 사회적 규범에 부합하지 않는 것으로 나타났습니다. 다중 회귀분석을 통해 인식된 명령적 규범과 인식된 기술적 규범이 네 가지 목격자 행동의 강력한 예측변수로 나타났습니다. 또한 자기효능감과 인식된 사회적 지지도 일부 행동에 유의한 예측변수로 나타났습니다. 이 연구는 학교 폭력을 예방하고 방어하는 데 있어 인식된 사회적 규범의 중요성을 강조하고 있습니다.
+
+안녕하세요, 이것은 빙입니다. 왼쪽 논문을 요약해 드리겠습니다.
+
+왼쪽 논문은 학교 폭력을 목격한 학생들의 반응에 관한 연구입니다. 저자들은 목격자들이 폭력 피해자를 지지하는 행동(알림, 돌봄, 반대)과 수동적인 반응(수동적 목격)에 대한 사회적 규범을 어떻게 인식하는지 조사했습니다. 결과적으로, 알림, 돌봄, 반대 행동은 사회적 규범으로 인식되었으며, 특히 규범적 기대에 따라 결정되었습니다. 반면, 수동적 목격은 사회적 규범으로 인식되지 않았습니다. 또한, 사회적 규범의 인식은 목격자들의 행동 의도를 예측하는 강력한 요인이었습니다. 이 연구는 학교 폭력을 예방하고 줄이기 위한 개입 방안에 대한 시사점을 제공합니다.³
+
+
+-----------------------------------------
+
+
 Defending behavior of peer victimization in school and cyber context during childhood and adolescence: A meta-analytic review of individual and peer-relational characteristics
 아동기와 청소년기의 학교 및 사이버 맥락에서 또래 피해에 대한 방어 행동: 개인 및 또래 관계 특성에 대한 메타 분석적 검토
 
@@ -846,20 +902,11 @@ Bullying, defending, and outsider behaviors: The moderating role of socialstatus
 Development and Validation of the Adolescent Defending Behaviors Questionnaire Among Chinese Early Adolescents
 청소년 방어 행동의 개발 및 검증 청소년의 방어 행동 중국 초기 청소년
 
-Witnessing school bullying: to react or not to react? An insight into perceived social norms regulating self-predicted defending and passive behaviours
-학교 괴롭힘 목격: 대응할 것인가, 말 것인가?  반응할까요? 인지된 사회적 규범에 대한 인사이트 스스로 예측한 방어적이고 수동적인 행동
-
 Fostering victim-defending behaviors among school bullying witnesses: A longitudinal and experimental test of two new strategies for changing behavior
 학교 괴롭힘 목격자 사이에서 피해자 보호 행동 장려: 행동 변화를 위한 두 가지 새로운 전략에 대한 종단적 및 실험적 테스트
 
 Longitudinal Associations Between Adolescents's Bullying-Related Indirect Defending, Outsider Behavior, and Peer-Group Status
 청소년의 괴롭힘 관련 간접 방어, 외부자 행동 및 또래 집단 상태 간의 종단적 연관성
-
-Belief in a just world and bullying defending behavior among adolescents: Roles of self‑efcacy and responsibility
-정의로운 세상에 대한 믿음과 청소년의 괴롭힘 방어 행동: 자기 효능감과 책임감의 역할
-
-Adolescent Empathy Influences Bystander Defending in School Bullying: A Three-Level Meta-Analysis
-청소년의 공감 능력은 학교 괴롭힘에서 방관자 방어에 영향을 미칩니다: 3단계 메타 분석
 
 ADAPTING STRATEGIES FOR PARENTAL MONITORING : EFFECTS OF VIEWING SUPERHERO PROGRAMS ON AGGRESSIVENESS AMONG PRESCHOOL CHILDREN
 부모 모니터링을 위한 적응 전략: 미취학 아동의 슈퍼히어로 프로그램 시청이 공격성에 미치는 영향
