@@ -18,6 +18,26 @@ permalink: /pre/memo/
 [Pico](https://picocss.com/docs/themes.html),
 
 ```text
+> 홈페이지 메뉴 리뉴얼
+  현재
+    Home Git Linux Missions preparing
+                            Android 1
+                            Android 2-1
+                            Android 2-2
+                            Android 3
+                            Flutter
+                            JavaFX
+                            JavaScript
+                            사회적 자아
+                            정보처리산업기사
+                            Learning
+                            강의와 수업
+                            메모
+                            Python
+                            미분류
+  리뉴얼
+    
+
 > 대문 페이지를 symmetric nature 넣는 건 어떨까?
 사진과 함께 간단한 코드를 예쁘게 디자인 하는거다.
 
