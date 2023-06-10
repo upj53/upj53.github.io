@@ -39,7 +39,7 @@ permalink: /pre/job/
 </div>
 -->
 
-      
+<br/><br/>
 |졸업요건|기준학점|취득학점|잔여학점|
 |:-|:-:|:-:|:-:|
 |교직이론|12|6|**6**|
@@ -49,7 +49,7 @@ permalink: /pre/job/
 |전공교과교육|6|4|**2**|
 |전공교과내용|30|22|**8**|
 |총점|72|60|**16**|
-      
+<br/><br/>
 
 <table class="col-lg-4 col-12" style="display:inline-block; vertical-align:top;" markdown="1">
 <tr><td style="white-space:pre; vertical-align:top;">    <strong>전공(50학점)</strong>
