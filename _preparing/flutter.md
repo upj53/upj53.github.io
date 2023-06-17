@@ -578,28 +578,21 @@ Different Types of Widget (Container)
 
 ```dart
 ElevatedButton(
-  onPressed: () {
-      // Respond to button press
-  },
-  child: Text('CONTAINED BUTTON'),
-)
-ElevatedButton.icon(
-  onPressed: () {
-      // Respond to button press
-  },
-  icon: Icon(Icons.add, size: 18),
-  label: Text("CONTAINED BUTTON"),
-)
-ElevatedButton(
-  style: ElevatedButton.styleFrom(
-    primary: //background color
-    onPrimary: //foreground color
-    textStyle: //text style
-    shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20)
-        //둥근 모양
+  onPressed: () {}, 
+  child: Text(
+    '$btntxt',
+    style: TextStyle(
+      fontSize: 35,
+      color: txtcolor
     ),
-	),
+  ),
+  style: ElevatedButton.styleFrom(
+    backgroundColor: btncolor,
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(20)
+    ),
+    padding: EdgeInsets.all(20),
+  ),
 )
 
 TextButton(
