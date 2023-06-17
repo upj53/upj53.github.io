@@ -666,7 +666,7 @@ ElevatedButton(
 
 [DatFormat](https://pub.dev/documentation/intl/latest/intl/DateFormat-class.html)
 
-- [간단한 계산기, CodeFlutter](https://www.youtube.com/watch?v=s9A2l6Y7GV4) ([코드](https://github.com/bimalkaf/Flutter_Basic_Calculator))
+- [간단한 계산기, CodeFlutter](https://www.youtube.com/watch?v=s9A2l6Y7GV4) ([코드](https://github.com/bimalkaf/Flutter_Basic_Calculator)) 더 잘 만들었다
 - [Calculator, 설명없이](https://www.youtube.com/watch?v=cUxyqztdwwM) ([코드](https://github.com/sanket-kankariya/Calculator-flutter))
 - [공학용 계산기](https://www.youtube.com/watch?v=l4bLPfS1uik)
 - [Quiz App, 설명없이](https://www.youtube.com/watch?v=Nhy0VWAMsFU)
