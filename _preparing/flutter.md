@@ -555,7 +555,7 @@ void main() {
 
 [DartPad](https://dartpad.dev/)
 
-### 2.Quiz App
+### 2.Button
 {: #upj_1677644455710}
 
 MaterialApp > home
