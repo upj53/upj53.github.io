@@ -679,6 +679,13 @@ ElevatedButton(
 - [음식배달앱 Part-1, 풍성한채널](https://www.youtube.com/watch?v=7dAt-JMSCVQ)
 - [음식배달앱 Part-2, 풍성한채널](https://www.youtube.com/watch?v=GQJovou6zuE)
 
+플러터 수업
+- [플러터기초(오준석)](https://survivalcoding.com/courses/543787/lectures/9871615)
+- [FlutterStudio레이아웃 만들기](https://flutterstudio.app/)
+- [Material.io 디자인](https://m3.material.io/)
+- [Flutter.dev 위젯 인덱스](https://docs.flutter.dev/reference/widgets)
+- [iOS 디자인 가이드](https://developer.apple.com/design/human-interface-guidelines/widgets)
+
 ```text
 {: #upj_1680265214761}
 {: #upj_1680265224089}
