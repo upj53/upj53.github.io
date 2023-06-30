@@ -670,7 +670,7 @@ ElevatedButton(
 - [Calculator, 설명없이](https://www.youtube.com/watch?v=cUxyqztdwwM) ([코드](https://github.com/sanket-kankariya/Calculator-flutter))
 - [공학용 계산기](https://www.youtube.com/watch?v=l4bLPfS1uik)
 - [Quiz App, Quiz App - Flutter Complete App - Speed Code](https://www.youtube.com/watch?v=Nhy0VWAMsFU) ([코드](https://github.com/abuanwar072/Quiz-App-Flutter))
-- [Quiz App, Quiz App | Flutter Speed Code | 2023](https://www.youtube.com/watch?v=ORDjs-oHJ5Q) ([코드](https://github.com/bimalkaf/Flutter_Simple_Quiz_App))
+- [Quiz App, Quiz App Flutter Speed Code 2023](https://www.youtube.com/watch?v=ORDjs-oHJ5Q) ([코드](https://github.com/bimalkaf/Flutter_Simple_Quiz_App))
 - [ToDo App, Local List](https://www.youtube.com/watch?v=K4P5DZ9TRns)
 - [ToDo Firebase](https://www.youtube.com/watch?v=qFrJ30VFCFc&list=PL9n0l8rSshSnSO4dNTJmKGNa0VNHrCQFR)
 - [행맨 게임](https://youtu.be/hY9kNFdmPaE), [계산기](https://youtu.be/hY9kNFdmPaE)
