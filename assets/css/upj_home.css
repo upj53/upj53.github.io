@@ -1,6 +1,7 @@
 #mainpage {
   height: 70vh;
   overflow: hidden;
+  position: relative;
 }
 
 .slider_container {
@@ -23,9 +24,13 @@
 }
 
 .btn {
+  width: 100px;
   position: absolute;
   bottom: 0px;
-  right: 0px;
+  left: calc(50% - 50px);
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .slider_inner img {
