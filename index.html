@@ -3,6 +3,20 @@ title: Home
 layout: upj_mainpage
 ---
 
+<div class="slider_container">
+{% for p in site.frontpages %}
+  <div class="slider_inner" style="background-image: url('{{ p.image }}');">
+    <!-- <div class="title">{{ p.index }}</div> -->
+    <div class="content">{{ p.content }}</div>
+  </div>
+{% endfor %}
+</div>
+
+<div class="btn">
+  <button>이전</button>
+  <button>다음</button>
+</div>
+
 <!--
 <ul>
 {% for p in site.frontpages %}

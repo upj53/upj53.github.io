@@ -2,3 +2,33 @@
   height: 70vh;
   overflow: hidden;
 }
+
+.slider_container {
+  width: 300vw;
+  transition: transform .5s;
+}
+
+.slider_inner {
+  width: 100vw;
+  height: 70vh;
+  background-color: red;
+  float: left;
+  object-fit: cover;
+  object-position: center;
+  text-align: center;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* .slider_inner img {
+  width: 100%;
+  height: auto;
+} */
