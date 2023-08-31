@@ -30,6 +30,8 @@ author:
 collections:
   preparing:
     output: true
+  lectures:
+    output: true
   frontpages:
     output: false
 
