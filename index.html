@@ -16,24 +16,3 @@ layout: upj_mainpage
   <i class="fa-regular fa-circle-left" id="btn_left"></i>
   <i class="fa-regular fa-circle-right" id="btn_right"></i>
 </div>
-
-<script>
-  const maxSize = 5;
-  let idx = 0;
-  document.querySelector('#btn_left').addEventListener('click', function() {
-    if(idx < maxSize - 1) {
-      idx++;
-      document.querySelector('.slider_container').style.transform = `translate(${-idx*100}vw)`;
-      // console.log(`idx=${idx}`);
-      // console.log(-idx*100);
-    }
-  });
-  document.querySelector('#btn_right').addEventListener('click', function() {
-    if(idx > 0) {
-      idx--;
-      // console.log(`idx=${idx}`);
-      // console.log(-idx*100);
-      document.querySelector('.slider_container').style.transform = `translate(${-idx*100}vw)`;
-    }
-  });
-</script>

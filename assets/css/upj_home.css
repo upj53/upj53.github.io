@@ -5,7 +5,7 @@
 }
 
 .slider_container {
-  width: 300vw;
+  width: 500vw;
   transition: transform .5s;
 }
 
