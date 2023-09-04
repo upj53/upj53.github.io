@@ -6,7 +6,7 @@ layout: upj_mainpage
 <div class="slider_container">
 {% for p in site.frontpages %}
   <div class="slider_inner" style="background-image: url('{{ p.image }}');">
-    <!-- <div class="title">{{ p.index }}</div> -->
+<!--     <div class="title">{{ p.name }}</div>-->
     <div class="content">{{ p.content }}</div>
   </div>
 {% endfor %}
@@ -17,13 +17,23 @@ layout: upj_mainpage
   <i class="fa-regular fa-circle-right" id="btn_right"></i>
 </div>
 
-<!--
-<ul>
-{% for p in site.frontpages %}
-  <li>
-    <h3>{{ p.name }}</h3>
-    <p>{{ p.content }}</p>
-  </li>
-{% endfor %}
-</ul>
--->
+<script>
+  const maxSize = 5;
+  let idx = 0;
+  document.querySelector('#btn_left').addEventListener('click', function() {
+    if(idx < maxSize - 1) {
+      idx++;
+      document.querySelector('.slider_container').style.transform = `translate(${-idx*100}vw)`;
+      // console.log(`idx=${idx}`);
+      // console.log(-idx*100);
+    }
+  });
+  document.querySelector('#btn_right').addEventListener('click', function() {
+    if(idx > 0) {
+      idx--;
+      // console.log(`idx=${idx}`);
+      // console.log(-idx*100);
+      document.querySelector('.slider_container').style.transform = `translate(${-idx*100}vw)`;
+    }
+  });
+</script>
