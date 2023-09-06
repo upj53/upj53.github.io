@@ -1,5 +1,5 @@
 #mainpage {
-  height: 70vh;
+  height: 90vh;
   overflow: hidden;
   position: relative;
 }
@@ -11,7 +11,7 @@
 
 .slider_inner {
   width: 100vw;
-  height: 70vh;
+  height: 90vh;
   background-color: red;
   float: left;
   object-fit: cover;
