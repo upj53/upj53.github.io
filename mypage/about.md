@@ -11,7 +11,7 @@ permalink: /about/
 <p id="genIdHelp" class="form-text">Generate Unique ID</p>
 <button type="button" class="btn btn-primary"
         style="background: #FF7C36; color:#fff; border: 1px solid #FF7C36; position: static; width:150px;"
-        onclick="generateID(1)">Kramdown ID</button>
+        onclick="generateID(1)">&nbsp;&nbsp;Kramdown ID</button>
 
 <script type="text/javascript">
 function generateID(type) {
