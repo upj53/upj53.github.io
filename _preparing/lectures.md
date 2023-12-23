@@ -1,8 +1,8 @@
 ---
-title: 강의와 수업
+title: Test 강의와 수업
 layout: upj_design
-addr: /pre/lecture/
-permalink: /pre/lecture/
+addr: /drafts/lecture/
+permalink: /drafts/lecture/
 ---
 
 #### Table Of Contents

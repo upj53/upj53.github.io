@@ -1,8 +1,8 @@
 ---
-title: Learning
+title: Test Learning
 layout: upj_design
-addr: /pre/learning/
-permalink: /pre/learning/
+addr: /drafts/learning/
+permalink: /drafts/learning/
 ---
 
 #### Table Of Contents

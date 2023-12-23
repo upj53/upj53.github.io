@@ -1,8 +1,8 @@
 ---
-title: Android 3
+title: Test Android 3
 layout: upj_design
-addr: /pre/android-3/
-permalink: /pre/android-3/
+addr: /drafts/android-3/
+permalink: /drafts/android-3/
 ---
 
 #### Table Of Contents

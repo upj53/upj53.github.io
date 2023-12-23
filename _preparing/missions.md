@@ -1,5 +1,5 @@
 ---
-title: Missions
+title: Test Missions
 layout: upj_design
 permalink: /drafts/missions/
 ---

@@ -1,8 +1,8 @@
 ---
-title: 메모
+title: Test 메모
 layout: upj_design
-addr: /pre/memo/
-permalink: /pre/memo/
+addr: /drafts/memo/
+permalink: /drafts/memo/
 ---
 
 ```text

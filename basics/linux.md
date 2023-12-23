@@ -1,7 +1,7 @@
 ---
 title: Linux
 layout: upj_design
-permalink: /basics/linux/
+permalink: /linux/
 ---
 
 #### Table Of Contents

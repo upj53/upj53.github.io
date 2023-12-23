@@ -1,7 +1,7 @@
 - name: Git
-  link: /basics/git/
+  link: /git/
 - name: Linux
-  link: /basics/linux/
+  link: /linux/
+- name: Linux
+  link: /linux/
 - name: line
-- name: etc
-  link: /basics/etc/

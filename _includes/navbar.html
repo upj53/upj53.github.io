@@ -44,9 +44,7 @@
           </a>
           <ul class="dropdown-menu">
             {% for item in site.lectures%}
-            {% unless item.title contains "Test" %}
             <li><a class="dropdown-item {% if page.url == item.addr %}active{% endif %}" href="{{ item.addr }}">{{ item.title }}</a></li>
-            {% endunless %}
             {% endfor %}
           </ul>
         </li>
@@ -58,10 +56,11 @@
         </li>
         {% endfor %}
 
-        <!---------준비중 preparing
+        <!---------준비중 preparing----------->
+        {% if jekyll.environment == "development" %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            preparing
+            준비중
           </a>
           <ul class="dropdown-menu">
             {% for item in site.preparing %}
@@ -71,29 +70,25 @@
             {% endfor %}
           </ul>
         </li>
-        ----------->
-
-        <!---------작업중 Drafts----------->
-        {% if jekyll.environment == "development" %}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {% if page.url contains '/drafts/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Drafts
-          </a>
-          <ul class="dropdown-menu">
-            {% for item in site.data.drafts %}
-            <li><a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
         {% endif %}
-
+        
         <!---------기본메뉴: 그룹 3----------->
         {% for item in site.data.menu_group_3 %}
         <li class="nav-item">
           <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
         </li>
         {% endfor %}
-
+        
+        <!---->
+        <li class="nav-item">
+          <script type="text/javascript">
+            function getID() {
+              prompt('', `{: #upj_${Date.now()}}`);
+              return false;
+            }
+          </script>
+          <a href="javascript:getID();" class="nav-link" style="color: #FF7C36;">ID</a>
+        </li>
       </div>
     </div>
     <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">

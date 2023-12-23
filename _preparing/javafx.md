@@ -1,8 +1,8 @@
 ---
-title: JavaFX
+title: Test JavaFX
 layout: upj_design
-addr: /pre/javafx/
-permalink: /pre/javafx/
+addr: /drafts/javafx/
+permalink: /drafts/javafx/
 ---
 
 #### Table Of Contents

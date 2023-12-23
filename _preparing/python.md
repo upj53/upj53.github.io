@@ -1,8 +1,8 @@
 ---
-title: Python
+title: Test Python
 layout: upj_design
-addr: /pre/python/
-permalink: /pre/python/
+addr: /drafts/python/
+permalink: /drafts/python/
 ---
 
 #### Table Of Contents

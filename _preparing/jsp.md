@@ -1,8 +1,8 @@
 ---
-title: 정보처리산업기사
+title: Test 정보처리산업기사
 layout: upj_design
-addr: /pre/jsp/
-permalink: /pre/jsp/
+addr: /drafts/jsp/
+permalink: /drafts/jsp/
 ---
 
 ```text

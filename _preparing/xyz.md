@@ -1,7 +1,7 @@
 ---
-title: 미분류
+title: Test 미분류
 layout: upj_design
-permalink: /basics/etc/
+permalink: /drafts/etc/
 ---
 
 #### Table Of Contents

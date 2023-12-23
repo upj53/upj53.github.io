@@ -1,8 +1,8 @@
 ---
-title: Android 2-2
+title: Test Android 2-2
 layout: upj_design
-addr: /pre/android-2-2/
-permalink: /pre/android-2-2/
+addr: /drafts/android-2-2/
+permalink: /drafts/android-2-2/
 ---
 
 #### Table Of Contents

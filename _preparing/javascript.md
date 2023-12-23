@@ -1,8 +1,8 @@
 ---
-title: JavaScript
+title: Test JavaScript
 layout: upj_design
-addr: /pre/javascript/
-permalink: /pre/javascript/
+addr: /drafts/javascript/
+permalink: /drafts/javascript/
 ---
 
 <!--

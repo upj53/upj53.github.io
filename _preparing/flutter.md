@@ -1,8 +1,8 @@
 ---
 title: Flutter
 layout: upj_design
-addr: /pre/flutter/
-permalink: /pre/flutter/
+addr: /flutter/
+permalink: /flutter/
 ---
 
 #### Table Of Contents
@@ -10,7 +10,12 @@ permalink: /pre/flutter/
 - TOC
 {:toc}
 
-## Dart
+## 공식 튜토리얼
+{: #upj_1703330308371}
+
+[Official Tutorials](https://flutter.dev/learn)
+
+## Nomadcoders
 {: #upj_1678579027299}
 
 ### 1. Variables
