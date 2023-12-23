@@ -1,7 +1,7 @@
 ---
 title: Missions
 layout: upj_design
-permalink: /missions/
+permalink: /drafts/missions/
 ---
 
 #### Table Of Contents

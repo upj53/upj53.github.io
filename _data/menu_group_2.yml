@@ -1,4 +1,4 @@
-- name: Git
+- name: 깃
   link: /basics/git/
-- name: Linux
+- name: 리눅스
   link: /basics/linux/

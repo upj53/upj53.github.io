@@ -1,8 +1,8 @@
 ---
-title: 사회적 자아
+title: 은근과 끈기
 layout: upj_design
-addr: /pre/job/
-permalink: /pre/job/
+addr: /lectures/job/
+permalink: /lectures/job/
 ---
 
 #### Table Of Contents

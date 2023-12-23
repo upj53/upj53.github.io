@@ -16,7 +16,7 @@
 <script>
   const maxSize = 5;
   let idx = 0;
-  document.querySelector('#btn_left').addEventListener('click', function() {
+  document.querySelector('#btn_right').addEventListener('click', function() {
     if(idx < maxSize - 1) {
       idx++;
       document.querySelector('.slider_container').style.transform = `translate(${-idx*100}vw)`;
@@ -24,7 +24,7 @@
       // console.log(-idx*100);
     }
   });
-  document.querySelector('#btn_right').addEventListener('click', function() {
+  document.querySelector('#btn_left').addEventListener('click', function() {
     if(idx > 0) {
       idx--;
       // console.log(`idx=${idx}`);

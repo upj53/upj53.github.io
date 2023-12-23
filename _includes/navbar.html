@@ -40,7 +40,7 @@
         <!---------강의들 lectures----------->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/lectures/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Lectures
+            성장과 개발
           </a>
           <ul class="dropdown-menu">
             {% for item in site.lectures%}
@@ -58,7 +58,7 @@
         </li>
         {% endfor %}
 
-        <!---------준비중 preparing----------->
+        <!---------준비중 preparing
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             preparing
@@ -71,6 +71,7 @@
             {% endfor %}
           </ul>
         </li>
+        ----------->
 
         <!---------작업중 Drafts----------->
         {% if jekyll.environment == "development" %}

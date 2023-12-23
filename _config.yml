@@ -28,8 +28,8 @@ author:
   name: "Park Won-june"
 
 collections:
-  preparing:
-    output: true
+  #  preparing:
+  #  output: true
   lectures:
     output: true
   frontpages:
