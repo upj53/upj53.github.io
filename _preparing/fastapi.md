@@ -331,6 +331,8 @@ async def update_item(item_id: int, item: Item, user: User):
 ### Body - Nested Models
 {: #upj_1703332157947}
 
+main.py
+
 ```python
 from fastapi import FastAPI, Form, Request, File, UploadFile
 from typing import Union, List, Set
@@ -356,4 +358,21 @@ async def update_item(item_id: int, item: Item):
         'item': item
     }
     return results
+```
+
+Bodies of pure lists
+
+```python
+from fastapi import FastAPI, Form, Request, File, UploadFile
+from typing import Union, List, Set
+from pydantic import BaseModel, HttpUrl
+app = FastAPI()
+
+class Image(BaseModel):
+    url: HttpUrl
+    name: str
+
+@app.post('/images/multiple/')
+async def create_multiple_images(images: List[Image]):
+    return images
 ```
