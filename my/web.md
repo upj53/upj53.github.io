@@ -32,6 +32,12 @@ permalink: /web/
 </html>
 ```
 
+### JS fetch
+{: #upj_1703824233619}
+
+```javascript
+```
+
 ## Snippets
 {: #upj_1703496180623}
 
