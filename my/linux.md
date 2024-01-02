@@ -156,17 +156,15 @@ sudo	슈퍼유저의 권한을 수행(do)한다
 
 ```shell
      사용자 추가
-sudo adduser user2
-sudo useradd user3
+sudo useradd user1
 
      사용자를 sudo 권한에 추가
 
-useradd -aG user1 sudo	우분투
-useradd -aG user1 wheel	아바존 AMI
+useradd -aG sudo user1 # 우분투
 
      사용자 삭제
-sudo deluser user2
-sudo deluser user3 --remove-home
+sudo deluser user1
+sudo deluser user1 --remove-home
 ```
 
 그룹 추가
@@ -177,7 +175,7 @@ sudo addgroup dev
 sudo delgroup dev
 
      그룹에 사용자 할당
-sudo usermod -a -G sudo user1
+sudo usermod -aG sudo user1
 ```
 
 ### 파일시스템 권한
