@@ -14,8 +14,13 @@
 
 {% if page.title == 'Home' %}
 <script>
-  const maxSize = 5;
+  const maxSize = 10;
   let idx = 0;
+  let curIdx = Math.floor(Math.random() * 10);
+  //console.log(`curIdx=${curIdx}, 페이지번호=${curIdx+1}`);
+  document.querySelector('.slider_container').style.transform = `translate(${-curIdx*100}vw)`;
+  idx = curIdx ;
+
   document.querySelector('#btn_right').addEventListener('click', function() {
     if(idx < maxSize - 1) {
       idx++;
