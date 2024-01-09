@@ -1,7 +1,6 @@
 ---
 title: Test Android 1
 layout: upj_design
-addr: /drafts/android-1/
 permalink: /drafts/android-1/
 ---
 

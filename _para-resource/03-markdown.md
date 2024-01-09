@@ -1,8 +1,7 @@
 ---
 title: Markdown
 layout: upj_design
-addr: /markdown/
-permalink: /markdown/
+permalink: /resource/markdown/
 ---
 
 #### Table Of Contents

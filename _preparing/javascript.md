@@ -1,7 +1,6 @@
 ---
 title: Test JavaScript
 layout: upj_design
-addr: /drafts/javascript/
 permalink: /drafts/javascript/
 ---
 

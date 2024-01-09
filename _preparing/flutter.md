@@ -1,7 +1,6 @@
 ---
 title: Flutter
 layout: upj_design
-addr: /flutter/
 permalink: /flutter/
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: FastAPI
 layout: upj_design
-addr: /fastapi/
-permalink: /fastapi/
+permalink: /resource/fastapi/
 ---
 
 #### Table Of Contents

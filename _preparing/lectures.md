@@ -1,7 +1,6 @@
 ---
 title: Test 강의와 수업
 layout: upj_design
-addr: /drafts/lecture/
 permalink: /drafts/lecture/
 ---
 

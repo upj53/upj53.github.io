@@ -1,7 +1,6 @@
 ---
 title: Test Learning
 layout: upj_design
-addr: /drafts/learning/
 permalink: /drafts/learning/
 ---
 

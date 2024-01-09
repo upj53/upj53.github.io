@@ -1,7 +1,6 @@
 ---
 title: Test Python
 layout: upj_design
-addr: /drafts/python/
 permalink: /drafts/python/
 ---
 

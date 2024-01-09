@@ -1,8 +1,7 @@
 ---
 title: 사회적 자아
 layout: upj_design
-addr: /lectures/job/
-permalink: /lectures/job/
+permalink: /area/job/
 ---
 
 #### Table Of Contents

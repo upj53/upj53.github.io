@@ -1,7 +1,6 @@
 ---
 title: Test Android 3
 layout: upj_design
-addr: /drafts/android-3/
 permalink: /drafts/android-3/
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Test JavaFX
 layout: upj_design
-addr: /drafts/javafx/
 permalink: /drafts/javafx/
 ---
 

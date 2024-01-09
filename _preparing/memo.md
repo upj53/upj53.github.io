@@ -1,7 +1,6 @@
 ---
 title: Test 메모
 layout: upj_design
-addr: /drafts/memo/
 permalink: /drafts/memo/
 ---
 

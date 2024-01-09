@@ -1,7 +1,7 @@
 ---
 title: Web
 layout: upj_design
-permalink: /web/
+permalink: /resource/web/
 ---
 
 #### Table Of Contents
