@@ -30,10 +30,16 @@ author:
 collections:
   preparing:
     output: true
-  lectures:
-    output: true
   frontpages:
     output: false
+  para-projects:
+    output: true
+  para-area:
+    output: true
+  para-resource:
+    output: true
+  para-archive:
+    output: true
 
 # social settings
 og_locale: "ko_kr"

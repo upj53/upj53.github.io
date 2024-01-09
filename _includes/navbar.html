@@ -37,7 +37,7 @@
         </li>
         ----------->
 
-        <!---------강의들 lectures----------->
+        <!---------강의들 lectures
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/lectures/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             일신우일신
@@ -48,8 +48,9 @@
             {% endfor %}
           </ul>
         </li>
+        ----------->
 
-        <!---------기본메뉴: 그룹 2----------->
+        <!---------그룹 2: my----------->
         {% for item in site.data.menu_group_2 %}
         <li class="nav-item">
           <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
@@ -60,22 +61,76 @@
         {% if jekyll.environment == "development" %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            준비중
+            preparing
           </a>
           <ul class="dropdown-menu">
             {% for item in site.preparing %}
             {% unless item.title contains "Test" %}
-            <li><a class="dropdown-item {% if page.url == item.addr %}active{% endif %}" href="{{ item.addr }}">{{ item.title }}</a></li>
+            <li><a class="dropdown-item {% if page.url == item.permalink %}active{% endif %}" href="{{ item.permalink }}">{{ item.title }}</a></li>
             {% endunless %}
             {% endfor %}
           </ul>
         </li>
         {% endif %}
         
-        <!---------기본메뉴: 그룹 3----------->
+        <!---------그룹 3:  PARA----------->
         {% for item in site.data.menu_group_3 %}
-        <li class="nav-item">
-          <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {% if page.url contains item.prefix %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ item.label }}
+          </a>
+          <!--
+          <ul class="dropdown-menu">
+            {% for i in site.para-projects %}
+            {% if i.title == 'divider' %}
+            <li><hr class="dropdown-divider"></li>
+            {% else %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          -->
+          {% if item.name == 'Projects' %}
+          <ul class="dropdown-menu">
+            {% for i in site.para-projects %}
+            {% if i.title == 'divider' %}
+            <li><hr class="dropdown-divider"></li>
+            {% else %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% elsif item.name == 'Area' %}
+          <ul class="dropdown-menu">
+            {% for i in site.para-area %}
+            {% if i.title == 'divider' %}
+            <li><hr class="dropdown-divider"></li>
+            {% else %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% elsif item.name == 'Resource' %}
+          <ul class="dropdown-menu">
+            {% for i in site.para-resource %}
+            {% if i.title == 'divider' %}
+            <li><hr class="dropdown-divider"></li>
+            {% else %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% else %}
+          <ul class="dropdown-menu">
+            {% for i in site.para-archive %}
+            {% if i.title == 'divider' %}
+            <li><hr class="dropdown-divider"></li>
+            {% else %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% endif %}
         </li>
         {% endfor %}
         
@@ -91,9 +146,12 @@
         </li>
       </div>
     </div>
+
+    <!--
     <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
       <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0" onclick="alert('준비중입니다.'); return false;">
     </form>
+    -->
   </div>
 </nav>
 

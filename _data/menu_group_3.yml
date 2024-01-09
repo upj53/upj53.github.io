@@ -1,2 +1,12 @@
-#- name: Missions
-#  link: /missions/
+- name: Projects
+  label: 프로젝트
+  prefix: projects
+- name: Area
+  label : 자기관리
+  prefix: area
+- name: Resource
+  label : 리포
+  prefix: resource
+- name: Archive
+  label : zip
+  prefix: archive
