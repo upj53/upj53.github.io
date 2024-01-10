@@ -6,14 +6,33 @@
 bundle install
 bundle exec jekyll serve
 bundle exec jekyll serve --watch --drafts
-
-set JEKYLL_ENV=production 
-set JEKYLL_ENV=draft
-bundle exec jekyll serve --watch --drafts
-
-Set-Variable -name JEKYLL_ENV -value production; bundle exec jekyll serve --watch --drafts
 ```
 
-References
+# Templates
+
+```text
+---
+title: Web
+layout: upj_design
+permalink: /resource/web/
+---
+
+#### Table Of Contents
+
+- TOC
+{:toc}
+
+## 사용팁
+{: #upj_1703483602407}
+
+### Bootstrap 5
+{: #upj_1703483627304}
+
+```html
+```
+
+# References
 
 - [Markdown-Guide](https://github1s.com/mattcone/markdown-guide/)
+- [홍정모](https://jmhongus2019.wixsite.com/mysite)
+- [soo:bak's blog](https://soo-bak.github.io/) [github](https://github.com/soo-bak/soo-bak.github.io?tab=readme-ov-file)

@@ -1,8 +1,8 @@
 - name: Projects
-  label: 프로젝트
+  label: 지금할일!
   prefix: projects
 - name: Area
-  label : 자기관리
+  label : 은근과 끈기
   prefix: area
 - name: Resource
   label : 리포

@@ -60,6 +60,27 @@ permalink: /git/
 | [이모지](https://www.markdownguide.org/extended-syntax/#emoji)<br>[이모지 사용법](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji) | `This is so funny! :joy:` |
 | [하이라이트](https://www.markdownguide.org/extended-syntax/#highlight) | `I need to highlight these ==very important words==`. |
 
+## Markdown 사용팁
+{: #upj_1704851726011}
+
+### 링크 타겟을 새창으로
+{: #upj_1704851762796}
+
+```markdown
+[레이블](url){:target="_blank"}
+```
+
+### details 로 접기 사용
+{: #upj_1704858148299}
+
+```markdown
+<details>
+<summary>요약
+</summary>
+
+내용 입력하기
+</details>
+```
 
 ## Init my repository
 {: #upj_1676460528550}
@@ -166,7 +187,7 @@ git checkout -p  {MY BRANCH NAME} -- {MY FILE NAME}
 git checkout -p   ParkWonjune   index.md
 ```
 
-## Tips
+## 사용팁
 {: #upj_1676508313337}
 
 ### .gitignore 가 제대로 작동 안할 때
