@@ -105,6 +105,17 @@
         </li>
         {% endfor %}
         
+        <!--ID생성버튼-->
+        <li class="nav-item">
+          <script type="text/javascript">
+            function getID() {
+              prompt('', `{: #upj_${Date.now()}}`);
+              return false;
+            }
+          </script>
+          <a href="javascript:getID();" class="nav-link" style="color: #FF7C36;">ID</a>
+        </li>
+        
         <!---------준비중 preparing----------->
         {% if jekyll.environment == "development" %}
         <li class="nav-item dropdown">
@@ -119,18 +130,7 @@
             {% endfor %}
           </ul>
         </li>
-        {% endif %}
-        
-        <!---->
-        <li class="nav-item">
-          <script type="text/javascript">
-            function getID() {
-              prompt('', `{: #upj_${Date.now()}}`);
-              return false;
-            }
-          </script>
-          <a href="javascript:getID();" class="nav-link" style="color: #FF7C36;">ID</a>
-        </li>
+        {% endif %} 
       </div>
     </div>
 
