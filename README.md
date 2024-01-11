@@ -4,8 +4,7 @@
 
 ```shell
 bundle install
-bundle exec jekyll serve
-bundle exec jekyll serve --watch --drafts
+bundle exec jekyll serve --host 0.0.0.0 --watch --drafts
 ```
 
 # Templates
