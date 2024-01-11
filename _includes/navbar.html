@@ -37,41 +37,12 @@
         </li>
         ----------->
 
-        <!---------강의들 lectures
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {% if page.url contains '/lectures/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            일신우일신
-          </a>
-          <ul class="dropdown-menu">
-            {% for item in site.lectures%}
-            <li><a class="dropdown-item {% if page.url == item.addr %}active{% endif %}" href="{{ item.addr }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        ----------->
-
         <!---------그룹 2: my----------->
         {% for item in site.data.menu_group_2 %}
         <li class="nav-item">
           <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
         </li>
         {% endfor %}
-
-        <!---------준비중 preparing----------->
-        {% if jekyll.environment == "development" %}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            preparing
-          </a>
-          <ul class="dropdown-menu">
-            {% for item in site.preparing %}
-            {% unless item.title contains "Test" %}
-            <li><a class="dropdown-item {% if page.url == item.permalink %}active{% endif %}" href="{{ item.permalink }}">{{ item.title }}</a></li>
-            {% endunless %}
-            {% endfor %}
-          </ul>
-        </li>
-        {% endif %}
         
         <!---------그룹 3:  PARA----------->
         {% for item in site.data.menu_group_3 %}
@@ -133,6 +104,22 @@
           {% endif %}
         </li>
         {% endfor %}
+        
+        <!---------준비중 preparing----------->
+        {% if jekyll.environment == "development" %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            preparing
+          </a>
+          <ul class="dropdown-menu">
+            {% for item in site.preparing %}
+            {% unless item.title contains "Test" %}
+            <li><a class="dropdown-item {% if page.url == item.permalink %}active{% endif %}" href="{{ item.permalink }}">{{ item.title }}</a></li>
+            {% endunless %}
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
         
         <!---->
         <li class="nav-item">
