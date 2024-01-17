@@ -30,6 +30,25 @@ permalink: /resource/web/
 ```html
 ```
 
+**DEV**
+
+```liquid
+{% if jekyll.environment == "development" %}
+{% endif %}
+```
+
+**파이썬 아이디생성**
+
+```python
+python 생성코드
+def my(a):
+	b = int(a.split('_')[1].split('}')[0])
+	for i in range(20):
+		print(f'{{: #upj_{b+i}}}')
+
+my('{: #upj_1705463826604}')
+```
+
 # References
 
 - [Markdown-Guide](https://github1s.com/mattcone/markdown-guide/)

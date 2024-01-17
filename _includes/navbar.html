@@ -67,7 +67,13 @@
             {% if i.title == 'divider' %}
             <li><hr class="dropdown-divider"></li>
             {% else %}
+            {% if jekyll.environment == "development" %}
             <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% else %}
+            {% unless i.private %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endunless %}
+            {% endif %}
             {% endif %}
             {% endfor %}
           </ul>
@@ -77,7 +83,13 @@
             {% if i.title == 'divider' %}
             <li><hr class="dropdown-divider"></li>
             {% else %}
+            {% if jekyll.environment == "development" %}
             <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% else %}
+            {% unless i.private %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endunless %}
+            {% endif %}
             {% endif %}
             {% endfor %}
           </ul>
@@ -87,7 +99,13 @@
             {% if i.title == 'divider' %}
             <li><hr class="dropdown-divider"></li>
             {% else %}
+            {% if jekyll.environment == "development" %}
             <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% else %}
+            {% unless i.private %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endunless %}
+            {% endif %}
             {% endif %}
             {% endfor %}
           </ul>
@@ -97,7 +115,13 @@
             {% if i.title == 'divider' %}
             <li><hr class="dropdown-divider"></li>
             {% else %}
+            {% if jekyll.environment == "development" %}
             <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% else %}
+            {% unless i.private %}
+            <li><a class="dropdown-item {% if page.url == i.permalink %}active{% endif %}" href="{{ i.permalink }}">{{ i.title }}</a></li>
+            {% endunless %}
+            {% endif %}
             {% endif %}
             {% endfor %}
           </ul>
