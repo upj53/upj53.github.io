@@ -137,7 +137,8 @@
               return false;
             }
           </script>
-          <a href="javascript:getID();" class="nav-link" style="color: #FF7C36;">ID</a>
+          <a href="javascript:getID();" class="nav-link" style="color: rgba(0, 0, 0, 0);">ID</a>
+           <!-- style="color: #FF7C36;" -->
         </li>
         
         <!---------준비중 preparing----------->
@@ -154,6 +155,18 @@
             {% endfor %}
           </ul>
         </li>
+        <!--collection
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {% if page.url contains '/pre/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            collection
+          </a>
+          <ul class="dropdown-menu">
+            {% for item in site.projects.posts %}
+            <li><a class="dropdown-item" href="{{ item.permalink }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        collection-->
         {% endif %} 
       </div>
     </div>
