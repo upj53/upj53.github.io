@@ -1,8 +1,16 @@
 ---
-title: Test 정보처리산업기사
+title: JSP
 layout: upj_design
-permalink: /drafts/jsp/
+permalink: /resource/jsp/
+private: private
 ---
+
+#### Table Of Contents
+
+- TOC
+{:toc}
+
+**JSP 정보처리기사**
 
 ```text
 정보처리산업기사 JSP

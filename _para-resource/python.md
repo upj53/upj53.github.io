@@ -1,7 +1,8 @@
 ---
-title: Test Python
+title: Python
 layout: upj_design
-permalink: /drafts/python/
+permalink: /resource/python/
+private: private
 ---
 
 #### Table Of Contents

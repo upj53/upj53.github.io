@@ -1,7 +1,8 @@
 ---
-title: Test JavaFX
+title: JavaFX
 layout: upj_design
-permalink: /drafts/javafx/
+permalink: /resource/javafx/
+private: private
 ---
 
 #### Table Of Contents

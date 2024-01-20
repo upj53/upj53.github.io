@@ -1,7 +1,8 @@
 ---
 title: Flutter
 layout: upj_design
-permalink: /flutter/
+permalink: /resource/flutter/
+private: private
 ---
 
 #### Table Of Contents
