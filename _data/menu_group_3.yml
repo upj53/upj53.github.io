@@ -1,12 +1,12 @@
 - name: Projects
-  label: 지금할일!
+  label: Projects #지금할일!
   prefix: projects
 - name: Area
-  label : 은근과 끈기
+  label : Area #은근과 끈기
   prefix: area
 - name: Resource
-  label : 일신우일신
+  label : Resource #일신우일신
   prefix: resource
 - name: Archive
-  label : zip
+  label : Archive #zip
   prefix: archive
