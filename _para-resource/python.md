@@ -2,7 +2,6 @@
 title: Python
 layout: upj_design
 permalink: /resource/python/
-private: private
 ---
 
 #### Table Of Contents
@@ -10,56 +9,68 @@ private: private
 - TOC
 {:toc}
 
-<!--
-## 기초: 자료형
+## 기초 문법
+{: #upj_1681813114384}
+
+### 자료형
 {: #upj_1678580221202}
 
-### 숫자형
-{: #upj_1678585744512}
+- [List, Set, Dict 복잡도](https://ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
-### 문자열
-{: #upj_1678585740155}
+```python
+# 자료형 체크 
+if type(n) is not int:
+  is_validated = False
+```
 
-### 참과 거짓
-{: #upj_1678585735668}
+### 입출력
+{: #upj_1678585647623}
 
-### 리스트
-{: #upj_1678585731028}
+```python
+# 정수 2개 입력받기
+n, m = map(int, input().split(' '))
+# 포메팅
+print(f'{a:3d} {b:.6f}')
+```
 
-### 튜플
-{: #upj_1678585726814}
-
-### 딕셔너리
-{: #upj_1678585721556}
-
-## 기초: 제어문
+### 제어문
 {: #upj_1678585717123}
 
-### if문
-{: #upj_1678585712852}
+```python
+```
+### 파일 읽고 쓰기
+{: #upj_1678585567762}
 
-### for문
-{: #upj_1678585707459}
-
-### while문
-{: #upj_1678585653130}
-
-## 기초: 입출력
-{: #upj_1678585647623}
+```python
+```
 
 ### 함수
 {: #upj_1678585620407}
 
-### 입력과 출력
-{: #upj_1678585577989}
-
-### 파일 읽고 쓰기
-{: #upj_1678585567762}
-
-## 기초: 클래스
-{: #upj_1679789498515}
+```python
+```
 
 ### 클래스
+{: #upj_1679789498515}
+
+```python
+```
+
+<!--
+{: #upj_1681813148708}
+{: #upj_1678585744512}
+{: #upj_1678585740155}
+{: #upj_1678585735668}
+{: #upj_1678585731028}
+### 리스트
+### 튜플
+### 딕셔너리
+{: #upj_1678585726814}
+{: #upj_1678585721556}
+{: #upj_1678585712852}
+{: #upj_1678585707459}
+{: #upj_1678585653130}
+{: #upj_1678585577989}
 {: #upj_1679789507715}
 
 ### 모듈
@@ -88,8 +99,9 @@ private: private
 !pip install pandas-datareader
 ```
 
-[Github](https://github.com/Investar/StockAnalysisInPython),
-[소스코드](https://github1s.com/Investar/StockAnalysisInPython)
+**참고**
+- [Github](https://github.com/Investar/StockAnalysisInPython)
+  [(소스코드)](https://github1s.com/Investar/StockAnalysisInPython)
 
 ### Numpy + Pandas 데이터 분석
 {: #upj_1679791272311}
@@ -102,12 +114,4 @@ print(A.max(), A.min(), A.mean(), A.sum())
 print(A[0], A[1])
 ```
 
-## Flask 웹서비스
-{: #upj_1681813114384}
-
-### Quick Start
-{: #upj_1681813148708}
-
-```text
-```
 

@@ -26,8 +26,14 @@ permalink: /resource/web/
 
 ### Bootstrap 5
 {: #upj_1703483627304}
+```
 
-```html
+**사용팁**
+
+```text
+# 링크 새창 열기
+[논문](/assets/documents/paper1-2023.pdf){:target="_blank"}
+
 ```
 
 **DEV**
@@ -50,6 +56,27 @@ id = '{: #upj_1705714728810}'
 my(id)
 ```
 
+**Collections**
+
+```text
+안녕하세요. Copilot입니다. Jekyll에서 특정 폴더 아래의 _post에 접근하는 방법은 다음과 같습니다. 먼저, _config.yml 파일에서 다음과 같이 설정합니다.
+
+```
+collections:
+  my_collection:
+    output: true
+    permalink: /my_collection/:title/
+```
+
+그리고, my_collection 폴더를 만들고 그 안에 _post 폴더를 만듭니다. 그리고나서, my_collection 폴더 안에 있는 _post 폴더에 포스트를 작성하면 됩니다. 이렇게 작성된 포스트는 `site.my_collection`을 통해 접근할 수 있습니다. 예를 들어, my_collection 폴더 안에 있는 post1.md 파일에 접근하려면 `site.my_collection.post1`을 사용하면 됩니다. 이제 이를 활용하여 원하는 작업을 수행하실 수 있습니다.
+
+출처: Bing과의 대화, 2024. 1. 20.
+(1) How does Jekyll treat posts in _posts/subdir - Stack Overflow. https://stackoverflow.com/questions/15279147/how-does-jekyll-treat-posts-in-posts-subdir.
+(2) [코딩독학] [GitHub Blog - 5] - Jekyll 의 페이지 생성 과정. https://martinkang.github.io/develop/2022/01/15/blog-base-page.html.
+(3) [Jekyll] 깃허브 지킬 블로그 글 폴더별로 나누기 (카테고리별 구분 .... https://chaerim-kim.github.io/jekyll%20blog/Jekyll-4/.
+(4) Posts | Jekyll • Simple, blog-aware, static sites. https://jekyllrb.com/docs/posts/.
+```
+
 # References
 
 - [Markdown-Guide](https://github1s.com/mattcone/markdown-guide/)
@@ -57,11 +84,6 @@ my(id)
 - [soo:bak's blog](https://soo-bak.github.io/) [github](https://github.com/soo-bak/soo-bak.github.io?tab=readme-ov-file)
 
 <!--
-{: #upj_1705714728812}
-{: #upj_1705714728813}
-{: #upj_1705714728814}
-{: #upj_1705714728815}
-{: #upj_1705714728816}
 {: #upj_1705714728817}
 {: #upj_1705714728818}
 {: #upj_1705714728819}

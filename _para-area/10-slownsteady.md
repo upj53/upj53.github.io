@@ -11,14 +11,6 @@ private: private
 {:toc}
 
 <!--
-python 생성코드
-def my(a):
-	b = int(a.split('_')[1].split('}')[0])
-	for i in range(20):
-		print(f'{{: #upj_{b+i}}}')
-
-my('{: #upj_1705463826604}')
-
 ## 
 
 ### TQQQ
