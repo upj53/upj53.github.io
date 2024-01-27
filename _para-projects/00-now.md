@@ -1,5 +1,5 @@
 ---
-title: 지금할일!
+title: 오늘,지금!
 layout: upj_design
 permalink: /projects/justdoit
 ---
@@ -15,12 +15,12 @@ permalink: /projects/justdoit
 {: #now}
 
 - [ ] 코딩 테스트(구름 기초 트레이닝)
-  - [ ] 11~15
+- [x] 11~15
   - [ ] 16~20
   - [ ] 21~25
 - [ ] 논문 교육프로그램 완성
   - [ ] 웹 풀스택 공부
-    - [ ] [FastAPI + Svelte](https://wikidocs.net/book/8531){:target="_blank"}
+    - [x] [FastAPI + Svelte](https://wikidocs.net/book/8531){:target="_blank"}
             [(완성 샘플)](http://fastapi.pybo.kr/){:target="_blank"}
   - [ ] 초안 사이트 구현
     - [ ] 로그인 구현
@@ -44,6 +44,24 @@ permalink: /projects/justdoit
 - [ ] 자료구조 & 알고리즘 학습 정리
 - [ ] 교원자격증 2급 취득 완료
 - [ ] 이직 (재취업) 
+
+<!--메모
+https://programmers.co.kr/
+https://tcpschool.com/java/intro
+https://opentutorials.org/course/1
+https://swexpertacademy.com/main/main.do
+https://www.w3schools.com/
+https://www.edwith.org/
+https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+https://www.boostcourse.org/opencourse
+https://pocu.academy/ko
+https://visualgo.net/en
+https://www.acmicpc.net/
+https://www.codewars.com/
+https://leetcode.com/
+https://hyperskill.org/tracks
+https://ko.khanacademy.org/profile/me/courses
+-->
 
 ### 2024년 1월
 {: #upj_1705714728811}
