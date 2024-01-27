@@ -84,7 +84,6 @@ collections:
 - [soo:bak's blog](https://soo-bak.github.io/) [github](https://github.com/soo-bak/soo-bak.github.io?tab=readme-ov-file)
 
 <!--
-{: #upj_1705714728817}
 {: #upj_1705714728818}
 {: #upj_1705714728819}
 {: #upj_1705714728820}

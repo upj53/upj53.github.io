@@ -4,10 +4,12 @@ layout: upj_design
 permalink: /projects/justdoit
 ---
 
+<!--
 #### Table Of Contents
 
 - TOC
 {:toc}
+-->
 
 ## Now
 {: #now}

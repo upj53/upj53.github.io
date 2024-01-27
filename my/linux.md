@@ -561,6 +561,11 @@ let python_highlight_all = 1
 set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 ```
 
+### TMUX
+{: #upj_1705714728817}
+
+Ctrl+b
+
 ## 패키지 설치 업데이트 업그레이드
 {: #upj_1676507824297}
 
