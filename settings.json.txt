@@ -11,4 +11,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "git.confirmSync": false,
   "editor.mouseWheelZoom": true,
+  "window.openFilesInNewWindow": "on",
 }
