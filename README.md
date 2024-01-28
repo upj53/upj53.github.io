@@ -2,7 +2,31 @@
 
 # upj53.github.io
 
+- [Ruby 3.1 Download](https://www.ruby-lang.org/ko/downloads/)
+- [Jekyll Install](https://jekyllrb.com/docs/installation/ubuntu/)
+
 ```shell
+# ruby --version
+ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt]
+
+# ruby source build
+./configure
+make
+sudo make install
+
+# Jekyll Install
+sudo apt install build-essential zlib1g-dev -y
+
+# Jekyll config
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# install Jekyll and Bundler
+gem install jekyll bundler
+
+# download github.io source code and install
 bundle install
 bundle exec jekyll serve --host 0.0.0.0 --watch --drafts
 ```
