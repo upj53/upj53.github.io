@@ -29,6 +29,16 @@ gem install jekyll bundler
 # download github.io source code and install
 bundle install
 bundle exec jekyll serve --host 0.0.0.0 --watch --drafts
+
+# run server
+nohup bundle exec jekyll serve --host 0.0.0.0 --watch --drafts &
+
+# check server
+tail -f nohup.out
+
+# find service and stop it
+lsof -i :4000
+kill -9 PID번호
 ```
 
 # Templates
