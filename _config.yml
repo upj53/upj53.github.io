@@ -77,3 +77,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - nohup.out
+  - goorm.manifest
