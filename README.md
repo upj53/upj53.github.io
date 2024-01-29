@@ -62,6 +62,24 @@ permalink: /resource/web/
 {: #upj_1703483627304}
 ```
 
+**열고닫기**
+
+```html
+<!--열려있음-->
+<details open>
+<summary>제목
+</summary>
+내용
+</details>
+
+<!--닫혀있음-->
+<details>
+<summary>제목
+</summary>
+내용
+</details>
+```
+
 **사용팁**
 
 ```text
@@ -206,5 +224,4 @@ collections:
 {: #upj_1705714728903}
 {: #upj_1705714728904}
 {: #upj_1705714728905}
-{: #upj_1705714728906}
 -->

@@ -129,6 +129,32 @@ ssh 파일 업로드 하기
 scp ./Raspberry_Pi.png upj53@192.168.0.2:/home/upj53/webapp/static
 ```
 
+### 용량 부족할 때 파일 지우기
+{: #upj_1705714728906}
+
+```bash
+# 폴더 용량 확인
+df -h
+
+# 휴지통 비우기
+rm -rf ~/.local/share/Trash/files/*
+
+# 크기 별로 정렬해서 보기
+ls -alhS
+
+# 파일 및 폴더 크기 보기
+du -ah *
+
+# 특정 폴더의 용량 합계
+du -sh /folder
+
+# 특정 경로에 있는 모든 폴더 별로 용량 합계
+du -h -d 1
+
+# 패턴으로 파일/폴더 삭제
+find /folder -name '*.log' #-delete
+```
+
 ## 사용자와 그룹 및 권한 관리
 {: #upj_1676507738746}
 
@@ -656,7 +682,7 @@ Plug 'ronakg/quickr-cscope.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 
 " 비활성 윈도우 강조
-" Plug 'blueyed/vim-diminactive'
+Plug 'blueyed/vim-diminactive'
 
 " vim cutlass 잘라내기 명령어가 yank 에 영향을 주지 않음
 " Plug 'svermeulen/vim-cutlass'
@@ -731,17 +757,18 @@ tnoremap <silent><ESC> <C-\><C-n>
 " 명령, 비주얼 모드
 " ------------------------------------
 " iamroot 자동 주석
-map <F9> <ESC>o/*<CR> * IAMROOT, <C-R>=strftime("%Y.%m.%d")<CR>
-	\: <CR>*/<CR><ESC><UP><UP><END>
+" map <F9> <ESC>o/*<CR> * IAMROOT, <C-R>=strftime("%Y.%m.%d")<CR>
+"	\: <CR>*/<CR><ESC><UP><UP><END>
 " =========================================================================
 " =  vim 설정                                                             =
 " =========================================================================
 " 탭을 스페이스로 변경
-set expendtab
+set expandtab
 " 탭 정지 = 4 칸마다
-set tabstop=4
-" 쉬프트 (<< 혹은 >>) 이동거리 8 칸
-set shiftwidth=4
+set tabstop=2
+" 쉬프트 (<< 혹은 >>) 이동거리 2 칸
+set shiftwidth=2
+set softtabstop=2
 
 " 줄 번호를 표시한다.
 set number
@@ -760,7 +787,7 @@ set hlsearch
 set showtabline=2
 
 " 행 표시선 출력
-set colorcolumn=80
+set colorcolumn=200
 
 if has('nvim')			" nvim 을 사용 중이라면
 	set inccommand=nosplit	" nvim live %s substitute (실시간 강조)
@@ -768,6 +795,7 @@ endif
 
 " vim 과 OS 의 클립보드 동기화
 set clipboard=unnamedplus
+" set clipboard+=unnamedplus
 
 " GUI-Color 를 사용 가능하도록 설정 (TrueColor)
 " cterm 혹은 term 대신 gui 를 통해 색상을 설정할 수 있고
@@ -893,6 +921,12 @@ set noswapfile
 set fileencodings=utf8,euc-kr
 set autowrite
 set autowriteall
+
+augroup markdownindent
+  autocmd FileType markdown setlocal expandtab
+  autocmd FileType markdown setlocal tabstop=2
+  autocmd FileType markdown setlocal shiftwidth=2
+augroup END
 ```
 
 ## 패키지 설치 업데이트 업그레이드
