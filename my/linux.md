@@ -569,23 +569,36 @@ set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 
 - [LunarVim 설치](https://www.lunarvim.org/docs/installation)
 - [Download Neovim AppImage](https://github.com/neovim/neovim/releases/tag/v0.9.5)
+- [Neovim AppImage Link](https://github.com/neovim/neovim/releases/download/v0.9.5/nvim.appimage)
 - [Neovim with AppImage](https://practical.li/neovim/install/neovim/#install-neovim_1)
 - [install nerd font](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-3-install-script)
 - [install RUST](https://www.rust-lang.org/tools/install)
 - 참고 블로그 [LunarVim 설치](https://velog.io/@mythos/Linux-Lunar-Vim-%EC%84%A4%EC%B9%98), [neovim 설정](https://velog.io/@mythos/Linux-neovim-%EC%84%A4%EC%A0%95-CoC-Vim-Plug-treesitter-NERDTree)
 
 ```bash
-# 다운로드 Neovim AppImage
 # 폴더 만들기
 mkdir -p ~/.local/bin
+# 다운로드 Neovim AppImage
+wget https://github.com/neovim/neovim/releases/download/v0.9.5/nvim.appimage
 # 권한 변경
 chmod u+x nvim.appimage
 # 복사 neovim.AppImage
 cp nvim.appimage ~/.local/bin/
 # 심볼릭링크 만들기
 ln -s ~/.local/bin/nvim.appimage ~/.local/bin/nvim
-# RUST 설치
+# If your system does not have FUSE you can extract the appimage
+./nvim.appimage --appimage-extract
+./squashfs-root/usr/bin/nvim
+ln -s /root/.local/bin/squashfs-root/usr/bin/nvim ~/.local/bin/nvim
+# PATH 설정
+vim ~/.bashrc
+export PATH="$HOME/.local/bin:$PATH"
+alias nv='nvim'
+# RUST 설치 onWSL
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# Make sure you have installed the latest version of Neovim v0.9.0+.
+# Have git, make, pip, python, npm, node and cargo installed on your system.
+sudo apt install cargo -y
 # LunarVim 설치
 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 # nerd-font 설치 Option 6
