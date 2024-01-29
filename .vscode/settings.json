@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 23,
+    "editor.tabSize": 2,
+    "terminal.integrated.defaultProfile.osx": "",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "off",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "editor.mouseWheelZoom": true
+}
