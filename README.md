@@ -86,6 +86,8 @@ permalink: /resource/web/
 # 링크 새창 열기
 [논문](/assets/documents/paper1-2023.pdf){:target="_blank"}
 
+<a href="" target="_blank">
+<img src="" style="width:100%; height:auto;"></a>
 ```
 
 **DEV**
