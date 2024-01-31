@@ -31,6 +31,8 @@ permalink: /projects/justdoit
     - [ ] 로그인 구현
   - 아이디어
     - ADDIE 와 나선형 모델 융합 방법이 있을까?
+- [ ] 포트폴리오
+  - [ ] 개발자계정 앱 만들기 [구글콘솔](https://play.google.com/console/developers/7206325742982485894/app-list)
 
 </details>
 
