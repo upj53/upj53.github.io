@@ -80,7 +80,7 @@ permalink: /resource/web/
 </details>
 ```
 
-**사용팁**
+**이미지 링크**
 
 ```text
 # 링크 새창 열기
@@ -89,6 +89,63 @@ permalink: /resource/web/
 <a href="" target="_blank">
 <img src="" style="width:100%; height:auto;"></a>
 ```
+
+**[테이블](https://getbootstrap.com/docs/5.3/content/tables/#table-borders)**
+
+```html
+<table class="table table-bordered table-hover">
+<thead class="table-light text-center">
+<tr>
+<td></td>
+</tr>
+</thead>
+<tbody>
+<tr class="text-center">
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<table class="table table-striped table-hover">
+  ...
+</table>
+
+<table class="table table-dark table-striped">
+  ...
+</table>
+
+<table class="table table-bordered">
+  ...
+</table>
+
+<div class="table-responsive">
+  <table class="table align-middle">
+    <thead>
+      <tr>
+        ...
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        ...
+      </tr>
+      <tr class="align-bottom">
+        ...
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td class="align-top">This cell is aligned to the top.</td>
+        <td>...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
 
 **DEV**
 
