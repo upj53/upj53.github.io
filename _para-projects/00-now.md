@@ -4,12 +4,10 @@ layout: upj_design
 permalink: /projects/justdoit
 ---
 
-<!--
-#### Table Of Contents
+**Table Of Contents**
 
 - TOC
 {:toc}
--->
 
 ## 2024년 목표
 {: #upj_1705714728810}
@@ -25,12 +23,13 @@ permalink: /projects/justdoit
 - [ ] 논문 내용 개발하기
 
 **2024 하반기**
+
 - [ ] 자료구조 & 알고리즘 학습 정리
 - [ ] 교원자격증 2급 취득 완료
 - [ ] 이직 (재취업) 
 
-## 작은 목표부터 완성하기
-{: #now}
+### 작은 목표부터 완성하기
+{: #upj_1705714728904}
 
 <details open>
 <summary>1월, 2월
@@ -42,10 +41,10 @@ permalink: /projects/justdoit
   - [ ] 21~25
 - [ ] 논문 교육프로그램 완성
   - [ ] 웹 풀스택 공부
-    - [x] [FastAPI + Svelte](https://wikidocs.net/book/8531){:target="_blank"}
-            [(완성 샘플)](http://fastapi.pybo.kr/){:target="_blank"}
+    - [x] [FastAPI + Svelte](https://wikidocs.net/book/8531), [완성 샘플](http://fastapi.pybo.kr/)
   - [ ] 초안 사이트 구현
-    - [ ] Figma로 설계하기 
+    - [x] Figma로 사이트맵 설계하기 
+    - [ ] Prototype 만들기
     - [ ] 로그인 구현
   - 아이디어
     - ADDIE 와 나선형 모델 융합 방법이 있을까?
@@ -54,6 +53,11 @@ permalink: /projects/justdoit
 
 </details>
 
+## 2023년 목표
+{: #upj_1705714728902}
+
+### 은근과 끈기
+{: #upj_1705714728903}
 
 <!--
 은근과 끈기

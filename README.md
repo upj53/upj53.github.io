@@ -50,7 +50,7 @@ layout: upj_design
 permalink: /resource/web/
 ---
 
-#### Table Of Contents
+**Table Of Contents**
 
 - TOC
 {:toc}
@@ -279,7 +279,4 @@ collections:
 {: #upj_1705714728899}
 {: #upj_1705714728900}
 {: #upj_1705714728901}
-{: #upj_1705714728902}
-{: #upj_1705714728903}
-{: #upj_1705714728904}
 -->

@@ -645,7 +645,12 @@ curl -sL install-node.now.sh/lts | sudo $SHELL
 
 ~/.config/nvim/init.vim
 
-alias nv='nvim'
+alias vi='nvim'
+alias vim='vim'
+
+**해결해야할 과제**
+
+- 터미널 clipboard 연동
 
 ```shell
 " =========================================================================
@@ -654,14 +659,14 @@ alias nv='nvim'
 call plug#begin('~/.vim/plugged') " 플러그인 시작
 
 " Conquer Of Completion 자동완성 플러그인
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " nvim-treesitter 구문 파싱 하이라이팅
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Tagbar 코드 뷰어 창
 " Plug 'majutsushi/tagbar'
-Plug 'preservim/tagbar'
+" Plug 'preservim/tagbar'
 
 " NERDTree 코드 뷰어 창
 Plug 'preservim/nerdtree'
@@ -682,7 +687,7 @@ Plug 'ronakg/quickr-cscope.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 
 " 비활성 윈도우 강조
-Plug 'blueyed/vim-diminactive'
+" Plug 'blueyed/vim-diminactive'
 
 " vim cutlass 잘라내기 명령어가 yank 에 영향을 주지 않음
 " Plug 'svermeulen/vim-cutlass'
@@ -691,6 +696,7 @@ Plug 'blueyed/vim-diminactive'
 " Plug 'Shirk/vim-gas'
 
 call plug#end()
+
 " =========================================================================
 " =  단축키 지정                                                          =
 " =  n(normal mode) 명령 모드                                             =
@@ -704,16 +710,17 @@ call plug#end()
 " =  nore(no recursive) 맵핑                                              =
 " =========================================================================
 " ------------------------------------
-" 편집 모드 
+" 편집 모드
 " ------------------------------------
 " jk 와 kj 를 <ESC> 키로 맵핑
 inoremap jk <ESC>
 inoremap kj <ESC>
 " ------------------------------------
-" 명령 모드 
+" 명령 모드
 " ------------------------------------
 " <F1> 을 통해 NERDTree 와 Tagbar 열기
-nnoremap <silent><C-o> :NERDTreeToggle<CR><bar>:TagbarToggle <CR> 
+" nnoremap <silent><C-o> :NERDTreeToggle<CR><bar>:TagbarToggle <CR>
+nnoremap <silent><C-o> :NERDTreeToggle<CR>
 
 " <Ctrl + j, k> 를 눌러서 이전, 다음 탭으로 이동
 nnoremap <silent><C-j> :tabprevious<CR>
@@ -733,7 +740,7 @@ nnoremap <silent><C-w>t :NERDTreeFocus<CR>
 " 우측 하단(botright)에 창 생성(new), 해당 창을 terminal 로 변경
 " 크기를 10 으로 재설정(resize) 후 창 높이를 고정(winfixheight)시킴
 " 줄번호는 삭제하고, 터미널 디렉터리 글자색을 변경
-nnoremap <silent><F2> 
+nnoremap <silent><F2>
 	\:botright new<CR><bar>
 	\:terminal<CR><bar><ESC>
 	\:resize 10<CR><bar>
@@ -741,7 +748,7 @@ nnoremap <silent><F2>
 	\:set nonu<CR><bar>
 	\iLS_COLORS=$LS_COLORS:'di=1;33:ln=36'<CR>
 " ------------------------------------
-" 터미널 모드 
+" 터미널 모드
 " ------------------------------------
 " 터미널 모드에서 <Ctrl + w> 누르면 명령 모드로 전환하고 <Ctrl + w> 입력
 tmap <silent><C-w> <ESC><C-w>
@@ -757,18 +764,17 @@ tnoremap <silent><ESC> <C-\><C-n>
 " 명령, 비주얼 모드
 " ------------------------------------
 " iamroot 자동 주석
-" map <F9> <ESC>o/*<CR> * IAMROOT, <C-R>=strftime("%Y.%m.%d")<CR>
-"	\: <CR>*/<CR><ESC><UP><UP><END>
+map <F9> <ESC>o/*<CR> * IAMROOT, <C-R>=strftime("%Y.%m.%d")<CR>
+	\: <CR>*/<CR><ESC><UP><UP><END>
 " =========================================================================
 " =  vim 설정                                                             =
 " =========================================================================
 " 탭을 스페이스로 변경
-set expandtab
-" 탭 정지 = 4 칸마다
+set softtabstop=2
+" 탭 정지 = 2 칸마다
 set tabstop=2
 " 쉬프트 (<< 혹은 >>) 이동거리 2 칸
 set shiftwidth=2
-set softtabstop=2
 
 " 줄 번호를 표시한다.
 set number
@@ -794,8 +800,8 @@ if has('nvim')			" nvim 을 사용 중이라면
 endif
 
 " vim 과 OS 의 클립보드 동기화
-set clipboard=unnamedplus
-" set clipboard+=unnamedplus
+" set clipboard=unnamedplus
+set clipboard+=unnamedplus
 
 " GUI-Color 를 사용 가능하도록 설정 (TrueColor)
 " cterm 혹은 term 대신 gui 를 통해 색상을 설정할 수 있고
@@ -812,7 +818,7 @@ set viewoptions-=options
 " 문법이 존재하면
 if has("syntax")
 	" 문법 강조를 수행
-	syntax on	
+	syntax on
 endif
 
 " 컬러스킴(문법 강조 색상) - 현재 jellybeans
@@ -826,7 +832,7 @@ colorschem jellybeans
 highlight Normal guibg=NONE
 highlight EndOfBuffer guibg=NONE
 
-" 줄번호 배경색은 투명(NULL)하게, 
+" 줄번호 배경색은 투명(NULL)하게,
 " 글자는 굵게(bold), 글자색은 하얗게(White)
 highlight LineNr guibg=NONE gui=bold guifg=white
 
@@ -867,22 +873,19 @@ function! s:check_back_space() abort
 endfunction
 
 " <Ctrl + Space> 를 눌러서 자동완성 적용
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
-
-" 코드 탐색 단축키
-nmap <silent> gr <Plug>(coc-references)
+"if has('nvim')
+"  inoremap <silent><expr> <c-space> coc#refresh()
+"else
+"  inoremap <silent><expr> <c-@> coc#refresh()
+"endif
 
 " 커서 아래의 토큰을 강조
-autocmd CursorHold * silent call CocActionAsync('highlight')
+"autocmd CursorHold * silent call CocActionAsync('highlight')
 " ------------------------------------
 " tagbar 설정
 " ------------------------------------
 " tagbar 생성 시 우측 하단에 위치하게끔 생성
-let g:tagbar_position = 'rightbelow'
+" let g:tagbar_position = 'rightbelow'
 " ------------------------------------
 " vim-airline 설정
 " ------------------------------------
@@ -913,7 +916,7 @@ let g:NERDTreeWinSize=30
 " nnoremap cc dd
 " nnoremap C Dv
 
-" 옛날 설정파일 
+" 옛날 설정파일
 set noundofile
 set nobackup
 set nowritebackup
