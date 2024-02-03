@@ -72,48 +72,44 @@ private: private
 <thead class="table-light text-center">
 <tr>
 <td>&nbsp;</td>
-<td>SOXL</td>
-<td>TQQQ</td>
 <td>UPRO</td>
+<td>TQQQ</td>
+<td>SOXL</td>
 </tr>
 </thead>
 <tbody>
 <tr class="text-center">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Max High</td>
+<td>5.29</td>
+<td>7.35</td>
+<td>9.92</td>
 </tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<tr class="text-center">
+<td>Avg High</td>
+<td>3.64</td>
+<td>3.92</td>
+<td>4.30</td>
+</tr>
+<tr class="text-center">
+<td>3 ~ 5</td>
+<td>97.14 %</td>
+<td>86.21 %</td>
+<td>82.35 %</td>
+</tr>
+<tr class="text-center">
+<td>5 ~ 7</td>
+<td>2.86 %</td>
+<td>12.07 %</td>
+<td>14.71 %</td>
+</tr>
+<tr class="text-center">
+<td>7 ~ 9</td>
+<td>0.00 %</td>
+<td>1.72 %</td>
+<td>2.94 %</td>
 </tr>
 </tbody>
 </table>
-
-
-```text
----------- TQQQ ----------
-max_up= 7.35
-average_high= 3.92
-len of 3 ~ 5 : 86.21 %
-len of 5 ~ 7 : 12.07 %
-len of 7 ~ 9 :  1.72 %
----------- SOXL ----------
-max_up= 9.92
-average_high= 4.30
-len of 3 ~ 5 : 82.35 %
-len of 5 ~ 7 : 14.71 %
-len of 7 ~ 9 :  2.94 %
----------- UPRO ----------
-max_up= 5.29
-average_high= 3.64
-len of 3 ~ 5 : 97.14 %
-len of 5 ~ 7 :  2.86 %
-len of 7 ~ 9 :  0.00 %
-```
 
 
 ### TQQQ
