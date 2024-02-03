@@ -65,6 +65,57 @@ private: private
 ## 2024년 1월
 {: #upj_1705462113649}
 
+### Catch Max High
+{: #upj_1705714728901}
+
+<table class="table table-bordered table-hover">
+<thead class="table-light text-center">
+<tr>
+<td>&nbsp;</td>
+<td>SOXL</td>
+<td>TQQQ</td>
+<td>UPRO</td>
+</tr>
+</thead>
+<tbody>
+<tr class="text-center">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+```text
+---------- TQQQ ----------
+max_up= 7.35
+average_high= 3.92
+len of 3 ~ 5 : 86.21 %
+len of 5 ~ 7 : 12.07 %
+len of 7 ~ 9 :  1.72 %
+---------- SOXL ----------
+max_up= 9.92
+average_high= 4.30
+len of 3 ~ 5 : 82.35 %
+len of 5 ~ 7 : 14.71 %
+len of 7 ~ 9 :  2.94 %
+---------- UPRO ----------
+max_up= 5.29
+average_high= 3.64
+len of 3 ~ 5 : 97.14 %
+len of 5 ~ 7 :  2.86 %
+len of 7 ~ 9 :  0.00 %
+```
+
+
 ### TQQQ
 {: #upj_1705463168635}
 
