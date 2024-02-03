@@ -40,6 +40,9 @@ collections:
     output: true
   para-archive:
     output: true
+  para:
+    output: true
+    permalink: /:categories/:link
 
 # social settings
 og_locale: "ko_kr"

@@ -1,7 +1,8 @@
 ---
 title: Collection1
 layout: upj_design
-permalink: /my_collection/test1/
+link: test1
+category: projects
 ---
 
 #### Table Of Contents
