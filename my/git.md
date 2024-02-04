@@ -198,3 +198,15 @@ git rm -r --cached .
 git add .
 git commit -m "fixed untracked files"
 ```
+
+### git push 자동 스크립트
+{: #upj_1705714728900}
+
+~/.local/bin/git-push.sh
+
+```bash
+#!/bin/bash
+read -p "Enter git commit message: " msg
+git add . && git commit -m "$msg" && git push origin +master
+```
+
