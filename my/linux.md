@@ -493,6 +493,13 @@ Font Family: MesloLGS NF
 - [Vim Genius](http://vimgenius.com/)
 - [Open Vim](https://openvim.com/)
 - [Vim Adventures](https://vim-adventures.com/)
+- [Learn Vim Progressively](https://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+- [Learning Vim in 2014](https://benmccormick.org/learning-vim-in-2014/)
+- [VIM Casts](http://vimcasts.org/)
+- [Vim Videos](http://derekwyatt.org/vim/tutorials/)
+- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/)
+- [Seven habits of effective text editing](https://www.moolenaar.net/habits.html)
+- [VIM-Galore](https://github.com/mhinz/vim-galore)
 
 ### vim 유용한 단축키
 {: #upj_1676634356913}
@@ -600,6 +607,8 @@ set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 - [install nerd font](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-3-install-script)
 - [install RUST](https://www.rust-lang.org/tools/install)
 - 참고 블로그 [LunarVim 설치](https://velog.io/@mythos/Linux-Lunar-Vim-%EC%84%A4%EC%B9%98), [neovim 설정](https://velog.io/@mythos/Linux-neovim-%EC%84%A4%EC%A0%95-CoC-Vim-Plug-treesitter-NERDTree)
+- [LazyVim](https://www.lazyvim.org/)
+- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 ```bash
 # 폴더 만들기
