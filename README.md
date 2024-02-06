@@ -1,46 +1,5 @@
 [![pages-build-deployment](https://github.com/upj53/upj53.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/upj53/upj53.github.io/actions/workflows/pages/pages-build-deployment)
 
-# upj53.github.io
-
-- [Ruby 3.1 Download](https://www.ruby-lang.org/ko/downloads/)
-- [Jekyll Install](https://jekyllrb.com/docs/installation/ubuntu/)
-
-```shell
-# ruby --version
-ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt]
-
-# ruby source build
-./configure
-make
-sudo make install
-
-# Jekyll Install
-sudo apt install build-essential zlib1g-dev -y
-
-# Jekyll config
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-
-# install Jekyll and Bundler
-gem install jekyll bundler
-
-# download github.io source code and install
-bundle install
-bundle exec jekyll serve --host 0.0.0.0 --watch --drafts
-
-# run server
-nohup bundle exec jekyll serve --host 0.0.0.0 --watch --drafts &
-
-# check server
-tail -f nohup.out
-
-# find service and stop it
-lsof -i :4000
-kill -9 PID번호
-```
-
 # Templates
 
 ```text
@@ -84,10 +43,15 @@ permalink: /resource/web/
 
 ```text
 # 링크 새창 열기
+[논문](/assets/documents/paper1-2023.pdf)
 [논문](/assets/documents/paper1-2023.pdf){:target="_blank"}
 
+![2022-information-class-guideline_52](https://github.com/upj53/upj53.github.io/assets/27456270/921cc85a-f3f6-44eb-af04-460695293fef)
+
 <a href="" target="_blank">
-<img src="" style="width:100%; height:auto;"></a>
+<img src="" style="width:100%; height:auto;"/></a>
+
+<img src="" style="width:100%; height:auto;"/>
 ```
 
 **[테이블](https://getbootstrap.com/docs/5.3/content/tables/#table-borders)**
@@ -146,6 +110,49 @@ permalink: /resource/web/
 </div>
 ```
 
+
+
+
+# upj53.github.io
+
+- [Ruby 3.1 Download](https://www.ruby-lang.org/ko/downloads/)
+- [Jekyll Install](https://jekyllrb.com/docs/installation/ubuntu/)
+
+```shell
+# ruby --version
+ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt]
+
+# ruby source build
+./configure
+make
+sudo make install
+
+# Jekyll Install
+sudo apt install build-essential zlib1g-dev -y
+
+# Jekyll config
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# install Jekyll and Bundler
+gem install jekyll bundler
+
+# download github.io source code and install
+bundle install
+bundle exec jekyll serve --host 0.0.0.0 --watch --drafts
+
+# run server
+nohup bundle exec jekyll serve --host 0.0.0.0 --watch --drafts &
+
+# check server
+tail -f nohup.out
+
+# find service and stop it
+lsof -i :4000
+kill -9 PID번호
+```
 
 **DEV**
 
@@ -268,14 +275,5 @@ collections:
 {: #upj_1705714728888}
 {: #upj_1705714728889}
 {: #upj_1705714728890}
-{: #upj_1705714728891}
-{: #upj_1705714728892}
-{: #upj_1705714728893}
-{: #upj_1705714728894}
-{: #upj_1705714728895}
-{: #upj_1705714728896}
-{: #upj_1705714728897}
-{: #upj_1705714728898}
-{: #upj_1705714728899}
 -->
 
