@@ -286,7 +286,23 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 폴더 구조
 
 ```text
-
+┳(frontend)
+┃  └ (assets)
+┠(models)
+┃  ├ __init__.pyp
+┃  └ 
+┠(modules)
+┃  ├ __init__.pyp
+┃  └ 
+┠(routers)
+┃  ├ __init__.pyp
+┃  └ 
+┠(schemas)
+┃  ├ __init__.pyp
+┃  └ 
+┠ main.py
+┠ 
+┖ .env
 ```
 
 ### Svelte 기본구조

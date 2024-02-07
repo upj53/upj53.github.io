@@ -605,6 +605,7 @@ set guifont=Bitstream_Vera_Sans_Mono:h27:cHANGEUL
 - [Neovim AppImage Link](https://github.com/neovim/neovim/releases/download/v0.9.5/nvim.appimage)
 - [Neovim with AppImage](https://practical.li/neovim/install/neovim/#install-neovim_1)
 - [install nerd font](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-3-install-script)
+- [Download Nerd-Font](https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf)
 - [install RUST](https://www.rust-lang.org/tools/install)
 - 참고 블로그 [LunarVim 설치](https://velog.io/@mythos/Linux-Lunar-Vim-%EC%84%A4%EC%B9%98), [neovim 설정](https://velog.io/@mythos/Linux-neovim-%EC%84%A4%EC%A0%95-CoC-Vim-Plug-treesitter-NERDTree)
 - [LazyVim](https://www.lazyvim.org/)
