@@ -32,6 +32,8 @@ permalink: /resource/web/
 </html>
 ```
 
+<!--
+
 ### JS fetch
 {: #upj_1703824233619}
 
@@ -94,6 +96,8 @@ permalink: /resource/web/
 
 ## Framework
 {: #upj_1703496502036}
+
+-->
 
 ### Starter template
 {: #upj_1703496516531}
@@ -225,6 +229,8 @@ permalink: /resource/web/
 
 [Cheatsheet](https://getbootstrap.kr/docs/5.0/examples/cheatsheet/){:target="_blank"}
 
+<!--
+
 ## Navbars
 {: #upj_1703496680627}
 
@@ -243,7 +249,9 @@ permalink: /resource/web/
 ### Offcanvas navbar
 {: #upj_1703496739375}
 
-## Svelte
+-->
+
+## FastAPI + Svelte
 {: #upj_1705753377209}
 
 ### 필수 문법
@@ -271,3 +279,53 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 {객체}
 {객체.속성}
 ```
+
+### FastAPI 기본구조
+{: #upj_1705714728884}
+
+폴더 구조
+
+```text
+
+```
+
+### Svelte 기본구조
+{: #upj_1705714728885}
+
+폴더 구조
+
+```text
+┳(assets)
+┃  └ svelte.svg
+┠(components)
+┃  ├ Error.svelte
+┃  └ Navigation.svelte
+┠(lib)
+┃  ├ app.js
+┃  └ store.js
+┠(routes)
+┃  ├ Home.svelte
+┃  └ 
+┠ App.svelte
+┠ app.css
+┠ main.js
+┖ .env
+```
+
+### **C**reate
+{: #upj_1705714728886}
+
+
+
+### **R**ead
+{: #upj_1705714728887}
+
+### **U**pdate
+{: #upj_1705714728888}
+
+### **D**elete
+{: #upj_1705714728889}
+
+### 로그인 & 로그아웃
+{: #upj_1705714728890}
+

@@ -40,9 +40,13 @@ collections:
     output: true
   para-archive:
     output: true
-  para:
-    output: true
-    permalink: /:categories/:link
+
+defaults:
+  - scope:
+      path: "para"
+      type: "posts"
+    values:
+      layout: "upj_design"
 
 # social settings
 og_locale: "ko_kr"
