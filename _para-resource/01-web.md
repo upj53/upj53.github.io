@@ -330,6 +330,9 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 
 /App.svelte
 
+<details>
+<summary>App.svelte
+</summary>
 ```html
 <script>
   import Router from "svelte-spa-router";
@@ -356,9 +359,13 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 <Navigation />
 <Router {routes} />
 ```
+</details>
 
 /app.css
 
+<details>
+<summary>app.css
+</summary>
 ```css
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -373,9 +380,13 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
   -moz-osx-font-smoothing: grayscale;
 }
 ```
+</details>
 
 /main.js
 
+<details>
+<summary>main.js
+</summary>
 ```javascript
 import './app.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -388,12 +399,16 @@ const app = new App({
 
 export default app
 ```
+</details>
 
-### **C**reate
+### **회원가입** CRUD
 {: #upj_1705714728886}
 
 FRONT /routes/UserCreate.svelte
 
+<details>
+<summary>UserCreate.svelte
+</summary>
 ```html
 <script>
   import { push } from "svelte-spa-router";
@@ -470,9 +485,13 @@ FRONT /routes/UserCreate.svelte
   </form>
 </div>
 ```
+</details>
 
 FRONT /components/Error.svelte
 
+<details>
+<summary>Error.svelte
+</summary>
 ```html
 <script>
   export let error;
@@ -490,9 +509,13 @@ FRONT /components/Error.svelte
   </div>
 {/if}
 ```
+</details>
 
 FRONT /lib/api.js
 
+<details>
+<summary>api.js
+</summary>
 ```javascript
 import qs from "qs"
 import { access_token, username, is_login } from "./store"
@@ -572,9 +595,13 @@ const fastapi = (operation, url, params, success_callback, failure_callback) => 
 
 export default fastapi
 ```
+</details>
 
 BACK /main.py
 
+<details>
+<summary>main.py
+</summary>
 ```python
 # python libraries
 from dotenv import dotenv_values
@@ -614,6 +641,7 @@ app.mount('/assets', StaticFiles(directory='./frontend/assets'))
 async def test_pybo_index():
     return FileResponse('./frontend/index-pybo.html')
 ```
+</details>
 
 BACK /routers/router_pybo.py
 
@@ -624,6 +652,9 @@ import routers.router_pybo
 import routers.router_edu
 ```
 
+<details>
+<summary>router_pybo.py
+</summary>
 ```python
 # python libraries
 from fastapi import FastAPI, Form, Request, File, UploadFile, Depends, Body
@@ -719,9 +750,13 @@ async def login_for_access_token(
         'username': user.username
     }
 ```
+</details>
 
 BACK /models/pybo_models.py
 
+<details>
+<summary>pybo_models.py
+</summary>
 ```python
 # python libraries
 from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Table
@@ -742,9 +777,13 @@ class PyboUserModel(Base):
 
 Base.metadata.create_all(bind=ENGINE)
 ```
+</details>
 
 BACK /schemas/pybo_schemas.py
 
+<details>
+<summary>pybo_schemas.py
+</summary>
 ```python
 # python libraries
 import datetime
@@ -777,9 +816,13 @@ class PyboUserCreateSchema(BaseModel):
             raise ValueError('비밀번호가 일치하지 않습니다')
         return v
 ```
+</details>
 
 BACK /modules/pybo_crud.py
 
+<details>
+<summary>pybo_crud.py
+</summary>
 ```python
 # python libraries
 from sqlalchemy.orm import Session
@@ -837,16 +880,1902 @@ def pybo_make_db(db: Session):
             db.add(q)
     db.commit()
 ```
+</details>
 
-### **R**ead
+### **게시판** CRUD
 {: #upj_1705714728887}
 
-### **U**pdate
+FRONT /lib/store.js
+
+<details>
+<summary>store.js
+</summary>
+```javascript
+import { writable } from 'svelte/store'
+
+// export const page = writable(0)
+
+/* */
+const persist_storage = (key, initValue) => {
+  const storedValueStr = localStorage.getItem(key)
+  const store = writable(storedValueStr != null ? JSON.parse(storedValueStr) : initValue)  //JSON.parse(storedValueStr)
+  store.subscribe((val) => {
+    localStorage.setItem(key, JSON.stringify(val))
+  })
+  return store
+}
+
+export const page = persist_storage('page', 0)
+export const keyword = persist_storage('keyword', '')
+export const access_token = persist_storage('access_token', '')
+export const username = persist_storage('username', '')
+export const is_login = persist_storage('is_login', false)
+```
+</details>
+
+FRONT /routes/Home.svelte
+
+<details>
+<summary>Home.svelte
+</summary>
+```html
+<script>
+  import fastapi from "../lib/api";
+  import { link } from "svelte-spa-router";
+  import { page, keyword, is_login } from "../lib/store";
+  import moment from "moment/min/moment-with-locales";
+  moment.locale("ko");
+
+  let question_list = [];
+  let size = 10;
+  let total = 0;
+  let kw = "";
+  $: total_page = Math.ceil(total / size);
+
+  function get_question_list() {
+    let params = {
+      page: $page,
+      size: size,
+      keyword: $keyword,
+    };
+    fastapi("get", "/pybo/list", params, (json) => {
+      question_list = json.question_list;
+      total = json.total;
+      kw = $keyword;
+    });
+  }
+
+  $: $page, $keyword, get_question_list();
+</script>
+
+<div class="container my-3">
+  <div class="row my-3">
+    <div class="col-6">
+      <a
+        use:link
+        href="/question-create"
+        class="btn btn-primary {$is_login ? '' : 'disabled'}">질문 등록하기</a
+      >
+    </div>
+    <div class="col-6">
+      <div class="input-group">
+        <input type="text" class="form-control" bind:value={kw} />
+        <button
+          class="btn btn-outline-secondary"
+          on:click={() => {
+            $keyword = kw;
+            $page = 0;
+          }}>찾기</button
+        >
+      </div>
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr class="text-center table-dark">
+        <th>번호</th>
+        <th style="width:50%;">제목</th>
+        <th>글쓴이</th>
+        <th>작성일시</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each question_list as question, i}
+        <tr class="text-center">
+          <td>{total - $page * size - i}</td>
+          <td class="text-start">
+            <a use:link href="/detail/{question.idx}">{question.subject}</a>
+            {#if question.answers.length > 0}
+              <span class="text-danger small mx-2"
+                >{question.answers.length}</span
+              >
+            {/if}
+          </td>
+          <td>{question.user ? question.user.username : ""}</td>
+          <td
+            >{moment(question.create_date).format(
+              "YYYY년 MM월 DD일 hh:mm a",
+            )}</td
+          >
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+  <!--페이징 처리-->
+  <ul class="pagination justify-content-center">
+    <!--이전 페이지-->
+    <li class="page-item {$page <= 0 && 'disabled'}">
+      <button
+        class="page-link"
+        on:click={() => {
+          $page--;
+        }}>이전</button
+      >
+    </li>
+    <!--페이지 번호-->
+    {#each Array(total_page) as _, loop_page}
+      {#if loop_page >= $page - 5 && loop_page <= $page + 5}
+        <li class="page-item {loop_page === $page && 'active'}">
+          <button
+            class="page-link"
+            on:click={() => {
+              $page = loop_page;
+            }}>{loop_page + 1}</button
+          >
+        </li>
+      {/if}
+    {/each}
+    <!--다음 페이지-->
+    <li class="page-item {$page >= total_page - 1 && 'disabled'}">
+      <button
+        class="page-link"
+        on:click={() => {
+          $page++;
+        }}>다음</button
+      >
+    </li>
+  </ul>
+</div>
+```
+</details>
+
+FRONT /routes/Detail.svelte
+
+<details>
+<summary>Detail.svelte
+</summary>
+```html
+<script>
+  import fastapi from "../lib/api";
+  import Error from "../components/Error.svelte";
+  import { link, push } from "svelte-spa-router";
+  import { page, access_token, is_login, username } from "../lib/store";
+  import { marked } from "marked";
+  import moment from "moment/min/moment-with-locales";
+  moment.locale("ko");
+
+  export let params = {};
+  let question_idx = params.question_idx;
+  let question = { answers: [], voter: [], content: "" };
+  let content = "";
+  let error = { detail: [] };
+
+  function get_question() {
+    fastapi("get", `/pybo/detail/${question_idx}`, {}, (json) => {
+      question = json;
+    });
+  }
+
+  get_question();
+
+  function post_answer(event) {
+    event.preventDefault();
+    let url = "/pybo/answer/create/" + question_idx;
+    // console.log(url);
+    // if (content.trim() == "") {
+    // return;
+    // }
+    let params = {};
+    params["content"] = content;
+    fastapi(
+      "post",
+      url,
+      params,
+      (json) => {
+        content = "";
+        error = { detail: [] };
+        get_question();
+      },
+      (err_json) => {
+        error = err_json;
+      },
+    );
+  }
+
+  function delete_question(_question_id) {
+    if (window.confirm("정말로 삭제하시겠습니까?")) {
+      let url = "/pybo/question/delete";
+      let params = {
+        question_id: _question_id,
+      };
+      fastapi(
+        "delete",
+        url,
+        params,
+        (json) => {
+          push("/");
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+
+  function delete_answer(answer_id) {
+    if (window.confirm("정말로 삭제하시겠습니까?")) {
+      let url = "/pybo/answer/delete";
+      let params = {
+        answer_idx: answer_id,
+      };
+      fastapi(
+        "delete",
+        url,
+        params,
+        (json) => {
+          get_question();
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+
+  function vote_question(_question_id) {
+    if (window.confirm("정말로 추천하시겠습니까?")) {
+      let url = "/pybo/question/vote";
+      let params = {
+        question_idx: _question_id,
+      };
+      fastapi(
+        "post",
+        url,
+        params,
+        (json) => {
+          get_question();
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+
+  function vote_answer(_answer_id) {
+    if (window.confirm("정말로 추천하시겠습니까?")) {
+      let url = "/pybo/answer/vote";
+      let params = {
+        answer_idx: _answer_id,
+      };
+      fastapi(
+        "post",
+        url,
+        params,
+        (json) => {
+          get_question();
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+</script>
+
+<div class="container my-3">
+  <!--질문-->
+  <h2 class="border-bottom py-2">{question.subject}</h2>
+  <div class="card my-3">
+    <div class="card-body">
+      <div class="card-text">
+        {@html marked.parse(question.content)}
+      </div>
+      <div class="d-flex justify-content-end">
+        {#if question.modify_date}
+          <div class="badge bg-light text-dark p-2 text-start mx-3">
+            <div class="mb-2">modified at</div>
+            <div>
+              {moment(question.modify_date).format("YYYY년 MM월 DD일 hh:mm a")}
+            </div>
+          </div>
+        {/if}
+        <div class="badge bg-light text-dark p-2 text-start">
+          <div class="mb-2">
+            {question.user ? question.user.username : ""}
+          </div>
+          <div>
+            {moment(question.create_date).format("YYYY년 MM월 DD일 hh:mm a")}
+          </div>
+        </div>
+      </div>
+      <div class="my-3">
+        <button
+          class="btn btn-sm btn-outline-secondary {$is_login ? '' : 'disabled'}"
+          on:click={vote_question(question.idx)}
+        >
+          추천
+          <span class="badge rounded-pill bg-success"
+            >{question.voter.length}</span
+          ></button
+        >
+        {#if question.user && $username === question.user.username}
+          <a
+            use:link
+            href="/question-modify/{question.idx}"
+            class="btn btn-sm btn-outline-secondary">수정</a
+          >
+          <button
+            class="btn btn-sm btn-outline-secondary"
+            on:click={() => {
+              delete_question(question.idx);
+            }}>삭제</button
+          >
+        {/if}
+      </div>
+    </div>
+  </div>
+
+  <button
+    class="btn btn-secondary"
+    on:click={() => {
+      push("/");
+    }}>목록으로</button
+  >
+
+  <!--답변 목록-->
+  <h5 class="border-bottom my-3 py-2">
+    {question.answers.length}개의 답변이 있습니다.
+  </h5>
+  {#each question.answers as answer}
+    <div class="card my-3">
+      <div class="card-body">
+        <div class="card-text">
+          {@html marked.parse(answer.content)}
+        </div>
+        <div class="d-flex justify-content-end">
+          {#if answer.modify_date}
+            <div class="badge bg-light text-dark p-2 text-start mx-3">
+              <div class="mb-2">modified at</div>
+              <div>
+                {moment(answer.modify_date).format("YYYY년 MM월 DD일 hh:mm a")}
+              </div>
+            </div>
+          {/if}
+          <div class="badge bg-light text-dark p-2">
+            <div class="mb-2">
+              {answer.user ? answer.user.username : ""}
+            </div>
+            <div>
+              {moment(answer.create_date).format("YYYY년 MM월 DD일 hh:mm a")}
+            </div>
+          </div>
+        </div>
+        <div class="my-3">
+          <button
+            class="btn btn-sm btn-outline-secondary {$is_login
+              ? ''
+              : 'disabled'}"
+            on:click={vote_answer(answer.idx)}
+          >
+            추천
+            <span class="badge rounded-pill bg-success"
+              >{answer.voter.length}</span
+            ></button
+          >
+          {#if answer.user && $username === answer.user.username}
+            <a
+              use:link
+              href="/answer-modify/{answer.idx}"
+              class="btn btn-sm btn-outline-secondary">수정</a
+            >
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              on:click={() => {
+                delete_answer(answer.idx);
+              }}>삭제</button
+            >
+          {/if}
+        </div>
+      </div>
+    </div>
+  {/each}
+  <!--답변 등록-->
+  <Error {error} />
+  <form method="post" class="my-3">
+    <div class="mb-3">
+      <textarea
+        rows="10"
+        bind:value={content}
+        class="form-control"
+        disabled={$is_login ? "" : "disabled"}
+      ></textarea>
+    </div>
+    <input
+      type="submit"
+      value="답변등록"
+      class="btn btn-primary {$is_login ? '' : 'disabled'}"
+      on:click={post_answer}
+    />
+  </form>
+</div>
+```
+</details>
+
+FRONT /routes/QuestionCreate.svelte
+
+<details>
+<summary>QuestionCreate.svelte
+</summary>
+```html
+<script>
+  import { push } from "svelte-spa-router";
+  import fastapi from "../lib/api";
+  import { page, access_token, is_login, username } from "../lib/store";
+  import Error from "../components/Error.svelte";
+
+  let error = { detail: [] };
+  let subject = "";
+  let content = "";
+
+  function post_question(event) {
+    event.preventDefault();
+    let url = "/pybo/question/create";
+    let params = {
+      subject: subject,
+      content: content,
+    };
+    fastapi(
+      "post",
+      url,
+      params,
+      (json) => {
+        push("/");
+      },
+      (json_error) => {
+        error = json_error;
+      },
+    );
+  }
+</script>
+
+<div class="container">
+  <h5 class="my-3 border-bottom pb-2">질문 등록</h5>
+  <Error {error} />
+  <form method="post" class="my-3">
+    <div class="mb-3">
+      <label for="subject">제목</label>
+      <input type="text" class="form-control" bind:value={subject} />
+    </div>
+    <div class="mb-3">
+      <label for="content">내용</label>
+      <textarea class="form-control" rows="10" bind:value={content}></textarea>
+    </div>
+    <button class="btn btn-primary" on:click={post_question}>저장하기</button>
+  </form>
+</div>
+```
+</details>
+
+FRONT /routes/QuestionModify.svelte
+
+<details>
+<summary>QuestionModify.svelte
+</summary>
+```html
+<script>
+  import { push } from "svelte-spa-router";
+  import fastapi from "../lib/api";
+  import { page, access_token, is_login, username } from "../lib/store";
+  import Error from "../components/Error.svelte";
+
+  export let params = {};
+  const question_id = params.question_id;
+
+  let error = { detail: [] };
+  // let question = { answers: [] };
+  let subject = "";
+  let content = "";
+
+  fastapi("get", `/pybo/detail/${question_id}`, {}, (json) => {
+    subject = json.subject;
+    content = json.content;
+    // question = json;
+  });
+
+  function update_question(event) {
+    event.preventDefault();
+    let url = "/pybo/question/update";
+    let params = {
+      question_idx: question_id,
+      subject: subject,
+      content: content,
+    };
+    fastapi(
+      "put",
+      url,
+      params,
+      (json) => {
+        push("/detail/" + question_id);
+      },
+      (json_error) => {
+        error = json_error;
+      },
+    );
+  }
+</script>
+
+<div class="container">
+  <h5 class="my-3 border-bottom pb-2">질문 수정</h5>
+  <Error {error} />
+  <form method="post" class="my-3">
+    <div class="mb-3">
+      <label for="subject">제목</label>
+      <input type="text" class="form-control" bind:value={subject} />
+    </div>
+    <div class="mb-3">
+      <label for="content">내용</label>
+      <textarea rows="10" class="form-control" bind:value={content}></textarea>
+    </div>
+    <button class="btn btn-primary" on:click={update_question}>수정하기</button>
+  </form>
+</div>
+```
+</details>
+
+FRONT /routes/AnswerModify.svelte
+
+<details>
+<summary>AnswerModify.svelte
+</summary>
+```html
+<script>
+  import fastapi from "../lib/api";
+  import Error from "../components/Error.svelte";
+  import { push } from "svelte-spa-router";
+
+  export let params = {};
+  const answer_id = params.answer_id;
+
+  let error = { detail: [] };
+  let question_id = 0;
+  let content = "";
+
+  fastapi("get", "/pybo/answer/detail/" + answer_id, {}, (json) => {
+    question_id = json.question_idx;
+    content = json.content;
+  });
+
+  function update_answer(event) {
+    event.preventDefault();
+    let url = "/pybo/answer/update";
+    let params = {
+      answer_idx: answer_id,
+      content: content,
+    };
+    fastapi(
+      "put",
+      url,
+      params,
+      (json) => {
+        push("/detail/" + question_id);
+      },
+      (json_error) => {
+        error = json_error;
+      },
+    );
+  }
+</script>
+
+<div class="container">
+  <h5 class="my-3 border-bottom pb-2">답변 수정</h5>
+  <Error {error} />
+  <form class="my-3" method="post">
+    <div class="mb-3">
+      <label for="content">내용</label>
+      <textarea rows="10" class="form-control" bind:value={content}></textarea>
+      <button class="btn btn-primary" on:click={update_answer}>수정하기</button>
+    </div>
+  </form>
+</div>
+```
+</details>
+
+BACK /routers/router_pybo.py
+
+<details>
+<summary>router
+</summary>
+```python
+from fastapi import FastAPI, Form, Request, File, UploadFile, Depends, Body
+from fastapi import APIRouter, Depends, HTTPException, Body
+from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from jose import jwt, JWTError
+from datetime import timedelta, datetime
+from pydantic import BaseModel
+from fastapi.templating import Jinja2Templates
+from dotenv import dotenv_values
+from typing import Annotated
+from modules.db import get_db
+from sqlalchemy.orm import Session
+from starlette import status
+from models import *
+from schemas import *
+from modules import *
+
+router = APIRouter(prefix="/pybo", tags=["pybo"])
+config = dotenv_values(".env")
+domain = config["DOMAIN_URL"]
+templates = Jinja2Templates(directory="./templates")
+
+ACCESS_TOKEN_EXPIRE_MINUTES = 60*24
+SECRET_KEY = 'f9d2b97ee5c112796127fc6af1b1d19b0d80d97142b80f5bbb635665f85f1c6f'
+ALGORITHM = 'HS256'
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/pybo/user/login')
+
+
+@router.get("/hello")
+async def hello():
+    return {"message": "안녕하세요 파이보"}
+
+
+@router.get("/list", response_model=PyboQuestionListSchema)
+async def question_list(
+        db: Session = Depends(get_db),
+        page: int = 0, size: int = 10, keyword:str=''):
+    # total, _question_list = pybo_get_question_list(
+        # db, skip=page*size, limit=size)
+    total, _question_list = pybo_get_search_list(
+        db, page*size, size, keyword)
+    return {
+        'total': total,
+        'question_list': _question_list
+    }
+
+
+@router.get("/detail/{question_idx}", response_model=PyboQuestionSchema)
+async def question_detail(question_idx: int, db: Session = Depends(get_db)):
+    question = pybo_get_question(db, question_idx)
+    return question
+
+
+def get_current_user(
+        token: str = Depends(oauth2_scheme),
+        db: Session = Depends(get_db)):
+    credentials_exception = HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED,
+        detail='Could not validate credentials',
+        headers={'WWW-Authenticate': 'Bearer'},
+    )
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        username: str = payload.get('sub')
+        if username is None:
+            raise credentials_exception
+    except JWTError:
+        raise credentials_exception
+    else:
+        user = pybo_get_user(db, username)
+        if user is None:
+            raise credentials_exception
+        return user
+
+
+@router.post('/answer/create/{question_idx}', status_code=status.HTTP_204_NO_CONTENT)
+async def answer_create(
+        question_idx: int,
+        _answer_create: PyboAnswerCreateSchema = Body(...),
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    # create answer
+    question = pybo_get_question(db, question_idx)
+    if not question:
+        raise HTTPException(status_code=404, detail='Question not found')
+    pybo_create_answer(
+        db,
+        question,
+        _answer_create,
+        current_user)
+
+
+@router.post('/question/create', status_code=status.HTTP_204_NO_CONTENT)
+async def question_create(
+        _question_create: PyboQuestionCreateSchema,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    pybo_create_question(
+        db,
+        _question_create,
+        current_user)
+
+
+@router.get('/make-db')
+async def make_db(db: Session = Depends(get_db)):
+    pybo_make_db(db)
+
+
+@router.post('/user/create', status_code=status.HTTP_204_NO_CONTENT)
+async def user_create(
+        _user_create: PyboUserCreateSchema,
+        db: Session = Depends(get_db)):
+    user = pybo_get_existing_user(db, _user_create)
+    if user:
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail='이미 존재하는 사용자 아이디 또는 이메일입니다.'
+        )
+    pybo_create_user(db, _user_create)
+
+
+@router.post('/user/login', response_model=PyboTokenSchema)
+async def login_for_access_token(
+        form_data: OAuth2PasswordRequestForm = Depends(),
+        db: Session = Depends(get_db)):
+    # check user and password
+    user = pybo_get_user(db, form_data.username)
+    print(f'{form_data.username}, {form_data.password}')
+    print(f'{user.username}, {user.password}')
+    if not user or not pwd_context.verify(form_data.password, user.password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail='Incorrect username or password',
+            headers={'WWW-Authenticate': 'Bearer'}
+        )
+
+    # make access token
+    data = {
+        'sub': user.username,
+        'exp': datetime.utcnow()+timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    }
+    access_token = jwt.encode(data, SECRET_KEY, algorithm=ALGORITHM)
+
+    return {
+        'access_token': access_token,
+        'token_type': 'bearer',
+        'username': user.username
+    }
+
+
+@router.put('/question/update', status_code=status.HTTP_204_NO_CONTENT)
+async def question_update(
+        _question_update: PyboQuestionUpdateSchema,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    db_question = pybo_get_question(db, _question_update.question_idx)
+    if not db_question:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='데이터를 찾을 수 없습니다.')
+    if current_user.idx != db_question.user.idx:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='수정 권한이 없습니다.')
+    pybo_update_question(db, db_question, _question_update)
+
+
+@router.delete('/question/delete', status_code=status.HTTP_204_NO_CONTENT)
+async def question_delete(
+        _question_delete: PyboQuestionDeleteSchema,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    db_question = pybo_get_question(db, _question_delete.question_idx)
+    if not db_question:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='데이터를 찾을 수 없습니다.')
+    if current_user.idx != db_question.user.idx:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='삭제 권한이 없습니다.')
+    pybo_delete_question(db, db_question)
+
+
+@router.get('/answer/detail/{answer_idx}', response_model=PyboAnswerSchema)
+async def answer_detail(answer_idx: int, db: Session = Depends(get_db)):
+    answer = pybo_get_answer(db, answer_idx)
+    return answer
+
+
+@router.put('/answer/update', status_code=status.HTTP_204_NO_CONTENT)
+async def answer_update(
+        _answer_update: PyboAnswerUpdateSchema,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    db_answer = pybo_get_answer(db, _answer_update.answer_idx)
+    if not db_answer:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='데이터를 찾을 수 없습니다.')
+    if current_user.idx != db_answer.user.idx:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='수정 권한이 없습니다.')
+    pybo_update_answer(db, db_answer, _answer_update)
+
+
+@router.delete('/answer/delete', status_code=status.HTTP_204_NO_CONTENT)
+async def answer_delete(
+        _answer_delete: PyboAnswerDeleteScheme,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    db_answer = pybo_get_answer(db, _answer_delete.answer_idx)
+    if not db_answer:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='데이터를 찾을 수 없습니다.')
+    if current_user.idx != db_answer.user.idx:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='삭제 권한이 없습니다.')
+    pybo_delete_answer(db, db_answer)
+
+
+@router.post('/question/vote', status_code=status.HTTP_204_NO_CONTENT)
+async def question_vote(
+        _question_vote: PyboQuestionVoteSchema,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    db_question = pybo_get_question(db, _question_vote.question_idx)
+    if not db_question:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='데이터를 찾을 수 없습니다.')
+    pybo_vote_question(db, db_question, current_user)
+
+
+@router.post('/answer/vote', status_code=status.HTTP_204_NO_CONTENT)
+async def answer_vote(
+        _answer_vote: PyboAnswerVoteSchema,
+        db: Session = Depends(get_db),
+        current_user: PyboUserModel = Depends(get_current_user)):
+    db_answer = pybo_get_answer(db, _answer_vote.answer_idx)
+    if not db_answer:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail='데이터를 찾을 수 없습니다')
+    pybo_vote_answer(db, db_answer, current_user)
+```
+</details>
+
+BACK /models/pybo_models.py
+
+<details>
+<summary>models
+</summary>
+```python
+from models import *
+from schemas import *
+from sqlalchemy.orm import Session
+from sqlalchemy import and_
+from datetime import datetime
+from passlib.context import CryptContext
+
+
+def pybo_get_question_list(db: Session, skip: int = 0, limit: int = 10):
+    _question_list = db.query(PyboQuestionModel)\
+        .order_by(PyboQuestionModel.create_date.desc())\
+        .order_by(PyboQuestionModel.subject.desc())
+
+    total = _question_list.count()
+    question_list = _question_list.offset(skip).limit(limit).all()
+    return total, question_list  # 전체 개수, 페이징 적용된 질문 목록
+
+
+def pybo_get_question(db: Session, question_idx: int):
+    question = db.query(PyboQuestionModel).get(question_idx)
+    return question
+
+
+def pybo_create_answer(
+        db: Session,
+        question: PyboQuestionModel,
+        answer_create: PyboAnswerCreateSchema,
+        user: PyboUserModel):
+    db_answer = PyboAnswerModel(
+        question=question,
+        content=answer_create.content,
+        create_date=datetime.now(),
+        user=user)
+    db.add(db_answer)
+    db.commit()
+
+
+def pybo_create_question(
+        db: Session,
+        question_create: PyboQuestionCreateSchema,
+        user: PyboUserModel):
+    db_question = PyboQuestionModel(
+        subject=question_create.subject,
+        content=question_create.content,
+        create_date=datetime.now(),
+        user=user)
+    db.add(db_question)
+    db.commit()
+
+
+def pybo_make_db(db: Session):
+    user1 = pybo_get_user(db, 'test1')
+    user2 = pybo_get_user(db, 'test2')
+    for i in range(5):
+        # subject = f'테스트 데이터 {i+1:03d}'
+        # print(subject)
+        if i < 3:
+            q = PyboQuestionModel(
+                subject=f'테스트 데이터 {i+1:03d}',
+                content=f'내용없음 {i+1:03d}',
+                create_date=datetime.now(),
+                user=user1)
+            db.add(q)
+        else:
+            q = PyboQuestionModel(
+                subject=f'테스트 데이터 {i+1:03d}',
+                content=f'내용없음 {i+1:03d}',
+                create_date=datetime.now(),
+                user=user2)
+            db.add(q)
+    db.commit()
+
+
+pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
+
+
+def pybo_create_user(db: Session, user_create: PyboUserCreateSchema):
+    db_user = PyboUserModel(
+        username=user_create.username,
+        password=pwd_context.hash(user_create.password1),
+        email=user_create.email
+    )
+    db.add(db_user)
+    db.commit()
+
+
+def pybo_get_existing_user(db: Session, user_create: PyboUserCreateSchema):
+    return db.query(PyboUserModel).filter(
+        (PyboUserModel.username == user_create.username) |
+        (PyboUserModel.email == user_create.email)
+    ).first()
+
+
+def pybo_get_user(db: Session, username: str):
+    return db.query(PyboUserModel).filter(PyboUserModel.username == username).first()
+
+
+def pybo_update_question(
+        db: Session,
+        db_question: PyboQuestionModel,
+        question_update: PyboQuestionUpdateSchema):
+    db_question.subject = question_update.subject
+    db_question.content = question_update.content
+    db_question.modify_date = datetime.now()
+    # db.add(db_question)
+    db.commit()
+
+
+def pybo_delete_question(db: Session, db_question: PyboQuestionModel):
+    db.delete(db_question)
+    db.commit()
+
+
+def pybo_get_answer(db: Session, answer_idx: int):
+    return db.query(PyboAnswerModel).get(answer_idx)
+
+
+def pybo_update_answer(
+        db: Session,
+        db_answer: PyboAnswerModel,
+        answer_update: PyboAnswerUpdateSchema):
+    db_answer.content = answer_update.content
+    db_answer.modify_date = datetime.now()
+    db.commit()
+
+
+def pybo_delete_answer(db: Session, db_answer: PyboAnswerModel):
+    db.delete(db_answer)
+    db.commit()
+
+
+def pybo_vote_question(
+        db: Session, db_question: PyboQuestionModel, db_user: PyboUserModel):
+    db_question.voter.append(db_user)
+    db.commit()
+
+
+def pybo_vote_answer(
+        db: Session, db_answer: PyboAnswerModel, db_user: PyboUserModel):
+    db_answer.voter.append(db_user)
+    db.commit()
+
+
+def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: str = ''):
+    search_list = db.query(PyboQuestionModel)
+    if keyword:
+        search = f'%%{keyword}%%'
+        sub_query = db.query(PyboAnswerModel.question_idx, PyboAnswerModel.content, PyboUserModel.username)\
+            .outerjoin(PyboUserModel, and_(PyboAnswerModel.user_idx == PyboUserModel.idx)).subquery()
+        search_list = search_list\
+            .outerjoin(PyboUserModel)\
+            .outerjoin(sub_query, and_(sub_query.c.question_idx == PyboQuestionModel.idx))\
+            .filter(
+                PyboQuestionModel.subject.ilike(search) |  # 질문제목
+                PyboQuestionModel.content.ilike(search) |  # 질문내용
+                PyboUserModel.username.ilike(search) |  # 질문작성자
+                sub_query.c.content.ilike(search) |  # 답변내용
+                sub_query.c.username.ilike(search)  # 답변작성자
+            )
+    total = search_list.distinct().count()
+    search_list = search_list.order_by(PyboQuestionModel.create_date.desc())\
+        .offset(skip).limit(limit).distinct().all()
+    return total, search_list
+```
+</details>
+
+BACK /schemas/pybo_schemas.py
+
+<details>
+<summary>schemas
+</summary>
+```python
+import datetime
+from pydantic import BaseModel, EmailStr
+from pydantic import field_validator
+from pydantic_core.core_schema import FieldValidationInfo
+
+
+class PyboUserSchema(BaseModel):
+    idx: int
+    username: str
+    email: str
+
+
+class PyboAnswerSchema(BaseModel):
+    idx: int
+    content: str
+    create_date: datetime.datetime
+    user: PyboUserSchema | None
+    question_idx: int
+    modify_date: datetime.datetime | None = None
+    voter: list[PyboUserSchema]
+
+    class Config:
+        orm_mode = True
+
+
+class PyboQuestionSchema(BaseModel):
+    idx: int
+    subject: str | None = None
+    content: str | None = None
+    create_date: datetime.datetime
+    answers: list[PyboAnswerSchema] = []
+    user: PyboUserSchema | None
+    modify_date: datetime.datetime | None = None
+    voter: list[PyboUserSchema]
+
+    class Config:
+        orm_mode = True
+
+
+class PyboAnswerCreateSchema(BaseModel):
+    content: str
+
+    @field_validator('content')
+    def not_empty(cls, v):
+        if not v or not v.strip():
+            raise ValueError('빈 값은 허용되지 않습니다.')
+        return v
+
+    class Config:
+        orm_mode = True
+
+
+class PyboQuestionCreateSchema(BaseModel):
+    subject: str
+    content: str
+
+    @field_validator('subject', 'content')
+    def not_empty(cls, v):
+        if not v or not v.strip():
+            raise ValueError('빈 값은 허용되지 않습니다.')
+        return v
+
+    class Config:
+        orm_mode = True
+
+
+class PyboQuestionListSchema(BaseModel):
+    total: int = 0
+    question_list: list[PyboQuestionSchema] = []
+
+
+class PyboUserCreateSchema(BaseModel):
+    username: str
+    password1: str
+    password2: str
+    email: EmailStr
+
+    @field_validator('username', 'password1', 'password2', 'email')
+    def not_empty(cls, v):
+        if not v or not v.strip():
+            raise ValueError('빈 값은 허용되지 않습니다')
+        return v
+
+    @field_validator('password2')
+    def passwords_match(cls, v, info: FieldValidationInfo):
+        if 'password1' in info.data and v != info.data['password1']:
+            raise ValueError('비밀번호가 일치하지 않습니다')
+        return v
+
+
+class PyboTokenSchema(BaseModel):
+    access_token: str
+    token_type: str
+    username: str
+
+
+class PyboQuestionUpdateSchema(PyboQuestionCreateSchema):
+    question_idx: int
+
+
+class PyboQuestionDeleteSchema(BaseModel):
+    question_idx: int
+
+
+class PyboAnswerUpdateSchema(PyboAnswerCreateSchema):
+    answer_idx: int
+
+
+class PyboAnswerDeleteScheme(BaseModel):
+    answer_idx: int
+
+
+class PyboQuestionVoteSchema(BaseModel):
+    question_idx: int
+
+
+class PyboAnswerVoteSchema(BaseModel):
+    answer_idx: int
+```
+</details>
+
+BACK /modules/pybo_modules.py
+
+<details>
+<summary>modules
+</summary>
+```python
+from models import *
+from schemas import *
+from sqlalchemy.orm import Session
+from sqlalchemy import and_
+from datetime import datetime
+from passlib.context import CryptContext
+
+
+def pybo_get_question_list(db: Session, skip: int = 0, limit: int = 10):
+    _question_list = db.query(PyboQuestionModel)\
+        .order_by(PyboQuestionModel.create_date.desc())\
+        .order_by(PyboQuestionModel.subject.desc())
+
+    total = _question_list.count()
+    question_list = _question_list.offset(skip).limit(limit).all()
+    return total, question_list  # 전체 개수, 페이징 적용된 질문 목록
+
+
+def pybo_get_question(db: Session, question_idx: int):
+    question = db.query(PyboQuestionModel).get(question_idx)
+    return question
+
+
+def pybo_create_answer(
+        db: Session,
+        question: PyboQuestionModel,
+        answer_create: PyboAnswerCreateSchema,
+        user: PyboUserModel):
+    db_answer = PyboAnswerModel(
+        question=question,
+        content=answer_create.content,
+        create_date=datetime.now(),
+        user=user)
+    db.add(db_answer)
+    db.commit()
+
+
+def pybo_create_question(
+        db: Session,
+        question_create: PyboQuestionCreateSchema,
+        user: PyboUserModel):
+    db_question = PyboQuestionModel(
+        subject=question_create.subject,
+        content=question_create.content,
+        create_date=datetime.now(),
+        user=user)
+    db.add(db_question)
+    db.commit()
+
+
+def pybo_make_db(db: Session):
+    user1 = pybo_get_user(db, 'test1')
+    user2 = pybo_get_user(db, 'test2')
+    for i in range(5):
+        # subject = f'테스트 데이터 {i+1:03d}'
+        # print(subject)
+        if i < 3:
+            q = PyboQuestionModel(
+                subject=f'테스트 데이터 {i+1:03d}',
+                content=f'내용없음 {i+1:03d}',
+                create_date=datetime.now(),
+                user=user1)
+            db.add(q)
+        else:
+            q = PyboQuestionModel(
+                subject=f'테스트 데이터 {i+1:03d}',
+                content=f'내용없음 {i+1:03d}',
+                create_date=datetime.now(),
+                user=user2)
+            db.add(q)
+    db.commit()
+
+
+pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
+
+
+def pybo_create_user(db: Session, user_create: PyboUserCreateSchema):
+    db_user = PyboUserModel(
+        username=user_create.username,
+        password=pwd_context.hash(user_create.password1),
+        email=user_create.email
+    )
+    db.add(db_user)
+    db.commit()
+
+
+def pybo_get_existing_user(db: Session, user_create: PyboUserCreateSchema):
+    return db.query(PyboUserModel).filter(
+        (PyboUserModel.username == user_create.username) |
+        (PyboUserModel.email == user_create.email)
+    ).first()
+
+
+def pybo_get_user(db: Session, username: str):
+    return db.query(PyboUserModel).filter(PyboUserModel.username == username).first()
+
+
+def pybo_update_question(
+        db: Session,
+        db_question: PyboQuestionModel,
+        question_update: PyboQuestionUpdateSchema):
+    db_question.subject = question_update.subject
+    db_question.content = question_update.content
+    db_question.modify_date = datetime.now()
+    # db.add(db_question)
+[<0;102;11M    db.commit()
+
+
+def pybo_delete_question(db: Session, db_question: PyboQuestionModel):
+    db.delete(db_question)
+    db.commit()
+
+
+[<0;102;11m[<0;102;11Mdef pybo_get_answer(db: Session, answer_idx: int):
+    return db.query(PyboAnswerModel).get(answer_idx)
+
+
+def pybo_update_answer(
+        db: Session,
+        db_answer: PyboAnswerModel,
+        answer_update: PyboAnswerUpdateSchema):
+    db_answer.content = answer_update.content
+    db_answer.modify_date = datetime.now()
+[<0;102;11m    db.commit()
+
+
+def pybo_delete_answer(db: Session, db_answer: PyboAnswerModel):
+    db.delete(db_answer)
+    db.commit()
+
+
+def pybo_vote_question(
+        db: Session, db_question: PyboQuestionModel, db_user: PyboUserModel):
+    db_question.voter.append(db_user)
+    db.commit()
+
+
+def pybo_vote_answer(
+        db: Session, db_answer: PyboAnswerModel, db_user: PyboUserModel):
+    db_answer.voter.append(db_user)
+    db.commit()
+
+
+def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: str = ''):
+    search_list = db.query(PyboQuestionModel)
+    if keyword:
+        search = f'%%{keyword}%%'
+        sub_query = db.query(PyboAnswerModel.question_idx, PyboAnswerModel.content, PyboUserModel.username)\
+            .outerjoin(PyboUserModel, and_(PyboAnswerModel.user_idx == PyboUserModel.idx)).subquery()
+        search_list = search_list\
+            .outerjoin(PyboUserModel)\
+            .outerjoin(sub_query, and_(sub_query.c.question_idx == PyboQuestionModel.idx))\
+            .filter(
+                PyboQuestionModel.subject.ilike(search) |  # 질문제목
+                PyboQuestionModel.content.ilike(search) |  # 질문내용
+                PyboUserModel.username.ilike(search) |  # 질문작성자
+                sub_query.c.content.ilike(search) |  # 답변내용
+                sub_query.c.username.ilike(search)  # 답변작성자
+            )
+    total = search_list.distinct().count()
+    search_list = search_list.order_by(PyboQuestionModel.create_date.desc())\
+        .offset(skip).limit(limit).distinct().all()
+    return total, search_list
+```
+</details>
+
+### 로그인& 로그아웃
 {: #upj_1705714728888}
 
+FRONT /components/Error.svelte
+
+<details>
+<summary>Error.svelte
+</summary>
+```html
+<script>
+  export let error;
+</script>
+
+{#if typeof error.detail === "string"}
+  <div class="alert alert-danger">{error.detail}</div>
+{:else if typeof error.detail === "object" && error.detail.length > 0}
+  <div class="alert alert-danger">
+    {#each error.detail as err, i}
+      <div>
+        <string>{err.loc[1]}</string> : {err.msg}
+      </div>
+    {/each}
+  </div>
+{/if}
+```
+</details>
+
+FRONT /components/Navigation.svelte
+
+<details>
+<summary>Navigation.svelte
+</summary>
+```html
+<script>
+  import { link } from "svelte-spa-router";
+  import {
+    page,
+    keyword,
+    access_token,
+    username,
+    is_login,
+  } from "../lib/store";
+</script>
+
+<!--네비게이션바-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <div class="container-fluid">
+    <a
+      use:link
+      href="/"
+      class="navbar-brand"
+      on:click={() => {
+        $keyword = "";
+        $page = 0;
+      }}>Pybo</a
+    >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" />
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {#if $is_login}
+          <li class="nav-item">
+            <a
+              use:link
+              href="/user-login"
+              class="nav-link"
+              on:click={() => {
+                $access_token = "";
+                $username = "";
+                $is_login = false;
+              }}>로그아웃 ({$username})</a
+            >
+          </li>
+        {:else}
+          <li class="nav-item">
+            <a use:link href="/user-create" class="nav-link">회원가입</a>
+          </li>
+          <li class="nav-item">
+            <a use:link href="/user-login" class="nav-link">로그인</a>
+          </li>
+        {/if}
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+</details>
+
+FRONT /lib/api.js
+
+<details>
+<summary>api.js
+</summary>
+```javascript
+import qs from "qs"
+import { access_token, username, is_login } from "./store"
+import { get } from 'svelte/store'
+import { push } from 'svelte-spa-router'
+
+const fastapi = (operation, url, params, success_callback, failure_callback) => {
+  let method = operation
+  let content_type = 'application/json'
+  let body = JSON.stringify(params)
+
+  if (operation === 'login') {
+    method = 'post'
+    content_type = 'application/x-www-form-urlencoded'
+    body = qs.stringify(params)
+  }
+
+  let _url = import.meta.env.VITE_SERVER_URL + url
+  if (method === 'get') {
+    _url += '?' + new URLSearchParams(params)
+  }
+
+  let options = {
+    method: method,
+    headers: {
+      'Content-Type': content_type
+    }
+  }
+
+  const _access_token = get(access_token)
+  // console.log(`_access_token=${_access_token}`)
+  if (_access_token) {
+    // console.log(`_access_token=${_access_token}`)
+    // 'Bearer ' Bearer뒤에 띄어쓰기를 꼭 해야한다.
+    options.headers['Authorization'] = 'Bearer ' + _access_token 
+  }
+
+  if (method !== 'get') {
+    options['body'] = body
+  }
+
+  fetch(_url, options)
+    .then(response => {
+      if (response.status === 204) { // No content
+        if (success_callback) {
+          // console.log(`response.status === 204`)
+          success_callback()
+        }
+        return
+      }
+      response.json()
+        .then(json => {
+          if (response.status >= 200 && response.status < 300) { // 200~299
+            if (success_callback) {
+              success_callback(json)
+            }
+          } else if (operation !== 'login' && response.status === 401) { // token time out
+            access_token.set('')
+            username.set('')
+            is_login.set(false)
+            alert('로그인이 필요합니다')
+            push('/user-login')
+          } else {
+            if (failure_callback) {
+              failure_callback(json)
+            } else {
+              console.log(json)
+            }
+          }
+        })
+        .catch(error => {
+          console.log(error)
+        })
+    }
+    )
+}
+
+export default fastapi
+```
+</details>
+
+FRONT /lib/store.js
+
+<details>
+<summary>store.js
+</summary>
+```javascript
+import { writable } from 'svelte/store'
+
+// export const page = writable(0)
+
+/* */
+const persist_storage = (key, initValue) => {
+  const storedValueStr = localStorage.getItem(key)
+  const store = writable(storedValueStr != null ? JSON.parse(storedValueStr) : initValue)  //JSON.parse(storedValueStr)
+  store.subscribe((val) => {
+    localStorage.setItem(key, JSON.stringify(val))
+  })
+  return store
+}
+
+export const page = persist_storage('page', 0)
+export const keyword = persist_storage('keyword', '')
+export const access_token = persist_storage('access_token', '')
+export const username = persist_storage('username', '')
+export const is_login = persist_storage('is_login', false)
+```
+</details>
+
+FRONT /routes/UserLogin.svelte
+
+<details>
+<summary>UserLogin.svelte
+</summary>
+```html
+<script>
+  import { push } from "svelte-spa-router";
+  import fastapi from "../lib/api";
+  import Error from "../components/Error.svelte";
+  import { access_token, username, is_login } from "../lib/store";
+
+  let error = { detail: [] };
+  let login_username = "";
+  let login_password = "";
+
+  function login(event) {
+    event.preventDefault();
+    let url = "/pybo/user/login";
+    let params = {
+      username: login_username,
+      password: login_password,
+    };
+    fastapi(
+      "login",
+      url,
+      params,
+      (json) => {
+        $access_token = json.access_token;
+        $username = json.username;
+        $is_login = true;
+        push("/");
+      },
+      (json_error) => {
+        error = json_error;
+      },
+    );
+  }
+</script>
+
+<div class="container">
+  <h5 class="my-3 border-bottom pb-2">로그인</h5>
+  <Error {error} />
+  <form method="post">
+    <div class="mb-3">
+      <label for="username">사용자 이름</label>
+      <input
+        type="text"
+        class="form-control"
+        id="username"
+        bind:value={login_username}
+      />
+    </div>
+    <div class="mb-3">
+      <label for="password">비밀번호</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        bind:value={login_password}
+      />
+    </div>
+    <button class="btn btn-primary" on:click={login}>로그인</button>
+  </form>
+</div>
+```
+</details>
+
+FRONT /routes/Detail.svelte
+
+<details>
+<summary>Detail.svelte
+</summary>
+```html
+<script>
+  import fastapi from "../lib/api";
+  import Error from "../components/Error.svelte";
+  import { link, push } from "svelte-spa-router";
+  import { page, access_token, is_login, username } from "../lib/store";
+  import { marked } from "marked";
+  import moment from "moment/min/moment-with-locales";
+  moment.locale("ko");
+
+  export let params = {};
+  let question_idx = params.question_idx;
+  let question = { answers: [], voter: [], content: "" };
+  let content = "";
+  let error = { detail: [] };
+
+  function get_question() {
+    fastapi("get", `/pybo/detail/${question_idx}`, {}, (json) => {
+      question = json;
+    });
+  }
+
+  get_question();
+
+  function post_answer(event) {
+    event.preventDefault();
+    let url = "/pybo/answer/create/" + question_idx;
+    // console.log(url);
+    // if (content.trim() == "") {
+    // return;
+    // }
+    let params = {};
+    params["content"] = content;
+    fastapi(
+      "post",
+      url,
+      params,
+      (json) => {
+        content = "";
+        error = { detail: [] };
+        get_question();
+      },
+      (err_json) => {
+        error = err_json;
+      },
+    );
+  }
+
+  function delete_question(_question_id) {
+    if (window.confirm("정말로 삭제하시겠습니까?")) {
+      let url = "/pybo/question/delete";
+      let params = {
+        question_id: _question_id,
+      };
+      fastapi(
+        "delete",
+        url,
+        params,
+        (json) => {
+          push("/");
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+
+  function delete_answer(answer_id) {
+    if (window.confirm("정말로 삭제하시겠습니까?")) {
+      let url = "/pybo/answer/delete";
+      let params = {
+        answer_idx: answer_id,
+      };
+      fastapi(
+        "delete",
+        url,
+        params,
+        (json) => {
+          get_question();
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+
+  function vote_question(_question_id) {
+    if (window.confirm("정말로 추천하시겠습니까?")) {
+      let url = "/pybo/question/vote";
+      let params = {
+        question_idx: _question_id,
+      };
+      fastapi(
+        "post",
+        url,
+        params,
+        (json) => {
+          get_question();
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+
+  function vote_answer(_answer_id) {
+    if (window.confirm("정말로 추천하시겠습니까?")) {
+      let url = "/pybo/answer/vote";
+      let params = {
+        answer_idx: _answer_id,
+      };
+      fastapi(
+        "post",
+        url,
+        params,
+        (json) => {
+          get_question();
+        },
+        (json_error) => {
+          error = json_error;
+        },
+      );
+    }
+  }
+</script>
+
+<div class="container my-3">
+  <!--질문-->
+  <h2 class="border-bottom py-2">{question.subject}</h2>
+  <div class="card my-3">
+    <div class="card-body">
+      <div class="card-text">
+        {@html marked.parse(question.content)}
+      </div>
+      <div class="d-flex justify-content-end">
+        {#if question.modify_date}
+          <div class="badge bg-light text-dark p-2 text-start mx-3">
+            <div class="mb-2">modified at</div>
+            <div>
+              {moment(question.modify_date).format("YYYY년 MM월 DD일 hh:mm a")}
+            </div>
+          </div>
+        {/if}
+        <div class="badge bg-light text-dark p-2 text-start">
+          <div class="mb-2">
+            {question.user ? question.user.username : ""}
+          </div>
+          <div>
+            {moment(question.create_date).format("YYYY년 MM월 DD일 hh:mm a")}
+          </div>
+        </div>
+      </div>
+      <div class="my-3">
+        <button
+          class="btn btn-sm btn-outline-secondary {$is_login ? '' : 'disabled'}"
+          on:click={vote_question(question.idx)}
+        >
+          추천
+          <span class="badge rounded-pill bg-success"
+            >{question.voter.length}</span
+          ></button
+        >
+        {#if question.user && $username === question.user.username}
+          <a
+            use:link
+            href="/question-modify/{question.idx}"
+            class="btn btn-sm btn-outline-secondary">수정</a
+          >
+          <button
+            class="btn btn-sm btn-outline-secondary"
+            on:click={() => {
+              delete_question(question.idx);
+            }}>삭제</button
+          >
+        {/if}
+      </div>
+    </div>
+  </div>
+
+  <button
+    class="btn btn-secondary"
+    on:click={() => {
+      push("/");
+    }}>목록으로</button
+  >
+
+  <!--답변 목록-->
+  <h5 class="border-bottom my-3 py-2">
+    {question.answers.length}개의 답변이 있습니다.
+  </h5>
+  {#each question.answers as answer}
+    <div class="card my-3">
+      <div class="card-body">
+        <div class="card-text">
+          {@html marked.parse(answer.content)}
+        </div>
+        <div class="d-flex justify-content-end">
+          {#if answer.modify_date}
+            <div class="badge bg-light text-dark p-2 text-start mx-3">
+              <div class="mb-2">modified at</div>
+              <div>
+                {moment(answer.modify_date).format("YYYY년 MM월 DD일 hh:mm a")}
+              </div>
+            </div>
+          {/if}
+          <div class="badge bg-light text-dark p-2">
+            <div class="mb-2">
+              {answer.user ? answer.user.username : ""}
+            </div>
+            <div>
+              {moment(answer.create_date).format("YYYY년 MM월 DD일 hh:mm a")}
+            </div>
+          </div>
+        </div>
+        <div class="my-3">
+          <button
+            class="btn btn-sm btn-outline-secondary {$is_login
+              ? ''
+              : 'disabled'}"
+            on:click={vote_answer(answer.idx)}
+          >
+            추천
+            <span class="badge rounded-pill bg-success"
+              >{answer.voter.length}</span
+            ></button
+          >
+          {#if answer.user && $username === answer.user.username}
+            <a
+              use:link
+              href="/answer-modify/{answer.idx}"
+              class="btn btn-sm btn-outline-secondary">수정</a
+            >
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              on:click={() => {
+                delete_answer(answer.idx);
+              }}>삭제</button
+            >
+          {/if}
+        </div>
+      </div>
+    </div>
+  {/each}
+  <!--답변 등록-->
+  <Error {error} />
+  <form method="post" class="my-3">
+    <div class="mb-3">
+      <textarea
+        rows="10"
+        bind:value={content}
+        class="form-control"
+        disabled={$is_login ? "" : "disabled"}
+      ></textarea>
+    </div>
+    <input
+      type="submit"
+      value="답변등록"
+      class="btn btn-primary {$is_login ? '' : 'disabled'}"
+      on:click={post_answer}
+    />
+  </form>
+</div>
+```
+</details>
+
+<!--
 ### **D**elete
 {: #upj_1705714728889}
 
 ### 로그인 & 로그아웃
 {: #upj_1705714728890}
+-->
 
