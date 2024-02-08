@@ -280,10 +280,30 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 {객체.속성}
 ```
 
-### FastAPI 기본구조
+### 파일 시스템 구조
 {: #upj_1705714728884}
 
-폴더 구조
+**FRONT Svelt 폴더 구조**
+
+```text
+┳(assets)
+┃  └ svelte.svg
+┠(components)
+┃  ├ Error.svelte
+┃  └ Navigation.svelte
+┠(lib)
+┃  ├ app.js
+┃  └ store.js
+┠(routes)
+┃  ├ Home.svelte
+┃  └ 
+┠ App.svelte
+┠ app.css
+┠ main.js
+┖ .env
+```
+
+**BACK FastAPI 폴더 구조**
 
 ```text
 ┳(frontend)
@@ -305,30 +325,7 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 ┖ .env
 ```
 
-### Svelte 기본구조
-{: #upj_1705714728885}
-
-폴더 구조
-
-```text
-┳(assets)
-┃  └ svelte.svg
-┠(components)
-┃  ├ Error.svelte
-┃  └ Navigation.svelte
-┠(lib)
-┃  ├ app.js
-┃  └ store.js
-┠(routes)
-┃  ├ Home.svelte
-┃  └ 
-┠ App.svelte
-┠ app.css
-┠ main.js
-┖ .env
-```
-
-/App.svelte
+**/App.svelte**
 
 <details>
 <summary>App.svelte
@@ -361,7 +358,7 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 ```
 </details>
 
-/app.css
+**/app.css**
 
 <details>
 <summary>app.css
@@ -382,7 +379,7 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 ```
 </details>
 
-/main.js
+**/main.js**
 
 <details>
 <summary>main.js
@@ -401,10 +398,70 @@ export default app
 ```
 </details>
 
+### Mysql 데이터베이스 세팅
+{: #upj_1705714728883}
+
+**BACK /modules/db.py**
+
+<details>
+<summary>db.py
+</summary>
+```python
+from dotenv import dotenv_values
+from sqlalchemy import create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker, scoped_session
+
+config = dotenv_values('.env')
+
+user_name = config['DB_USER_NAME']
+user_pwd = config['DB_USER_PWD']
+db_host = config['DB_HOST']
+db_name = config['DB_NAME']
+
+'''
+# default
+engine = create_engine("mysql://scott:tiger@localhost/foo")
+
+# mysqlclient (a maintained fork of MySQL-Python)
+engine = create_engine("mysql+mysqldb://scott:tiger@localhost/foo")
+
+# PyMySQL
+engine = create_engine("mysql+pymysql://scott:tiger@localhost/foo")
+'''
+
+DATABASE = f'mysql://{user_name}:{user_pwd}@{db_host}/{db_name}?charset=utf8'
+
+ENGINE = create_engine(
+  DATABASE,
+  echo=True
+)
+
+session = scoped_session(
+  sessionmaker(
+    autocommit=False,
+    autoflush=False,
+    bind=ENGINE
+  )
+)
+
+Base = declarative_base()
+Base.query = session.query_property()
+
+def get_db():
+  db = session()
+  try:
+    yield db
+  finally:
+    db.close()
+```
+</details>
+
+
 ### **회원가입** CRUD
 {: #upj_1705714728886}
 
-FRONT /routes/UserCreate.svelte
+**FRONT /routes/UserCreate.svelte**
 
 <details>
 <summary>UserCreate.svelte
@@ -487,7 +544,7 @@ FRONT /routes/UserCreate.svelte
 ```
 </details>
 
-FRONT /components/Error.svelte
+**FRONT /components/Error.svelte**
 
 <details>
 <summary>Error.svelte
@@ -511,7 +568,7 @@ FRONT /components/Error.svelte
 ```
 </details>
 
-FRONT /lib/api.js
+**FRONT /lib/api.js**
 
 <details>
 <summary>api.js
@@ -597,7 +654,7 @@ export default fastapi
 ```
 </details>
 
-BACK /main.py
+**BACK /main.py**
 
 <details>
 <summary>main.py
@@ -643,9 +700,9 @@ async def test_pybo_index():
 ```
 </details>
 
-BACK /routers/router_pybo.py
+**BACK /routers/router_pybo.py**
 
-__init__.py
+**__init__.py**
 
 ```pytyon
 import routers.router_pybo
@@ -752,7 +809,7 @@ async def login_for_access_token(
 ```
 </details>
 
-BACK /models/pybo_models.py
+**BACK /models/pybo_models.py**
 
 <details>
 <summary>pybo_models.py
@@ -779,7 +836,7 @@ Base.metadata.create_all(bind=ENGINE)
 ```
 </details>
 
-BACK /schemas/pybo_schemas.py
+**BACK /schemas/pybo_schemas.py**
 
 <details>
 <summary>pybo_schemas.py
@@ -818,7 +875,7 @@ class PyboUserCreateSchema(BaseModel):
 ```
 </details>
 
-BACK /modules/pybo_crud.py
+**BACK /modules/pybo_crud.py**
 
 <details>
 <summary>pybo_crud.py
@@ -885,7 +942,7 @@ def pybo_make_db(db: Session):
 ### **게시판** CRUD
 {: #upj_1705714728887}
 
-FRONT /lib/store.js
+**FRONT /lib/store.js**
 
 <details>
 <summary>store.js
@@ -893,9 +950,6 @@ FRONT /lib/store.js
 ```javascript
 import { writable } from 'svelte/store'
 
-// export const page = writable(0)
-
-/* */
 const persist_storage = (key, initValue) => {
   const storedValueStr = localStorage.getItem(key)
   const store = writable(storedValueStr != null ? JSON.parse(storedValueStr) : initValue)  //JSON.parse(storedValueStr)
@@ -913,7 +967,7 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-FRONT /routes/Home.svelte
+**FRONT /routes/Home.svelte**
 
 <details>
 <summary>Home.svelte
@@ -1039,7 +1093,7 @@ FRONT /routes/Home.svelte
 ```
 </details>
 
-FRONT /routes/Detail.svelte
+**FRONT /routes/Detail.svelte**
 
 <details>
 <summary>Detail.svelte
@@ -1312,7 +1366,7 @@ FRONT /routes/Detail.svelte
 ```
 </details>
 
-FRONT /routes/QuestionCreate.svelte
+**FRONT /routes/QuestionCreate.svelte**
 
 <details>
 <summary>QuestionCreate.svelte
@@ -1367,7 +1421,7 @@ FRONT /routes/QuestionCreate.svelte
 ```
 </details>
 
-FRONT /routes/QuestionModify.svelte
+**FRONT /routes/QuestionModify.svelte**
 
 <details>
 <summary>QuestionModify.svelte
@@ -1433,7 +1487,7 @@ FRONT /routes/QuestionModify.svelte
 ```
 </details>
 
-FRONT /routes/AnswerModify.svelte
+**FRONT /routes/AnswerModify.svelte**
 
 <details>
 <summary>AnswerModify.svelte
@@ -1491,12 +1545,13 @@ FRONT /routes/AnswerModify.svelte
 ```
 </details>
 
-BACK /routers/router_pybo.py
+**BACK /routers/router_pybo.py**
 
 <details>
 <summary>router
 </summary>
 ```python
+# python libraries
 from fastapi import FastAPI, Form, Request, File, UploadFile, Depends, Body
 from fastapi import APIRouter, Depends, HTTPException, Body
 from fastapi.responses import HTMLResponse, FileResponse
@@ -1507,27 +1562,22 @@ from pydantic import BaseModel
 from fastapi.templating import Jinja2Templates
 from dotenv import dotenv_values
 from typing import Annotated
-from modules.db import get_db
 from sqlalchemy.orm import Session
 from starlette import status
+
+# user libraries
+from modules.db import get_db
 from models import *
 from schemas import *
 from modules import *
 
 router = APIRouter(prefix="/pybo", tags=["pybo"])
 config = dotenv_values(".env")
-domain = config["DOMAIN_URL"]
-templates = Jinja2Templates(directory="./templates")
 
 ACCESS_TOKEN_EXPIRE_MINUTES = 60*24
 SECRET_KEY = 'f9d2b97ee5c112796127fc6af1b1d19b0d80d97142b80f5bbb635665f85f1c6f'
 ALGORITHM = 'HS256'
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/pybo/user/login')
-
-
-@router.get("/hello")
-async def hello():
-    return {"message": "안녕하세요 파이보"}
 
 
 @router.get("/list", response_model=PyboQuestionListSchema)
@@ -1603,48 +1653,6 @@ async def question_create(
 @router.get('/make-db')
 async def make_db(db: Session = Depends(get_db)):
     pybo_make_db(db)
-
-
-@router.post('/user/create', status_code=status.HTTP_204_NO_CONTENT)
-async def user_create(
-        _user_create: PyboUserCreateSchema,
-        db: Session = Depends(get_db)):
-    user = pybo_get_existing_user(db, _user_create)
-    if user:
-        raise HTTPException(
-            status_code=status.HTTP_409_CONFLICT,
-            detail='이미 존재하는 사용자 아이디 또는 이메일입니다.'
-        )
-    pybo_create_user(db, _user_create)
-
-
-@router.post('/user/login', response_model=PyboTokenSchema)
-async def login_for_access_token(
-        form_data: OAuth2PasswordRequestForm = Depends(),
-        db: Session = Depends(get_db)):
-    # check user and password
-    user = pybo_get_user(db, form_data.username)
-    print(f'{form_data.username}, {form_data.password}')
-    print(f'{user.username}, {user.password}')
-    if not user or not pwd_context.verify(form_data.password, user.password):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail='Incorrect username or password',
-            headers={'WWW-Authenticate': 'Bearer'}
-        )
-
-    # make access token
-    data = {
-        'sub': user.username,
-        'exp': datetime.utcnow()+timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-    }
-    access_token = jwt.encode(data, SECRET_KEY, algorithm=ALGORITHM)
-
-    return {
-        'access_token': access_token,
-        'token_type': 'bearer',
-        'username': user.username
-    }
 
 
 @router.put('/question/update', status_code=status.HTTP_204_NO_CONTENT)
@@ -1748,19 +1756,21 @@ async def answer_vote(
 ```
 </details>
 
-BACK /models/pybo_models.py
+**BACK /models/pybo_models.py**
 
 <details>
 <summary>models
 </summary>
 ```python
-from models import *
-from schemas import *
+# python libraries
 from sqlalchemy.orm import Session
 from sqlalchemy import and_
 from datetime import datetime
 from passlib.context import CryptContext
 
+# user libraries
+from models import *
+from schemas import *
 
 def pybo_get_question_list(db: Session, skip: int = 0, limit: int = 10):
     _question_list = db.query(PyboQuestionModel)\
@@ -1828,16 +1838,6 @@ def pybo_make_db(db: Session):
 
 
 pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
-
-
-def pybo_create_user(db: Session, user_create: PyboUserCreateSchema):
-    db_user = PyboUserModel(
-        username=user_create.username,
-        password=pwd_context.hash(user_create.password1),
-        email=user_create.email
-    )
-    db.add(db_user)
-    db.commit()
 
 
 def pybo_get_existing_user(db: Session, user_create: PyboUserCreateSchema):
@@ -1920,22 +1920,17 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ```
 </details>
 
-BACK /schemas/pybo_schemas.py
+**BACK /schemas/pybo_schemas.py**
 
 <details>
 <summary>schemas
 </summary>
 ```python
+# python libraries
 import datetime
 from pydantic import BaseModel, EmailStr
 from pydantic import field_validator
 from pydantic_core.core_schema import FieldValidationInfo
-
-
-class PyboUserSchema(BaseModel):
-    idx: int
-    username: str
-    email: str
 
 
 class PyboAnswerSchema(BaseModel):
@@ -1997,25 +1992,6 @@ class PyboQuestionListSchema(BaseModel):
     question_list: list[PyboQuestionSchema] = []
 
 
-class PyboUserCreateSchema(BaseModel):
-    username: str
-    password1: str
-    password2: str
-    email: EmailStr
-
-    @field_validator('username', 'password1', 'password2', 'email')
-    def not_empty(cls, v):
-        if not v or not v.strip():
-            raise ValueError('빈 값은 허용되지 않습니다')
-        return v
-
-    @field_validator('password2')
-    def passwords_match(cls, v, info: FieldValidationInfo):
-        if 'password1' in info.data and v != info.data['password1']:
-            raise ValueError('비밀번호가 일치하지 않습니다')
-        return v
-
-
 class PyboTokenSchema(BaseModel):
     access_token: str
     token_type: str
@@ -2047,19 +2023,21 @@ class PyboAnswerVoteSchema(BaseModel):
 ```
 </details>
 
-BACK /modules/pybo_modules.py
+**BACK /modules/pybo_modules.py**
 
 <details>
 <summary>modules
 </summary>
 ```python
-from models import *
-from schemas import *
+# python libraries
 from sqlalchemy.orm import Session
 from sqlalchemy import and_
 from datetime import datetime
 from passlib.context import CryptContext
 
+# user libraries
+from models import *
+from schemas import *
 
 def pybo_get_question_list(db: Session, skip: int = 0, limit: int = 10):
     _question_list = db.query(PyboQuestionModel)\
@@ -2129,16 +2107,6 @@ def pybo_make_db(db: Session):
 pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
 
 
-def pybo_create_user(db: Session, user_create: PyboUserCreateSchema):
-    db_user = PyboUserModel(
-        username=user_create.username,
-        password=pwd_context.hash(user_create.password1),
-        email=user_create.email
-    )
-    db.add(db_user)
-    db.commit()
-
-
 def pybo_get_existing_user(db: Session, user_create: PyboUserCreateSchema):
     return db.query(PyboUserModel).filter(
         (PyboUserModel.username == user_create.username) |
@@ -2158,7 +2126,7 @@ def pybo_update_question(
     db_question.content = question_update.content
     db_question.modify_date = datetime.now()
     # db.add(db_question)
-[<0;102;11M    db.commit()
+    db.commit()
 
 
 def pybo_delete_question(db: Session, db_question: PyboQuestionModel):
@@ -2166,7 +2134,7 @@ def pybo_delete_question(db: Session, db_question: PyboQuestionModel):
     db.commit()
 
 
-[<0;102;11m[<0;102;11Mdef pybo_get_answer(db: Session, answer_idx: int):
+def pybo_get_answer(db: Session, answer_idx: int):
     return db.query(PyboAnswerModel).get(answer_idx)
 
 
@@ -2176,7 +2144,7 @@ def pybo_update_answer(
         answer_update: PyboAnswerUpdateSchema):
     db_answer.content = answer_update.content
     db_answer.modify_date = datetime.now()
-[<0;102;11m    db.commit()
+    db.commit()
 
 
 def pybo_delete_answer(db: Session, db_answer: PyboAnswerModel):
@@ -2222,7 +2190,7 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ### 로그인& 로그아웃
 {: #upj_1705714728888}
 
-FRONT /components/Error.svelte
+**FRONT /components/Error.svelte**
 
 <details>
 <summary>Error.svelte
@@ -2246,7 +2214,7 @@ FRONT /components/Error.svelte
 ```
 </details>
 
-FRONT /components/Navigation.svelte
+**FRONT /components/Navigation.svelte**
 
 <details>
 <summary>Navigation.svelte
@@ -2316,7 +2284,7 @@ FRONT /components/Navigation.svelte
 ```
 </details>
 
-FRONT /lib/api.js
+**FRONT /lib/api.js**
 
 <details>
 <summary>api.js
@@ -2402,7 +2370,7 @@ export default fastapi
 ```
 </details>
 
-FRONT /lib/store.js
+**FRONT /lib/store.js**
 
 <details>
 <summary>store.js
@@ -2430,7 +2398,7 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-FRONT /routes/UserLogin.svelte
+**FRONT /routes/UserLogin.svelte**
 
 <details>
 <summary>UserLogin.svelte
@@ -2498,7 +2466,7 @@ FRONT /routes/UserLogin.svelte
 ```
 </details>
 
-FRONT /routes/Detail.svelte
+**FRONT /routes/Detail.svelte**
 
 <details>
 <summary>Detail.svelte
@@ -2768,6 +2736,62 @@ FRONT /routes/Detail.svelte
     />
   </form>
 </div>
+```
+</details>
+
+**BACK /routers/router_pybo.py**
+
+<details>
+<summary>router_pybo.py
+</summary>
+```python
+router = APIRouter(prefix="/pybo", tags=["pybo"])
+config = dotenv_values(".env")
+
+ACCESS_TOKEN_EXPIRE_MINUTES = 60*24
+SECRET_KEY = 'f9d2b97ee5c112796127fc6af1b1d19b0d80d97142b80f5bbb635665f85f1c6f'
+ALGORITHM = 'HS256'
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/pybo/user/login')
+
+@router.post('/user/login', response_model=PyboTokenSchema)
+async def login_for_access_token(
+        form_data: OAuth2PasswordRequestForm = Depends(),
+        db: Session = Depends(get_db)):
+    # check user and password
+    user = pybo_get_user(db, form_data.username)
+    print(f'{form_data.username}, {form_data.password}')
+    print(f'{user.username}, {user.password}')
+    if not user or not pwd_context.verify(form_data.password, user.password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail='Incorrect username or password',
+            headers={'WWW-Authenticate': 'Bearer'}
+        )
+
+    # make access token
+    data = {
+        'sub': user.username,
+        'exp': datetime.utcnow()+timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    }
+    access_token = jwt.encode(data, SECRET_KEY, algorithm=ALGORITHM)
+
+    return {
+        'access_token': access_token,
+        'token_type': 'bearer',
+        'username': user.username
+    }
+
+```
+</details>
+
+**BACK /modules/pybo_crud.py**
+
+<details>
+<summary>pybo_crud.py
+</summary>
+```python
+def pybo_get_user(db: Session, username: str):
+    return db.query(PyboUserModel).filter(PyboUserModel.username == username).first()
 ```
 </details>
 
