@@ -325,10 +325,8 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 ┖ .env
 ```
 
-**/App.svelte**
-
 <details>
-<summary>App.svelte
+<summary>**FRONT /App.svelte**
 </summary>
 ```html
 <script>
@@ -358,10 +356,8 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 ```
 </details>
 
-**/app.css**
-
 <details>
-<summary>app.css
+<summary>**FRONT /app.css**
 </summary>
 ```css
 :root {
@@ -379,10 +375,8 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 ```
 </details>
 
-**/main.js**
-
 <details>
-<summary>main.js
+<summary>**FRONT /main.js**
 </summary>
 ```javascript
 import './app.css'
@@ -401,10 +395,8 @@ export default app
 ### Mysql 데이터베이스 세팅
 {: #upj_1705714728883}
 
-**BACK /modules/db.py**
-
 <details>
-<summary>db.py
+<summary>**BACK /modules/db.py**
 </summary>
 ```python
 from dotenv import dotenv_values
@@ -461,10 +453,8 @@ def get_db():
 ### **회원가입** CRUD
 {: #upj_1705714728886}
 
-**FRONT /routes/UserCreate.svelte**
-
 <details>
-<summary>UserCreate.svelte
+<summary>**FRONT /routes/UserCreate.svelte**
 </summary>
 ```html
 <script>
@@ -544,10 +534,8 @@ def get_db():
 ```
 </details>
 
-**FRONT /components/Error.svelte**
-
 <details>
-<summary>Error.svelte
+<summary>**FRONT /components/Error.svelte**
 </summary>
 ```html
 <script>
@@ -568,10 +556,8 @@ def get_db():
 ```
 </details>
 
-**FRONT /lib/api.js**
-
 <details>
-<summary>api.js
+<summary>**FRONT /lib/api.js**
 </summary>
 ```javascript
 import qs from "qs"
@@ -654,10 +640,8 @@ export default fastapi
 ```
 </details>
 
-**BACK /main.py**
-
 <details>
-<summary>main.py
+<summary>**BACK /main.py**
 </summary>
 ```python
 # python libraries
@@ -700,8 +684,9 @@ async def test_pybo_index():
 ```
 </details>
 
-**BACK /routers/router_pybo.py**
-
+<details>
+<summary>**BACK /routers/router_pybo.py**
+</summary>
 **__init__.py**
 
 ```pytyon
@@ -709,9 +694,6 @@ import routers.router_pybo
 import routers.router_edu
 ```
 
-<details>
-<summary>router_pybo.py
-</summary>
 ```python
 # python libraries
 from fastapi import FastAPI, Form, Request, File, UploadFile, Depends, Body
@@ -809,10 +791,8 @@ async def login_for_access_token(
 ```
 </details>
 
-**BACK /models/pybo_models.py**
-
 <details>
-<summary>pybo_models.py
+<summary>**BACK /models/pybo_models.py**
 </summary>
 ```python
 # python libraries
@@ -836,10 +816,8 @@ Base.metadata.create_all(bind=ENGINE)
 ```
 </details>
 
-**BACK /schemas/pybo_schemas.py**
-
 <details>
-<summary>pybo_schemas.py
+<summary>**BACK /schemas/pybo_schemas.py**
 </summary>
 ```python
 # python libraries
@@ -875,10 +853,8 @@ class PyboUserCreateSchema(BaseModel):
 ```
 </details>
 
-**BACK /modules/pybo_crud.py**
-
 <details>
-<summary>pybo_crud.py
+<summary>**BACK /modules/pybo_crud.py**
 </summary>
 ```python
 # python libraries
@@ -942,10 +918,8 @@ def pybo_make_db(db: Session):
 ### **게시판** CRUD
 {: #upj_1705714728887}
 
-**FRONT /lib/store.js**
-
 <details>
-<summary>store.js
+<summary>**FRONT /lib/store.js**
 </summary>
 ```javascript
 import { writable } from 'svelte/store'
@@ -967,10 +941,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/Home.svelte**
-
 <details>
-<summary>Home.svelte
+<summary>**FRONT /routes/Home.svelte**
 </summary>
 ```html
 <script>
@@ -1093,10 +1065,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/Detail.svelte**
-
 <details>
-<summary>Detail.svelte
+<summary>**FRONT /routes/Detail.svelte**
 </summary>
 ```html
 <script>
@@ -1366,10 +1336,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/QuestionCreate.svelte**
-
 <details>
-<summary>QuestionCreate.svelte
+<summary>**FRONT /routes/QuestionCreate.svelte**
 </summary>
 ```html
 <script>
@@ -1421,10 +1389,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/QuestionModify.svelte**
-
 <details>
-<summary>QuestionModify.svelte
+<summary>**FRONT /routes/QuestionModify.svelte**
 </summary>
 ```html
 <script>
@@ -1487,10 +1453,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/AnswerModify.svelte**
-
 <details>
-<summary>AnswerModify.svelte
+<summary>**FRONT /routes/AnswerModify.svelte**
 </summary>
 ```html
 <script>
@@ -1545,10 +1509,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**BACK /routers/router_pybo.py**
-
 <details>
-<summary>router
+<summary>**BACK /routers/router_pybo.py**
 </summary>
 ```python
 # python libraries
@@ -1756,10 +1718,8 @@ async def answer_vote(
 ```
 </details>
 
-**BACK /models/pybo_models.py**
-
 <details>
-<summary>models
+<summary>**BACK /models/pybo_models.py**
 </summary>
 ```python
 # python libraries
@@ -1920,10 +1880,8 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ```
 </details>
 
-**BACK /schemas/pybo_schemas.py**
-
 <details>
-<summary>schemas
+<summary>**BACK /schemas/pybo_schemas.py**
 </summary>
 ```python
 # python libraries
@@ -2023,10 +1981,8 @@ class PyboAnswerVoteSchema(BaseModel):
 ```
 </details>
 
-**BACK /modules/pybo_modules.py**
-
 <details>
-<summary>modules
+<summary>**BACK /modules/pybo_modules.py**
 </summary>
 ```python
 # python libraries
@@ -2190,10 +2146,8 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ### 로그인& 로그아웃
 {: #upj_1705714728888}
 
-**FRONT /components/Error.svelte**
-
 <details>
-<summary>Error.svelte
+<summary>**FRONT /components/Error.svelte**
 </summary>
 ```html
 <script>
@@ -2214,10 +2168,8 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ```
 </details>
 
-**FRONT /components/Navigation.svelte**
-
 <details>
-<summary>Navigation.svelte
+<summary>**FRONT /components/Navigation.svelte**
 </summary>
 ```html
 <script>
@@ -2284,10 +2236,8 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ```
 </details>
 
-**FRONT /lib/api.js**
-
 <details>
-<summary>api.js
+<summary>**FRONT /lib/api.js**
 </summary>
 ```javascript
 import qs from "qs"
@@ -2370,10 +2320,8 @@ export default fastapi
 ```
 </details>
 
-**FRONT /lib/store.js**
-
 <details>
-<summary>store.js
+<summary>**FRONT /lib/store.js**
 </summary>
 ```javascript
 import { writable } from 'svelte/store'
@@ -2398,10 +2346,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/UserLogin.svelte**
-
 <details>
-<summary>UserLogin.svelte
+<summary>**FRONT /routes/UserLogin.svelte**
 </summary>
 ```html
 <script>
@@ -2466,10 +2412,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**FRONT /routes/Detail.svelte**
-
 <details>
-<summary>Detail.svelte
+<summary>**FRONT /routes/Detail.svelte**
 </summary>
 ```html
 <script>
@@ -2739,10 +2683,8 @@ export const is_login = persist_storage('is_login', false)
 ```
 </details>
 
-**BACK /routers/router_pybo.py**
-
 <details>
-<summary>router_pybo.py
+<summary>**BACK /routers/router_pybo.py**
 </summary>
 ```python
 router = APIRouter(prefix="/pybo", tags=["pybo"])
@@ -2784,10 +2726,8 @@ async def login_for_access_token(
 ```
 </details>
 
-**BACK /modules/pybo_crud.py**
-
 <details>
-<summary>pybo_crud.py
+<summary>**BACK /modules/pybo_crud.py**
 </summary>
 ```python
 def pybo_get_user(db: Session, username: str):
