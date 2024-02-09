@@ -116,7 +116,7 @@ private: private
 
 ![SOXL](/assets/slownsteady/SOXL-2024-01-30.png)
 
-![SOXL 1년](https://github.com/upj53/upj53.github.io/assets/27456270/85ee8282-1e3e-4788-94fe-dd0aec01fec5)
+![SOXL 1년](https://github.com/upj53/upj53.github.io/assets/27456270/1ff15bb3-022b-477a-949a-de01e59443b6)
 
 ```text
 =====은근과 끈기△골든크로스=====
@@ -142,7 +142,7 @@ private: private
 
 ![TQQQ](/assets/slownsteady/TQQQ-2024-01-30.png)
 
-![TQQQ 1년](https://github.com/upj53/upj53.github.io/assets/27456270/56ff637f-5b11-4406-b63a-19245f6e9cfe)
+![TQQQ 1년](https://github.com/upj53/upj53.github.io/assets/27456270/d6a698f9-e853-4686-ae90-f4b18b537fd7)
 
 ```text
 =====은근과 끈기△골든크로스=====
@@ -167,7 +167,7 @@ private: private
 
 ![UPRO](/assets/slownsteady/UPRO-2024-01-30.png)
 
-![UPRO 1년](https://github.com/upj53/upj53.github.io/assets/27456270/e19f59ea-f709-42bc-948b-67a29257d334)
+![UPRO 1년](https://github.com/upj53/upj53.github.io/assets/27456270/92a50c6f-0243-4516-b1d2-d566bdfa0bc4)
 
 ```text
 =====은근과 끈기△골든크로스=====
