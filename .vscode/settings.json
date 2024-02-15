@@ -10,5 +10,5 @@
     "git.enableSmartCommit": true,
     "workbench.iconTheme": "material-icon-theme",
     "git.confirmSync": false,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
 }
