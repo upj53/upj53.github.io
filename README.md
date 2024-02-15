@@ -54,6 +54,19 @@ permalink: /resource/web/
 <img src="" style="width:100%; height:auto;"/>
 ```
 
+**상태바**
+
+```html
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+
+class="progress-bar bg-success"
+class="progress-bar bg-info"
+class="progress-bar bg-warning"
+class="progress-bar bg-danger"
+```
+
 **[테이블](https://getbootstrap.com/docs/5.3/content/tables/#table-borders)**
 
 ```html
