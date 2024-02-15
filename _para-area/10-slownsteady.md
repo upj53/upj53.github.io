@@ -210,6 +210,7 @@ private: private
 {: #upj_1705462061626}
 
 ```python
+# @title
 from datetime import datetime
 import yfinance as yf
 import pandas as pd
@@ -459,19 +460,56 @@ class StockBottom():
     str2 = f'시작{sp:6.2f} ({mm1:3.1f}) 끝{ep:6.2f} ({mm2:3.1f}) 극한값{minmax:6.2f} ({max([mm1, mm2]):3.1f})'
     str3 = f'▶ {slope:6.3f} ({round(slope):2d})'
     print(str1, str2, str3, check_point)
+  def get_max_up(self):
+    print()
+    diff_list = list()
+    max_high_list = list()
+    my_close, my_high = None, None
+    for idx, ser in self.stock_data.iterrows():
+      if my_close is not None:
+        my_high = float(ser.High)
+        diff = my_high - my_close
+        diff_list.append(diff)
+        if diff > 3:
+          # print(f'{diff:3.2f} my_close={my_close:3.2f}, my_high={my_high:3.2f}, idx={idx}')
+          max_high_list.append(diff)
+        my_close = float(ser.Close)
+      if my_close is None:
+        if float(ser.Close) > 20.0:
+          my_close = float(ser.Close)
+          # print(f'{my_close}')
+          # print(f'{ser}')
+          # print(f'{type(ser.Close)}')
+          # print(f'{type(my_close)}')
+    print(f'max_up={max(max_high_list):5.2f}')
+    print(f'average_high={(sum(max_high_list)/len(max_high_list)):5.2f}')
+    num_of_max_high = len(max_high_list)
+    num_of_more_3 = len(list(filter(lambda a: a >= 3 and a < 5, max_high_list)))
+    num_of_more_5 = len(list(filter(lambda a: a >= 5 and a < 7, max_high_list)))
+    num_of_more_7 = len(list(filter(lambda a: a >= 7, max_high_list)))
+    print(f'len of 3 ~ 5 : {(num_of_more_3 / num_of_max_high) * 100:5.2f} %')
+    print(f'len of 5 ~ 7 : {(num_of_more_5 / num_of_max_high) * 100:5.2f} %')
+    print(f'len of 7 ~ 9 : {(num_of_more_7 / num_of_max_high) * 100:5.2f} %')
+    # max_high_list.sort()
+    # print('*'*10, 'max_high_list', '*'*10)
+    # for m in max_high_list:
+      # print(f'{m:3.2f}')
+
 
 # 전일대비 등락률 계산법
 ## (현재가-전일종가)/전일종가 * 100 %
 # 내파일 import
 # https://codingalone.tistory.com/2
 
-# ticker = ''
-# my = StockBottom(ticker) # 기본 6년
-# my = StockBottom(ticker, 'TQ', 11) # 티커, 레이블, 몇년
-# my.golden_cross()
-# my.death_cross()
-# my.show_stock()
-# my.show_stock_all()
+# Name: 2024-01-25 00:00:00, dtype: float64
+# Open         5.568000e+01
+# High         5.639000e+01
+# Low          5.518000e+01
+# Close        5.544000e+01
+# Adj Close    5.544000e+01
+# Volume       6.419130e+07
+# SMA50        4.804740e+01
+# SMA200       3.955210e+01
 
 # FNGU, SOXL, NAIL, TQQQ, TEC
 # JEPI, SCHD
@@ -479,3 +517,14 @@ class StockBottom():
 # 005935.KS Samsung Electronics(Dividend)
 # 069500.KS KODEX 200
 ```
+
+## 힘이 되는 말
+{: #upj_1705714728880}
+
+- "미래는 자신이 품은 꿈의 가능성을 굳게 믿는 자의 손을 들어준다." 엘리너 루즈벨트
+- "I can do this all day!" 스티브 로저스
+- "목표는 반드시 달성되기 위해 있는 것은 아니다. 지향해야 할 무언가를 주기도 한다." 브루스 리
+- "내일은 우리가 어제로부터 무엇인가를 배웠기를 바란다." 존 웨인
+- "실패해도 그 여정이 바로 보상이다." 스티브 잡스
+- "무엇이든 이루어지기 전에는 항상 불가능해 보인다." 넬슨 만델라
+- ""
