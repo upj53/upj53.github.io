@@ -10,60 +10,17 @@ private: private
 - TOC
 {:toc}
 
-<!--
-## 
-
-### TQQQ
-
-![tqqq](/assets/slownsteady)
-
-```text
-
-```
-
-### UPRO
-
-![upro](/assets/slownsteady)
-
-```text
-
-```
-
-### SOXL
-
-![soxl](/assets/slownsteady)
-
-```text
-
-```
-
-### Dollar
-
-![dollar](/assets/slownsteady)
-
-```text
-
-```
-
-### Samsung
-
-![samsung](/assets/slownsteady)
-
-```text
-
-```
-
-### KODEX2
-
-![KODEX2](/assets/slownsteady)
-
-```text
-
-```
--->
-
 ## 2024년 1월
 {: #upj_1705462113649}
+
+### Fear and Greed Index
+{: #upj_1705714728881}
+
+[Fear and Greed Index](https://edition.cnn.com/markets/fear-and-greed)
+
+![FG-1](https://github.com/upj53/upj53.github.io/assets/27456270/347d055f-42e3-4837-a70e-be90e6afe07c)
+
+![FG-2](https://github.com/upj53/upj53.github.io/assets/27456270/f0181867-edaf-429d-8b80-659f090c2f2d)
 
 ### Catch Max High
 {: #upj_1705714728901}
@@ -116,7 +73,7 @@ private: private
 
 ![SOXL](/assets/slownsteady/SOXL-2024-01-30.png)
 
-![SOXL 1년](https://github.com/upj53/upj53.github.io/assets/27456270/1ff15bb3-022b-477a-949a-de01e59443b6)
+![SOXL 1년](https://github.com/upj53/upj53.github.io/assets/27456270/2fcd50d1-52fb-4609-a11e-fec825f0e80f)
 
 ```text
 =====은근과 끈기△골든크로스=====
@@ -142,7 +99,7 @@ private: private
 
 ![TQQQ](/assets/slownsteady/TQQQ-2024-01-30.png)
 
-![TQQQ 1년](https://github.com/upj53/upj53.github.io/assets/27456270/d6a698f9-e853-4686-ae90-f4b18b537fd7)
+![TQQQ 1년](https://github.com/upj53/upj53.github.io/assets/27456270/5863bffd-5a32-4644-bb4a-8a4426b42a49)
 
 ```text
 =====은근과 끈기△골든크로스=====
@@ -167,7 +124,7 @@ private: private
 
 ![UPRO](/assets/slownsteady/UPRO-2024-01-30.png)
 
-![UPRO 1년](https://github.com/upj53/upj53.github.io/assets/27456270/92a50c6f-0243-4516-b1d2-d566bdfa0bc4)
+![UPRO 1년](https://github.com/upj53/upj53.github.io/assets/27456270/06a7a1a6-2317-4544-a6cc-8c2964f360b9)
 
 ```text
 =====은근과 끈기△골든크로스=====
