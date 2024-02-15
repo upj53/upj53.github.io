@@ -52,7 +52,7 @@ permalink: /projects/justdoit
   - [ ] 초안 사이트 구현
     - [x] 1.Figma로 사이트맵 설계하기 
     - [x] 2.Prototype 만들기
-    - [ ] 3.로그인 구현
+    - [ ] 3.회원 관리 구현
       - [ ] 회원가입 Front, Back
       - [ ] 로그인 Front, Back
     - [ ] 4.

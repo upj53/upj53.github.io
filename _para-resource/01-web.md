@@ -643,6 +643,7 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 <details>
 <summary>**FRONT /App.svelte**
 </summary>
+
 ```html
 <script>
   import Router from "svelte-spa-router";
@@ -674,7 +675,8 @@ index는 반복순서를 의미하고 0부터 1씩 증가한다.
 <details>
 <summary>**FRONT /app.css**
 </summary>
-```css
+
+```html
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -713,6 +715,7 @@ export default app
 <details>
 <summary>**BACK /modules/db.py**
 </summary>
+
 ```python
 from dotenv import dotenv_values
 from sqlalchemy import create_engine
@@ -725,17 +728,6 @@ user_name = config['DB_USER_NAME']
 user_pwd = config['DB_USER_PWD']
 db_host = config['DB_HOST']
 db_name = config['DB_NAME']
-
-'''
-# default
-engine = create_engine("mysql://scott:tiger@localhost/foo")
-
-# mysqlclient (a maintained fork of MySQL-Python)
-engine = create_engine("mysql+mysqldb://scott:tiger@localhost/foo")
-
-# PyMySQL
-engine = create_engine("mysql+pymysql://scott:tiger@localhost/foo")
-'''
 
 DATABASE = f'mysql://{user_name}:{user_pwd}@{db_host}/{db_name}?charset=utf8'
 
@@ -765,12 +757,13 @@ def get_db():
 </details>
 
 
-### **회원가입** CRUD
+### 회원가입 CRUD
 {: #upj_1705714728886}
 
 <details>
 <summary>**FRONT /routes/UserCreate.svelte**
 </summary>
+
 ```html
 <script>
   import { push } from "svelte-spa-router";
@@ -852,6 +845,7 @@ def get_db():
 <details>
 <summary>**FRONT /components/Error.svelte**
 </summary>
+
 ```html
 <script>
   export let error;
@@ -874,6 +868,7 @@ def get_db():
 <details>
 <summary>**FRONT /lib/api.js**
 </summary>
+
 ```javascript
 import qs from "qs"
 import { access_token, username, is_login } from "./store"
@@ -958,6 +953,7 @@ export default fastapi
 <details>
 <summary>**BACK /main.py**
 </summary>
+
 ```python
 # python libraries
 from dotenv import dotenv_values
@@ -1002,6 +998,7 @@ async def test_pybo_index():
 <details>
 <summary>**BACK /routers/router_pybo.py**
 </summary>
+
 **__init__.py**
 
 ```pytyon
@@ -1109,6 +1106,7 @@ async def login_for_access_token(
 <details>
 <summary>**BACK /models/pybo_models.py**
 </summary>
+
 ```python
 # python libraries
 from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Table
@@ -1134,6 +1132,7 @@ Base.metadata.create_all(bind=ENGINE)
 <details>
 <summary>**BACK /schemas/pybo_schemas.py**
 </summary>
+
 ```python
 # python libraries
 import datetime
@@ -1171,6 +1170,7 @@ class PyboUserCreateSchema(BaseModel):
 <details>
 <summary>**BACK /modules/pybo_crud.py**
 </summary>
+
 ```python
 # python libraries
 from sqlalchemy.orm import Session
@@ -1230,12 +1230,13 @@ def pybo_make_db(db: Session):
 ```
 </details>
 
-### **게시판** CRUD
+### 게시판 CRUD
 {: #upj_1705714728887}
 
 <details>
 <summary>**FRONT /lib/store.js**
 </summary>
+
 ```javascript
 import { writable } from 'svelte/store'
 
@@ -1259,6 +1260,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/Home.svelte**
 </summary>
+
 ```html
 <script>
   import fastapi from "../lib/api";
@@ -1383,6 +1385,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/Detail.svelte**
 </summary>
+
 ```html
 <script>
   import fastapi from "../lib/api";
@@ -1654,6 +1657,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/QuestionCreate.svelte**
 </summary>
+
 ```html
 <script>
   import { push } from "svelte-spa-router";
@@ -1707,6 +1711,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/QuestionModify.svelte**
 </summary>
+
 ```html
 <script>
   import { push } from "svelte-spa-router";
@@ -1771,6 +1776,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/AnswerModify.svelte**
 </summary>
+
 ```html
 <script>
   import fastapi from "../lib/api";
@@ -1827,6 +1833,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**BACK /routers/router_pybo.py**
 </summary>
+
 ```python
 # python libraries
 from fastapi import FastAPI, Form, Request, File, UploadFile, Depends, Body
@@ -2036,6 +2043,7 @@ async def answer_vote(
 <details>
 <summary>**BACK /models/pybo_models.py**
 </summary>
+
 ```python
 # python libraries
 from sqlalchemy.orm import Session
@@ -2198,6 +2206,7 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 <details>
 <summary>**BACK /schemas/pybo_schemas.py**
 </summary>
+
 ```python
 # python libraries
 import datetime
@@ -2299,6 +2308,7 @@ class PyboAnswerVoteSchema(BaseModel):
 <details>
 <summary>**BACK /modules/pybo_modules.py**
 </summary>
+
 ```python
 # python libraries
 from sqlalchemy.orm import Session
@@ -2458,12 +2468,13 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 ```
 </details>
 
-### 로그인& 로그아웃
+### 로그인, 로그아웃
 {: #upj_1705714728888}
 
 <details>
 <summary>**FRONT /components/Error.svelte**
 </summary>
+
 ```html
 <script>
   export let error;
@@ -2486,6 +2497,7 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 <details>
 <summary>**FRONT /components/Navigation.svelte**
 </summary>
+
 ```html
 <script>
   import { link } from "svelte-spa-router";
@@ -2554,6 +2566,7 @@ def pybo_get_search_list(db: Session, skip: int = 0, limit: int = 0, keyword: st
 <details>
 <summary>**FRONT /lib/api.js**
 </summary>
+
 ```javascript
 import qs from "qs"
 import { access_token, username, is_login } from "./store"
@@ -2638,6 +2651,7 @@ export default fastapi
 <details>
 <summary>**FRONT /lib/store.js**
 </summary>
+
 ```javascript
 import { writable } from 'svelte/store'
 
@@ -2664,6 +2678,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/UserLogin.svelte**
 </summary>
+
 ```html
 <script>
   import { push } from "svelte-spa-router";
@@ -2730,6 +2745,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**FRONT /routes/Detail.svelte**
 </summary>
+
 ```html
 <script>
   import fastapi from "../lib/api";
@@ -3001,6 +3017,7 @@ export const is_login = persist_storage('is_login', false)
 <details>
 <summary>**BACK /routers/router_pybo.py**
 </summary>
+
 ```python
 from datetime import timedelta, datetime
 from jose import jwt, JWTError
@@ -3046,6 +3063,7 @@ async def login_for_access_token(
 <details>
 <summary>**BACK /modules/pybo_crud.py**
 </summary>
+
 ```python
 def pybo_get_user(db: Session, username: str):
     return db.query(PyboUserModel).filter(PyboUserModel.username == username).first()
@@ -3055,6 +3073,7 @@ def pybo_get_user(db: Session, username: str):
 <details>
 <summary>**BACK /models/pybo_models.py**
 </summary>
+
 ```python
 class PyboUserModel(Base):
     __tablename__ = 'pybo_user'
@@ -3068,6 +3087,7 @@ class PyboUserModel(Base):
 <details>
 <summary>**BACK /schemas/pybo_schemas.py**
 </summary>
+
 ```python
 class PyboTokenSchema(BaseModel):
     access_token: str
