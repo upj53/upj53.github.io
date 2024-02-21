@@ -229,13 +229,100 @@ permalink: /resource/web/
 
 [Cheatsheet](https://getbootstrap.kr/docs/5.0/examples/cheatsheet/){:target="_blank"}
 
+### Navbars
+{: #upj_1703496691955}
+
+**Default**
+
+![navbar-default](https://github.com/upj53/upj53.github.io/assets/27456270/ac80981f-0cfe-4223-a229-4724c231f8f6)
+
+```html
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+```
+
+**오른쪽 정렬**
+
+```html
+<!--네비게이션 바-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" use:link href="/">HOME</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNavDropdown"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item" style="width:30px;"></li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            use:link
+            href="/"
+            on:click={() => {
+              $access_token = "";
+              $userid = "";
+              $is_student_login = false;
+              $is_teacher_login = false;
+            }}>관리자 로그아웃 ({$userid})</a
+          >
+        </li>
+        <li class="nav-item" style="width:30px;"></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+
 <!--
 
 ## Navbars
 {: #upj_1703496680627}
-
-### Navbars
-{: #upj_1703496691955}
 
 ### Navbar static
 {: #upj_1703496702041}
@@ -251,7 +338,7 @@ permalink: /resource/web/
 
 -->
 
-## 공식 튜토리얼
+## FastAPI 공식 튜토리얼
 {: #upj_1703307119262}
 
 ```text
