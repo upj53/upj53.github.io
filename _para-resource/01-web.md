@@ -2393,7 +2393,7 @@ class PyboAnswerVoteSchema(BaseModel):
 </details>
 
 <details>
-<summary>**BACK /modules/pybo_modules.py**
+<summary>**BACK /modules/pybo_crud.py**
 </summary>
 
 ```python
