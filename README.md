@@ -1,5 +1,7 @@
 [![pages-build-deployment](https://github.com/upj53/upj53.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/upj53/upj53.github.io/actions/workflows/pages/pages-build-deployment)
 
+[리뉴얼 참고](https://upj53.github.io/minimal-mistakes/)
+
 # Templates
 
 ```text
