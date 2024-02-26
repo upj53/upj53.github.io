@@ -29,9 +29,9 @@ private: private
 <thead class="table-light text-center">
 <tr>
 <td>&nbsp;</td>
-<td>UPRO</td>
-<td>TQQQ</td>
-<td>SOXL</td>
+<td>UPRO (2 $)</td>
+<td>TQQQ (3 $)</td>
+<td>SOXL (4 $)</td>
 </tr>
 </thead>
 <tbody>
