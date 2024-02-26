@@ -624,7 +624,48 @@ class StockBottom():
     # print('*'*10, 'max_high_list', '*'*10)
     # for m in max_high_list:
       # print(f'{m:3.2f}')
+  def get_max_up2(self):
+    print()
+    value_list = []
+    special_set = []
+    special_list = []
+    max_value, max_date = None, None
+    for idx, ser in self.stock_data.iterrows():
+      diff = ser.High - ser.Open
+      value_list.append( diff )
+      # print(f'{diff_high_open:3.2f}, {ser.Open:3.2f}, {ser.Close:3.2f}, {ser.Low:3.2f}, {ser.High:3.2f}')
+      if max_value == None:
+        max_value = ser.High - ser.Open
+        max_date = idx
+      else:
+        if (ser.High - ser.Open) > max_value:
+          max_value = ser.High - ser.Open
+          max_date = idx
+      if diff > 3:
+        special_list.append({
+          'v':int(diff),
+          'd':idx            
+        })
+        special_set.append(int(diff))
+    print()
+    print(f'max: {max(value_list):3.2f} {max_date}')
+    print(f'avg: {sum(value_list)/len(value_list):3.2f}')
 
+    print(f'max_up={max(value_list):5.2f}')
+    print(f'average_high={(sum(value_list)/len(value_list)):5.2f}')
+    num_of_list = len(value_list)
+    num_of_more_1 = len(list(filter(lambda a: a >= 1 and a < 3, value_list)))
+    num_of_more_3 = len(list(filter(lambda a: a >= 3 and a < 5, value_list)))
+    num_of_more_5 = len(list(filter(lambda a: a >= 5 and a < 7, value_list)))
+    num_of_more_7 = len(list(filter(lambda a: a >= 7, value_list)))
+    print(f'len of 1 ~ 3 : {(num_of_more_1 / num_of_list) * 100:5.2f} %')
+    print(f'len of 3 ~ 5 : {(num_of_more_3 / num_of_list) * 100:5.2f} %')
+    print(f'len of 5 ~ 7 : {(num_of_more_5 / num_of_list) * 100:5.2f} %')
+    print(f'len of 7 ~ 9 : {(num_of_more_7 / num_of_list) * 100:5.2f} %')
+    for s in special_list:
+      print(f"{str(s['d'])[:11]} {s['v']:3.2f}")
+    for i in range(3, 10):
+      print(f'#{i}: {len(list(filter(lambda a: a==i, special_set)))}번')
 
 # 전일대비 등락률 계산법
 ## (현재가-전일종가)/전일종가 * 100 %
