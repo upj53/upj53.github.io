@@ -49,7 +49,7 @@ permalink: /projects/justdoit
     - [x] 11~15
     - [x] 16~20
     - [ ] 21~25
-- [ ] 논문 교육프로그램 완성 ■■□□□:□□□□□
+- [ ] [논문 교육프로그램 완성](/projects/paper1) ■■□□□:□□□□□
   - [x] 웹 풀스택 공부
     - [x] [FastAPI + Svelte](https://wikidocs.net/book/8531), [완성 샘플](http://fastapi.pybo.kr/)
   - [x] 초안 사이트 구현 ■■■■■:□□□□□
