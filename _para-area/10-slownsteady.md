@@ -37,15 +37,15 @@ private: private
 <tbody>
 <tr class="text-center">
 <td>Max High</td>
-<td>6.65</td>
-<td>9.09</td>
-<td>8.24</td>
+<td>6.65 $</td>
+<td>9.09 $</td>
+<td>8.24 $</td>
 </tr>
 <tr class="text-center">
 <td>Avg High</td>
-<td>0.63</td>
-<td>0.73</td>
-<td>0.69</td>
+<td>0.63 $</td>
+<td>0.73 $</td>
+<td>0.69 $</td>
 </tr>
 <tr class="text-center">
 <td>$ 3~4</td>
