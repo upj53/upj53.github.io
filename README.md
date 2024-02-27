@@ -53,7 +53,7 @@ permalink: /resource/web/
 <a href="" target="_blank">
 <img src="" style="width:100%; height:auto;"/></a>
 
-<img src="" style="width:100%; height:auto;"/>
+<img alt="" src="" style="width:100%; height:auto;"/>
 ```
 
 **상태바**
