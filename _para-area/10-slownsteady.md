@@ -10,6 +10,10 @@ private: private
 - TOC
 {:toc}
 
+<!--
+<img alt="" src="" style="width:100%; height:auto;"/>
+-->
+
 ## 2024년 1월
 {: #upj_1705462113649}
 
@@ -18,9 +22,9 @@ private: private
 
 [Fear and Greed Index](https://edition.cnn.com/markets/fear-and-greed)
 
-![FG-1](https://github.com/upj53/upj53.github.io/assets/27456270/347d055f-42e3-4837-a70e-be90e6afe07c)
+<img alt="FG-1" src="https://github.com/upj53/upj53.github.io/assets/27456270/02b3490f-a442-48b7-b8e1-98c9af7f1181" style="width:100%; height:auto;"/>
 
-![FG-2](https://github.com/upj53/upj53.github.io/assets/27456270/f0181867-edaf-429d-8b80-659f090c2f2d)
+<img alt="FG-2" src="https://github.com/upj53/upj53.github.io/assets/27456270/b5b86c30-1c33-4fec-8f26-2ec1895d3519" style="width:100%; height:auto;"/>
 
 ### Catch Max High
 {: #upj_1705714728901}
@@ -201,9 +205,9 @@ special_set : {3, 4, 5, 6, 8}
 ### SOXL
 {: #upj_1705463190643}
 
-![SOXL](/assets/slownsteady/SOXL-2024-01-30.png)
+<img alt="SOXL 2024-01-30" src="/assets/slownsteady/SOXL-2024-01-30.png" style="width:100%; height:auto;"/>
 
-![SOXL-year-2024-03-01](https://github.com/upj53/upj53.github.io/assets/27456270/3049e648-d47f-4109-86bb-1571823bb6f1)
+<img alt="SOXL 1년 단기 2024-03-01" src="https://github.com/upj53/upj53.github.io/assets/27456270/3049e648-d47f-4109-86bb-1571823bb6f1" style="width:100%; height:auto;"/>
 
 ```text
 =====은근과 끈기△골든크로스=====
@@ -227,9 +231,9 @@ special_set : {3, 4, 5, 6, 8}
 ### TQQQ
 {: #upj_1705463168635}
 
-![TQQQ](/assets/slownsteady/TQQQ-2024-01-30.png)
+<img alt="TQQQ 2024-01-30" src="/assets/slownsteady/TQQQ-2024-01-30.png" style="width:100%; height:auto;"/>
 
-![TQQQ-year-2024-03-01](https://github.com/upj53/upj53.github.io/assets/27456270/8f5d6b8b-2c9c-4966-81aa-1e4d3f6a9d90)
+<img alt="TQQQ-year-2024-03-01" src="https://github.com/upj53/upj53.github.io/assets/27456270/8f5d6b8b-2c9c-4966-81aa-1e4d3f6a9d90" style="width:100%; height:auto;"/>
 
 ```text
 =====은근과 끈기△골든크로스=====
@@ -252,9 +256,9 @@ special_set : {3, 4, 5, 6, 8}
 ### UPRO
 {: #upj_1705463180058}
 
-![UPRO](/assets/slownsteady/UPRO-2024-01-30.png)
+<img alt="UPRO 2024-01-30" src="/assets/slownsteady/UPRO-2024-01-30.png" style="width:100%; height:auto;"/>
 
-![UPRO-year-2024-03-01](https://github.com/upj53/upj53.github.io/assets/27456270/48c64d67-ed37-46df-aea8-627c4f0a7992)
+<img alt="UPRO-year-2024-03-01" src="https://github.com/upj53/upj53.github.io/assets/27456270/48c64d67-ed37-46df-aea8-627c4f0a7992" style="width:100%; height:auto;"/>
 
 ```text
 =====은근과 끈기△골든크로스=====
