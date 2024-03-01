@@ -2,7 +2,7 @@
 title: 경제적 자유
 layout: upj_design
 permalink: /area/slownsteady/
-private: private
+# private: private
 ---
 
 #### Table Of Contents
