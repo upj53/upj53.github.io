@@ -72,6 +72,10 @@ permalink: /area/slownsteady/
 </tbody>
 </table>
 
+<details>
+<summary>상세정보
+</summary>
+
 ```text
 ---------- UPRO ----------
 max: 6.65 2022-02-24 00:00:00
@@ -201,6 +205,8 @@ special_set : {3, 4, 5, 6, 8}
 #6: 1번
 #8: 1번
 ```
+
+</details>
 
 ### SOXL
 {: #upj_1705463190643}
