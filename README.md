@@ -80,7 +80,7 @@ class="progress-bar bg-danger"
 </thead>
 <tbody>
 <tr class="text-center">
-<td></td>
+<td class="align-middle"></td>
 </tr>
 <tr>
 <td></td>
