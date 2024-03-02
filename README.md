@@ -89,6 +89,7 @@ class="progress-bar bg-danger"
 </table>
 
 <table class="table table-striped table-hover">
+<caption></caption>
   ...
 </table>
 
