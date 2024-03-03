@@ -211,9 +211,9 @@ special_set : {3, 4, 5, 6, 8}
 ### SOXL
 {: #upj_1705463190643}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/9f19a3ea-a052-453c-ab8f-d9b909e7d75c" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/9f19a3ea-a052-453c-ab8f-d9b909e7d75c" alt="전체" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/13a764ed-46d5-43f0-a9dc-b52df6d3b59b" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/13a764ed-46d5-43f0-a9dc-b52df6d3b59b" alt="1년" style="width:100%; height:auto;"/>
 
 <details>
 <summary>상세
@@ -237,9 +237,9 @@ special_set : {3, 4, 5, 6, 8}
 ### TQQQ
 {: #upj_1705463168635}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6d103379-56f2-435b-9223-acb67d147129" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6d103379-56f2-435b-9223-acb67d147129" alt="전체" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/4691cb64-cb37-41b4-b45c-925400f90e3e" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/4691cb64-cb37-41b4-b45c-925400f90e3e" alt="1년" style="width:100%; height:auto;"/>
 
 
 <details>
@@ -263,9 +263,9 @@ special_set : {3, 4, 5, 6, 8}
 ### UPRO
 {: #upj_1705463180058}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6bca4db1-059b-40f1-a590-5297be582273" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6bca4db1-059b-40f1-a590-5297be582273" alt="전체" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6035c140-3f84-4669-be82-762c2a797020" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6035c140-3f84-4669-be82-762c2a797020" alt="1년" style="width:100%; height:auto;"/>
 
 <details>
 <summary>상세
@@ -290,59 +290,21 @@ special_set : {3, 4, 5, 6, 8}
 ### Dollar
 {: #upj_1705463200778}
 
-![dollar](/assets/slownsteady/2024-01-20-dollar.png)
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/1f79bc28-da1e-4b2c-b566-a4a9fd71a4b3" alt="전체" style="width:100%; height:auto;"/>
 
-```text
-=====은근과 끈기△골든크로스=====
-[  294일(71,326★) 2018.10.31 ~ 2020.01.10 ] 시작9298.70 (1.3) 끝10248.45 (1.2) 극한값11930.00 (1.3) ▶ 139.303 (139) 
-[  125일(24,982★) 2020.02.28 ~ 2020.09.01 ] 시작10329.65 (1.1) 끝10548.50 (1.1) 극한값11315.00 (1.1) ▶ 75.498 (75) 
-[  376일(155,431★) 2021.07.01 ~ 2023.01.13 ] 시작9934.80 (1.3) 끝11664.90 (1.1) 극한값12815.00 (1.3) ▶ 198.419 (198) 
-[  158일(33,430★) 2023.05.02 ~ 2024.01.16 ] 시작11841.05 (1.1) 끝12089.25 (1.0) 극한값12620.00 (1.1) ▶ 67.740 (68) ♣
-=====줍줍▽데드크로스=====
-[   32일(  285★) 2020.01.13 ~ 2020.02.27 ] 시작10250.33 (1.0) 끝10327.33 (1.0) 극한값10140.00 (1.0) ▶ 103.762 (104) 
-[  204일(56,594★) 2020.09.02 ~ 2021.06.30 ] 시작10549.90 (0.9) 끝9937.05 (1.0) 극한값9575.00 (1.0) ▶ -129.546 (-130) 
-[   72일(18,000★) 2023.01.16 ~ 2023.04.28 ] 시작11666.38 (0.9) 끝11838.35 (0.9) 극한값10940.00 (0.9) ▶ 102.999 (103) 
-```
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/af75b66f-2442-4d67-b376-0a5d33e093e7" alt="1년" style="width:100%; height:auto;"/>
 
 ### Samsung
 {: #upj_1705463212370}
 
-![samsung](/assets/slownsteady/2024-01-20-samsung.png)
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/033c0c4d-40c3-441a-8354-75eae3e16275" alt="전체" style="width:100%; height:auto;"/>
 
-```text
-=====은근과 끈기△골든크로스=====
-[  275일(700,423★) 2019.03.27 ~ 2020.05.08 ] 시작36170.25 (1.5) 끝42477.75 (1.2) 극한값52700.00 (1.5) ▶ 989.063 (989) 
-[  296일(2,201,381★) 2020.06.23 ~ 2021.08.31 ] 시작43688.25 (1.9) 끝72364.50 (1.1) 극한값81000.00 (1.9) ▶ 4177.629 (4178) 
-[   43일(17,610★) 2023.02.24 ~ 2023.04.27 ] 시작54738.75 (1.0) 끝54087.25 (1.0) 극한값55800.00 (1.0) ▶ -653.349 (-653) 
-[  100일(209,345★) 2023.05.11 ~ 2023.10.10 ] 시작54118.75 (1.1) 끝56021.00 (1.1) 극한값61200.00 (1.1) ▶ 820.289 (820) 
-[   19일(17,796★) 2023.12.15 ~ 2024.01.16 ] 시작56482.00 (1.1) 끝57178.50 (1.1) 극한값63000.00 (1.1) ▶ 1580.763 (1581) ♣
-=====줍줍▽데드크로스=====
-[  101일(255,699★) 2018.10.26 ~ 2019.03.26 ] 시작39000.30 (0.8) 끝36181.25 (0.8) 극한값30450.00 (0.8) ▶ -1203.596 (-1204) 
-[   31일(23,163★) 2020.05.11 ~ 2020.06.22 ] 시작42493.50 (1.0) 끝43638.25 (0.9) 극한값40650.00 (1.0) ▶ 1592.385 (1592) 
-[  363일(1,479,073★) 2021.09.01 ~ 2023.02.23 ] 시작72432.50 (0.6) 끝54769.25 (0.9) 극한값46900.00 (0.9) ▶ -2098.279 (-2098) 
-[    7일(  235★) 2023.04.28 ~ 2023.05.10 ] 시작54094.75 (1.0) 끝54122.75 (1.0) 극한값54600.00 (1.0) ▶ 172.488 (172) 
-[   47일(23,437★) 2023.10.11 ~ 2023.12.14 ] 시작56025.50 (1.0) 끝56461.00 (0.9) 극한값53600.00 (1.0) ▶ 399.567 (400) 
-```
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/39e9e194-dd99-4977-b7e1-38572cf04fb1" alt="1년" style="width:100%; height:auto;"/>
 
 ### KODEX 레버리지
 {: #upj_1705463221354}
 
-![kodex2](/assets/slownsteady/2024-01-20-kodex2.png)
-
-```text
-=====은근과 끈기△골든크로스=====
-[   25일(2,593★) 2019.04.10 ~ 2019.05.17 ] 시작13245.20 (1.1) 끝13036.73 (1.1) 극한값14005.00 (1.1) ▶ -359.595 (-360) 
-[   88일(79,663★) 2019.11.19 ~ 2020.03.27 ] 시작12427.17 (1.3) 끝12431.58 (1.3) 극한값15570.00 (1.3) ▶  2.156 ( 2) 
-[  287일(1,201,509★) 2020.07.28 ~ 2021.09.27 ] 시작12217.88 (2.4) 끝26755.88 (1.1) 극한값29435.00 (2.4) ▶ 2184.349 (2184) 
-[  145일(143,372★) 2023.03.09 ~ 2023.11.02 ] 시작14795.67 (1.2) 끝15661.33 (1.1) 극한값17720.00 (1.2) ▶ 257.439 (257) 
-[    9일(2,294★) 2024.01.03 ~ 2024.01.16 ] 시작16049.00 (1.1) 끝16137.62 (1.1) 극한값17590.00 (1.1) ▶ 424.632 (425) ♣
-=====줍줍▽데드크로스=====
-[  107일(188,984★) 2018.10.31 ~ 2019.04.09 ] 시작15611.45 (0.7) 끝13256.50 (0.8) 극한값10935.00 (0.8) ▶ -949.068 (-949) 
-[  125일(57,569★) 2019.05.20 ~ 2019.11.18 ] 시작13021.58 (0.8) 끝12426.52 (0.8) 극한값10440.00 (0.8) ▶ -205.278 (-205) 
-[   80일(111,412★) 2020.03.30 ~ 2020.07.27 ] 시작12413.20 (0.6) 끝12207.48 (0.7) 극한값7945.00 (0.7) ▶ -110.891 (-111) 
-[  353일(998,786★) 2021.09.28 ~ 2023.03.08 ] 시작26778.50 (0.4) 끝14814.60 (0.8) 극한값11840.00 (0.8) ▶ -1461.495 (-1461) 
-[   40일(10,732★) 2023.11.03 ~ 2024.01.02 ] 시작15665.88 (1.0) 끝16037.42 (0.9) 극한값15175.00 (1.0) ▶ 400.550 (401)
-```
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/2bfe958b-5259-4701-8c16-fb09b83112c3" alt="전체" style="width:100%; height:auto;"/>
 
 ## 참조
 {: #upj_1705462047434}
@@ -373,14 +335,15 @@ class StockBottom():
         self.period = int(args[1])
     else:
       self.kr_symbol = symbol
-    self.set_all(False)
     self.start_date = self.get_start_date()
     now = datetime.now()
     now_date = now.strftime('%Y-%m-%d')
+    self.today_date = now_date
     self.end_date = now_date
     self.stock_data = yf.download(self.symbol, start=self.start_date, end=self.end_date)
     # print(type(self.stock_data))
     # Compute the 50-day and 200-day moving averages
+    self.set_all(False)
     self.stock_data['SMA50'] = self.stock_data['Close'].rolling(window=50).mean()
     self.stock_data['SMA200'] = self.stock_data['Close'].rolling(window=200).mean()
     self.stock_data_all = pd.DataFrame({
@@ -440,9 +403,9 @@ class StockBottom():
   def set_all(self, is_all):
     self.is_all = is_all
     if is_all:
-      self.graph_title = '{} (ALL PERIOD)'.format(self.kr_symbol)
+      self.graph_title = '{} (ALL PERIOD) on {}'.format(self.kr_symbol, self.today_date)
     else:
-      self.graph_title = '{} ({} years)'.format(self.kr_symbol, self.period)
+      self.graph_title = '{} ({} years) on {}'.format(self.kr_symbol, self.period, self.today_date)
   def get_close_values(self, type):
     if type == 0:
       return self.stock_data['Close']
@@ -655,7 +618,7 @@ class StockBottom():
       if diff > 3:
         special_list.append({
           'v':int(diff),
-          'd':idx            
+          'd':idx
         })
         special_set.append(int(diff))
     print()
