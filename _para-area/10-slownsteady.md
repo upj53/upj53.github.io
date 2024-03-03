@@ -14,7 +14,7 @@ permalink: /area/slownsteady/
 <img alt="" src="" style="width:100%; height:auto;"/>
 -->
 
-## 2024년 1월
+## 2024년 3월
 {: #upj_1705462113649}
 
 ### Fear and Greed Index
