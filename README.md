@@ -35,7 +35,7 @@ permalink: /resource/web/
 
 <!--닫혀있음-->
 <details>
-<summary>제목
+<summary>상세
 </summary>
 내용
 </details>
