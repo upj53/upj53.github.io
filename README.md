@@ -26,14 +26,14 @@ permalink: /resource/web/
 **열고닫기**
 
 ```html
-<!--열려있음-->
+<!--열려있음 5줄-->
 <details open>
-<summary>제목
+<summary>상세
 </summary>
 내용
 </details>
 
-<!--닫혀있음-->
+<!--닫혀있음 5줄-->
 <details>
 <summary>상세
 </summary>
