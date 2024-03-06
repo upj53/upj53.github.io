@@ -23,37 +23,37 @@ permalink: /area/slownsteady/
 - [Fear and Greed Index](https://edition.cnn.com/markets/fear-and-greed)
 - [달러 환율](https://www.google.com/finance/quote/USD-KRW?window=6M)
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/cdc8b0d0-2560-4094-a319-9376bf186a67" alt="FG-1" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/6c22967f-2f2c-473e-b0ec-6ef7335cd8a7" alt="FG-1" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/a657ba3b-f163-4994-aa3b-f1db5063491d" alt="FG-2" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/73ecf232-cff4-4214-8eae-026ecbc35cf4" alt="FG-2" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/984aff13-239e-4245-ac1a-b84e8061ec15" alt="환율" style="width:100%; height:auto;"/>
 
 ### SOXL
 {: #upj_1705714728870}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/c1716b92-5c66-4eba-8203-d06315fd9d01" alt="1년" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/49237db8-1d30-48c0-afb6-7747c2adc41b" alt="1년" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/c38797b1-51a3-465c-9610-3eca632ae1bf" alt="전체" style="width:100%; height:auto;"/>
 
 ### TQQQ
 {: #upj_1705714728871}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/4ab3ab56-3556-460e-b71d-fb59c9d347d5" alt="1년" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/63e56f3b-6d9e-4570-b44a-e261ff6ffbbf" alt="1년" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/0216e7c7-f226-4289-bf12-640720e82196" alt="전체" style="width:100%; height:auto;"/>
 
 ### UPRO
 {: #upj_1705714728872}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/40e06eb4-0612-4e9a-945c-e212a4a5ae39" alt="1년" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/5c9ee8b7-12ce-432e-b90b-4d729922a2cc" alt="1년" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/18a60587-78e4-434d-892d-6899db1be19e" alt="전체" style="width:100%; height:auto;"/>
 
 ### 삼성전자(우)
 {: #upj_1705714728869}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/9b2c31fc-718d-40c6-9aba-f5b48016395e" alt="1년" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/upj53.github.io/assets/27456270/7b3d23be-25d1-4dd9-8924-8d1efbb8c8fc" alt="1년" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/6053e2fb-3c1e-4a85-9d04-7e94ec5493a8" alt="전체" style="width:100%; height:auto;"/>
 
