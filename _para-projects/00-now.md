@@ -37,21 +37,21 @@ permalink: /projects/justdoit
 ### 작은 목표부터 완성하기
 {: #upj_1705714728904}
 
+<!-- 
 <details open>
-<summary>1월, 2월
+<summary>3월, 4월, 5월, 6월
 </summary>
 
-<!-- 
 ■■▣□□
 □□□□□
+close
+
+</details>
  -->
 
 
-</details>
-
-
-<details close>
-<summary>1월, 2월
+<details open>
+<summary>1월, 2월, 3월, 4월, 5월, 6월
 </summary>
 
 <!--□■▣▩ □□□□□□□□□□
