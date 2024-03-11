@@ -1,7 +1,7 @@
 ---
 title: 교직훈련과정
 layout: upj_design
-permalink: /projects/paper1
+permalink: /projects/jobtraning
 ---
 
 #### Table Of Contents
