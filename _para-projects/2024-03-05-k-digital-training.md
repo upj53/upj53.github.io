@@ -1,5 +1,5 @@
 ---
-title: 교직훈련과정
+title: 교직훈련 & KDT
 layout: upj_design
 permalink: /projects/jobtraning
 ---
@@ -30,7 +30,7 @@ permalink: /projects/jobtraning
 2째주 할일
 
 - [x] 수업설계의 이해 20차시
-- [ ] 학습자 이해 6차시
+- [x] 학습자 이해 6차시
 - [ ] 훈련기관 안전관리 3차시
 - [ ] 직업훈련교사의 책무와 역량 3차시
 - [ ] NCS기반 역량평가 3차시
