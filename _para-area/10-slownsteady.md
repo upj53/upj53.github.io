@@ -89,9 +89,9 @@ permalink: /area/slownsteady/
 <thead class="table-light text-center">
 <tr>
 <td>&nbsp;</td>
-<td>UPRO<br>2 $</td>
-<td>TQQQ<br>3 $</td>
-<td>SOXL<br>4 $</td>
+<td>UPRO<br>3 $</td>
+<td>TQQQ<br>4 $</td>
+<td>SOXL<br>5 $</td>
 </tr>
 </thead>
 <tbody>
