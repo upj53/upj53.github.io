@@ -51,9 +51,9 @@ permalink: /resource/web/
 ![2022-information-class-guideline_52](https://github.com/upj53/upj53.github.io/assets/27456270/921cc85a-f3f6-44eb-af04-460695293fef)
 
 <a href="" target="_blank">
-<img src="" style="width:100%; height:auto;"/></a>
+<img src="" alt="" style="width:100%; height:auto;"/></a>
 
-<img alt="" src="" style="width:100%; height:auto;"/>
+<img src="" alt="" style="width:100%; height:auto;"/>
 ```
 
 **상태바**
