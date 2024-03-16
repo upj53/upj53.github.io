@@ -24,11 +24,11 @@ permalink: /area/slownsteady/
 - [달러 환율](https://www.google.com/finance/quote/USD-KRW?window=6M)
 
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/bed2b8ee-0442-4c10-a8a6-9c8858a4f146" alt="FG-1" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/37c0460e-f1fe-4ce2-96d2-074af56da075" alt="FG-1" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/dcde0679-db09-48ff-b050-455836fce984" alt="FG-2" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/7c574801-bac4-446d-b9a2-44e20ab9a4ac" alt="FG-2" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/cdc8d9ac-c8b1-4fc8-9a97-b7110bc0ec12" alt="환율" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/dfea8f75-4227-4cfa-8c64-fa70da3e7044" alt="환율" style="width:100%; height:auto;"/>
 
 **주요 이슈**
 
@@ -37,7 +37,7 @@ permalink: /area/slownsteady/
 ### SOXL
 {: #upj_1705714728870}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/df58876e-34f2-4495-b9dc-98d2ed8074ac" alt="1년 03-12" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/df5ee520-8fd9-40e9-b039-8127a8196631" alt="1년 03-12" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/49237db8-1d30-48c0-afb6-7747c2adc41b" alt="1년" style="width:100%; height:auto;"/>
 
@@ -46,7 +46,7 @@ permalink: /area/slownsteady/
 ### TQQQ
 {: #upj_1705714728871}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/1a360e7a-177d-4b8f-a68f-d40d0cfbb382" alt="1년 03-12" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/35728e64-1a80-4421-8a85-402f2a69fac7" alt="1년 03-12" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/63e56f3b-6d9e-4570-b44a-e261ff6ffbbf" alt="1년" style="width:100%; height:auto;"/>
 
@@ -55,7 +55,7 @@ permalink: /area/slownsteady/
 ### UPRO
 {: #upj_1705714728872}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/66e23f9b-b282-4887-91ed-ab4be20b570e" alt="1년 03-12" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/89bb16c5-c8a0-41b6-b701-957917869757" alt="1년 03-12" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/5c9ee8b7-12ce-432e-b90b-4d729922a2cc" alt="1년" style="width:100%; height:auto;"/>
 
@@ -64,7 +64,7 @@ permalink: /area/slownsteady/
 ### 삼성전자(우)
 {: #upj_1705714728869}
 
-<img src="https://github.com/upj53/upj53.github.io/assets/27456270/5ea7fbb2-fb3b-4c72-b272-0fea9aca4f9f" alt="1년" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/51efcb7e-973b-47b2-a27a-6157a795bf46" alt="1년" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/7b3d23be-25d1-4dd9-8924-8d1efbb8c8fc" alt="1년" style="width:100%; height:auto;"/>
 
