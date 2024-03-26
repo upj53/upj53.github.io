@@ -23,7 +23,6 @@ permalink: /area/slownsteady/
 - [Fear and Greed Index](https://edition.cnn.com/markets/fear-and-greed)
 - [달러 환율](https://www.google.com/finance/quote/USD-KRW?window=6M)
 
-
 <img src="https://github.com/upj53/shared/assets/27456270/37c0460e-f1fe-4ce2-96d2-074af56da075" alt="FG-1" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/shared/assets/27456270/2843f232-3951-437b-9a8b-4761d53cee85" alt="FG-2" style="width:100%; height:auto;"/>
@@ -39,6 +38,8 @@ permalink: /area/slownsteady/
 ### SOXL
 {: #upj_1705714728870}
 
+<img src="https://github.com/upj53/shared/assets/27456270/2a006d46-b018-48c6-a87b-177d560b60dc" alt="1년 03-26" style="width:100%; height:auto;"/>
+
 <img src="https://github.com/upj53/shared/assets/27456270/e453220e-1936-4a7a-af8c-bcedcb4705ed" alt="1년 03-12" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/upj53.github.io/assets/27456270/49237db8-1d30-48c0-afb6-7747c2adc41b" alt="1년" style="width:100%; height:auto;"/>
@@ -47,6 +48,8 @@ permalink: /area/slownsteady/
 
 ### TQQQ
 {: #upj_1705714728871}
+
+<img src="https://github.com/upj53/shared/assets/27456270/f78e6960-ed07-4cc2-965b-7de91898c94a" alt="1년 03-26" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/shared/assets/27456270/bab79c0f-fa0a-476c-8558-0665c5e6de7f" alt="1년 03-12" style="width:100%; height:auto;"/>
 
@@ -65,6 +68,8 @@ permalink: /area/slownsteady/
 
 ### 삼성전자(우)
 {: #upj_1705714728869}
+
+<img src="https://github.com/upj53/shared/assets/27456270/f1db4dae-3fcd-484f-a5de-881845f88683" alt="1년 03-26" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/shared/assets/27456270/c9e25a3f-2302-4250-9935-3939ce64ab85" alt="1년" style="width:100%; height:auto;"/>
 
