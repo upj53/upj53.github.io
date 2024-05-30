@@ -225,14 +225,7 @@ bundle install
 bundle exec jekyll serve --host 0.0.0.0 --port 4000 --watch --drafts
 ```
 
-**DEV**
-
-```liquid
-{% if jekyll.environment == "development" %}
-{% endif %}
-```
-
-**파이썬 아이디생성**
+## 파이썬 아이디생성
 
 ```python
 # python 생성코드
@@ -243,6 +236,13 @@ def my(a):
 
 id = '{: #upj_1705714728810}'
 my(id)
+```
+
+**DEV**
+
+```liquid
+{% if jekyll.environment == "development" %}
+{% endif %}
 ```
 
 **Collections**
@@ -273,7 +273,6 @@ collections:
 - [soo:bak's blog](https://soo-bak.github.io/) [github](https://github.com/soo-bak/soo-bak.github.io?tab=readme-ov-file)
 
 <!--
-{: #upj_1705714728818}
 {: #upj_1705714728810}
 {: #upj_1705714728811}
 {: #upj_1705714728812}
@@ -372,4 +371,5 @@ collections:
 {: #upj_1705714728905}
 {: #upj_1705714728906}
 {: #upj_1705714728907}
+{: #upj_1705714728908}
 -->
