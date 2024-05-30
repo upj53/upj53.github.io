@@ -20,8 +20,7 @@
 
 title: United Parks of Jerome
 email: unitedparks@gmail.com
-url: "https://upj53.github.io"
-baseurl: "/v1/"
+url: "https://upj53.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: upj53
 
 # Author settings

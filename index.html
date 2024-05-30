@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+title: Home
+layout: upj_mainpage
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://upj53.github.io/v1/" />
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/homepage/favorite.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPJ</title>
-    <script>
-        function goCurrentHome() {
-            // window.open("https://upj53.github.io/v1/", "_blank");
-        }
-    </script>
-</head>
+<div class="slider_container">
+{% for p in site.frontpages %}
+  <div class="slider_inner" style="background-image: url('{{ p.image }}');">
+    <div class="content-bg"></div>
+    {{ p.content }}
+    <!-- <div class="content"></div> -->
+  </div>
+{% endfor %}
+</div>
 
-<body onload="goCurrentHome()">
-</body>
-
-</html>
+<div class="btn">
+  <i class="fa-regular fa-circle-left" id="btn_left"></i>
+  <i class="fa-regular fa-circle-right" id="btn_right"></i>
+</div>
