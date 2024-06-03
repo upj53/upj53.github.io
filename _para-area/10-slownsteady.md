@@ -18,6 +18,46 @@ permalink: /area/slownsteady/
 - TOC
 {:toc}
 
+## 2024년 6월
+{: #upj_1705714728907}
+
+### 월초 시장정보 요약
+{: #upj_1705714728906}
+
+<img src="https://github.com/upj53/shared/assets/27456270/aafe7327-f691-43d7-bbf4-9f313d8f4a34" style="width:100%; height:auto;"/>
+
+Fear and Greed Index
+
+<img src="https://github.com/upj53/shared/assets/27456270/964cd6a4-4a97-4635-ab14-bd350066dfee" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/58cfae03-4404-4c33-92b7-e9fa69c571cb" style="width:100%; height:auto;"/>
+
+Dollar
+
+<img src="https://github.com/upj53/shared/assets/27456270/67e5f222-9e7b-4f4d-b3ec-f8fbba57f9d5" style="width:100%; height:auto;"/>
+
+SOXL & SOXS
+
+<img src="https://github.com/upj53/shared/assets/27456270/b07383fe-8d47-4cf3-a582-0fe3583b4eb2" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/7e6edb46-a2d0-46d1-9d8d-bdc01e1ab89b" style="width:100%; height:auto;"/>
+
+TQQQ & SQQQ
+
+<img src="https://github.com/upj53/shared/assets/27456270/57052afd-15f9-49db-bc29-83d9062b4efc" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/a719f929-bf43-417b-b8ed-478fef8de690" style="width:100%; height:auto;"/>
+
+삼성전자(우)
+
+<img src="https://github.com/upj53/shared/assets/27456270/24a6ecc9-38ab-475d-a924-fb661e6397de" style="width:100%; height:auto;"/>
+
+JEPI & JEPQ
+
+<img src="https://github.com/upj53/shared/assets/27456270/3ab280a4-51dd-4321-812e-38ee2b411c00" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/3e2dc0bd-d135-44b2-9352-6a501d9f5e24" style="width:100%; height:auto;"/>
+
 ## 2024년 5월
 {: #upj_1705714728828}
 
