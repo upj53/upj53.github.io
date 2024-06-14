@@ -26,37 +26,84 @@ permalink: /area/slownsteady/
 
 <img src="https://github.com/upj53/shared/assets/27456270/aafe7327-f691-43d7-bbf4-9f313d8f4a34" style="width:100%; height:auto;"/>
 
-Fear and Greed Index
+### Fear and Greed Index
+{: #upj_1705714728904}
+
+6월 3일
 
 <img src="https://github.com/upj53/shared/assets/27456270/964cd6a4-4a97-4635-ab14-bd350066dfee" style="width:100%; height:auto;"/>
 
 <img src="https://github.com/upj53/shared/assets/27456270/58cfae03-4404-4c33-92b7-e9fa69c571cb" style="width:100%; height:auto;"/>
 
-Dollar
+6월 14일
+
+<img src="https://github.com/upj53/shared/assets/27456270/1e2a859e-1b00-4e37-8ea0-a319050f15f5" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/34450716-10aa-46f4-a89e-541706a62527" style="width:100%; height:auto;"/>
+
+### Dollar
+{: #upj_1705714728903}
 
 <img src="https://github.com/upj53/shared/assets/27456270/67e5f222-9e7b-4f4d-b3ec-f8fbba57f9d5" style="width:100%; height:auto;"/>
 
-SOXL & SOXS
+<img src="https://github.com/upj53/shared/assets/27456270/69062516-0b5f-49be-8a6d-707c51ec33e9" style="width:100%; height:auto;"/>
+
+### SOXL & SOXS
+{: #upj_1705714728902}
 
 <img src="https://github.com/upj53/shared/assets/27456270/b07383fe-8d47-4cf3-a582-0fe3583b4eb2" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/shared/assets/27456270/7e6edb46-a2d0-46d1-9d8d-bdc01e1ab89b" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/bc83d0e5-623f-4bc1-8def-5c74ecbb8803" style="width:100%; height:auto;"/>
 
-TQQQ & SQQQ
+
+<img src="https://github.com/upj53/shared/assets/27456270/abc3239d-4d57-41f3-943b-2b29ac80d06f" style="width:100%; height:auto;"/>
+
+### TQQQ & SQQQ
+{: #upj_1705714728901}
 
 <img src="https://github.com/upj53/shared/assets/27456270/57052afd-15f9-49db-bc29-83d9062b4efc" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/shared/assets/27456270/a719f929-bf43-417b-b8ed-478fef8de690" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/42c564ea-bcca-4d40-bd14-a966f407c230" style="width:100%; height:auto;"/>
 
-삼성전자(우)
+
+<img src="https://github.com/upj53/shared/assets/27456270/a0e75926-20a3-4bb9-9405-3053c7fae31c" style="width:100%; height:auto;"/>
+
+### 삼성전자(우)
+{: #upj_1705714728900}
 
 <img src="https://github.com/upj53/shared/assets/27456270/24a6ecc9-38ab-475d-a924-fb661e6397de" style="width:100%; height:auto;"/>
 
-JEPI & JEPQ
+<img src="https://github.com/upj53/shared/assets/27456270/bfca3532-dd5a-4334-a053-30181a0a753a" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/shared/assets/27456270/3ab280a4-51dd-4321-812e-38ee2b411c00" style="width:100%; height:auto;"/>
+### 미국 배당주
+{: #upj_1705714728899}
 
-<img src="https://github.com/upj53/shared/assets/27456270/3e2dc0bd-d135-44b2-9352-6a501d9f5e24" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/a0d7004c-00f9-4ab1-b6ac-129ec767966b" alt="My Dividends" style="width:300px; height:auto;"/>
+
+
+<img src="https://github.com/upj53/shared/assets/27456270/e089abd6-60ae-4a37-9515-1c4143e278fa" alt="JEPI" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/ed3a5918-de0b-466a-934e-9450998ea6da" style="width:250px; height:auto;"/>
+
+
+<img src="https://github.com/upj53/shared/assets/27456270/65b9e89c-a227-4d51-a741-0d0d3b7d5df2" alt="JEPQ" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/4feb0b31-8340-4574-8905-1ab159ac73ef" style="250px; height:auto;"/>
+
+
+<img src="https://github.com/upj53/shared/assets/27456270/8bdc9721-13d0-4c50-acd4-5ffe92b5a51d" alt="GPIX" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/95b46579-1b42-4868-ad63-b2cdb571e829" style="250px; height:auto;"/>
+
+
+<img src="https://github.com/upj53/shared/assets/27456270/6788ad6a-50b0-4a58-8991-0d31aeec72b6" alt="GPIQ" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/7501b67d-2954-4c13-a246-839e04797153" style="250px; height:auto;"/>
+
+
+<img src="https://github.com/upj53/shared/assets/27456270/72876108-e70c-44a2-8fb3-265379b22284" alt="SCHD" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/d2505f7b-389d-4caf-b0c0-41c5c9bba81d" style="250px; height:auto;"/>
 
 ## 2024년 5월
 {: #upj_1705714728828}
