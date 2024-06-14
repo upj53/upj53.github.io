@@ -53,20 +53,20 @@ permalink: /area/slownsteady/
 
 <img src="https://github.com/upj53/shared/assets/27456270/b07383fe-8d47-4cf3-a582-0fe3583b4eb2" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/shared/assets/27456270/bc83d0e5-623f-4bc1-8def-5c74ecbb8803" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/0c803bec-a1a5-4eb6-aca6-9dcc6a9b4521" style="width:100%; height:auto;"/>
 
 
-<img src="https://github.com/upj53/shared/assets/27456270/abc3239d-4d57-41f3-943b-2b29ac80d06f" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/0fda0b75-7a0b-4ba7-8ff6-88cf3c1a0692" style="width:100%; height:auto;"/>
 
 ### TQQQ & SQQQ
 {: #upj_1705714728901}
 
 <img src="https://github.com/upj53/shared/assets/27456270/57052afd-15f9-49db-bc29-83d9062b4efc" style="width:100%; height:auto;"/>
 
-<img src="https://github.com/upj53/shared/assets/27456270/42c564ea-bcca-4d40-bd14-a966f407c230" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/603b3b48-2d17-4437-bd9d-a5204c43a2b9" style="width:100%; height:auto;"/>
 
 
-<img src="https://github.com/upj53/shared/assets/27456270/a0e75926-20a3-4bb9-9405-3053c7fae31c" style="width:100%; height:auto;"/>
+<img src="https://github.com/upj53/shared/assets/27456270/43c0c6fc-ffca-4fec-8140-1dc1d1e0dd39" style="width:100%; height:auto;"/>
 
 ### 삼성전자(우)
 {: #upj_1705714728900}
