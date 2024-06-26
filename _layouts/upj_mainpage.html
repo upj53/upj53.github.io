@@ -80,7 +80,7 @@
 {% if jekyll.environment == "production" %}
 <div style="height:90vh; ">
 </div>
-<div class="slider_container" style="display:none;">
+<div class="slider_container">
 {% for p in site.frontpages %}
   <div class="slider_inner" style="background-image: url('{{ p.image }}');">
     <div class="content-bg"></div>
@@ -89,7 +89,7 @@
 {% endfor %}
 </div>
 
-<div class="btn" style="display:none;">
+<div class="btn">
   <i class="fa-regular fa-circle-left" id="btn_left"></i>
   <i class="fa-regular fa-circle-right" id="btn_right"></i>
 </div>
