@@ -6,6 +6,22 @@
     flex-direction: column;    
 }
 
+.content-bg {
+    content: '';
+    position: absolute;
+    background: white;
+    color: black;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.1;
+}
+
+.content {
+    font-weight: bold;
+    margin-top: -20%;
+    display: none;
+}
+
 .slider_container {
     /* 개수가 늘어났을 경우 변경해야함 */
     /* 100vw x 10개 */
@@ -15,7 +31,7 @@
 
 .slider_inner {
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     float: left;
     /* 
   https://nykim.work/86
@@ -35,26 +51,10 @@
     align-items: center;
 }
 
-.content-bg {
-    content: '';
-    position: absolute;
-    background: white;
-    color: black;
-    z-index: -1;
-    inset: 0;
-    opacity: 0.1;
-}
-
-.content {
-    font-weight: bold;
-    margin-top: -20%;
-    display: none;
-}
-
 .btn {
     width: 100px;
     position: absolute;
-    bottom: 0px;
+    top: 75vh;
     left: calc(50% - 50px);
     display: flex;
     justify-content: space-between;
