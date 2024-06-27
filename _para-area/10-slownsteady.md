@@ -58,6 +58,14 @@ permalink: /area/slownsteady/
 
 <img src="https://github.com/upj53/shared/assets/27456270/0fda0b75-7a0b-4ba7-8ff6-88cf3c1a0692" style="width:100%; height:auto;"/>
 
+6월 27일 (볼린저밴드, 매물대, OBV 지표추가)
+
+<img src="https://github.com/upj53/shared/assets/27456270/81cc5395-297f-40f6-8f54-fd57c7a48cdb" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/79650e0f-b440-48f8-af9d-7c4f56c92b2e" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/87cb7b84-59d7-4758-88fa-0206a8652d81" style="width:100%; height:auto;"/>
+
 ### TQQQ & SQQQ
 {: #upj_1705714728901}
 
