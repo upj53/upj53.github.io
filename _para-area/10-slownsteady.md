@@ -113,6 +113,33 @@ permalink: /area/slownsteady/
 
 <img src="https://github.com/upj53/shared/assets/27456270/d2505f7b-389d-4caf-b0c0-41c5c9bba81d" style="250px; height:auto;"/>
 
+### 차트공부
+{: #upj_1705714728893}
+
+마피디 투자원칙 3가지(초급)
+
+1. 추세선 하단에서만 산다. (단, 200일선 위에 있을 때)
+2. 공포스러울, 25이하, 때만 산다. (단, 분할매수 10회이상)
+3. 그 외에는 안산다. (절대) 1년에 매매기회 5번 정도
+
+마피디 투자원칙 5가지(중급)
+
+1. 졸라맨 매매기법 (5일선 위에서는 안판다. 4번째 매도)
+2. 200일선 매매전략 (중장기 추세, 장기투자의 기준)
+3. 공포탐욕지수 매매기법 (확실한 매수 타점, 분할 매수)
+4. 클럽탈출 매수/매도 전략 (추세선 매매, 손절, 비중)
+5. 36계 줄행랑 매매기법, 고점매도신호 포착방법 (헤드앤숄더, 장대음봉, 위꼬리, 거래량)
+
+<img src="https://github.com/upj53/shared/assets/27456270/6ea53d86-d127-49a8-86ff-1405f679cfa2" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/0c6f6fc3-bd84-457b-a48d-7ee369cc9703" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/8adf8dbd-5c21-440f-8a6e-a7d15fc6aaf7" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/c2069715-f122-4141-926d-2ac38e18eae2" style="width:100%; height:auto;"/>
+
+<img src="https://github.com/upj53/shared/assets/27456270/50ad03f0-0bef-45fe-8557-dfb84f45a713" style="width:100%; height:auto;"/>
+
 ## 2024년 5월
 {: #upj_1705714728828}
 
