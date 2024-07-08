@@ -140,6 +140,10 @@ permalink: /area/slownsteady/
 
 <img src="https://github.com/upj53/shared/assets/27456270/50ad03f0-0bef-45fe-8557-dfb84f45a713" style="width:100%; height:auto;"/>
 
+매수타점과 손절시점
+
+<img src="https://github.com/upj53/shared/assets/27456270/acc63b56-4624-491e-ac37-6fdab06e2847" style="width:100%; height:auto;"/>
+
 ## 2024년 5월
 {: #upj_1705714728828}
 
