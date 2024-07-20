@@ -11,13 +11,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav">
-                <!---------기본메뉴: 그룹 1----------->
+                <!---------기본메뉴: 그룹 1
                 {% for item in site.data.menu_group_1 %}
                 <li class="nav-item">
                     <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{
                         item.name }}</a>
                 </li>
                 {% endfor %}
+                ----------->
 
                 <!---------그룹 2: my----------->
                 {% for item in site.data.menu_group_2 %}
