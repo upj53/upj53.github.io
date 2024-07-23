@@ -29,6 +29,7 @@
                 {% endfor %}
 
                 <!---------그룹 3:  PARA----------->
+                {% if jekyll.environment == "development" %}
                 {% for item in site.data.menu_group_3 %}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {% if page.url contains item.prefix %}active{% endif %}" href="#"
@@ -129,6 +130,7 @@
                     {% endif %}
                 </li>
                 {% endfor %}
+                {% endif %}
 
                 <!--ID생성버튼-->
                 <li class="nav-item">
