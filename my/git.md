@@ -94,6 +94,31 @@ git remote add origin {MY REMOTE GIT ADDRESS}
 git pull origin master
 ```
 
+### git config 등록 후 git push helper
+{: #upj_1705714728882}
+
+```text
+.git/config
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/upj53/upj53.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[user]
+	name = upj53
+	email = unitedparks@gmail.com
+	password = 암호
+[credential]
+	helper = store
+```
+
 ## Pull and Push
 {: #upj_1676460536207}
 
@@ -210,29 +235,3 @@ git commit -m "fixed untracked files"
 read -p "Enter git commit message: " msg
 git add . && git commit -m "$msg" && git push origin +master
 ```
-
-### git config 등록 후 git push helper
-{: #upj_1705714728882}
-
-.git/config
-
-```text
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
-[remote "origin"]
-	url = https://github.com/upj53/upj53.github.io.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
-[user]
-	name = upj53
-	email = unitedparks@gmail.com
-	password = 암호
-[credential]
-	helper = store
-```
-
