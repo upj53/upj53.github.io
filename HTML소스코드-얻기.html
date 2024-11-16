@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <!--소스코드를 넣으세요-->
+
+    <!-- TQQQ 2024.9.13 07:16 업데이트 -->
+    <!--  -->
+    <ul style="display:none;">
+      <li>
+        <span class="color" style="background-color: rgb(183, 21, 64)"></span
+        ><span class="ticker --truncate">AAPL</span
+        ><span class="company-name --truncate">Apple Inc</span
+        ><span class="weight">3.57%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(229, 142, 38)"></span
+        ><span class="ticker --truncate">MSFT</span
+        ><span class="company-name --truncate">Microsoft Corporation</span
+        ><span class="weight">3.25%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(7, 153, 146)"></span
+        ><span class="ticker --truncate">NVDA</span
+        ><span class="company-name --truncate">NVIDIA Corp</span
+        ><span class="weight">2.81%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(10, 61, 98)"></span
+        ><span class="ticker --truncate">AMZN</span
+        ><span class="company-name --truncate">Amazon.com Inc.</span
+        ><span class="weight">1.97%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(12, 36, 97)"></span
+        ><span class="ticker --truncate">AVGO</span
+        ><span class="company-name --truncate">Broadcom Inc</span
+        ><span class="weight">1.87%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">META</span
+        ><span class="company-name --truncate"
+          >Meta Platforms Inc - Ordinary Shares - Class A</span
+        ><span class="weight">1.86%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TSLA</span
+        ><span class="company-name --truncate">Tesla Inc</span
+        ><span class="weight">1.15%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">COST</span
+        ><span class="company-name --truncate">Costco Wholesale Corp</span
+        ><span class="weight">1.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">GOOGL</span
+        ><span class="company-name --truncate"
+          >Alphabet Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.92%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">GOOG</span
+        ><span class="company-name --truncate"
+          >Alphabet Inc - Ordinary Shares - Class C</span
+        ><span class="weight">0.89%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">NFLX</span
+        ><span class="company-name --truncate">Netflix Inc.</span
+        ><span class="weight">0.79%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ADBE</span
+        ><span class="company-name --truncate">Adobe Inc</span
+        ><span class="weight">0.7%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">PEP</span
+        ><span class="company-name --truncate">PepsiCo Inc</span
+        ><span class="weight">0.67%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">AMD</span
+        ><span class="company-name --truncate">Advanced Micro Devices Inc.</span
+        ><span class="weight">0.63%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TMUS</span
+        ><span class="company-name --truncate">T-Mobile US Inc</span
+        ><span class="weight">0.63%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">LIN</span
+        ><span class="company-name --truncate">Linde Plc.</span
+        ><span class="weight">0.61%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CSCO</span
+        ><span class="company-name --truncate">Cisco Systems, Inc.</span
+        ><span class="weight">0.54%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TXN</span
+        ><span class="company-name --truncate">Texas Instruments Inc.</span
+        ><span class="weight">0.5%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">QCOM</span
+        ><span class="company-name --truncate">Qualcomm, Inc.</span
+        ><span class="weight">0.49%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">INTU</span
+        ><span class="company-name --truncate">Intuit Inc</span
+        ><span class="weight">0.48%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">AMGN</span
+        ><span class="company-name --truncate">AMGEN Inc.</span
+        ><span class="weight">0.48%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ISRG</span
+        ><span class="company-name --truncate">Intuitive Surgical Inc</span
+        ><span class="weight">0.47%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CMCSA</span
+        ><span class="company-name --truncate"
+          >Comcast Corp - Ordinary Shares - Class A</span
+        ><span class="weight">0.42%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">AMAT</span
+        ><span class="company-name --truncate">Applied Materials Inc.</span
+        ><span class="weight">0.4%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">HON</span
+        ><span class="company-name --truncate">Honeywell International Inc</span
+        ><span class="weight">0.36%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">BKNG</span
+        ><span class="company-name --truncate">Booking Holdings Inc</span
+        ><span class="weight">0.35%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">REGN</span
+        ><span class="company-name --truncate"
+          >Regeneron Pharmaceuticals, Inc.</span
+        ><span class="weight">0.34%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">VRTX</span
+        ><span class="company-name --truncate"
+          >Vertex Pharmaceuticals, Inc.</span
+        ><span class="weight">0.33%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ADP</span
+        ><span class="company-name --truncate"
+          >Automatic Data Processing Inc.</span
+        ><span class="weight">0.31%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">PANW</span
+        ><span class="company-name --truncate">Palo Alto Networks Inc</span
+        ><span class="weight">0.31%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ADI</span
+        ><span class="company-name --truncate">Analog Devices Inc.</span
+        ><span class="weight">0.3%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">SBUX</span
+        ><span class="company-name --truncate">Starbucks Corp.</span
+        ><span class="weight">0.29%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MELI</span
+        ><span class="company-name --truncate">MercadoLibre Inc</span
+        ><span class="weight">0.28%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">GILD</span
+        ><span class="company-name --truncate">Gilead Sciences, Inc.</span
+        ><span class="weight">0.28%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MDLZ</span
+        ><span class="company-name --truncate"
+          >Mondelez International Inc. - Ordinary Shares - Class A</span
+        ><span class="weight">0.27%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MU</span
+        ><span class="company-name --truncate">Micron Technology Inc.</span
+        ><span class="weight">0.26%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">KLAC</span
+        ><span class="company-name --truncate">KLA Corp.</span
+        ><span class="weight">0.26%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">LRCX</span
+        ><span class="company-name --truncate">Lam Research Corp.</span
+        ><span class="weight">0.26%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CTAS</span
+        ><span class="company-name --truncate">Cintas Corporation</span
+        ><span class="weight">0.23%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">INTC</span
+        ><span class="company-name --truncate">Intel Corp.</span
+        ><span class="weight">0.22%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">PYPL</span
+        ><span class="company-name --truncate">PayPal Holdings Inc</span
+        ><span class="weight">0.2%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">SNPS</span
+        ><span class="company-name --truncate">Synopsys, Inc.</span
+        ><span class="weight">0.19%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CDNS</span
+        ><span class="company-name --truncate"
+          >Cadence Design Systems, Inc.</span
+        ><span class="weight">0.19%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ASML</span
+        ><span class="company-name --truncate"
+          >ASML Holding NV - New York Shares</span
+        ><span class="weight">0.19%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ORLY</span
+        ><span class="company-name --truncate">O`Reilly Automotive, Inc.</span
+        ><span class="weight">0.18%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CSX</span
+        ><span class="company-name --truncate">CSX Corp.</span
+        ><span class="weight">0.18%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MAR</span
+        ><span class="company-name --truncate"
+          >Marriott International, Inc. - Ordinary Shares - Class A</span
+        ><span class="weight">0.18%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">PDD</span
+        ><span class="company-name --truncate">PDD Holdings Inc - ADR</span
+        ><span class="weight">0.17%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MRVL</span
+        ><span class="company-name --truncate">Marvell Technology Inc</span
+        ><span class="weight">0.17%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ROP</span
+        ><span class="company-name --truncate">Roper Technologies Inc</span
+        ><span class="weight">0.16%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">FTNT</span
+        ><span class="company-name --truncate">Fortinet Inc</span
+        ><span class="weight">0.16%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">NXPI</span
+        ><span class="company-name --truncate">NXP Semiconductors NV</span
+        ><span class="weight">0.16%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CRWD</span
+        ><span class="company-name --truncate"
+          >Crowdstrike Holdings Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.16%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CEG</span
+        ><span class="company-name --truncate"
+          >Constellation Energy Corporation</span
+        ><span class="weight">0.15%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ADSK</span
+        ><span class="company-name --truncate">Autodesk Inc.</span
+        ><span class="weight">0.15%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">AEP</span
+        ><span class="company-name --truncate"
+          >American Electric Power Company Inc.</span
+        ><span class="weight">0.15%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">WDAY</span
+        ><span class="company-name --truncate"
+          >Workday Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.15%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MNST</span
+        ><span class="company-name --truncate">Monster Beverage Corp.</span
+        ><span class="weight">0.14%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ABNB</span
+        ><span class="company-name --truncate"
+          >Airbnb Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.14%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ROST</span
+        ><span class="company-name --truncate">Ross Stores, Inc.</span
+        ><span class="weight">0.14%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">KDP</span
+        ><span class="company-name --truncate">Keurig Dr Pepper Inc</span
+        ><span class="weight">0.14%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">PCAR</span
+        ><span class="company-name --truncate">Paccar Inc.</span
+        ><span class="weight">0.14%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">PAYX</span
+        ><span class="company-name --truncate">Paychex Inc.</span
+        ><span class="weight">0.13%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">DASH</span
+        ><span class="company-name --truncate"
+          >DoorDash Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.13%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CPRT</span
+        ><span class="company-name --truncate">Copart, Inc.</span
+        ><span class="weight">0.13%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">AZN</span
+        ><span class="company-name --truncate">Astrazeneca plc - ADR</span
+        ><span class="weight">0.13%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CHTR</span
+        ><span class="company-name --truncate"
+          >Charter Communications Inc. - Ordinary Shares - Class A</span
+        ><span class="weight">0.13%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TTD</span
+        ><span class="company-name --truncate"
+          >Trade Desk Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.12%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">KHC</span
+        ><span class="company-name --truncate">Kraft Heinz Co</span
+        ><span class="weight">0.12%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ODFL</span
+        ><span class="company-name --truncate"
+          >Old Dominion Freight Line, Inc.</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">IDXX</span
+        ><span class="company-name --truncate">Idexx Laboratories, Inc.</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MCHP</span
+        ><span class="company-name --truncate">Microchip Technology, Inc.</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">FAST</span
+        ><span class="company-name --truncate">Fastenal Co.</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">GEHC</span
+        ><span class="company-name --truncate"
+          >GE HealthCare Technologies Inc</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">EXC</span
+        ><span class="company-name --truncate">Exelon Corp.</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">VRSK</span
+        ><span class="company-name --truncate">Verisk Analytics Inc</span
+        ><span class="weight">0.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">EA</span
+        ><span class="company-name --truncate">Electronic Arts, Inc.</span
+        ><span class="weight">0.1%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CTSH</span
+        ><span class="company-name --truncate"
+          >Cognizant Technology Solutions Corp. - Ordinary Shares - Class
+          A</span
+        ><span class="weight">0.1%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CCE</span
+        ><span class="company-name --truncate"></span
+        ><span class="weight">0.1%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">XEL</span
+        ><span class="company-name --truncate">Xcel Energy, Inc.</span
+        ><span class="weight">0.1%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">DDOG</span
+        ><span class="company-name --truncate"
+          >Datadog Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.09%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">BKR</span
+        ><span class="company-name --truncate"
+          >Baker Hughes Co - Ordinary Shares - Class A</span
+        ><span class="weight">0.09%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CSGP</span
+        ><span class="company-name --truncate">Costar Group, Inc.</span
+        ><span class="weight">0.09%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">FANG</span
+        ><span class="company-name --truncate">Diamondback Energy Inc</span
+        ><span class="weight">0.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MRNA</span
+        ><span class="company-name --truncate">Moderna Inc</span
+        ><span class="weight">0.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">LULU</span
+        ><span class="company-name --truncate">Lululemon Athletica inc.</span
+        ><span class="weight">0.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ON</span
+        ><span class="company-name --truncate">ON Semiconductor Corp.</span
+        ><span class="weight">0.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">BIIB</span
+        ><span class="company-name --truncate">Biogen Inc</span
+        ><span class="weight">0.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">CDW</span
+        ><span class="company-name --truncate">CDW Corp</span
+        ><span class="weight">0.08%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">DXCM</span
+        ><span class="company-name --truncate">Dexcom Inc</span
+        ><span class="weight">0.07%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ANSS</span
+        ><span class="company-name --truncate"
+          >Ansys Inc. - Registered Shares</span
+        ><span class="weight">0.07%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TTWO</span
+        ><span class="company-name --truncate"
+          >Take-Two Interactive Software, Inc.</span
+        ><span class="weight">0.07%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TEAM</span
+        ><span class="company-name --truncate"
+          >Atlassian Corporation - Ordinary Shares - Class A</span
+        ><span class="weight">0.07%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">SMCI</span
+        ><span class="company-name --truncate">Super Micro Computer Inc</span
+        ><span class="weight">0.06%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ZS</span
+        ><span class="company-name --truncate">Zscaler Inc</span
+        ><span class="weight">0.06%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">GFS</span
+        ><span class="company-name --truncate">GlobalFoundries Inc</span
+        ><span class="weight">0.06%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MDB</span
+        ><span class="company-name --truncate"
+          >MongoDB Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.06%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ILMN</span
+        ><span class="company-name --truncate">Illumina Inc</span
+        ><span class="weight">0.05%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">WBD</span
+        ><span class="company-name --truncate"
+          >Warner Bros. Discovery Inc - Ordinary Shares - Class A</span
+        ><span class="weight">0.05%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ARM</span
+        ><span class="company-name --truncate">Arm Holdings plc. - ADR</span
+        ><span class="weight">0.04%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">DLTR</span
+        ><span class="company-name --truncate">Dollar Tree Inc</span
+        ><span class="weight">0.04%</span>
+      </li>
+    </ul>
+
+    <!-- SOXL 2024.11.13 07:04 업데이트 -->
+    <!--  
+    <ul style="display:none;">
+      <li>
+        <span class="color" style="background-color: rgb(183, 21, 64)"></span
+        ><span class="ticker --truncate">NVDA</span
+        ><span class="company-name --truncate">NVIDIA Corp</span
+        ><span class="weight">6.13%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(229, 142, 38)"></span
+        ><span class="ticker --truncate">AVGO</span
+        ><span class="company-name --truncate">Broadcom Inc</span
+        ><span class="weight">5.54%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(7, 153, 146)"></span
+        ><span class="ticker --truncate">AMD</span
+        ><span class="company-name --truncate">Advanced Micro Devices Inc.</span
+        ><span class="weight">4.91%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(10, 61, 98)"></span
+        ><span class="ticker --truncate">TXN</span
+        ><span class="company-name --truncate">Texas Instruments Inc.</span
+        ><span class="weight">3.93%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(12, 36, 97)"></span
+        ><span class="ticker --truncate">QCOM</span
+        ><span class="company-name --truncate">Qualcomm, Inc.</span
+        ><span class="weight">3.87%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MRVL</span
+        ><span class="company-name --truncate">Marvell Technology Inc</span
+        ><span class="weight">2.99%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MU</span
+        ><span class="company-name --truncate">Micron Technology Inc.</span
+        ><span class="weight">2.92%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">INTC</span
+        ><span class="company-name --truncate">Intel Corp.</span
+        ><span class="weight">2.85%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TSM</span
+        ><span class="company-name --truncate"
+          >Taiwan Semiconductor Manufacturing - ADR</span
+        ><span class="weight">2.6%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ADI</span
+        ><span class="company-name --truncate">Analog Devices Inc.</span
+        ><span class="weight">2.42%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">AMAT</span
+        ><span class="company-name --truncate">Applied Materials Inc.</span
+        ><span class="weight">2.39%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">LRCX</span
+        ><span class="company-name --truncate">Lam Research Corp.</span
+        ><span class="weight">2.35%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">NXPI</span
+        ><span class="company-name --truncate">NXP Semiconductors NV</span
+        ><span class="weight">2.27%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MCHP</span
+        ><span class="company-name --truncate">Microchip Technology, Inc.</span
+        ><span class="weight">2.25%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MPWR</span
+        ><span class="company-name --truncate">Monolithic Power System Inc</span
+        ><span class="weight">2.11%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">KLAC</span
+        ><span class="company-name --truncate">KLA Corp.</span
+        ><span class="weight">2.05%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ON</span
+        ><span class="company-name --truncate">ON Semiconductor Corp.</span
+        ><span class="weight">1.95%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ASML</span
+        ><span class="company-name --truncate"
+          >ASML Holding NV - New York Shares</span
+        ><span class="weight">1.69%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">TER</span
+        ><span class="company-name --truncate">Teradyne, Inc.</span
+        ><span class="weight">1.1%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ENTG</span
+        ><span class="company-name --truncate">Entegris Inc</span
+        ><span class="weight">1%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">SWKS</span
+        ><span class="company-name --truncate">Skyworks Solutions, Inc.</span
+        ><span class="weight">0.91%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ONTO</span
+        ><span class="company-name --truncate">Onto Innovation Inc.</span
+        ><span class="weight">0.55%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">OLED</span
+        ><span class="company-name --truncate">Universal Display Corp.</span
+        ><span class="weight">0.51%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">LSCC</span
+        ><span class="company-name --truncate">Lattice Semiconductor Corp.</span
+        ><span class="weight">0.47%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">STM</span
+        ><span class="company-name --truncate"
+          >ST Microelectronics - New York Shares</span
+        ><span class="weight">0.44%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">MKSI</span
+        ><span class="company-name --truncate">MKS Instruments, Inc.</span
+        ><span class="weight">0.44%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">QRVO</span
+        ><span class="company-name --truncate">Qorvo Inc</span
+        ><span class="weight">0.43%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ASX</span
+        ><span class="company-name --truncate"
+          >ASE Technology Holding Co.Ltd - ADR</span
+        ><span class="weight">0.4%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">ARM</span
+        ><span class="company-name --truncate">Arm Holdings plc. - ADR</span
+        ><span class="weight">0.34%</span>
+      </li>
+      <li>
+        <span class="color" style="background-color: rgb(47, 52, 62)"></span
+        ><span class="ticker --truncate">UMC</span
+        ><span class="company-name --truncate"
+          >United Micro Electronics - ADR</span
+        ><span class="weight">0.33%</span>
+      </li>
+    </ul>
+-->
+
+    <div id="result"></div>
+
+    <!--소스코드를 넣으세요-->
+
+    <script>
+      let tickers = document.querySelectorAll(".ticker");
+      let result = document.getElementById("result");
+      for (let t of tickers) {
+        // console.log(t.innerHTML);
+        result.innerHTML += `<div>${t.innerHTML}</div>`;
+      }
+    </script>
+  </body>
+</html>
