@@ -9,7 +9,7 @@
 
 <!-----Content----->
 <div id="mainpage">
-{% if jekyll.environment == "development" %}
+<!-- if jekyll.environment == "development" -->
 <div id="my-goal" class="d-flex flex-row justify-content-evenly">
     <div class="card" style="max-width:300px; margin-right:5px;">
         <div class="d-flex flex-row" style="width:100%; height:100%">
@@ -98,9 +98,9 @@
 Must
 {{ content }}</div>
 </div>
-{% endif %}
+<!-- endif -->
 
-<!-- {% if jekyll.environment == "production" %} -->
+<!-- if jekyll.environment == "production" -->
 <div class="slider_container" id="slide_screen_img">
 {% for p in site.frontpages %}
   <div class="slider_inner" style="background-image: url('{{ p.image }}');">
@@ -112,10 +112,10 @@ Must
 
 <div class="btn" id="slide_screen_btn">
   <i class="fa-regular fa-circle-left" id="btn_left"></i>
-  <i class="fa-solid fa-rectangle-list" id="btn_close"></i>
+  <i class="fa-regular fa-rectangle-list"></i>
   <i class="fa-regular fa-circle-right" id="btn_right"></i>
 </div>
-<!-- {% endif %} -->
+<!-- endif -->
 
 {% if page.title == 'Home' %}
 <script>
