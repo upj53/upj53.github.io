@@ -100,8 +100,8 @@ Must
 </div>
 {% endif %}
 
-{% if jekyll.environment == "production" %}
-<div class="slider_container">
+<!-- {% if jekyll.environment == "production" %} -->
+<div class="slider_container" id="slide_screen_img">
 {% for p in site.frontpages %}
   <div class="slider_inner" style="background-image: url('{{ p.image }}');">
     <div class="content-bg"></div>
@@ -110,12 +110,12 @@ Must
 {% endfor %}
 </div>
 
-<div class="btn">
+<div class="btn" id="slide_screen_btn">
   <i class="fa-regular fa-circle-left" id="btn_left"></i>
-  <i class="fa-solid fa-rectangle-list"></i>
+  <i class="fa-solid fa-rectangle-list" id="btn_close"></i>
   <i class="fa-regular fa-circle-right" id="btn_right"></i>
 </div>
-{% endif %}
+<!-- {% endif %} -->
 
 {% if page.title == 'Home' %}
 <script>
@@ -142,6 +142,10 @@ Must
       document.querySelector('.slider_container').style.transform = `translate(${-idx*100}vw)`;
     }
   });
+
+  let btn_close;
+  let slide_screen_img;
+  let slide_screen_btn;
 
   /*
   * Patterns in Nature
