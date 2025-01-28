@@ -1,25 +1,9 @@
 #mainpage {
-    height: 90vh;
+    height: 85vh;
     overflow: hidden;
     position: relative;
     display: flex;
     flex-direction: column;    
-}
-
-.content-bg {
-    content: '';
-    position: absolute;
-    background: white;
-    color: black;
-    z-index: -1;
-    inset: 0;
-    opacity: 0.1;
-}
-
-.content {
-    font-weight: bold;
-    margin-top: -20%;
-    display: none;
 }
 
 .slider_container {
@@ -31,7 +15,7 @@
 
 .slider_inner {
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     float: left;
     /* 
   https://nykim.work/86
@@ -49,6 +33,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-bg {
+    content: '';
+    position: absolute;
+    background: white;
+    color: black;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.1;
+}
+
+.content {
+    font-weight: bold;
+    margin-top: -20%;
+    display: none;
 }
 
 .btn {
