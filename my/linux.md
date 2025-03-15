@@ -317,9 +317,14 @@ alias gitPush='git-push.sh'
 ```
 
 ```shell
+#!/bin/bash
+cd /mnt/d/__git__/upj53.github.io/ && git fetch && git pull origin master && git add . && git commit -m 'update' && git push origin +master
+```
+
+```shell
 # /home/upj53/.local/bin/git-my-obsidian.sh 파일 편집하기
 #!/bin/bash
-git fetch && git pull origin master && git add . && git commit -m 'update' && git push origin +master
+cd /mnt/d/__git__/upj53-obsidian/ && git fetch && git pull origin master && git add . && git commit -m 'update' && git push origin +master
 ```
 
 ### 입출력
