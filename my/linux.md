@@ -302,6 +302,26 @@ alias …=”cd ../..
 .bashrc  .bash_history  .bash_logout
 ```
 
+### sh 파일로 bash 긴 명령 만들기
+{: #upj_1705714728878}
+
+```shell
+# /home/upj53/.local/bin/git-push.sh 파일 편집
+# sudo chmod 755 git-my-obsidian.sh 파일 권한 변경
+#!/bin/bash
+read -p "Enter git commit message: " msg
+git add . && git commit -m "$msg" && git push origin +master
+
+# alias 등록하기
+alias gitPush='git-push.sh'
+```
+
+```shell
+# /home/upj53/.local/bin/git-my-obsidian.sh 파일 편집하기
+#!/bin/bash
+git fetch && git pull origin master && git add . && git commit -m 'update' && git push origin +master
+```
+
 ### 입출력
 {: #upj_1676507781609}
 
