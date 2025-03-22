@@ -165,7 +165,7 @@ sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 
 # swap 활성화
-udo swapon /swapfile
+sudo swapon /swapfile
 
 # 확인
 swapon --show
