@@ -669,7 +669,7 @@ export JAVA_HOME
 export NLS_LANG=KOREAN_KOREA.AL32UTF8
 ```
 
-## tmux
+## tmux 사용하기
 {: #upj_1705714728877}
 
 ```shell
@@ -691,6 +691,19 @@ tmux attach -t mybot
 # 세션 종료
 exit
 tmux kill-session -t mybot
+```
+
+## scp를 이용한 서버 로컬 PC간 파일 복사
+{: #upj_1705714728876}
+
+```shell
+# 로컬 PC의 파일을 서버로 올리기
+scp ./main.py user_id@125.241.147.233:/Users/brayden/bot
+# 포트 지정하기
+scp -P 8080 ./main.py user_id@125.241.147.233:/Users/brayden/bot
+
+# 서버에서 로컬 PC로 파일 다운로드
+# 반대로 적어주기
 ```
 
 ## Zsh 쉘 다루기
