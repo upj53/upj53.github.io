@@ -669,6 +669,30 @@ export JAVA_HOME
 export NLS_LANG=KOREAN_KOREA.AL32UTF8
 ```
 
+## tmux
+{: #upj_1705714728877}
+
+```shell
+# 설치
+sudo apt install tmux -y
+
+# 세션 생성
+tmux new -s mybot
+
+# 세션 종료 방법
+# Ctrl + b  →  d
+
+# 세션 리스트 확인
+tmux ls
+
+# 세션 붙이기(attach)
+tmux attach -t mybot
+
+# 세션 종료
+exit
+tmux kill-session -t mybot
+```
+
 ## Zsh 쉘 다루기
 {: #upj_1676507803753}
 
