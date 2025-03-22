@@ -158,6 +158,27 @@ find /folder -name '*.log' #-delete
 ### 스왑 메모리 사용하여 메모리 늘리기
 {: #upj_1705714728891}
 
+```shell
+# 2GB swap 영역 생성하기
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+
+# swap 활성화
+udo swapon /swapfile
+
+# 확인
+swapon --show
+free -h
+```
+
+```
+# 재부팅 후 자동 설정
+sudo vi /etc/fstab
+
+/swapfile swap swap defaults 0 0
+```
+
 ## 사용자와 그룹 및 권한 관리
 {: #upj_1676507738746}
 
@@ -184,14 +205,14 @@ sudo	슈퍼유저의 권한을 수행(do)한다
 사용자 추가
 
 ```shell
-     사용자 추가
-sudo useradd user1
+#사용자 추가
+sudo useradd user1 
+#사용자 추가 홈디렉터리 생성
+sudo useradd user1 -m
+#사용자를 sudo 권한에 추가
+usermod -aG sudo user1 # 우분투
 
-     사용자를 sudo 권한에 추가
-
-useradd -aG sudo user1 # 우분투
-
-     사용자 삭제
+#사용자 삭제
 sudo deluser user1
 sudo deluser user1 --remove-home
 ```
@@ -199,11 +220,11 @@ sudo deluser user1 --remove-home
 그룹 추가
 
 ```shell
-     그룹 생성/삭제
+#그룹 생성/삭제
 sudo addgroup dev
 sudo delgroup dev
 
-     그룹에 사용자 할당
+#그룹에 사용자 할당
 sudo usermod -aG sudo user1
 ```
 
@@ -442,6 +463,7 @@ alias la='ls -alt'
 alias c='clear'
 alias ..='cd ..'
 alias ...='cd ../../'
+alias q=exit
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
