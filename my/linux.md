@@ -669,6 +669,34 @@ export JAVA_HOME
 export NLS_LANG=KOREAN_KOREA.AL32UTF8
 ```
 
+### shell 확인하고 바꾸기
+{: #upj_1705714728874}
+
+```shell
+# 확인하기
+grep upj53 /etc/passwd
+# 현재 설치되어 있는 쉘 확인
+cat /etc/shells
+
+# 사용할 쉘 바꾸기
+sudo chsh -s /bin/bash upj53
+```
+
+## Anaconda/Miniconda
+{: #upj_1705714728875}
+
+- [Anaconda Repo](https://repo.anaconda.com/archive/)
+	- [Anaconda Download](https://www.anaconda.com/download/success)
+- [Miniconda Repo](https://repo.anaconda.com/miniconda/)
+	- [Miniconda3-latest-Linux-x86_64.sh](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh)
+
+```shell
+# conda python 3.8 가상환경 만들기
+conda create -n py38 python=3.8 -y
+# 가상환경 활성화
+conda activate py38
+```
+
 ## tmux 사용하기
 {: #upj_1705714728877}
 
