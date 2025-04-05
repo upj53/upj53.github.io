@@ -369,6 +369,12 @@ cat hello.txt | more	출력값 페이징 처리
 
 2024-04-17 renewal
 
+<pre>
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n> '
+
+
+</pre>
+
 ```shell
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
